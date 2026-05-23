@@ -1,137 +1,32 @@
-import os
-import json
-import time
-import requests
 import pandas as pd
-from bs4 import BeautifulSoup
+import json
 
-def harvest_complete_league_universe():
-    target_url = "https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+def process_stats():
+    # Load the CSV you downloaded from Kaggle
+    df = pd.read_csv('players_data-2025_2026.csv')
+    
+    # Select only the columns you actually need for your website
+    cols = {
+        'Player': 'name',
+        'Squad': 'club',
+        'Comp': 'league',
+        'Pos': 'position',
+        'Min': 'minutes',
+        'Gls': 'goals',
+        'Ast': 'assists',
+        'xG': 'xg',
+        'xAG': 'xa',
+        'PrgP': 'prog_passes',
+        'PrgC': 'prog_carries',
+        'CrdY': 'yellow_cards'
     }
     
-    print("🚀 Step 1: Initiating network stream request to FBref...")
-    start_time = time.time()
+    # Filter and rename
+    df_clean = df[list(cols.keys())].rename(columns=cols)
     
-    try:
-        response = requests.get(target_url, headers=headers, stream=True, timeout=15)
-        response.raise_for_status()
-    except Exception as e:
-        raise RuntimeError(f"Network request initialization failed: {e}")
-
-    html_content = []
-    max_download_time = 30 
-    
-    print("📥 Step 2: Downloading data payload chunks...")
-    for chunk in response.iter_content(chunk_size=65536, decode_unicode=True):
-        if time.time() - start_time > max_download_time:
-            raise TimeoutError("❌ Pipeline Aborted: Server is tarpitting connection.")
-        if chunk:
-            html_content.append(chunk)
-            
-    full_html = "".join(html_content)
-    print(f"✅ Download finished. Payload size: {len(full_html) / 1024:.2f} KB")
-
-    print("🔍 Step 3: Extracting DOM table elements via BeautifulSoup...")
-    soup = BeautifulSoup(full_html, 'html.parser')
-    table = soup.find('table', {'id': 'stats_standard'})
-    
-    if not table:
-        raise ValueError("❌ Scraping Failure: Could not locate 'stats_standard' data container.")
-        
-    print("⚡ Step 4: Compiling tabular matrices via high-performance lxml engine...")
-    df = pd.read_html(str(table), flavor='lxml')[0]
-
-    # FIX: Cleanly drop the top MultiIndex level, preserving the exact raw column names your UI expects
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(1)
-
-    player_pool = {}
-    club_roster_groups = {}
-
-    print(f"⚙️ Step 5: Iterating and mapping {len(df)} structural rows into flat schemas...")
-    for _, row in df.iterrows():
-        player_name = str(row.get('Player', ''))
-        # Skip mid-table duplicate headers
-        if player_name == 'Player' or pd.isna(row.get('Player')) or not player_name:
-            continue
-            
-        squad = str(row.get('Squad', 'Unknown Club'))
-        league = str(row.get('Comp', 'Unknown League')) # Preserved the raw FBref string format
-        raw_position = str(row.get('Pos', 'MF'))        # Preserved full depth (e.g., "DF,MF")
-        
-        try:
-            minutes_played = float(row.get('Min', 0) or 0)
-        except ValueError:
-            minutes_played = 0
-
-        if minutes_played <= 0:
-            continue
-
-        # FIX: Reverted to a completely flat dictionary schema so your frontend click-handlers read properties natively
-        player_pool[player_name] = {
-            "club": squad,
-            "league": league,
-            "position": raw_position,
-            "minutes": int(minutes_played),
-            "goals": int(row.get('Gls', 0) or 0),
-            "assists": int(row.get('Ast', 0) or 0),
-            "xg": round(float(row.get('xG', 0) or 0.0), 2),
-            "xa": round(float(row.get('xAG', 0) or 0.0), 2),
-            "prog_passes": float(row.get('PrgP', 0.0) or 0.0),
-            "prog_carries": float(row.get('PrgC', 0.0) or 0.0),
-            "cards_yellow": int(row.get('CrdY', 0) or 0)
-        }
-
-        if squad not in club_roster_groups:
-            club_roster_groups[squad] = []
-            
-        club_roster_groups[squad].append({
-            "name": player_name, 
-            "position": raw_position, 
-            "minutes": int(minutes_played)
-        })
-
-    print("📊 Step 6: Programmatically deriving starting formations...")
-    clubs_output = {}
-    for squad, roster in club_roster_groups.items():
-        starting_xi = sorted(roster, key=lambda x: x['minutes'], reverse=True)[:11]
-        
-        # Simple primary role categorization just for fallback formation string building
-        dfs = len([p for p in starting_xi if "DF" in p['position']])
-        mfs = len([p for p in starting_xi if "MF" in p['position'] and "FW" not in p['position']])
-        fws = len([p for p in starting_xi if "FW" in p['position']])
-
-        formation_string = f"{dfs}-{mfs}-{fws}" if dfs > 0 else "Custom"
-
-        lineup_blueprint = []
-        for index, p in enumerate(starting_xi):
-            # Extract primary role for the slot ID while keeping raw position depth intact
-            primary_role = p['position'].split(',')[0] if ',' in p['position'] else p['position']
-            lineup_blueprint.append({
-                "slot": f"{primary_role}{index + 1}",
-                "position": p['position'],
-                "current_player": p['name']
-            })
-
-        clubs_output[squad] = {
-            "formation": formation_string,
-            "lineup": lineup_blueprint
-        }
-
-    return {"clubs": clubs_output, "player_pool": player_pool}
-
-def main():
-    os.makedirs('docs/data', exist_ok=True)
-    try:
-        master_payload = harvest_complete_league_universe()
-        with open('docs/data/players.json', 'w', encoding='utf-8') as f:
-            json.dump(master_payload, f, ensure_ascii=False, indent=2)
-        print(f"📦 Pipeline Complete: Exported {len(master_payload['clubs'])} clubs and {len(master_payload['player_pool'])} metrics records.")
-    except Exception as e:
-        print(f"💥 Critical Pipeline Error: {e}")
-        exit(1)
+    # Save to your structured JSON
+    df_clean.to_json("docs/data/players.json", orient="records", indent=2)
+    print(f"Processed {len(df_clean)} player records successfully.")
 
 if __name__ == "__main__":
-    main()
+    process_stats()
