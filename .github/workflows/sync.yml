@@ -1,0 +1,45 @@
+name: Live Football Data Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Triggers every single day at midnight UTC
+  workflow_dispatch: # Gives you a button in GitHub to trigger it manually anytime
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the server to update and push files to your repository
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Ingestion Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Data Engine
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }} # Inject secret credentials safely
+        run: python sync_api.py
+
+      - name: Commit and Push Data Updates
+        run: |
+          git config --global user.name "GitHub Actions Automation"
+          git config --global user.email "actions@github.com"
+          git add docs/data/players.json
+          
+          # Check if there are differences to prevent empty commit errors
+          if git diff --staged --quiet; then
+            echo "No data changes detected today."
+          else
+            git commit -m "Automated Sync: Updated live statistical records"
+            git push
+          fi
