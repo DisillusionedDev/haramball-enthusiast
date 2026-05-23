@@ -1,49 +1,31 @@
 import os
 import json
 import time
-import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+# SWAPPED: Using curl_cffi instead of standard requests to spoof TLS signatures
+from curl_cffi import requests
 
 def harvest_complete_league_universe():
     target_url = "https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats"
     
-    # Enhanced browser headers to bypass automated scraping filters
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
         "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Sec-Fetch-User": "?1",
-        "Cache-Control": "max-age=0"
     }
     
-    print("🚀 Step 1: Initiating network stream request to FBref...")
-    start_time = time.time()
+    print("🚀 Step 1: Initiating impersonated Chrome request to FBref...")
     
     try:
-        response = requests.get(target_url, headers=headers, stream=True, timeout=20)
+        # impersonate="chrome120" forces the library to mimic a real browser TLS fingerprint
+        response = requests.get(target_url, headers=headers, impersonate="chrome120", timeout=30)
         response.raise_for_status()
     except Exception as e:
         raise RuntimeError(f"Network request initialization failed: {e}")
 
-    html_content = []
-    # Increased time buffer from 30 to 90 seconds to avoid breaking during cloud runner throttling
-    max_download_time = 90 
-    
-    print("📥 Step 2: Downloading data payload chunks...")
-    for chunk in response.iter_content(chunk_size=131072, decode_unicode=True):
-        if time.time() - start_time > max_download_time:
-            raise TimeoutError("❌ Pipeline Aborted: Server is tarpitting connection or payload download took too long.")
-        if chunk:
-            html_content.append(chunk)
-            
-    full_html = "".join(html_content)
+    full_html = response.text
     print(f"✅ Download finished. Payload size: {len(full_html) / 1024:.2f} KB")
 
     print("🔍 Step 3: Extracting DOM table elements via BeautifulSoup...")
@@ -51,15 +33,13 @@ def harvest_complete_league_universe():
     table = soup.find('table', {'id': 'stats_standard'})
     
     if not table:
-        # Check if we got hit with a Captcha/Verification screen instead of the actual page
         if "captcha" in full_html.lower() or "verify you are human" in full_html.lower():
-            raise ValueError("❌ Scraping Failure: FBref served a Bot Challenge/Captcha verification page instead of data.")
-        raise ValueError("❌ Scraping Failure: Could not locate 'stats_standard' data container in the response DOM.")
+            raise ValueError("❌ Scraping Failure: Hit a hard Captcha wall.")
+        raise ValueError("❌ Scraping Failure: Could not locate 'stats_standard' data container.")
         
     print("⚡ Step 4: Compiling tabular matrices via high-performance lxml engine...")
     df = pd.read_html(str(table), flavor='lxml')[0]
 
-    # Cleanly drop the top MultiIndex level, preserving the exact raw column names your UI expects
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(1)
 
@@ -69,7 +49,6 @@ def harvest_complete_league_universe():
     print(f"⚙️ Step 5: Iterating and mapping {len(df)} structural rows into flat schemas...")
     for _, row in df.iterrows():
         player_name = str(row.get('Player', ''))
-        # Skip mid-table duplicate headers
         if player_name == 'Player' or pd.isna(row.get('Player')) or not player_name:
             continue
             
@@ -85,7 +64,6 @@ def harvest_complete_league_universe():
         if minutes_played <= 0:
             continue
 
-        # Flat dictionary schema for direct frontend click-handler consumption
         player_pool[player_name] = {
             "club": squad,
             "league": league,
@@ -114,7 +92,6 @@ def harvest_complete_league_universe():
     for squad, roster in club_roster_groups.items():
         starting_xi = sorted(roster, key=lambda x: x['minutes'], reverse=True)[:11]
         
-        # Role categorization for line-up layout engines
         dfs = len([p for p in starting_xi if "DF" in p['position']])
         mfs = len([p for p in starting_xi if "MF" in p['position'] and "FW" not in p['position']])
         fws = len([p for p in starting_xi if "FW" in p['position']])
