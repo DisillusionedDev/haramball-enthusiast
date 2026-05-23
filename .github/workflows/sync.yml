@@ -1,45 +1,51 @@
-name: Live Football Data Sync
+name: Automated Football Tactical Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Triggers every single day at midnight UTC
-  workflow_dispatch: # Gives you a button in GitHub to trigger it manually anytime
+    - cron: '0 4 * * *' # Runs automatically every day at 4:00 AM UTC
+  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+
+permissions:
+  contents: write # Gives the runner permission to commit data back to your repo
 
 jobs:
-  update-data:
+  sync-data:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Allows the server to update and push files to your repository
-
     steps:
-      - name: Check out repository code
+      # Step 1: Check out the repository so files are accessible to the runner
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python Environment
+      # Step 2: Initialize Python with dependency caching enabled
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
           cache: 'pip'
 
-      - name: Install Ingestion Dependencies
+      # Step 3: Install required third-party libraries
+      - name: Install dependencies
         run: |
-          pip install requests
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run Data Engine
+      # Step 4: Execute the dynamic tactical extraction script
+      - name: Run Tactical Data Sync
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }} # Inject secret credentials safely
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python sync_api.py
 
-      - name: Commit and Push Data Updates
+      # Step 5: Commit and push the updated json backend back to the repository
+      - name: Commit and Push Tactical Data Changes
         run: |
-          git config --global user.name "GitHub Actions Automation"
-          git config --global user.email "actions@github.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add docs/data/players.json
           
-          # Check if there are differences to prevent empty commit errors
-          if git diff --staged --quiet; then
-            echo "No data changes detected today."
-          else
-            git commit -m "Automated Sync: Updated live statistical records"
+          # Only commit and push if the data actually changed to avoid empty commit loops
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: auto-update tactical player matrix and formations [skip ci]"
             git push
+          else
+            echo "No changes detected in tactical player matrix. Skipping push."
           fi
