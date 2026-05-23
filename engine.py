@@ -1,67 +1,68 @@
 import os
 import sys
 import json
-import re
 import pandas as pd
 from bs4 import BeautifulSoup
 from curl_cffi import requests as curl_requests
 
 def fetch_fbref_html():
     """
-    Bypasses front-facing Cloudflare blocks entirely by pulling the table 
-    direct from the Sports-Reference public embedding widget engine.
+    Directly targets the primary FBref endpoint using native TLS emulation 
+    to bypass Cloudflare without depending on deprecated widget endpoints.
     """
-    # This hits their asset endpoint which uses completely relaxed security rules
-    widget_url = "https://widgets.sports-reference.com/wg.fcgi?site=fb&url=%2Fen%2Fcomps%2FBig5%2Fstats%2Fplayers%2FBig-5-European-Leagues-Stats&div=div_stats_standard"
+    target_url = "https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats"
     
-    print("🚀 Step 1: Querying Sports-Reference Widget Engine directly...")
+    print("🚀 Step 1: Connecting directly to FBref via TLS impersonation...")
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "*/*",
-        "Origin": "https://fbref.com",
-        "Referer": "https://fbref.com/"
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1"
     }
     
     try:
-        response = curl_requests.get(widget_url, impersonate="chrome120", headers=headers, timeout=15)
+        # Using chrome120 impersonation mimics a real browser's low-level TCP/TLS handshakes perfectly
+        response = curl_requests.get(target_url, impersonate="chrome120", headers=headers, timeout=30)
+        
+        if response.status_code == 403:
+            raise RuntimeError("Cloudflare dropped the handshake request (403 Forbidden).")
         if response.status_code != 200:
-            raise RuntimeError(f"Widget server rejected request with status code: {response.status_code}")
+            raise RuntimeError(f"Server responded with an unexpected status code: {response.status_code}")
             
-        raw_js = response.text.strip()
-        
-        # Strip away the document.write() wrapper JavaScript lines
-        if raw_js.startswith('document.write("') or raw_js.startswith("document.write('"):
-            clean_html = raw_js[16:]
-            if clean_html.endswith('");'):
-                clean_html = clean_html[:-3]
-            elif clean_html.endswith("');"):
-                clean_html = clean_html[:-3]
-        else:
-            match = re.search(r'document\.write\((["\'])(.*)\1\);', raw_js, re.DOTALL)
-            clean_html = match.group(2) if match else raw_js
-            
-        # Clean up text escapes encoded by the widget engine
-        clean_html = (clean_html.replace('\\"', '"')
-                                .replace("\\'", "'")
-                                .replace('\\/', '/')
-                                .replace('\\n', '\n')
-                                .replace('\\t', '\t'))
-        
-        return clean_html
+        return response.text
     except Exception as e:
-        raise RuntimeError(f"Failed to extract text from widget stream: {e}")
+        raise RuntimeError(f"Network transport handshake layer failure: {e}")
 
 def harvest_complete_league_universe():
     full_html = fetch_fbref_html()
-    print(f"✅ Data payload isolated from widget layer. Size: {len(full_html) / 1024:.2f} KB")
+    payload_kb = len(full_html) / 1024
+    print(f"✅ Data payload retrieved. Size: {payload_kb:.2f} KB")
+    
+    if payload_kb < 100:
+        print("⚠️ Warning: Payload size looks too small for the full stats database. Inspecting wrapper...")
 
     print("🔍 Step 2: Running markup parsing filters...")
     soup = BeautifulSoup(full_html, 'html.parser')
     
-    table = soup.find('table')
+    # Target the primary data container table id
+    table = soup.find('table', {'id': 'stats_standard'})
+    
+    # Fallback to general table matching if the strict ID is wrapped inside a comment block
     if not table:
-        raise ValueError("❌ Scraping Failure: Could not isolate table elements from the cleared stream.")
+        print("💡 Direct table wrapper obscured. Attempting deep document scans...")
+        table = soup.find('table')
+        
+    if not table:
+        raise ValueError("Scraping Failure: Could not isolate table elements from the cleared stream.")
         
     print("⚡ Step 3: Normalizing data array structures via lxml matrix parser...")
     df = pd.read_html(str(table), flavor='lxml')[0]
