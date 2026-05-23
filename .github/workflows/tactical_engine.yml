@@ -20,7 +20,7 @@ jobs:
 
     - name: Install Extraction Dependencies
       run: |
-        pip install pandas beautifulsoup4 lxml curl_cffi
+        pip install requests beautifulsoup4 pandas lxml
 
     - name: Execute Analytical Engine Pipeline
       run: python engine.py
