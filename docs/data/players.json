@@ -1,4 +1,1048 @@
 {
-  "clubs": {},
-  "player_pool": {}
+  "clubs": {
+    "Everton": {
+      "GK": [
+        "20224"
+      ],
+      "DF": [
+        "19073"
+      ],
+      "MF": [
+        "172",
+        "18765"
+      ],
+      "FW": [
+        "83",
+        "153425"
+      ]
+    },
+    "Fulham": {
+      "GK": [
+        "19657"
+      ],
+      "DF": [
+        "105",
+        "19145"
+      ],
+      "MF": [],
+      "FW": [
+        "138822"
+      ]
+    },
+    "Brentford": {
+      "GK": [
+        "349288"
+      ],
+      "DF": [
+        "281975"
+      ],
+      "MF": [
+        "153422",
+        "20110"
+      ],
+      "FW": [
+        "2699",
+        "19364"
+      ]
+    },
+    "Crystal Palace": {
+      "GK": [],
+      "DF": [
+        "127605"
+      ],
+      "MF": [
+        "18853"
+      ],
+      "FW": []
+    },
+    "Ipswich": {
+      "GK": [],
+      "DF": [
+        "348263"
+      ],
+      "MF": [
+        "44803"
+      ],
+      "FW": [
+        "19744"
+      ]
+    },
+    "Brighton": {
+      "GK": [],
+      "DF": [],
+      "MF": [],
+      "FW": [
+        "135775"
+      ]
+    },
+    "Aston Villa": {
+      "GK": [
+        "138937",
+        "455010"
+      ],
+      "DF": [
+        "133",
+        "294638"
+      ],
+      "MF": [
+        "284500",
+        "786",
+        "278123",
+        "329347"
+      ],
+      "FW": []
+    },
+    "Arsenal": {
+      "GK": [],
+      "DF": [
+        "190",
+        "284502",
+        "309505"
+      ],
+      "MF": [
+        "1452",
+        "284540",
+        "309501"
+      ],
+      "FW": []
+    },
+    "Bournemouth": {
+      "GK": [
+        "30765"
+      ],
+      "DF": [
+        "19263"
+      ],
+      "MF": [
+        "19356"
+      ],
+      "FW": [
+        "19804"
+      ]
+    },
+    "Nottingham Forest": {
+      "GK": [],
+      "DF": [
+        "371",
+        "2468",
+        "41577"
+      ],
+      "MF": [
+        "161921"
+      ],
+      "FW": [
+        "305",
+        "341641"
+      ]
+    },
+    "Leicester": {
+      "GK": [],
+      "DF": [],
+      "MF": [
+        "454",
+        "2925"
+      ],
+      "FW": []
+    },
+    "Manchester United": {
+      "GK": [],
+      "DF": [],
+      "MF": [],
+      "FW": [
+        "908",
+        "284242"
+      ]
+    },
+    "Newcastle": {
+      "GK": [
+        "1972"
+      ],
+      "DF": [
+        "18892"
+      ],
+      "MF": [
+        "18903"
+      ],
+      "FW": []
+    },
+    "West Ham": {
+      "GK": [
+        "144709",
+        "284536"
+      ],
+      "DF": [
+        "18817"
+      ],
+      "MF": [
+        "19130"
+      ],
+      "FW": []
+    },
+    "Tottenham": {
+      "GK": [],
+      "DF": [],
+      "MF": [
+        "19032"
+      ],
+      "FW": []
+    },
+    "Southampton": {
+      "GK": [],
+      "DF": [],
+      "MF": [
+        "19482"
+      ],
+      "FW": []
+    },
+    "Wolves": {
+      "GK": [],
+      "DF": [],
+      "MF": [
+        "338856"
+      ],
+      "FW": []
+    }
+  },
+  "player_pool": {
+    "83": {
+      "id": "83",
+      "name": "A. Danjuma",
+      "club": "Everton",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "105": {
+      "id": "105",
+      "name": "F. Ballo-Touré",
+      "club": "Fulham",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "172": {
+      "id": "172",
+      "name": "D. Alli",
+      "club": "Everton",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "2699": {
+      "id": "2699",
+      "name": "S. Ghoddos",
+      "club": "Brentford",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "18765": {
+      "id": "18765",
+      "name": "André Gomes",
+      "club": "Everton",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "18853": {
+      "id": "18853",
+      "name": "J. Riedewald",
+      "club": "Crystal Palace",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19073": {
+      "id": "19073",
+      "name": "B. Godfrey",
+      "club": "Everton",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19145": {
+      "id": "19145",
+      "name": "T. Adarabioyo",
+      "club": "Fulham",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19364": {
+      "id": "19364",
+      "name": "N. Maupay",
+      "club": "Brentford",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19657": {
+      "id": "19657",
+      "name": "M. Rodák",
+      "club": "Fulham",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19744": {
+      "id": "19744",
+      "name": "K. Jackson",
+      "club": "Ipswich",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "20224": {
+      "id": "20224",
+      "name": "A. Lonergan",
+      "club": "Everton",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "44803": {
+      "id": "44803",
+      "name": "D. Ball",
+      "club": "Ipswich",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "127605": {
+      "id": "127605",
+      "name": "N. Ferguson",
+      "club": "Crystal Palace",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "135775": {
+      "id": "135775",
+      "name": "Ansu Fati",
+      "club": "Brighton",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "138822": {
+      "id": "138822",
+      "name": "A. Broja",
+      "club": "Fulham",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "153422": {
+      "id": "153422",
+      "name": "E. Brierley",
+      "club": "Brentford",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "153425": {
+      "id": "153425",
+      "name": "L. Dobbin",
+      "club": "Everton",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "284500": {
+      "id": "284500",
+      "name": "T. Iroegbunam",
+      "club": "Aston Villa",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "348263": {
+      "id": "348263",
+      "name": "C. Stewart",
+      "club": "Ipswich",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "133": {
+      "id": "133",
+      "name": "C. Lenglet",
+      "club": "Aston Villa",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "190": {
+      "id": "190",
+      "name": "Cédric Soares",
+      "club": "Arsenal",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "786": {
+      "id": "786",
+      "name": "N. Zaniolo",
+      "club": "Aston Villa",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "1452": {
+      "id": "1452",
+      "name": "Mohamed Elneny",
+      "club": "Arsenal",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19263": {
+      "id": "19263",
+      "name": "L. Kelly",
+      "club": "Bournemouth",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19356": {
+      "id": "19356",
+      "name": "E. Marcondes",
+      "club": "Bournemouth",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19804": {
+      "id": "19804",
+      "name": "K. Moore",
+      "club": "Bournemouth",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "20110": {
+      "id": "20110",
+      "name": "S. Baptiste",
+      "club": "Brentford",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "30765": {
+      "id": "30765",
+      "name": "I. Radu",
+      "club": "Bournemouth",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "138937": {
+      "id": "138937",
+      "name": "F. Marschall",
+      "club": "Aston Villa",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "278123": {
+      "id": "278123",
+      "name": "S. Revan",
+      "club": "Aston Villa",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "281975": {
+      "id": "281975",
+      "name": "Val Adedokun",
+      "club": "Brentford",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "284502": {
+      "id": "284502",
+      "name": "James Lannin-Sweet",
+      "club": "Arsenal",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "284540": {
+      "id": "284540",
+      "name": "Mauro Bandeira",
+      "club": "Arsenal",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "294638": {
+      "id": "294638",
+      "name": "Finley Munroe",
+      "club": "Aston Villa",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "309501": {
+      "id": "309501",
+      "name": "A. Cozier-Duberry",
+      "club": "Arsenal",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "309505": {
+      "id": "309505",
+      "name": "R. Walters",
+      "club": "Arsenal",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "329347": {
+      "id": "329347",
+      "name": "O. Kellyman",
+      "club": "Aston Villa",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "349288": {
+      "id": "349288",
+      "name": "Vincent Angelini",
+      "club": "Brentford",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "455010": {
+      "id": "455010",
+      "name": "L. Emery",
+      "club": "Aston Villa",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "305": {
+      "id": "305",
+      "name": "D. Origi",
+      "club": "Nottingham Forest",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "371": {
+      "id": "371",
+      "name": "Felipe",
+      "club": "Nottingham Forest",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "454": {
+      "id": "454",
+      "name": "Y. Akgün",
+      "club": "Leicester",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "908": {
+      "id": "908",
+      "name": "A. Martial",
+      "club": "Manchester United",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "1972": {
+      "id": "1972",
+      "name": "L. Karius",
+      "club": "Newcastle",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "2468": {
+      "id": "2468",
+      "name": "G. Montiel",
+      "club": "Nottingham Forest",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "2925": {
+      "id": "2925",
+      "name": "D. Praet",
+      "club": "Leicester",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "18817": {
+      "id": "18817",
+      "name": "A. Ogbonna",
+      "club": "West Ham",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "18892": {
+      "id": "18892",
+      "name": "P. Dummett",
+      "club": "Newcastle",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "18903": {
+      "id": "18903",
+      "name": "M. Ritchie",
+      "club": "Newcastle",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19032": {
+      "id": "19032",
+      "name": "R. Sessegnon",
+      "club": "Tottenham",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19130": {
+      "id": "19130",
+      "name": "K. Phillips",
+      "club": "West Ham",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "19482": {
+      "id": "19482",
+      "name": "J. Rothwell",
+      "club": "Southampton",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "41577": {
+      "id": "41577",
+      "name": "Nuno Tavares",
+      "club": "Nottingham Forest",
+      "position": "DF",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "144709": {
+      "id": "144709",
+      "name": "J. Anang",
+      "club": "West Ham",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "161921": {
+      "id": "161921",
+      "name": "G. Reyna",
+      "club": "Nottingham Forest",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "284242": {
+      "id": "284242",
+      "name": "O. Forson",
+      "club": "Manchester United",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "284536": {
+      "id": "284536",
+      "name": "J. Knightbridge",
+      "club": "West Ham",
+      "position": "GK",
+      "price": 4.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": false,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "338856": {
+      "id": "338856",
+      "name": "N. Lemina",
+      "club": "Wolves",
+      "position": "MF",
+      "price": 5.5,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    },
+    "341641": {
+      "id": "341641",
+      "name": "Rodrigo Ribeiro",
+      "club": "Nottingham Forest",
+      "position": "FW",
+      "price": 6.0,
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0,
+        "appearances": 0,
+        "rating": "0.00"
+      }
+    }
+  }
 }
