@@ -18,7 +18,7 @@ def fetch_premier_league_players():
     url = "https://v3.football.api-sports.io/players"
     
     player_pool = {}
-    clubs_data = {}
+    clubs_raw_data = {}
     
     page = 1
     total_pages = 1
@@ -41,13 +41,12 @@ def fetch_premier_league_players():
                 
             data = response.json()
             
-            # Check for API error payloads
+            # Safe check for API error dict payloads
             api_errors = data.get("errors")
             if api_errors and isinstance(api_errors, dict):
                 print(f"❌ API Error encountered: {json.dumps(api_errors)}")
                 break
                 
-            # Extract total pagination ceiling dynamically
             paging = data.get("paging", {})
             total_pages = paging.get("total", 1)
             
@@ -63,58 +62,55 @@ def fetch_premier_league_players():
                 if not player_info or not stats_list:
                     continue
                     
-                p_id = str(player_info.get("id"))
                 p_name = player_info.get("name", "Unknown Player")
                 
-                # Pull metrics from the primary league record entry
+                # Pull metrics from primary league entry node
                 stats = stats_list[0]
                 team_info = stats.get("team", {})
                 team_name = team_info.get("name", "Unassigned")
                 
-                # Map complex position terminology to frontend shortcodes
-                raw_pos = stats.get("games", {}).get("position", "Midfielder")
-                pos_map = {
-                    "Goalkeeper": "GK",
-                    "Defender": "DF",
-                    "Midfielder": "MF",
-                    "Attacker": "FW"
-                }
-                position = pos_map.get(raw_pos, "MF")
+                g = stats.get("games", {})
+                raw_pos = g.get("position", "Midfielder")
+                ui_pos = "GK" if raw_pos == "Goalkeeper" else ("DF" if raw_pos == "Defender" else ("MF" if raw_pos == "Midfielder" else "FW"))
                 
-                # Clean up performance indicators
+                lineups_count = int(g.get("lineups") or 0)
+                minutes_count = int(g.get("minutes") or 0)
+                
+                # Dynamic profile metric building
                 player_stats = {
                     "goals": stats.get("goals", {}).get("total") or 0,
                     "assists": stats.get("goals", {}).get("assists") or 0,
-                    "clean_sheets": stats.get("goals", {}).get("conceded") == 0 if position == "GK" else 0,
-                    "appearances": stats.get("games", {}).get("appearences") or 0,
-                    "rating": stats.get("games", {}).get("rating") or "0.00"
+                    "appearances": g.get("appearences") or 0,
+                    "rating": g.get("rating") or "0.00"
                 }
                 
                 base_price = 4.5
-                if position == "FW": base_price = 6.0
-                elif position == "MF": base_price = 5.5
+                if ui_pos == "FW": base_price = 6.0
+                elif ui_pos == "MF": base_price = 5.5
                 
-                player_entry = {
-                    "id": p_id,
+                # Hydrate the global player pool matrix using Name as key for easy frontend lookups
+                player_pool[p_name] = {
                     "name": p_name,
                     "club": team_name,
-                    "position": position,
+                    "position": ui_pos,
                     "price": base_price,
                     "stats": player_stats
                 }
                 
-                player_pool[p_id] = player_entry
-                
-                # Build layout structure for squad views
-                if team_name not in clubs_data:
-                    clubs_data[team_name] = {"GK": [], "DF": [], "MF": [], "FW": []}
-                
-                if p_id not in clubs_data[team_name][position]:
-                    clubs_data[team_name][position].append(p_id)
+                # Store roster breakdown raw trends for tactical mapping processing below
+                if team_name not in clubs_raw_data:
+                    clubs_raw_data[team_name] = []
+                    
+                clubs_raw_data[team_name].append({
+                    "name": p_name,
+                    "ui_pos": ui_pos,
+                    "lineups": lineups_count,
+                    "minutes": minutes_count
+                })
             
             page += 1
             
-            # Pacing delay to perfectly clear the 10-request-per-minute threshold
+            # Continuous pacing delay to safely slide under the 10 requests/min free tier threshold
             if page <= total_pages:
                 print("⏳ Throttling: Pacing execution for 6.5 seconds...")
                 time.sleep(6.5)
@@ -127,16 +123,68 @@ def fetch_premier_league_players():
         print("❌ Critical: Data pipeline yielded an empty set. Aborting sync file write.")
         sys.exit(1)
 
-    print(f"✅ Extracted {len(player_pool)} active profiles across {len(clubs_data)} clubs.")
-    output_data = {"clubs": clubs_data, "player_pool": player_pool}
+    # 📊 DYNAMIC TACTICAL IDENTITY & FORMATION PARSER
+    final_clubs = {}
+    print(f"📊 Calculating real-world tactical formations for {len(clubs_raw_data)} clubs...")
+    
+    for club, roster in clubs_raw_data.items():
+        gks = [p for p in roster if p["ui_pos"] == "GK"]
+        outfield = [p for p in roster if p["ui_pos"] != "GK"]
+        
+        # Sort collections by actual starts, using total minutes as our tiebreaker
+        gks.sort(key=lambda x: (x['lineups'], x['minutes']), reverse=True)
+        outfield.sort(key=lambda x: (x['lineups'], x['minutes']), reverse=True)
+        
+        # Guard clause: Ensure a Goalkeeper is captured safely
+        if gks:
+            selected_gk = gks[0]
+        else:
+            selected_gk = {"name": f"{club} GK Reserve", "ui_pos": "GK", "lineups": 0, "minutes": 0}
+            
+        # Isolate the core top 10 outfield contributors who drove the team's tactical structure
+        selected_outfield = outfield[:10]
+        
+        # Ensure a robust fallback 10 outfield roster padding if data feeds cut off short
+        while len(selected_outfield) < 10:
+            df_count = sum(1 for p in selected_outfield if p['ui_pos'] == "DF")
+            mf_count = sum(1 for p in selected_outfield if p['ui_pos'] == "MF")
+            fallback_pos = "DF" if df_count <= mf_count else "MF"
+            selected_outfield.append({
+                "name": f"{club} Structural Reserve",
+                "ui_pos": fallback_pos,
+                "lineups": 0,
+                "minutes": 0
+            })
+            
+        # Deduce the true played formation layout count dynamically
+        num_df = sum(1 for p in selected_outfield if p['ui_pos'] == "DF")
+        num_mf = sum(1 for p in selected_outfield if p['ui_pos'] == "MF")
+        num_fw = sum(1 for p in selected_outfield if p['ui_pos'] == "FW")
+        
+        derived_formation = f"{num_df}-{num_mf}-{num_fw}"
+        
+        # Build the structured lineup sheet matching your frontend expectations perfectly
+        lineup = [{"position": "GK", "current_player": selected_gk['name']}]
+        for p in selected_outfield:
+            lineup.append({
+                "position": p["ui_pos"],
+                "current_player": p["name"]
+            })
+            
+        final_clubs[club] = {
+            "formation": derived_formation,
+            "lineup": lineup
+        }
 
+    # Output Generation
     os.makedirs("docs/data", exist_ok=True)
     output_path = "docs/data/players.json"
+    output_data = {"clubs": final_clubs, "player_pool": player_pool}
     
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
         
-    print(f"💾 File flushed to disk: {output_path}")
+    print(f"💾 File flushed to disk completely. Formations calculated. Target: {output_path}")
 
 if __name__ == "__main__":
     fetch_premier_league_players()
