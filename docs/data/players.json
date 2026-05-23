@@ -1,0 +1,427 @@
+{
+  "clubs": {
+    "Manchester United": {
+      "formation": "4-2-3-1",
+      "manager": "Ruben Amorim",
+      "lineup": [
+        {
+          "slot": "GK",
+          "position": "GK",
+          "current_player": "Alisson Becker"
+        },
+        {
+          "slot": "LB",
+          "position": "DF",
+          "current_player": "Alfonso Davies"
+        },
+        {
+          "slot": "LCB",
+          "position": "DF",
+          "current_player": "Virgil van Dijk"
+        },
+        {
+          "slot": "RCB",
+          "position": "DF",
+          "current_player": "Rúben Dias"
+        },
+        {
+          "slot": "RB",
+          "position": "DF",
+          "current_player": "Trent Alexander-Arnold"
+        },
+        {
+          "slot": "LDM",
+          "position": "MF",
+          "current_player": "Casemiro"
+        },
+        {
+          "slot": "RDM",
+          "position": "MF",
+          "current_player": "Kobbie Mainoo"
+        },
+        {
+          "slot": "LAM",
+          "position": "FW",
+          "current_player": "Marcus Rashford"
+        },
+        {
+          "slot": "CAM",
+          "position": "MF",
+          "current_player": "Bruno Fernandes"
+        },
+        {
+          "slot": "RAM",
+          "position": "FW",
+          "current_player": "Mohamed Salah"
+        },
+        {
+          "slot": "ST",
+          "position": "FW",
+          "current_player": "Erling Haaland"
+        }
+      ]
+    },
+    "Manchester City": {
+      "formation": "3-2-4-1",
+      "manager": "Pep Guardiola",
+      "lineup": [
+        {
+          "slot": "GK",
+          "position": "GK",
+          "current_player": "Ederson"
+        },
+        {
+          "slot": "LCB",
+          "position": "DF",
+          "current_player": "Rúben Dias"
+        },
+        {
+          "slot": "CB",
+          "position": "DF",
+          "current_player": "Virgil van Dijk"
+        },
+        {
+          "slot": "RCB",
+          "position": "DF",
+          "current_player": "Trent Alexander-Arnold"
+        },
+        {
+          "slot": "LDM",
+          "position": "MF",
+          "current_player": "Rodri"
+        },
+        {
+          "slot": "RDM",
+          "position": "MF",
+          "current_player": "Casemiro"
+        },
+        {
+          "slot": "LW",
+          "position": "FW",
+          "current_player": "Vinicius Junior"
+        },
+        {
+          "slot": "LCM",
+          "position": "MF",
+          "current_player": "Kevin De Bruyne"
+        },
+        {
+          "slot": "RCM",
+          "position": "MF",
+          "current_player": "Jude Bellingham"
+        },
+        {
+          "slot": "RW",
+          "position": "FW",
+          "current_player": "Mohamed Salah"
+        },
+        {
+          "slot": "ST",
+          "position": "FW",
+          "current_player": "Erling Haaland"
+        }
+      ]
+    },
+    "Real Madrid": {
+      "formation": "4-3-1-2",
+      "manager": "Carlo Ancelotti",
+      "lineup": [
+        {
+          "slot": "GK",
+          "position": "GK",
+          "current_player": "Ederson"
+        },
+        {
+          "slot": "LB",
+          "position": "DF",
+          "current_player": "Alfonso Davies"
+        },
+        {
+          "slot": "LCB",
+          "position": "DF",
+          "current_player": "Virgil van Dijk"
+        },
+        {
+          "slot": "RCB",
+          "position": "DF",
+          "current_player": "Rúben Dias"
+        },
+        {
+          "slot": "RB",
+          "position": "DF",
+          "current_player": "Trent Alexander-Arnold"
+        },
+        {
+          "slot": "LCM",
+          "position": "MF",
+          "current_player": "Casemiro"
+        },
+        {
+          "slot": "DM",
+          "position": "MF",
+          "current_player": "Rodri"
+        },
+        {
+          "slot": "RCM",
+          "position": "MF",
+          "current_player": "Kevin De Bruyne"
+        },
+        {
+          "slot": "AM",
+          "position": "MF",
+          "current_player": "Jude Bellingham"
+        },
+        {
+          "slot": "LS",
+          "position": "FW",
+          "current_player": "Kylian Mbappé"
+        },
+        {
+          "slot": "RS",
+          "position": "FW",
+          "current_player": "Vinicius Junior"
+        }
+      ]
+    }
+  },
+  "player_pool": {
+    "Alisson Becker": {
+      "meta": {
+        "club": "Liverpool",
+        "position": "GK"
+      },
+      "tactical_signatures": {
+        "prog_passes": 3.1,
+        "prog_carries": 0.1,
+        "tackles_interceptions": 0.2,
+        "final_third_entries": 0.5,
+        "shot_creation_volume": 0.1,
+        "clearances_blocks": 1.4
+      }
+    },
+    "Ederson": {
+      "meta": {
+        "club": "Manchester City",
+        "position": "GK"
+      },
+      "tactical_signatures": {
+        "prog_passes": 4.8,
+        "prog_carries": 0.3,
+        "tackles_interceptions": 0.1,
+        "final_third_entries": 1.1,
+        "shot_creation_volume": 0.3,
+        "clearances_blocks": 0.8
+      }
+    },
+    "Virgil van Dijk": {
+      "meta": {
+        "club": "Liverpool",
+        "position": "DF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 5.2,
+        "prog_carries": 0.9,
+        "tackles_interceptions": 3.8,
+        "final_third_entries": 4.2,
+        "shot_creation_volume": 0.8,
+        "clearances_blocks": 6.8
+      }
+    },
+    "Rúben Dias": {
+      "meta": {
+        "club": "Manchester City",
+        "position": "DF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 6.1,
+        "prog_carries": 1.1,
+        "tackles_interceptions": 3.1,
+        "final_third_entries": 4.9,
+        "shot_creation_volume": 0.4,
+        "clearances_blocks": 5.2
+      }
+    },
+    "Trent Alexander-Arnold": {
+      "meta": {
+        "club": "Liverpool",
+        "position": "DF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 8.7,
+        "prog_carries": 2.1,
+        "tackles_interceptions": 4.2,
+        "final_third_entries": 8.1,
+        "shot_creation_volume": 4.9,
+        "clearances_blocks": 2.8
+      }
+    },
+    "Alfonso Davies": {
+      "meta": {
+        "club": "Bayern Munich",
+        "position": "DF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 4.1,
+        "prog_carries": 5.9,
+        "tackles_interceptions": 4.9,
+        "final_third_entries": 5.4,
+        "shot_creation_volume": 3.1,
+        "clearances_blocks": 2.1
+      }
+    },
+    "Rodri": {
+      "meta": {
+        "club": "Manchester City",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 9.4,
+        "prog_carries": 2.6,
+        "tackles_interceptions": 4.6,
+        "final_third_entries": 9.8,
+        "shot_creation_volume": 3.8,
+        "clearances_blocks": 3.1
+      }
+    },
+    "Casemiro": {
+      "meta": {
+        "club": "Manchester Utd",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 4.2,
+        "prog_carries": 0.8,
+        "tackles_interceptions": 6.2,
+        "final_third_entries": 3.8,
+        "shot_creation_volume": 1.8,
+        "clearances_blocks": 5.4
+      }
+    },
+    "Kobbie Mainoo": {
+      "meta": {
+        "club": "Manchester Utd",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 4.5,
+        "prog_carries": 2.8,
+        "tackles_interceptions": 3.4,
+        "final_third_entries": 4.1,
+        "shot_creation_volume": 2.9,
+        "clearances_blocks": 1.6
+      }
+    },
+    "Kevin De Bruyne": {
+      "meta": {
+        "club": "Manchester City",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 8.1,
+        "prog_carries": 3.8,
+        "tackles_interceptions": 1.8,
+        "final_third_entries": 7.9,
+        "shot_creation_volume": 6.8,
+        "clearances_blocks": 0.6
+      }
+    },
+    "Jude Bellingham": {
+      "meta": {
+        "club": "Real Madrid",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 5.8,
+        "prog_carries": 4.2,
+        "tackles_interceptions": 3.9,
+        "final_third_entries": 6.1,
+        "shot_creation_volume": 4.4,
+        "clearances_blocks": 1.2
+      }
+    },
+    "Bruno Fernandes": {
+      "meta": {
+        "club": "Manchester Utd",
+        "position": "MF"
+      },
+      "tactical_signatures": {
+        "prog_passes": 6.8,
+        "prog_carries": 3.1,
+        "tackles_interceptions": 2.1,
+        "final_third_entries": 6.4,
+        "shot_creation_volume": 5.8,
+        "clearances_blocks": 1.1
+      }
+    },
+    "Erling Haaland": {
+      "meta": {
+        "club": "Manchester City",
+        "position": "FW"
+      },
+      "tactical_signatures": {
+        "prog_passes": 1.1,
+        "prog_carries": 1.4,
+        "tackles_interceptions": 0.3,
+        "final_third_entries": 0.8,
+        "shot_creation_volume": 2.1,
+        "clearances_blocks": 0.4
+      }
+    },
+    "Kylian Mbappé": {
+      "meta": {
+        "club": "Real Madrid",
+        "position": "FW"
+      },
+      "tactical_signatures": {
+        "prog_passes": 3.9,
+        "prog_carries": 6.8,
+        "tackles_interceptions": 0.5,
+        "final_third_entries": 4.2,
+        "shot_creation_volume": 5.6,
+        "clearances_blocks": 0.2
+      }
+    },
+    "Mohamed Salah": {
+      "meta": {
+        "club": "Liverpool",
+        "position": "FW"
+      },
+      "tactical_signatures": {
+        "prog_passes": 4.6,
+        "prog_carries": 4.9,
+        "tackles_interceptions": 1.2,
+        "final_third_entries": 5.1,
+        "shot_creation_volume": 5.2,
+        "clearances_blocks": 0.5
+      }
+    },
+    "Vinicius Junior": {
+      "meta": {
+        "club": "Real Madrid",
+        "position": "FW"
+      },
+      "tactical_signatures": {
+        "prog_passes": 3.1,
+        "prog_carries": 7.4,
+        "tackles_interceptions": 1.1,
+        "final_third_entries": 3.6,
+        "shot_creation_volume": 5.4,
+        "clearances_blocks": 0.3
+      }
+    },
+    "Marcus Rashford": {
+      "meta": {
+        "club": "Manchester Utd",
+        "position": "FW"
+      },
+      "tactical_signatures": {
+        "prog_passes": 2.4,
+        "prog_carries": 5.8,
+        "tackles_interceptions": 0.8,
+        "final_third_entries": 2.1,
+        "shot_creation_volume": 3.9,
+        "clearances_blocks": 0.4
+      }
+    }
+  }
+}
