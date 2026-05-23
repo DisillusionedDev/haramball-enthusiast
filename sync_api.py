@@ -221,7 +221,6 @@ def process_pipeline():
                 "metrics": metrics_manifest
             }
 
-            # Gather historical team footprints for lineup derivation
             if club_name not in clubs_raw_data:
                 clubs_raw_data[club_name] = []
             
@@ -232,32 +231,27 @@ def process_pipeline():
                 "minutes": metrics_manifest["games_minutes"]
             })
 
-    # 2. DYNAMIC FORMATION PARSER (Common-Sense Integration)
+    # DYNAMIC FORMATION PARSER
     final_clubs = {}
     for club, roster in clubs_raw_data.items():
         gks = [p for p in roster if p["ui_pos"] == "GK"]
         outfield = [p for p in roster if p["ui_pos"] != "GK"]
         
-        # Ensure the club has enough tracking data points to create a realistic XI
         if not gks or len(outfield) < 10:
             continue
             
-        # Sort collections by actual starts, using minutes as a secondary tie-breaker
         gks.sort(key=lambda x: (x['lineups'], x['minutes']), reverse=True)
         outfield.sort(key=lambda x: (x['lineups'], x['minutes']), reverse=True)
         
-        # Build the exact 11-man sheet based on tactical utility
         selected_gk = gks[0]
         selected_outfield = outfield[:10]
         
-        # Deduce the true played formation based on selection frequencies
         num_df = sum(1 for p in selected_outfield if p['ui_pos'] == "DF")
         num_mf = sum(1 for p in selected_outfield if p['ui_pos'] == "MF")
         num_fw = sum(1 for p in selected_outfield if p['ui_pos'] == "FW")
         
         derived_formation = f"{num_df}-{num_mf}-{num_fw}"
         
-        # Map back to flat arrays for UI rendering
         lineup = [{"position": "GK", "current_player": selected_gk['name']}]
         for p in selected_outfield:
             lineup.append({
@@ -270,7 +264,6 @@ def process_pipeline():
             "lineup": lineup
         }
 
-    # 3. OUTPUT GENERATION
     os.makedirs('docs/data', exist_ok=True)
     with open('docs/data/players.json', 'w', encoding='utf-8') as f:
         json.dump({"clubs": final_clubs, "player_pool": player_pool}, f, indent=2, ensure_ascii=False)
