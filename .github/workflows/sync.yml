@@ -3,10 +3,10 @@ name: Automated Football Tactical Sync
 on:
   schedule:
     - cron: '0 4 * * *' # Runs automatically every day at 4:00 AM UTC
-  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
 
 permissions:
-  contents: write # Gives the runner permission to commit data back to your repo
+  contents: write # Essential for committing updated data back to the repo
 
 jobs:
   sync-data:
@@ -35,14 +35,13 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python sync_api.py
 
-      # Step 5: Commit and push the updated json backend back to the repository
+      # Step 5: Commit and push changes back to the repository
       - name: Commit and Push Tactical Data Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add docs/data/players.json
           
-          # Only commit and push if the data actually changed to avoid empty commit loops
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-update tactical player matrix and formations [skip ci]"
             git push
