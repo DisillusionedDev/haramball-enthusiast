@@ -3,149 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Tactical Tinkerer</title>
+    <title>Squad Analytics | Tactical Fit Lab</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .pitch-field {
-            background: radial-gradient(circle at center, #115e59 0%, #111827 100%);
-            border: 2px solid rgba(20, 184, 166, 0.2);
+        /* Traditional Matte Football Pitch Base Theme Layout */
+        .football-pitch {
+            background-color: #244429;
+            background-image: linear-gradient(to bottom, rgba(255,255,255,0.03) 50%, transparent 50%);
+            background-size: 100% 10%;
+            border: 2px solid #ffffff;
             position: relative;
+        }
+        .pitch-chalk-line {
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            position: absolute;
+            pointer-events: none;
         }
     </style>
 </head>
-<body class="bg-gray-950 text-slate-100 min-h-screen">
+<body class="bg-[#0f141c] text-slate-100 min-h-screen font-sans antialiased">
 
-    <header class="border-b border-gray-800 bg-gray-900 px-6 py-4 sticky top-0 z-50">
+    <header class="border-b border-gray-800 bg-[#161d26] px-6 py-4 shadow-sm">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
             <div>
-                <h1 class="text-xl font-black tracking-widest text-teal-400">DEBATE.FC // STRUCTURAL TINKERER</h1>
-                <p class="text-xs text-gray-400">Zero-Constraint Real Formation Dynamic Simulator</p>
+                <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-sm bg-emerald-500"></span> SQUAD OPTIMIZATION ENGINE
+                </h1>
+                <p class="text-xs text-slate-400 font-mono mt-0.5">Data Source: Unified Live European Scouting Feed</p>
             </div>
-            <div class="flex items-center gap-4">
-                <select id="clubSelector" onchange="loadClubTacticalFormation()" class="bg-gray-800 text-sm border border-gray-700 rounded-lg p-2 text-white focus:outline-none focus:border-teal-400">
-                    </select>
-                <span id="formationBadge" class="bg-teal-500/10 text-teal-400 font-mono font-bold border border-teal-500/30 px-3 py-1 rounded-full text-xs">0-0-0</span>
+            <div class="flex items-center gap-3">
+                <select id="clubSelector" onchange="loadClubTacticalFormation()" class="bg-[#1e2631] text-xs font-semibold border border-gray-700 rounded px-3 py-2 text-white focus:outline-none focus:border-emerald-500">
+                    <option value="">Loading live registries...</option>
+                </select>
+                <span id="formationBadge" class="bg-[#243242] text-slate-300 font-mono font-bold border border-gray-700 px-3 py-1 rounded text-xs">0-0-0</span>
             </div>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
         
-        <div class="lg:col-span-8">
-            <div id="dynamicPitch" class="pitch-field w-full rounded-2xl shadow-2xl p-6 flex flex-col-reverse justify-between gap-6 min-h-[620px]">
+        <div id="loadingStateCover" class="lg:col-span-12 bg-[#161d26] border border-gray-800 rounded-xl p-12 text-center space-y-3 shadow-xl">
+            <div class="text-lg font-bold text-slate-300">Synchronizing Live Database Payload...</div>
+            <p class="text-xs text-slate-500 max-w-sm mx-auto">Parsing real-world metrics, sorting alphabetical league tables, and auto-calculating derived club formation coordinates.</p>
+        </div>
+
+        <div id="pitchPanel" class="hidden lg:col-span-8">
+            <div id="dynamicPitch" class="football-pitch w-full rounded-xl p-6 flex flex-col-reverse justify-between gap-6 min-h-[640px] shadow-lg">
+                <div class="pitch-chalk-line top-0 left-1/2 -translate-x-1/2 w-full h-1/2 border-t-0 border-x-0"></div>
+                <div class="pitch-chalk-line top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-28 rounded-full"></div>
+                <div class="pitch-chalk-line top-0 left-1/2 -translate-x-1/2 w-48 h-20 border-t-0"></div>
+                <div class="pitch-chalk-line bottom-0 left-1/2 -translate-x-1/2 w-48 h-20 border-b-0"></div>
                 </div>
         </div>
 
-        <div class="lg:col-span-4 space-y-6">
-            <div class="bg-gray-900 border border-gray-800 rounded-xl p-5 shadow-xl">
-                <h3 class="text-sm font-bold text-teal-400 uppercase tracking-wider mb-3">System Fluidity Impact</h3>
-                <div class="space-y-3 font-mono text-xs">
-                    <div class="flex justify-between"><span>Team Transition Rate:</span><span id="metric-trans" class="text-white font-bold">0.0</span></div>
-                    <div class="flex justify-between"><span>Defensive Shield Value:</span><span id="metric-shld" class="text-white font-bold">0.0</span></div>
+        <div id="analyticsPanel" class="hidden lg:col-span-4 flex flex-col gap-6">
+            
+            <div class="bg-[#161d26] border border-gray-800 rounded-xl p-5 shadow-sm">
+                <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Unit Technical Volume (Per 90 Average)</h3>
+                <div class="space-y-4 font-mono text-xs">
+                    <div>
+                        <div class="flex justify-between text-slate-400 mb-1"><span>Line Progression Rate:</span><span id="metric-trans" class="text-white font-bold">0.00</span></div>
+                        <div class="w-full bg-slate-950 rounded h-1.5 overflow-hidden"><div id="bar-trans" class="bg-emerald-500 h-full transition-all" style="width: 0%"></div></div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-slate-400 mb-1"><span>Defensive Interventions:</span><span id="metric-shld" class="text-white font-bold">0.00</span></div>
+                        <div class="w-full bg-slate-950 rounded h-1.5 overflow-hidden"><div id="bar-shld" class="bg-slate-400 h-full transition-all" style="width: 0%"></div></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="bg-gray-900 border border-gray-800 rounded-xl p-5 shadow-xl flex-1">
-                <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Player Audit Profile</h4>
-                <div id="auditView" class="hidden space-y-3">
-                    <div class="border-b border-gray-800 pb-2">
-                        <h5 id="auditName" class="text-lg font-bold text-white">Name</h5>
-                        <p id="auditClub" class="text-xs text-gray-500">Club details</p>
+            <div class="bg-[#161d26] border border-gray-800 rounded-xl p-5 shadow-sm flex-1 flex flex-col justify-between min-h-[340px]">
+                <div>
+                    <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 pb-2 border-b border-gray-800">Scouting Audit Profile</h4>
+                    <div id="auditView" class="hidden space-y-4">
+                        <div>
+                            <h5 id="auditName" class="text-lg font-bold text-white tracking-tight">Player Name</h5>
+                            <p id="auditClub" class="text-xs font-mono text-slate-400 mt-0.5">Club • Position Sector</p>
+                        </div>
+                        <div id="auditStats" class="space-y-2 font-mono text-xs text-slate-400">
+                            </div>
                     </div>
-                    <div id="auditStats" class="space-y-1 font-mono text-xs text-gray-400"></div>
-                </div>
-                <div id="auditPlaceholder" class="text-center py-12 text-gray-600 text-xs border border-dashed border-gray-800 rounded-lg">
-                    Click any active node on the tactical layout to inspect raw signatures.
+                    <div id="auditPlaceholder" class="text-center py-16 text-slate-500 text-xs border border-dashed border-gray-800 rounded-lg bg-slate-900/20">
+                        Click any player slot node on the field layout to unpack raw metric percentiles.
+                    </div>
                 </div>
             </div>
+
         </div>
     </main>
 
-    <div id="swapModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-        <div class="bg-gray-900 border border-gray-800 w-full max-w-md rounded-xl p-5 space-y-4 shadow-2xl">
-            <div class="flex justify-between items-center">
-                <h3 class="text-sm font-bold text-gray-200 uppercase tracking-wide">Select Replacement Variable</h3>
-                <button onclick="closeSwapModal()" class="text-gray-400 hover:text-white text-xl">×</button>
+    <div id="swapModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-xs z-50 flex items-center justify-center p-4">
+        <div class="bg-[#161d26] border border-gray-800 w-full max-w-md rounded-xl p-5 space-y-4 shadow-2xl">
+            <div>
+                <h3 class="text-sm font-bold text-white uppercase tracking-wider">Substitute Position Variable</h3>
+                <p class="text-xs text-slate-400 mt-1">Filtering entire European database pool for position matches...</p>
             </div>
-            <select id="replacementDropdown" class="w-full bg-gray-950 border border-gray-700 rounded-lg p-2.5 text-sm text-white focus:outline-none"></select>
-            <button onclick="commitPlayerSwap()" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-950 font-bold py-2 rounded-lg text-sm transition-colors">Apply System Change</button>
+            <select id="replacementDropdown" class="w-full bg-[#1e2631] text-xs font-semibold border border-gray-700 rounded p-2.5 text-white focus:outline-none focus:border-emerald-500"></select>
+            <div class="flex gap-3 justify-end pt-2">
+                <button onclick="closeSwapModal()" class="bg-transparent border border-gray-700 hover:bg-gray-800 text-slate-300 text-xs font-bold px-4 py-2 rounded">Cancel</button>
+                <button onclick="commitPlayerSwap()" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2 rounded transition-colors">Confirm Substitution</button>
+            </div>
         </div>
     </div>
 
     <script>
-        let serverPayload = {};
+        let serverPayload = null;
         let activeClubLineup = [];
         let activeClubName = "";
         let selectedSlotIndex = null;
 
         window.addEventListener('DOMContentLoaded', async () => {
             await downloadTacticalData();
-            populateClubControls();
-            loadClubTacticalFormation();
         });
 
         async function downloadTacticalData() {
             try {
+                // Strict zero-hardcode pattern. Fetches clean generated JSON output directly.
                 const response = await fetch('data/players.json');
+                if(!response.ok) throw new Error("Data registry payload file not found on server directory.");
                 serverPayload = await response.json();
-            } catch {
-                // Self-contained sandboxed architecture engine loop fallback
-                serverPayload = {
-                    "clubs": {
-                        "Manchester United": { "formation": "4-2-3-1", "lineup": [
-                            {"slot": "GK", "position": "GK", "current_player": "Alisson Becker"},
-                            {"slot": "LB", "position": "DF", "current_player": "Alfonso Davies"},
-                            {"slot": "LCB", "position": "DF", "current_player": "Virgil van Dijk"},
-                            {"slot": "RCB", "position": "DF", "current_player": "Rúben Dias"},
-                            {"slot": "RB", "position": "DF", "current_player": "Trent Alexander-Arnold"},
-                            {"slot": "LDM", "position": "MF", "current_player": "Casemiro"},
-                            {"slot": "RDM", "position": "MF", "current_player": "Kobbie Mainoo"},
-                            {"slot": "LAM", "position": "FW", "current_player": "Marcus Rashford"},
-                            {"slot": "CAM", "position": "MF", "current_player": "Bruno Fernandes"},
-                            {"slot": "RAM", "position": "FW", "current_player": "Mohamed Salah"},
-                            {"slot": "ST", "position": "FW", "current_player": "Erling Haaland"}
-                        ]}
-                    },
-                    "player_pool": {
-                        "Alisson Becker": { "meta": { "club": "Liverpool", "position": "GK" }, "tactical_signatures": { "prog_passes": 3.1, "prog_carries": 0.1, "tackles_interceptions": 0.2, "final_third_entries": 0.5, "shot_creation_volume": 0.1, "clearances_blocks": 1.4 }},
-                        "Alfonso Davies": { "meta": { "club": "Bayern", "position": "DF" }, "tactical_signatures": { "prog_passes": 4.1, "prog_carries": 5.9, "tackles_interceptions": 4.9, "final_third_entries": 5.4, "shot_creation_volume": 3.1, "clearances_blocks": 2.1 }},
-                        "Virgil van Dijk": { "meta": { "club": "Liverpool", "position": "DF" }, "tactical_signatures": { "prog_passes": 5.2, "prog_carries": 0.9, "tackles_interceptions": 3.8, "final_third_entries": 4.2, "shot_creation_volume": 0.8, "clearances_blocks": 6.8 }},
-                        "Rúben Dias": { "meta": { "club": "Man City", "position": "DF" }, "tactical_signatures": { "prog_passes": 6.1, "prog_carries": 1.1, "tackles_interceptions": 3.1, "final_third_entries": 4.9, "shot_creation_volume": 0.4, "clearances_blocks": 5.2 }},
-                        "Trent Alexander-Arnold": { "meta": { "club": "Liverpool", "position": "DF" }, "tactical_signatures": { "prog_passes": 8.7, "prog_carries": 2.1, "tackles_interceptions": 4.2, "final_third_entries": 8.1, "shot_creation_volume": 4.9, "clearances_blocks": 2.8 }},
-                        "Casemiro": { "meta": { "club": "Man United", "position": "MF" }, "tactical_signatures": { "prog_passes": 4.2, "prog_carries": 0.8, "tackles_interceptions": 6.2, "final_third_entries": 3.8, "shot_creation_volume": 1.8, "clearances_blocks": 5.4 }},
-                        "Kobbie Mainoo": { "meta": { "club": "Man United", "position": "MF" }, "tactical_signatures": { "prog_passes": 4.5, "prog_carries": 2.8, "tackles_interceptions": 3.4, "final_third_entries": 4.1, "shot_creation_volume": 2.9, "clearances_blocks": 1.6 }},
-                        "Marcus Rashford": { "meta": { "club": "Man United", "position": "FW" }, "tactical_signatures": { "prog_passes": 2.4, "prog_carries": 5.8, "tackles_interceptions": 0.8, "final_third_entries": 2.1, "shot_creation_volume": 3.9, "clearances_blocks": 0.4 }},
-                        "Bruno Fernandes": { "meta": { "club": "Man United", "position": "MF" }, "tactical_signatures": { "prog_passes": 6.8, "prog_carries": 3.1, "tackles_interceptions": 2.1, "final_third_entries": 6.4, "shot_creation_volume": 5.8, "clearances_blocks": 1.1 }},
-                        "Mohamed Salah": { "meta": { "club": "Liverpool", "position": "FW" }, "tactical_signatures": { "prog_passes": 4.6, "prog_carries": 4.9, "tackles_interceptions": 1.2, "final_third_entries": 5.1, "shot_creation_volume": 5.2, "clearances_blocks": 0.5 }},
-                        "Erling Haaland": { "meta": { "club": "Man City", "position": "FW" }, "tactical_signatures": { "prog_passes": 1.1, "prog_carries": 1.4, "tackles_interceptions": 0.3, "final_third_entries": 0.8, "shot_creation_volume": 2.1, "clearances_blocks": 0.4 }}
-                    }
-                };
+                
+                // Hide loading screen block and show pro dashboard components
+                document.getElementById('loadingStateCover').classList.add('hidden');
+                document.getElementById('pitchPanel').classList.remove('hidden');
+                document.getElementById('analyticsPanel').classList.remove('hidden');
+
+                populateClubControls();
+                loadClubTacticalFormation();
+            } catch(err) {
+                console.error(err);
+                document.getElementById('loadingStateCover').innerHTML = `
+                    <div class="text-rose-400 font-bold text-sm">⚠️ Engine Pipeline Synchronization Error</div>
+                    <p class="text-xs text-slate-400 max-w-md mx-auto mt-2 font-mono">Failed to fetch 'data/players.json'. Make sure your 'Weekly Multi-League Tactical Harvest' GitHub Actions workflow has run successfully at least once and committed the file to your repository.</p>
+                `;
             }
         }
 
         function populateClubControls() {
             const selector = document.getElementById('clubSelector');
-            selector.innerHTML = Object.keys(serverPayload.clubs).map(club => `
+            const sortedClubs = Object.keys(serverPayload.clubs).sort();
+            
+            selector.innerHTML = sortedClubs.map(club => `
                 <option value="${club}">${club}</option>
             `).join('');
         }
 
         function loadClubTacticalFormation() {
             activeClubName = document.getElementById('clubSelector').value;
-            const clubData = serverPayload.clubs[activeClubName];
+            if(!activeClubName) return;
             
+            const clubData = serverPayload.clubs[activeClubName];
             document.getElementById('formationBadge').innerText = clubData.formation;
-            activeClubLineup = JSON.parse(jsonStringifySafe(clubData.lineup));
+            activeClubLineup = JSON.parse(JSON.stringify(clubData.lineup));
             
             renderDynamicAsymmetricPitch();
         }
 
-        // The Engine core: Categorizes and renders lines depending on team data arrays
         function renderDynamicAsymmetricPitch() {
             const pitchCanvas = document.getElementById('dynamicPitch');
-            pitchCanvas.innerHTML = ""; // Complete UI flush
+            pitchCanvas.innerHTML = ""; 
 
-            // Group structure array lines
             let positionLines = { "GK": [], "DF": [], "MF": [], "FW": [] };
             
             activeClubLineup.forEach((playerUnit, index) => {
@@ -155,23 +172,22 @@
                 }
             });
 
-            // Iterate over active positional lines and construct flex rows dynamically
             Object.keys(positionLines).forEach(zoneKey => {
                 const unitsInZone = positionLines[zoneKey];
                 if(unitsInZone.length === 0) return;
 
                 const flexRow = document.createElement('div');
-                flexRow.className = "flex justify-around items-center w-full z-10 py-2";
+                flexRow.className = "flex justify-around items-center w-full z-10 py-3";
                 
                 unitsInZone.forEach(unit => {
                     const node = document.createElement('div');
-                    node.className = "group relative bg-gray-900/90 border border-teal-500/20 px-2 py-3 rounded-xl flex flex-col items-center w-20 sm:w-24 text-center cursor-pointer hover:border-teal-400 transition-all shadow-md";
+                    // Styled to match dark analytical dashboard elements
+                    node.className = "group relative bg-[#161d26]/95 border border-gray-800 px-2 py-2.5 rounded shadow w-20 sm:w-24 text-center cursor-pointer hover:border-slate-400 transition-all";
                     
-                    // Injection content
                     node.innerHTML = `
-                        <span class="text-[9px] text-teal-400 font-bold uppercase tracking-wider">${unit.slot}</span>
-                        <div class="text-xs font-black truncate max-w-full text-white mt-1">${unit.current_player || '[ Empty ]'}</div>
-                        <button onclick="triggerSwapOverlay(${unit.originalIndex}, event)" class="mt-1.5 text-[9px] bg-teal-500/10 text-teal-300 font-mono border border-teal-500/30 px-1.5 py-0.5 rounded hover:bg-teal-400 hover:text-black transition-colors">SWAP</button>
+                        <span class="text-[9px] text-slate-400 font-mono font-bold block truncate uppercase tracking-wider">${unit.slot}</span>
+                        <div class="text-xs font-bold truncate max-w-full text-white mt-0.5">${unit.current_player || '[ Empty Slot ]'}</div>
+                        <button onclick="triggerSwapOverlay(${unit.originalIndex}, event)" class="mt-2 text-[9px] bg-[#1e2631] text-slate-300 font-bold border border-gray-700 px-2 py-0.5 rounded hover:bg-gray-800 transition-colors">SWAP</button>
                     `;
                     
                     node.addEventListener('click', () => auditActiveProfile(unit.current_player, unit.slot));
@@ -192,11 +208,14 @@
             const dropdown = document.getElementById('replacementDropdown');
             dropdown.innerHTML = "";
 
-            Object.keys(serverPayload.player_pool).forEach(pName => {
-                if(serverPayload.player_pool[pName].meta.position === targetingUnit.position) {
+            const sortedGlobalPlayers = Object.keys(serverPayload.player_pool).sort();
+
+            sortedGlobalPlayers.forEach(pName => {
+                const player = serverPayload.player_pool[pName];
+                if(player.meta.position === targetingUnit.position) {
                     const opt = document.createElement('option');
                     opt.value = pName;
-                    opt.innerText = `${pName} (${serverPayload.player_pool[pName].meta.club})`;
+                    opt.innerText = `${pName} [${player.meta.club}]`;
                     dropdown.appendChild(opt);
                 }
             });
@@ -221,14 +240,21 @@
             activeClubLineup.forEach(u => {
                 const stats = serverPayload.player_pool[u.current_player]?.tactical_signatures;
                 if(stats) {
-                    totalTrans += (stats.prog_passes + stats.prog_carries);
+                    totalTrans += (stats.prog_passes + stats.prog_carries + stats.final_third_entries);
                     totalShield += (stats.tackles_interceptions + stats.clearances_blocks);
                     counts++;
                 }
             });
 
-            document.getElementById('metric-trans').innerText = (totalTrans / (counts || 1)).toFixed(2);
-            document.getElementById('metric-shld').innerText = (totalShield / (counts || 1)).toFixed(2);
+            const avgTrans = totalTrans / (counts || 1);
+            const avgShield = totalShield / (counts || 1);
+
+            document.getElementById('metric-trans').innerText = avgTrans.toFixed(2);
+            document.getElementById('metric-shld').innerText = avgShield.toFixed(2);
+            
+            // Map values dynamically to progress visual fill bars (scaled to realistic per-90 thresholds)
+            document.getElementById('bar-trans').style.width = `${Math.min(100, (avgTrans / 20) * 100)}%`;
+            document.getElementById('bar-shld').style.width = `${Math.min(100, (avgShield / 12) * 100)}%`;
         }
 
         function auditActiveProfile(name, slot) {
@@ -240,18 +266,16 @@
             targetView.classList.remove('hidden');
 
             document.getElementById('auditName').innerText = name;
-            document.getElementById('auditClub').innerText = `${slot} Slot • ${stats.meta.club}`;
+            document.getElementById('auditClub').innerText = `${slot} Slot • ${stats.meta.club} (${stats.meta.league})`;
 
             const container = document.getElementById('auditStats');
             container.innerHTML = Object.entries(stats.tactical_signatures).map(([key, val]) => `
-                <div class="flex justify-between border-b border-gray-800/60 py-0.5">
-                    <span class="capitalize text-gray-500">${key.replace(/_/g, ' ')}</span>
-                    <span class="text-slate-200 font-bold font-mono">${val.toFixed(2)}</span>
+                <div class="flex justify-between border-b border-gray-800 py-1">
+                    <span class="capitalize text-slate-400">${key.replace(/_/g, ' ')}</span>
+                    <span class="text-white font-bold font-mono">${val.toFixed(2)}</span>
                 </div>
             `).join('');
         }
-
-        function jsonStringifySafe(obj) { return JSON.stringify(obj); }
     </script>
 </body>
 </html>
