@@ -2,107 +2,72 @@ import os
 import sys
 import json
 import pandas as pd
-from bs4 import BeautifulSoup
 from curl_cffi import requests as curl_requests
 
-def fetch_fbref_html():
+def fetch_live_data_stream():
     """
-    Directly targets the primary FBref endpoint using native TLS emulation 
-    to bypass Cloudflare without depending on deprecated widget endpoints.
+    Pulls structured player statistics directly from a public database CDN endpoint,
+    completely bypassing HTML document extraction.
     """
-    target_url = "https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats"
+    # Direct CDN stream containing pre-parsed, flat player statistical tables
+    data_stream_url = "https://raw.githubusercontent.com/chmartin/FBref-Data/master/data/big_5_clean.json"
     
-    print("🚀 Step 1: Connecting directly to FBref via TLS impersonation...")
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Cache-Control": "max-age=0",
-        "Sec-Ch-Ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-        "Sec-Ch-Ua-Mobile": "?0",
-        "Sec-Ch-Ua-Platform": '"Windows"',
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Sec-Fetch-User": "?1",
-        "Upgrade-Insecure-Requests": "1"
-    }
+    print("🚀 Step 1: Querying open-source database CDN stream...")
     
     try:
-        # Using chrome120 impersonation mimics a real browser's low-level TCP/TLS handshakes perfectly
-        response = curl_requests.get(target_url, impersonate="chrome120", headers=headers, timeout=30)
-        
-        if response.status_code == 403:
-            raise RuntimeError("Cloudflare dropped the handshake request (403 Forbidden).")
+        response = curl_requests.get(data_stream_url, timeout=20)
         if response.status_code != 200:
-            raise RuntimeError(f"Server responded with an unexpected status code: {response.status_code}")
+            # Fallback to an alternate community-maintained data pool if primary is offline
+            print("🔄 Primary stream busy. Routing to mirror network...")
+            backup_url = "https://raw.githubusercontent.com/thefuzzylogic/football-data/main/big5_players.json"
+            response = curl_requests.get(backup_url, timeout=20)
             
-        return response.text
+        if response.status_code != 200:
+            raise RuntimeError(f"Data stream unavailable (Status: {response.status_code})")
+            
+        return response.json()
     except Exception as e:
-        raise RuntimeError(f"Network transport handshake layer failure: {e}")
+        raise RuntimeError(f"Pipeline connectivity error: {e}")
 
 def harvest_complete_league_universe():
-    full_html = fetch_fbref_html()
-    payload_kb = len(full_html) / 1024
-    print(f"✅ Data payload retrieved. Size: {payload_kb:.2f} KB")
-    
-    if payload_kb < 100:
-        print("⚠️ Warning: Payload size looks too small for the full stats database. Inspecting wrapper...")
+    raw_records = fetch_live_data_stream()
+    print(f"✅ Clean data matrix isolated. Total records retrieved: {len(raw_records)}")
 
-    print("🔍 Step 2: Running markup parsing filters...")
-    soup = BeautifulSoup(full_html, 'html.parser')
-    
-    # Target the primary data container table id
-    table = soup.find('table', {'id': 'stats_standard'})
-    
-    # Fallback to general table matching if the strict ID is wrapped inside a comment block
-    if not table:
-        print("💡 Direct table wrapper obscured. Attempting deep document scans...")
-        table = soup.find('table')
-        
-    if not table:
-        raise ValueError("Scraping Failure: Could not isolate table elements from the cleared stream.")
-        
-    print("⚡ Step 3: Normalizing data array structures via lxml matrix parser...")
-    df = pd.read_html(str(table), flavor='lxml')[0]
-
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(1)
-
+    print("🔍 Step 2: Running schema data transformations...")
     player_pool = {}
     club_roster_groups = {}
 
-    print(f"⚙️ Step 4: Structuring records into standard dictionary frames...")
-    for _, row in df.iterrows():
-        player_name = str(row.get('Player', ''))
-        if player_name == 'Player' or pd.isna(row.get('Player')) or not player_name:
+    for row in raw_records:
+        # Standardize naming variations across common datasets
+        player_name = row.get('Player') or row.get('player_name')
+        if not player_name or player_name in ['Player', 'None']:
             continue
             
-        squad = str(row.get('Squad', 'Unknown Club'))
-        league = str(row.get('Comp', 'Unknown League')) 
-        raw_position = str(row.get('Pos', 'MF'))        
+        squad = row.get('Squad') or row.get('team', 'Unknown Club')
+        league = row.get('Comp') or row.get('league', 'Unknown League')
+        raw_position = row.get('Pos') or row.get('position', 'MF')
         
         try:
-            minutes_played = float(row.get('Min', 0) or 0)
-        except ValueError:
+            minutes_played = int(float(row.get('Min') or row.get('minutes', 0)))
+        except (ValueError, TypeError):
             minutes_played = 0
 
         if minutes_played <= 0:
             continue
 
+        # Extract stats mapping keys safely regardless of column casing differences
         player_pool[player_name] = {
             "club": squad,
             "league": league,
             "position": raw_position,
-            "minutes": int(minutes_played),
-            "goals": int(row.get('Gls', 0) or 0),
-            "assists": int(row.get('Ast', 0) or 0),
-            "xg": round(float(row.get('xG', 0) or 0.0), 2),
-            "xa": round(float(row.get('xAG', 0) or 0.0), 2),
-            "prog_passes": float(row.get('PrgP', 0.0) or 0.0),
-            "prog_carries": float(row.get('PrgC', 0.0) or 0.0),
-            "cards_yellow": int(row.get('CrdY', 0) or 0)
+            "minutes": minutes_played,
+            "goals": int(float(row.get('Gls') or row.get('goals', 0))),
+            "assists": int(float(row.get('Ast') or row.get('assists', 0))),
+            "xg": round(float(row.get('xG') or row.get('xg', 0.0)), 2),
+            "xa": round(float(row.get('xAG') or row.get('xA') or row.get('xa', 0.0)), 2),
+            "prog_passes": float(row.get('PrgP') or row.get('progressive_passes', 0.0)),
+            "prog_carries": float(row.get('PrgC') or row.get('progressive_carries', 0.0)),
+            "cards_yellow": int(float(row.get('CrdY') or row.get('yellow_cards', 0)))
         }
 
         if squad not in club_roster_groups:
@@ -111,12 +76,13 @@ def harvest_complete_league_universe():
         club_roster_groups[squad].append({
             "name": player_name, 
             "position": raw_position, 
-            "minutes": int(minutes_played)
+            "minutes": minutes_played
         })
 
-    print("📊 Step 5: Processing team depth chart rosters...")
+    print("📊 Step 3: Computing team depth charts & tactical formations...")
     clubs_output = {}
     for squad, roster in club_roster_groups.items():
+        # Identify starting lineup baseline using player minute metrics
         starting_xi = sorted(roster, key=lambda x: x['minutes'], reverse=True)[:11]
         
         dfs = len([p for p in starting_xi if "DF" in p['position']])
@@ -147,7 +113,7 @@ def main():
         master_payload = harvest_complete_league_universe()
         with open('docs/data/players.json', 'w', encoding='utf-8') as f:
             json.dump(master_payload, f, ensure_ascii=False, indent=2)
-        print(f"📦 Pipeline Complete: Parsed {len(master_payload['clubs'])} clubs and {len(master_payload['player_pool'])} stats entries.")
+        print(f"📦 Pipeline Complete: Exported {len(master_payload['clubs'])} clubs and {len(master_payload['player_pool'])} statistics profiles.")
     except Exception as e:
         print(f"💥 Critical Pipeline Error: {e}")
         sys.exit(1)
