@@ -3,88 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squad Analytics | Tactical Fit Lab</title>
+    <title>Tactical Intelligence Board</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Traditional Matte Football Pitch Base Theme Layout */
-        .football-pitch {
-            background-color: #244429;
-            background-image: linear-gradient(to bottom, rgba(255,255,255,0.03) 50%, transparent 50%);
-            background-size: 100% 10%;
-            border: 2px solid #ffffff;
+        /* Modern Tactical Board Green Theme */
+        .tactical-pitch {
+            background-color: #1e3a24;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 20px 20px;
+            border: 3px solid #ffffff;
             position: relative;
         }
-        .pitch-chalk-line {
-            border: 1px solid rgba(255, 255, 255, 0.4);
+        .chalk-marking {
+            border: 1.5px solid rgba(255, 255, 255, 0.35);
             position: absolute;
             pointer-events: none;
         }
     </style>
 </head>
-<body class="bg-[#0f141c] text-slate-100 min-h-screen font-sans antialiased">
+<body class="bg-[#f8fafc] text-slate-900 min-h-screen font-sans antialiased">
 
-    <header class="border-b border-gray-800 bg-[#161d26] px-6 py-4 shadow-sm">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+    <!-- Professional Editorial Header -->
+    <header class="border-b border-slate-200 bg-white px-8 py-5 shadow-xs">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
-                <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
-                    <span class="w-2.5 h-2.5 rounded-sm bg-emerald-500"></span> SQUAD OPTIMIZATION ENGINE
-                </h1>
-                <p class="text-xs text-slate-400 font-mono mt-0.5">Data Source: Unified Live European Scouting Feed</p>
+                <h1 class="text-xl font-bold tracking-tight text-slate-900 uppercase">Tactical Roster Optimizer</h1>
+                <p class="text-xs text-slate-500 font-medium mt-0.5">Performance Modeler • Elite European Leagues Baseline</p>
             </div>
-            <div class="flex items-center gap-3">
-                <select id="clubSelector" onchange="loadClubTacticalFormation()" class="bg-[#1e2631] text-xs font-semibold border border-gray-700 rounded px-3 py-2 text-white focus:outline-none focus:border-emerald-500">
-                    <option value="">Loading live registries...</option>
-                </select>
-                <span id="formationBadge" class="bg-[#243242] text-slate-300 font-mono font-bold border border-gray-700 px-3 py-1 rounded text-xs">0-0-0</span>
+            <div class="flex items-center gap-4">
+                <div class="flex flex-col">
+                    <label class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Select Active Club</label>
+                    <select id="clubSelector" onchange="loadClubTacticalFormation()" class="bg-slate-50 text-xs font-bold border border-slate-300 rounded-md px-3 py-2 text-slate-800 focus:outline-none focus:border-slate-500">
+                    </select>
+                </div>
+                <div class="text-right">
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Structure</span>
+                    <span id="formationBadge" class="bg-slate-900 text-white font-mono font-bold px-2.5 py-1 rounded text-xs">3-4-3</span>
+                </div>
             </div>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
         
-        <div id="loadingStateCover" class="lg:col-span-12 bg-[#161d26] border border-gray-800 rounded-xl p-12 text-center space-y-3 shadow-xl">
-            <div class="text-lg font-bold text-slate-300">Synchronizing Live Database Payload...</div>
-            <p class="text-xs text-slate-500 max-w-sm mx-auto">Parsing real-world metrics, sorting alphabetical league tables, and auto-calculating derived club formation coordinates.</p>
+        <!-- Left: Chalkboard Tactical Map -->
+        <div class="lg:col-span-7 xl:col-span-8">
+            <div id="dynamicPitch" class="tactical-pitch w-full rounded-xl p-4 flex flex-col-reverse justify-between min-h-[680px] shadow-sm">
+                <!-- Direct Chalk Markings -->
+                <div class="chalk-marking top-1/2 left-0 right-0 w-full h-0 -translate-y-1/2"></div>
+                <div class="chalk-marking top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full"></div>
+                <div class="chalk-marking top-0 left-1/2 -translate-x-1/2 w-56 h-24 border-t-0"></div>
+                <div class="chalk-marking bottom-0 left-1/2 -translate-x-1/2 w-56 h-24 border-b-0"></div>
+                <!-- Core Javascript Injects Grid Rows Directly Here -->
+            </div>
         </div>
 
-        <div id="pitchPanel" class="hidden lg:col-span-8">
-            <div id="dynamicPitch" class="football-pitch w-full rounded-xl p-6 flex flex-col-reverse justify-between gap-6 min-h-[640px] shadow-lg">
-                <div class="pitch-chalk-line top-0 left-1/2 -translate-x-1/2 w-full h-1/2 border-t-0 border-x-0"></div>
-                <div class="pitch-chalk-line top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-28 rounded-full"></div>
-                <div class="pitch-chalk-line top-0 left-1/2 -translate-x-1/2 w-48 h-20 border-t-0"></div>
-                <div class="pitch-chalk-line bottom-0 left-1/2 -translate-x-1/2 w-48 h-20 border-b-0"></div>
-                </div>
-        </div>
-
-        <div id="analyticsPanel" class="hidden lg:col-span-4 flex flex-col gap-6">
+        <!-- Right: Professional Performance Analysis Panels -->
+        <div class="lg:col-span-5 xl:col-span-4 flex flex-col gap-6">
             
-            <div class="bg-[#161d26] border border-gray-800 rounded-xl p-5 shadow-sm">
-                <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Unit Technical Volume (Per 90 Average)</h3>
-                <div class="space-y-4 font-mono text-xs">
-                    <div>
-                        <div class="flex justify-between text-slate-400 mb-1"><span>Line Progression Rate:</span><span id="metric-trans" class="text-white font-bold">0.00</span></div>
-                        <div class="w-full bg-slate-950 rounded h-1.5 overflow-hidden"><div id="bar-trans" class="bg-emerald-500 h-full transition-all" style="width: 0%"></div></div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between text-slate-400 mb-1"><span>Defensive Interventions:</span><span id="metric-shld" class="text-white font-bold">0.00</span></div>
-                        <div class="w-full bg-slate-950 rounded h-1.5 overflow-hidden"><div id="bar-shld" class="bg-slate-400 h-full transition-all" style="width: 0%"></div></div>
-                    </div>
+            <!-- Baseline Cumulative Performance Metric Card -->
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs">
+                <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 border-b border-slate-100 pb-2">Roster Metric Output Model</h3>
+                <div id="teamMetricsContainer" class="space-y-3">
+                    <!-- Dynamic Rows Rendered Here with Live Variance Signals -->
                 </div>
             </div>
 
-            <div class="bg-[#161d26] border border-gray-800 rounded-xl p-5 shadow-sm flex-1 flex flex-col justify-between min-h-[340px]">
+            <!-- Contextual Role-Specific Player Profiler -->
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs flex-1 flex flex-col justify-between min-h-[360px]">
                 <div>
-                    <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 pb-2 border-b border-gray-800">Scouting Audit Profile</h4>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 border-b border-slate-100 pb-2">Scouting Attribute Analysis</h3>
                     <div id="auditView" class="hidden space-y-4">
                         <div>
-                            <h5 id="auditName" class="text-lg font-bold text-white tracking-tight">Player Name</h5>
-                            <p id="auditClub" class="text-xs font-mono text-slate-400 mt-0.5">Club • Position Sector</p>
+                            <h4 id="auditName" class="text-base font-bold text-slate-900 tracking-tight">Player Name</h4>
+                            <p id="auditClub" class="text-xs font-semibold text-slate-500 mt-0.5">Club Name</p>
                         </div>
-                        <div id="auditStats" class="space-y-2 font-mono text-xs text-slate-400">
-                            </div>
+                        <div id="auditStats" class="space-y-2 text-xs">
+                            <!-- Populated with role-relevant properties on click -->
+                        </div>
                     </div>
-                    <div id="auditPlaceholder" class="text-center py-16 text-slate-500 text-xs border border-dashed border-gray-800 rounded-lg bg-slate-900/20">
-                        Click any player slot node on the field layout to unpack raw metric percentiles.
+                    <div id="auditPlaceholder" class="text-center py-20 text-slate-400 text-xs border border-dashed border-slate-200 rounded-xl bg-slate-50/50">
+                        Select any position node on the tactical field map to verify foundational performance statistics.
                     </div>
                 </div>
             </div>
@@ -92,16 +92,26 @@
         </div>
     </main>
 
-    <div id="swapModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-xs z-50 flex items-center justify-center p-4">
-        <div class="bg-[#161d26] border border-gray-800 w-full max-w-md rounded-xl p-5 space-y-4 shadow-2xl">
+    <!-- Clean Text Live Search Overlay Modal Box -->
+    <div id="swapModal" class="hidden fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4">
+        <div class="bg-white border border-slate-200 w-full max-w-md rounded-xl p-6 space-y-4 shadow-xl">
             <div>
-                <h3 class="text-sm font-bold text-white uppercase tracking-wider">Substitute Position Variable</h3>
-                <p class="text-xs text-slate-400 mt-1">Filtering entire European database pool for position matches...</p>
+                <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wide">Assign Alternate Player</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Modifying this node will automatically update team formations and performance variance ratios.</p>
             </div>
-            <select id="replacementDropdown" class="w-full bg-[#1e2631] text-xs font-semibold border border-gray-700 rounded p-2.5 text-white focus:outline-none focus:border-emerald-500"></select>
+            
+            <!-- Live Search Bar Box Container -->
+            <div class="relative">
+                <input type="text" id="playerSearchInput" onkeyup="filterLiveSearch()" placeholder="Type player name to search database..." class="w-full bg-slate-50 text-xs border border-slate-300 rounded-lg p-3 text-slate-800 focus:outline-none focus:border-slate-600 focus:bg-white font-medium" autocomplete="off">
+            </div>
+
+            <!-- List Display Target -->
+            <div id="searchResultsList" class="max-h-60 overflow-y-auto border border-slate-200 rounded-lg divide-y divide-slate-100 text-xs text-slate-700 bg-slate-50">
+                <!-- Dynamic choices insert here -->
+            </div>
+
             <div class="flex gap-3 justify-end pt-2">
-                <button onclick="closeSwapModal()" class="bg-transparent border border-gray-700 hover:bg-gray-800 text-slate-300 text-xs font-bold px-4 py-2 rounded">Cancel</button>
-                <button onclick="commitPlayerSwap()" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2 rounded transition-colors">Confirm Substitution</button>
+                <button onclick="closeSwapModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold px-4 py-2 rounded-lg transition-colors">Close</button>
             </div>
         </div>
     </div>
@@ -109,6 +119,7 @@
     <script>
         let serverPayload = null;
         let activeClubLineup = [];
+        let initialTeamTotals = {};
         let activeClubName = "";
         let selectedSlotIndex = null;
 
@@ -118,34 +129,20 @@
 
         async function downloadTacticalData() {
             try {
-                // Strict zero-hardcode pattern. Fetches clean generated JSON output directly.
                 const response = await fetch('data/players.json');
-                if(!response.ok) throw new Error("Data registry payload file not found on server directory.");
                 serverPayload = await response.json();
                 
-                // Hide loading screen block and show pro dashboard components
-                document.getElementById('loadingStateCover').classList.add('hidden');
-                document.getElementById('pitchPanel').classList.remove('hidden');
-                document.getElementById('analyticsPanel').classList.remove('hidden');
-
                 populateClubControls();
                 loadClubTacticalFormation();
             } catch(err) {
-                console.error(err);
-                document.getElementById('loadingStateCover').innerHTML = `
-                    <div class="text-rose-400 font-bold text-sm">⚠️ Engine Pipeline Synchronization Error</div>
-                    <p class="text-xs text-slate-400 max-w-md mx-auto mt-2 font-mono">Failed to fetch 'data/players.json'. Make sure your 'Weekly Multi-League Tactical Harvest' GitHub Actions workflow has run successfully at least once and committed the file to your repository.</p>
-                `;
+                console.error("Critical: Live configuration data node missing.", err);
             }
         }
 
         function populateClubControls() {
             const selector = document.getElementById('clubSelector');
             const sortedClubs = Object.keys(serverPayload.clubs).sort();
-            
-            selector.innerHTML = sortedClubs.map(club => `
-                <option value="${club}">${club}</option>
-            `).join('');
+            selector.innerHTML = sortedClubs.map(c => `<option value="${c}">${c}</option>`).join('');
         }
 
         function loadClubTacticalFormation() {
@@ -153,128 +150,243 @@
             if(!activeClubName) return;
             
             const clubData = serverPayload.clubs[activeClubName];
-            document.getElementById('formationBadge').innerText = clubData.formation;
             activeClubLineup = JSON.parse(JSON.stringify(clubData.lineup));
             
-            renderDynamicAsymmetricPitch();
+            // Seal base state metrics to lock original line comparisons
+            initialTeamTotals = calculateRunningAggregates();
+            
+            reassignAndRenderTacticalLayout();
         }
 
-        function renderDynamicAsymmetricPitch() {
-            const pitchCanvas = document.getElementById('dynamicPitch');
-            pitchCanvas.innerHTML = ""; 
+        function calculateRunningAggregates() {
+            let totals = { goals: 0, assists: 0, xg: 0, xa: 0, clean_sheets: 0 };
+            activeClubLineup.forEach(unit => {
+                const p = serverPayload.player_pool[unit.current_player];
+                if(p && p.metrics) {
+                    totals.goals += p.metrics.goals || 0;
+                    totals.assists += p.metrics.assists || 0;
+                    totals.xg += p.metrics.xg || 0;
+                    totals.xa += p.metrics.xa || 0;
+                    totals.clean_sheets += p.metrics.clean_sheets || 0;
+                }
+            });
+            return totals;
+        }
 
-            let positionLines = { "GK": [], "DF": [], "MF": [], "FW": [] };
+        function reassignAndRenderTacticalLayout() {
+            // STEP 1: Dynamically compute formation counts based on active roster profile
+            let dfCount = 0, mfCount = 0, amCount = 0, fwCount = 0;
+            activeClubLineup.forEach(u => {
+                if(u.position === 'DF') dfCount++;
+                if(u.position === 'MF') mfCount++;
+                if(u.position === 'AM') amCount++;
+                if(u.position === 'FW') fwCount++;
+            });
+
+            // Format industry standard representation (e.g., "4-2-3-1" or "4-3-3")
+            let formationString = `${dfCount}`;
+            if(mfCount > 0 && amCount > 0) formationString += `-${mfCount}-${amCount}-${fwCount}`;
+            else if(mfCount > 0) formationString += `-${mfCount}-${fwCount}`;
+            else formationString += `-${fwCount}`;
             
-            activeClubLineup.forEach((playerUnit, index) => {
-                playerUnit.originalIndex = index;
-                if(positionLines[playerUnit.position]) {
-                    positionLines[playerUnit.position].push(playerUnit);
+            document.getElementById('formationBadge').innerText = formationString;
+
+            // STEP 2: Separate elements across 5 logically structured tactical depth lines
+            const pitchCanvas = document.getElementById('dynamicPitch');
+            pitchCanvas.innerHTML = "";
+
+            const tacticalLines = {
+                "GK": [],
+                "DF": [],
+                "MF": [],
+                "AM": [],
+                "FW": []
+            };
+
+            activeClubLineup.forEach((unit, idx) => {
+                unit.masterIndex = idx;
+                if(tacticalLines[unit.position]) {
+                    tacticalLines[unit.position].push(unit);
                 }
             });
 
-            Object.keys(positionLines).forEach(zoneKey => {
-                const unitsInZone = positionLines[zoneKey];
-                if(unitsInZone.length === 0) return;
+            // Map each depth line sequentially to clear vertical row stacks
+            Object.keys(tacticalLines).forEach(lineKey => {
+                const items = tacticalLines[lineKey];
+                if(items.length === 0) return;
 
-                const flexRow = document.createElement('div');
-                flexRow.className = "flex justify-around items-center w-full z-10 py-3";
-                
-                unitsInZone.forEach(unit => {
-                    const node = document.createElement('div');
-                    // Styled to match dark analytical dashboard elements
-                    node.className = "group relative bg-[#161d26]/95 border border-gray-800 px-2 py-2.5 rounded shadow w-20 sm:w-24 text-center cursor-pointer hover:border-slate-400 transition-all";
-                    
-                    node.innerHTML = `
-                        <span class="text-[9px] text-slate-400 font-mono font-bold block truncate uppercase tracking-wider">${unit.slot}</span>
-                        <div class="text-xs font-bold truncate max-w-full text-white mt-0.5">${unit.current_player || '[ Empty Slot ]'}</div>
-                        <button onclick="triggerSwapOverlay(${unit.originalIndex}, event)" class="mt-2 text-[9px] bg-[#1e2631] text-slate-300 font-bold border border-gray-700 px-2 py-0.5 rounded hover:bg-gray-800 transition-colors">SWAP</button>
+                const lineRow = document.createElement('div');
+                lineRow.className = "flex justify-around items-center w-full z-10 py-2";
+
+                items.forEach(unit => {
+                    const block = document.createElement('div');
+                    block.className = "bg-white text-slate-900 border border-slate-300 rounded-lg p-2 w-20 sm:w-24 text-center cursor-pointer shadow-xs hover:border-slate-600 transition-all";
+                    block.innerHTML = `
+                        <span class="text-[9px] font-mono font-bold block text-slate-400 tracking-wider uppercase">${unit.slot}</span>
+                        <div class="text-[11px] font-bold truncate text-slate-900 mt-0.5">${unit.current_player}</div>
+                        <button onclick="openSwapSearch(${unit.masterIndex}, event)" class="mt-2 text-[9px] bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-2 py-0.5 rounded border border-slate-200">SWAP</button>
                     `;
-                    
-                    node.addEventListener('click', () => auditActiveProfile(unit.current_player, unit.slot));
-                    flexRow.appendChild(node);
+                    block.addEventListener('click', () => auditPlayerMetrics(unit.current_player));
+                    lineRow.appendChild(block);
                 });
 
-                pitchCanvas.appendChild(flexRow);
+                pitchCanvas.appendChild(lineRow);
             });
 
-            recomputeSystemOutputs();
+            renderLiveVarianceDashboard();
         }
 
-        function triggerSwapOverlay(originalIdx, event) {
+        function openSwapSearch(masterIdx, event) {
             event.stopPropagation();
-            selectedSlotIndex = originalIdx;
-            const targetingUnit = activeClubLineup[originalIdx];
-            
-            const dropdown = document.getElementById('replacementDropdown');
-            dropdown.innerHTML = "";
-
-            const sortedGlobalPlayers = Object.keys(serverPayload.player_pool).sort();
-
-            sortedGlobalPlayers.forEach(pName => {
-                const player = serverPayload.player_pool[pName];
-                if(player.meta.position === targetingUnit.position) {
-                    const opt = document.createElement('option');
-                    opt.value = pName;
-                    opt.innerText = `${pName} [${player.meta.club}]`;
-                    dropdown.appendChild(opt);
-                }
-            });
-
+            selectedSlotIndex = masterIdx;
+            document.getElementById('playerSearchInput').value = "";
             document.getElementById('swapModal').classList.remove('hidden');
+            filterLiveSearch(); // Populate default complete options list
         }
 
         function closeSwapModal() {
             document.getElementById('swapModal').classList.add('hidden');
         }
 
-        function commitPlayerSwap() {
-            const selectedVal = document.getElementById('replacementDropdown').value;
-            activeClubLineup[selectedSlotIndex].current_player = selectedVal;
-            closeSwapModal();
-            renderDynamicAsymmetricPitch();
-        }
+        function filterLiveSearch() {
+            const query = document.getElementById('playerSearchInput').value.toLowerCase();
+            const targetUnit = activeClubLineup[selectedSlotIndex];
+            const listContainer = document.getElementById('searchResultsList');
+            listContainer.innerHTML = "";
 
-        function recomputeSystemOutputs() {
-            let totalTrans = 0, totalShield = 0, counts = 0;
+            const allPlayers = Object.keys(serverPayload.player_pool).sort();
+            let matchesFound = 0;
 
-            activeClubLineup.forEach(u => {
-                const stats = serverPayload.player_pool[u.current_player]?.tactical_signatures;
-                if(stats) {
-                    totalTrans += (stats.prog_passes + stats.prog_carries + stats.final_third_entries);
-                    totalShield += (stats.tackles_interceptions + stats.clearances_blocks);
-                    counts++;
+            allPlayers.forEach(pName => {
+                const pData = serverPayload.player_pool[pName];
+                if(pName.toLowerCase().includes(query)) {
+                    matchesFound++;
+                    const row = document.createElement('div');
+                    row.className = "p-2.5 hover:bg-white cursor-pointer transition-colors flex justify-between items-center";
+                    row.innerHTML = `
+                        <div>
+                            <span class="font-bold text-slate-900 block">${pName}</span>
+                            <span class="text-[10px] text-slate-500 font-medium">${pData.meta.club} • Tactical Role: ${pData.meta.position}</span>
+                        </div>
+                        <span class="text-[10px] uppercase font-bold px-1.5 py-0.5 bg-slate-200 rounded text-slate-700">${pData.meta.position}</span>
+                    `;
+                    row.addEventListener('click', () => execSubstitution(pName, pData.meta.position));
+                    listContainer.appendChild(row);
                 }
             });
 
-            const avgTrans = totalTrans / (counts || 1);
-            const avgShield = totalShield / (counts || 1);
-
-            document.getElementById('metric-trans').innerText = avgTrans.toFixed(2);
-            document.getElementById('metric-shld').innerText = avgShield.toFixed(2);
-            
-            // Map values dynamically to progress visual fill bars (scaled to realistic per-90 thresholds)
-            document.getElementById('bar-trans').style.width = `${Math.min(100, (avgTrans / 20) * 100)}%`;
-            document.getElementById('bar-shld').style.width = `${Math.min(100, (avgShield / 12) * 100)}%`;
+            if(matchesFound === 0) {
+                listContainer.innerHTML = `<div class="p-4 text-center text-slate-400 italic">No corresponding records match string query.</div>`;
+            }
         }
 
-        function auditActiveProfile(name, slot) {
-            const stats = serverPayload.player_pool[name];
-            if(!stats) return;
+        function execSubstitution(chosenPlayerName, positionGroup) {
+            // Mutate details: Swap name and completely reassign structural position tracking values
+            activeClubLineup[selectedSlotIndex].current_player = chosenPlayerName;
+            activeClubLineup[selectedSlotIndex].position = positionGroup;
+            activeClubLineup[selectedSlotIndex].slot = positionGroup; // Auto-align tactical blueprint mappings
+            
+            closeSwapModal();
+            reassignAndRenderTacticalLayout(); // Forces full positional redraw and formation recount
+            auditPlayerMetrics(chosenPlayerName); // Refresh profile panel view automatically
+        }
+
+        function renderLiveVarianceDashboard() {
+            const currentTotals = calculateRunningAggregates();
+            const container = document.getElementById('teamMetricsContainer');
+            container.innerHTML = "";
+
+            const targetKeys = [
+                { id: "goals", label: "Goals Output", decimals: 0 },
+                { id: "assists", label: "Assists Volume", decimals: 0 },
+                { id: "xg", label: "Expected Goals (xG)", decimals: 2 },
+                { id: "xa", label: "Expected Assists (xA)", decimals: 2 },
+                { id: "clean_sheets", label: "Clean Sheets Profile", decimals: 0 }
+            ];
+
+            targetKeys.forEach(m => {
+                const currentVal = currentTotals[m.id];
+                const baseVal = initialTeamTotals[m.id];
+                const delta = currentVal - baseVal;
+                
+                let deltaElement = `<span class="text-slate-400 font-bold">0.00</span>`;
+                if(delta > 0) {
+                    deltaElement = `<span class="text-emerald-600 font-bold">+${delta.toFixed(m.decimals)}</span>`;
+                } else if(delta < 0) {
+                    deltaElement = `<span class="text-rose-600 font-bold">${delta.toFixed(m.decimals)}</span>`;
+                }
+
+                const div = document.createElement('div');
+                div.className = "flex justify-between items-center text-xs border-b border-slate-100 py-2";
+                div.innerHTML = `
+                    <span class="font-medium text-slate-500">${m.label}</span>
+                    <div class="flex items-center gap-4 font-mono">
+                        <span class="text-slate-900 font-bold">${currentVal.toFixed(m.decimals)}</span>
+                        <div class="w-14 text-right text-[11px]">${deltaElement}</div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function auditPlayerMetrics(pName) {
+            const profile = serverPayload.player_pool[pName];
+            if(!profile) return;
 
             document.getElementById('auditPlaceholder').classList.add('hidden');
             const targetView = document.getElementById('auditView');
             targetView.classList.remove('hidden');
 
-            document.getElementById('auditName').innerText = name;
-            document.getElementById('auditClub').innerText = `${slot} Slot • ${stats.meta.club} (${stats.meta.league})`;
+            document.getElementById('auditName').innerText = pName;
+            document.getElementById('auditClub').innerText = `${profile.meta.club} • Tactical System Role: ${profile.meta.position}`;
 
-            const container = document.getElementById('auditStats');
-            container.innerHTML = Object.entries(stats.tactical_signatures).map(([key, val]) => `
-                <div class="flex justify-between border-b border-gray-800 py-1">
-                    <span class="capitalize text-slate-400">${key.replace(/_/g, ' ')}</span>
-                    <span class="text-white font-bold font-mono">${val.toFixed(2)}</span>
-                </div>
-            `).join('');
+            const statsBlock = document.getElementById('auditStats');
+            statsBlock.innerHTML = "";
+
+            // Dynamic Role-Specific Filtering Protocol Mapping Rules
+            let filteredMetricKeys = [];
+            if(profile.meta.position === 'GK') {
+                filteredMetricKeys = [
+                    { id: "clean_sheets", label: "Clean Sheets Record" },
+                    { id: "saves", label: "Total Saves Registered" },
+                    { id: "save_pct", label: "Saves Success Ratio (%)" }
+                ];
+            } else if(profile.meta.position === 'DF') {
+                filteredMetricKeys = [
+                    { id: "tackles", label: "Tackles (Per 90)" },
+                    { id: "interceptions", label: "Interceptions (Per 90)" },
+                    { id: "blocks", label: "Blocks Executed" },
+                    { id: "aerial_won_pct", label: "Aerial Duels Won (%)" },
+                    { id: "clearances", label: "Total Clearances" }
+                ];
+            } else if(profile.meta.position === 'MF') {
+                filteredMetricKeys = [
+                    { id: "pass_pct", label: "Pass Completion Ratio (%)" },
+                    { id: "key_passes", label: "Key Passes (Per 90)" },
+                    { id: "prog_passes", label: "Progressive Distribution" },
+                    { id: "recoveries", label: "Ball Recoveries" },
+                    { id: "interceptions", label: "Interceptions Checked" }
+                ];
+            } else { // Forwards / AM
+                filteredMetricKeys = [
+                    { id: "goals", label: "Goals Registered" },
+                    { id: "xg", label: "Expected Goals (xG)" },
+                    { id: "assists", label: "Assists Registered" },
+                    { id: "shots_on_target", label: "Shots on Target" },
+                    { id: "shot_conversion_pct", label: "Shot Conversion (%)" }
+                ];
+            }
+
+            filteredMetricKeys.forEach(m => {
+                const val = profile.metrics[m.id] !== undefined ? profile.metrics[m.id] : 0;
+                const row = document.createElement('div');
+                row.className = "flex justify-between border-b border-slate-100 py-1.5 text-slate-700";
+                row.innerHTML = `
+                    <span class="font-medium text-slate-500">${m.label}</span>
+                    <span class="font-bold text-slate-900 font-mono">${typeof val === 'number' ? val.toString() : val}</span>
+                `;
+                statsBlock.appendChild(row);
+            });
         }
     </script>
 </body>
