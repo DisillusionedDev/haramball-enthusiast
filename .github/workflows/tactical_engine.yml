@@ -1,0 +1,34 @@
+name: Weekly Multi-League Tactical Harvest
+
+on:
+  schedule:
+    - cron: '0 5 * * 0' # Executes every Sunday at 5:00 AM UTC
+  workflow_dispatch: # Allows manual trigger button inside your Actions panel
+
+jobs:
+  harvest-and-compile:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Initialize Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Extraction Dependencies
+      run: |
+        pip install requests beautifulsoup4 pandas
+
+    - name: Execute Analytical Engine Pipeline
+      run: python engine.py
+
+    - name: Securely Commit and Push Compiled Assets
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add docs/
+        git commit -m "Automated aggregation of multi-league player metrics" || exit 0
+        git push
