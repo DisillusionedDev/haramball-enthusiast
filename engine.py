@@ -2,7 +2,6 @@ import pandas as pd
 import json
 import os
 
-
 def process_stats():
     # 1. Load the CSV
     file_path = 'players_data-2025_2026.csv'
