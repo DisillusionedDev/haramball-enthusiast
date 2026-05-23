@@ -1,79 +1,40 @@
 import os
 import sys
 import json
-import time
-import random
 import pandas as pd
 from bs4 import BeautifulSoup
-
-# Standard requests for the open proxy API, curl_cffi for the target site
-import requests as normal_requests
-from curl_cffi import requests as curl_requests
+from seleniumbase import SB
 
 def fetch_fbref_html(target_url):
     """
-    Harvests a pool of high-anonymity public proxies and rotates through them 
-    using curl_cffi to spoof browser fingerprints and break data center blocks.
+    Launches a stealth-patched headless Chrome browser inside the CI environment
+    to natively execute and clear Cloudflare's JavaScript anti-bot challenges.
     """
-    print("🤖 Step 1a: Datacenter IP block bypass active. Harvesting fresh proxy pool...")
-    proxy_api = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=4000&country=all&ssl=yes&anonymity=elite"
-    
+    print("🌐 Step 1a: Initializing stealth headless browser infrastructure...")
     try:
-        res = normal_requests.get(proxy_api, timeout=10)
-        if res.status_code == 200 and res.text.strip():
-            proxies = [line.strip() for line in res.text.splitlines() if line.strip()]
-            print(f"✅ Harvested {len(proxies)} public proxies. Initiating rotation...")
-        else:
-            proxies = []
-    except Exception as e:
-        print(f"⚠️ Proxy pool harvesting failed: {e}. Defaulting to direct connection routing.")
-        proxies = []
-        
-    random.shuffle(proxies)
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-    }
-
-    # Iterate through proxies until a 200 OK block breakthrough occurs
-    for idx, proxy in enumerate(proxies[:15], 1):
-        proxy_config = {
-            "http": f"http://{proxy}",
-            "https": f"http://{proxy}"
-        }
-        print(f"🔄 [Attempt {idx}/15] Routing through proxy node: {proxy}...")
-        try:
-            response = curl_requests.get(
-                target_url, 
-                headers=headers, 
-                impersonate="chrome120", 
-                proxies=proxy_config,
-                timeout=12
-            )
-            if response.status_code == 200:
-                print(f"🎉 Connection successfully established via proxy node: {proxy}")
-                return response.text
-            else:
-                print(f"⚠️ Proxy returned bad HTTP status code: {response.status_code}. Retrying alternative node...")
-        except Exception:
-            continue
+        # uc=True activates undetected mode to prevent signature detection
+        with SB(uc=True, headless=True) as sb:
+            print(f"🔗 Navigating to target endpoint: {target_url}")
+            sb.uc_open_with_reconnect(target_url, reconnect_time=6)
             
-    print("🔄 Proxy routing pool exhausted. Executing final direct network stream query...")
-    try:
-        response = curl_requests.get(target_url, headers=headers, impersonate="chrome120", timeout=15)
-        if response.status_code == 200:
-            return response.text
-        else:
-            raise RuntimeError(f"HTTP Error {response.status_code}")
+            # Allow Cloudflare's background challenge script a few moments to evaluate
+            sb.sleep(4)
+            
+            # Check if the target stats container rendered successfully
+            if not sb.is_element_present('table#stats_standard'):
+                print("⏳ Anti-bot challenge threshold high. Extending cryptographic window...")
+                sb.sleep(6)
+                
+            full_html = sb.get_page_source()
+            return full_html
+            
     except Exception as e:
-        raise RuntimeError(f"Network infrastructure completely locked down: {e}")
+        raise RuntimeError(f"Stealth browser interaction collapsed: {e}")
 
 def harvest_complete_league_universe():
     target_url = "https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats"
     
-    # Run the proxy bypass engine to grab the html content
+    # Fire up the headless browser bypass engine
     full_html = fetch_fbref_html(target_url)
     print(f"✅ HTML data payload retrieved. Size: {len(full_html) / 1024:.2f} KB")
 
@@ -83,7 +44,7 @@ def harvest_complete_league_universe():
     
     if not table:
         if "captcha" in full_html.lower() or "verify you are human" in full_html.lower():
-            raise ValueError("❌ Scraping Failure: FBref served a hard Captcha/Bot Challenge page.")
+            raise ValueError("❌ Scraping Failure: Stuck behind an interactive Turnstile CAPTCHA.")
         raise ValueError("❌ Scraping Failure: Could not locate 'stats_standard' data container.")
         
     print("⚡ Step 3: Compiling tabular matrices via high-performance lxml engine...")
