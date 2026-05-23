@@ -14,7 +14,7 @@ def fetch_premier_league_players():
         "x-apisports-key": api_key
     }
     
-    # Target: Premier League (ID: 39), Current/Recent Active Season (2025)
+    # Target: Premier League (ID: 39), Latest Free-Tier Accessible Season (2024)
     url = "https://v3.football.api-sports.io/players"
     
     player_pool = {}
@@ -23,12 +23,12 @@ def fetch_premier_league_players():
     page = 1
     total_pages = 1
     
-    print("🚀 Starting player sync from API-Football...")
+    print("🚀 Starting player sync from API-Football (Target Season: 2024)...")
     
     while page <= total_pages:
         params = {
             "league": "39",
-            "season": "2025",
+            "season": "2024",
             "page": str(page)
         }
         
@@ -41,7 +41,7 @@ def fetch_premier_league_players():
                 
             data = response.json()
             
-            # Check for actual error payloads (API-Football uses dicts for active errors)
+            # Check for API error payloads
             api_errors = data.get("errors")
             if api_errors and isinstance(api_errors, dict):
                 print(f"❌ API Error encountered: {json.dumps(api_errors)}")
@@ -90,7 +90,6 @@ def fetch_premier_league_players():
                     "rating": stats.get("games", {}).get("rating") or "0.00"
                 }
                 
-                # Baseline pricing mock (API-Football does not natively track fantasy financial valuations)
                 base_price = 4.5
                 if position == "FW": base_price = 6.0
                 elif position == "MF": base_price = 5.5
@@ -104,10 +103,9 @@ def fetch_premier_league_players():
                     "stats": player_stats
                 }
                 
-                # Hydrate global player pool map
                 player_pool[p_id] = player_entry
                 
-                # Build out clean structural clustering for the squad viewer
+                # Build layout structure for squad views
                 if team_name not in clubs_data:
                     clubs_data[team_name] = {"GK": [], "DF": [], "MF": [], "FW": []}
                 
@@ -125,7 +123,6 @@ def fetch_premier_league_players():
             print(f"❌ Fatal execution block parsing payload: {e}")
             break
 
-    # Guard clause: Ensure we never overwrite the file with absolutely nothing on failure
     if not player_pool:
         print("❌ Critical: Data pipeline yielded an empty set. Aborting sync file write.")
         sys.exit(1)
