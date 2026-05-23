@@ -1,26 +1,36 @@
+name: Weekly Stats Harvest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+
 jobs:
-  update-data:
+  update-stats:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Crucial: This grants permission to push back
+      contents: write
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Run Engine
-        run: |
-          pip install pandas
-          python engine.py
+      - name: Install dependencies
+        run: pip install pandas
 
-      - name: Commit and Push
+      - name: Run Data Engine
+        run: python engine.py
+
+      - name: Commit and Push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data/players.json
-          git commit -m "chore: update data via automated harvest" || echo "No changes to commit"
+          git commit -m "chore: automated stats harvest" || echo "No changes to commit"
           git push
