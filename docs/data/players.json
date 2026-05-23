@@ -1,211 +1,841 @@
 {
   "clubs": {
     "Everton": {
-      "GK": [
-        "20224"
-      ],
-      "DF": [
-        "19073"
-      ],
-      "MF": [
-        "172",
-        "18765"
-      ],
-      "FW": [
-        "83",
-        "153425"
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "A. Lonergan"
+        },
+        {
+          "position": "FW",
+          "current_player": "A. Danjuma"
+        },
+        {
+          "position": "MF",
+          "current_player": "D. Alli"
+        },
+        {
+          "position": "MF",
+          "current_player": "André Gomes"
+        },
+        {
+          "position": "DF",
+          "current_player": "B. Godfrey"
+        },
+        {
+          "position": "FW",
+          "current_player": "L. Dobbin"
+        },
+        {
+          "position": "DF",
+          "current_player": "Everton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Everton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Everton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Everton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Everton Structural Reserve"
+        }
       ]
     },
     "Fulham": {
-      "GK": [
-        "19657"
-      ],
-      "DF": [
-        "105",
-        "19145"
-      ],
-      "MF": [],
-      "FW": [
-        "138822"
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "M. Rodák"
+        },
+        {
+          "position": "DF",
+          "current_player": "F. Ballo-Touré"
+        },
+        {
+          "position": "DF",
+          "current_player": "T. Adarabioyo"
+        },
+        {
+          "position": "FW",
+          "current_player": "A. Broja"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fulham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Fulham Structural Reserve"
+        }
       ]
     },
     "Brentford": {
-      "GK": [
-        "349288"
-      ],
-      "DF": [
-        "281975"
-      ],
-      "MF": [
-        "153422",
-        "20110"
-      ],
-      "FW": [
-        "2699",
-        "19364"
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Vincent Angelini"
+        },
+        {
+          "position": "FW",
+          "current_player": "S. Ghoddos"
+        },
+        {
+          "position": "FW",
+          "current_player": "N. Maupay"
+        },
+        {
+          "position": "MF",
+          "current_player": "E. Brierley"
+        },
+        {
+          "position": "MF",
+          "current_player": "S. Baptiste"
+        },
+        {
+          "position": "DF",
+          "current_player": "Val Adedokun"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brentford Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brentford Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brentford Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brentford Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brentford Structural Reserve"
+        }
       ]
     },
     "Crystal Palace": {
-      "GK": [],
-      "DF": [
-        "127605"
-      ],
-      "MF": [
-        "18853"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Crystal Palace GK Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "J. Riedewald"
+        },
+        {
+          "position": "DF",
+          "current_player": "N. Ferguson"
+        },
+        {
+          "position": "DF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Crystal Palace Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Crystal Palace Structural Reserve"
+        }
+      ]
     },
     "Ipswich": {
-      "GK": [],
-      "DF": [
-        "348263"
-      ],
-      "MF": [
-        "44803"
-      ],
-      "FW": [
-        "19744"
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Ipswich GK Reserve"
+        },
+        {
+          "position": "FW",
+          "current_player": "K. Jackson"
+        },
+        {
+          "position": "MF",
+          "current_player": "D. Ball"
+        },
+        {
+          "position": "DF",
+          "current_player": "C. Stewart"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ipswich Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ipswich Structural Reserve"
+        }
       ]
     },
     "Brighton": {
-      "GK": [],
-      "DF": [],
-      "MF": [],
-      "FW": [
-        "135775"
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Brighton GK Reserve"
+        },
+        {
+          "position": "FW",
+          "current_player": "Ansu Fati"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Brighton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brighton Structural Reserve"
+        }
       ]
     },
     "Aston Villa": {
-      "GK": [
-        "138937",
-        "455010"
-      ],
-      "DF": [
-        "133",
-        "294638"
-      ],
-      "MF": [
-        "284500",
-        "786",
-        "278123",
-        "329347"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "F. Marschall"
+        },
+        {
+          "position": "MF",
+          "current_player": "T. Iroegbunam"
+        },
+        {
+          "position": "DF",
+          "current_player": "C. Lenglet"
+        },
+        {
+          "position": "MF",
+          "current_player": "N. Zaniolo"
+        },
+        {
+          "position": "MF",
+          "current_player": "S. Revan"
+        },
+        {
+          "position": "DF",
+          "current_player": "Finley Munroe"
+        },
+        {
+          "position": "MF",
+          "current_player": "O. Kellyman"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aston Villa Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aston Villa Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aston Villa Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Aston Villa Structural Reserve"
+        }
+      ]
     },
     "Arsenal": {
-      "GK": [],
-      "DF": [
-        "190",
-        "284502",
-        "309505"
-      ],
-      "MF": [
-        "1452",
-        "284540",
-        "309501"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Arsenal GK Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Cédric Soares"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mohamed Elneny"
+        },
+        {
+          "position": "DF",
+          "current_player": "James Lannin-Sweet"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mauro Bandeira"
+        },
+        {
+          "position": "MF",
+          "current_player": "A. Cozier-Duberry"
+        },
+        {
+          "position": "DF",
+          "current_player": "R. Walters"
+        },
+        {
+          "position": "DF",
+          "current_player": "Arsenal Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Arsenal Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Arsenal Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Arsenal Structural Reserve"
+        }
+      ]
     },
     "Bournemouth": {
-      "GK": [
-        "30765"
-      ],
-      "DF": [
-        "19263"
-      ],
-      "MF": [
-        "19356"
-      ],
-      "FW": [
-        "19804"
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "I. Radu"
+        },
+        {
+          "position": "DF",
+          "current_player": "L. Kelly"
+        },
+        {
+          "position": "MF",
+          "current_player": "E. Marcondes"
+        },
+        {
+          "position": "FW",
+          "current_player": "K. Moore"
+        },
+        {
+          "position": "DF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Bournemouth Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Bournemouth Structural Reserve"
+        }
       ]
     },
     "Nottingham Forest": {
-      "GK": [],
-      "DF": [
-        "371",
-        "2468",
-        "41577"
-      ],
-      "MF": [
-        "161921"
-      ],
-      "FW": [
-        "305",
-        "341641"
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Nottingham Forest GK Reserve"
+        },
+        {
+          "position": "FW",
+          "current_player": "D. Origi"
+        },
+        {
+          "position": "DF",
+          "current_player": "Felipe"
+        },
+        {
+          "position": "DF",
+          "current_player": "G. Montiel"
+        },
+        {
+          "position": "DF",
+          "current_player": "Nuno Tavares"
+        },
+        {
+          "position": "MF",
+          "current_player": "G. Reyna"
+        },
+        {
+          "position": "FW",
+          "current_player": "Rodrigo Ribeiro"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nottingham Forest Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nottingham Forest Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Nottingham Forest Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nottingham Forest Structural Reserve"
+        }
       ]
     },
     "Leicester": {
-      "GK": [],
-      "DF": [],
-      "MF": [
-        "454",
-        "2925"
-      ],
-      "FW": []
+      "formation": "5-4-1",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Leicester GK Reserve"
+        },
+        {
+          "position": "FW",
+          "current_player": "Y. Akgün"
+        },
+        {
+          "position": "MF",
+          "current_player": "D. Praet"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Leicester Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leicester Structural Reserve"
+        }
+      ]
     },
     "Manchester United": {
-      "GK": [],
-      "DF": [],
-      "MF": [],
-      "FW": [
-        "908",
-        "284242"
+      "formation": "4-4-2",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Manchester United GK Reserve"
+        },
+        {
+          "position": "FW",
+          "current_player": "A. Martial"
+        },
+        {
+          "position": "FW",
+          "current_player": "O. Forson"
+        },
+        {
+          "position": "DF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Manchester United Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Manchester United Structural Reserve"
+        }
       ]
     },
     "Newcastle": {
-      "GK": [
-        "1972"
-      ],
-      "DF": [
-        "18892"
-      ],
-      "MF": [
-        "18903"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "L. Karius"
+        },
+        {
+          "position": "DF",
+          "current_player": "P. Dummett"
+        },
+        {
+          "position": "MF",
+          "current_player": "M. Ritchie"
+        },
+        {
+          "position": "DF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Newcastle Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Newcastle Structural Reserve"
+        }
+      ]
     },
     "West Ham": {
-      "GK": [
-        "144709",
-        "284536"
-      ],
-      "DF": [
-        "18817"
-      ],
-      "MF": [
-        "19130"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "J. Anang"
+        },
+        {
+          "position": "DF",
+          "current_player": "A. Ogbonna"
+        },
+        {
+          "position": "MF",
+          "current_player": "K. Phillips"
+        },
+        {
+          "position": "DF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "West Ham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "West Ham Structural Reserve"
+        }
+      ]
     },
     "Tottenham": {
-      "GK": [],
-      "DF": [],
-      "MF": [
-        "19032"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Tottenham GK Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "R. Sessegnon"
+        },
+        {
+          "position": "DF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Tottenham Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tottenham Structural Reserve"
+        }
+      ]
     },
     "Southampton": {
-      "GK": [],
-      "DF": [],
-      "MF": [
-        "19482"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Southampton GK Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "J. Rothwell"
+        },
+        {
+          "position": "DF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Southampton Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Southampton Structural Reserve"
+        }
+      ]
     },
     "Wolves": {
-      "GK": [],
-      "DF": [],
-      "MF": [
-        "338856"
-      ],
-      "FW": []
+      "formation": "5-5-0",
+      "lineup": [
+        {
+          "position": "GK",
+          "current_player": "Wolves GK Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "N. Lemina"
+        },
+        {
+          "position": "DF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "DF",
+          "current_player": "Wolves Structural Reserve"
+        },
+        {
+          "position": "MF",
+          "current_player": "Wolves Structural Reserve"
+        }
+      ]
     }
   },
   "player_pool": {
-    "83": {
-      "id": "83",
+    "A. Danjuma": {
       "name": "A. Danjuma",
       "club": "Everton",
       "position": "FW",
@@ -213,13 +843,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "105": {
-      "id": "105",
+    "F. Ballo-Touré": {
       "name": "F. Ballo-Touré",
       "club": "Fulham",
       "position": "DF",
@@ -227,13 +855,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "172": {
-      "id": "172",
+    "D. Alli": {
       "name": "D. Alli",
       "club": "Everton",
       "position": "MF",
@@ -241,13 +867,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "2699": {
-      "id": "2699",
+    "S. Ghoddos": {
       "name": "S. Ghoddos",
       "club": "Brentford",
       "position": "FW",
@@ -255,13 +879,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "18765": {
-      "id": "18765",
+    "André Gomes": {
       "name": "André Gomes",
       "club": "Everton",
       "position": "MF",
@@ -269,13 +891,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "18853": {
-      "id": "18853",
+    "J. Riedewald": {
       "name": "J. Riedewald",
       "club": "Crystal Palace",
       "position": "MF",
@@ -283,13 +903,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19073": {
-      "id": "19073",
+    "B. Godfrey": {
       "name": "B. Godfrey",
       "club": "Everton",
       "position": "DF",
@@ -297,13 +915,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19145": {
-      "id": "19145",
+    "T. Adarabioyo": {
       "name": "T. Adarabioyo",
       "club": "Fulham",
       "position": "DF",
@@ -311,13 +927,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19364": {
-      "id": "19364",
+    "N. Maupay": {
       "name": "N. Maupay",
       "club": "Brentford",
       "position": "FW",
@@ -325,13 +939,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19657": {
-      "id": "19657",
+    "M. Rodák": {
       "name": "M. Rodák",
       "club": "Fulham",
       "position": "GK",
@@ -339,13 +951,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19744": {
-      "id": "19744",
+    "K. Jackson": {
       "name": "K. Jackson",
       "club": "Ipswich",
       "position": "FW",
@@ -353,13 +963,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "20224": {
-      "id": "20224",
+    "A. Lonergan": {
       "name": "A. Lonergan",
       "club": "Everton",
       "position": "GK",
@@ -367,13 +975,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "44803": {
-      "id": "44803",
+    "D. Ball": {
       "name": "D. Ball",
       "club": "Ipswich",
       "position": "MF",
@@ -381,13 +987,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "127605": {
-      "id": "127605",
+    "N. Ferguson": {
       "name": "N. Ferguson",
       "club": "Crystal Palace",
       "position": "DF",
@@ -395,13 +999,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "135775": {
-      "id": "135775",
+    "Ansu Fati": {
       "name": "Ansu Fati",
       "club": "Brighton",
       "position": "FW",
@@ -409,13 +1011,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "138822": {
-      "id": "138822",
+    "A. Broja": {
       "name": "A. Broja",
       "club": "Fulham",
       "position": "FW",
@@ -423,13 +1023,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "153422": {
-      "id": "153422",
+    "E. Brierley": {
       "name": "E. Brierley",
       "club": "Brentford",
       "position": "MF",
@@ -437,13 +1035,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "153425": {
-      "id": "153425",
+    "L. Dobbin": {
       "name": "L. Dobbin",
       "club": "Everton",
       "position": "FW",
@@ -451,13 +1047,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "284500": {
-      "id": "284500",
+    "T. Iroegbunam": {
       "name": "T. Iroegbunam",
       "club": "Aston Villa",
       "position": "MF",
@@ -465,13 +1059,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "348263": {
-      "id": "348263",
+    "C. Stewart": {
       "name": "C. Stewart",
       "club": "Ipswich",
       "position": "DF",
@@ -479,13 +1071,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "133": {
-      "id": "133",
+    "C. Lenglet": {
       "name": "C. Lenglet",
       "club": "Aston Villa",
       "position": "DF",
@@ -493,13 +1083,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "190": {
-      "id": "190",
+    "Cédric Soares": {
       "name": "Cédric Soares",
       "club": "Arsenal",
       "position": "DF",
@@ -507,13 +1095,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "786": {
-      "id": "786",
+    "N. Zaniolo": {
       "name": "N. Zaniolo",
       "club": "Aston Villa",
       "position": "MF",
@@ -521,13 +1107,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "1452": {
-      "id": "1452",
+    "Mohamed Elneny": {
       "name": "Mohamed Elneny",
       "club": "Arsenal",
       "position": "MF",
@@ -535,13 +1119,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19263": {
-      "id": "19263",
+    "L. Kelly": {
       "name": "L. Kelly",
       "club": "Bournemouth",
       "position": "DF",
@@ -549,13 +1131,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19356": {
-      "id": "19356",
+    "E. Marcondes": {
       "name": "E. Marcondes",
       "club": "Bournemouth",
       "position": "MF",
@@ -563,13 +1143,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19804": {
-      "id": "19804",
+    "K. Moore": {
       "name": "K. Moore",
       "club": "Bournemouth",
       "position": "FW",
@@ -577,13 +1155,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "20110": {
-      "id": "20110",
+    "S. Baptiste": {
       "name": "S. Baptiste",
       "club": "Brentford",
       "position": "MF",
@@ -591,13 +1167,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "30765": {
-      "id": "30765",
+    "I. Radu": {
       "name": "I. Radu",
       "club": "Bournemouth",
       "position": "GK",
@@ -605,13 +1179,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "138937": {
-      "id": "138937",
+    "F. Marschall": {
       "name": "F. Marschall",
       "club": "Aston Villa",
       "position": "GK",
@@ -619,13 +1191,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "278123": {
-      "id": "278123",
+    "S. Revan": {
       "name": "S. Revan",
       "club": "Aston Villa",
       "position": "MF",
@@ -633,13 +1203,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "281975": {
-      "id": "281975",
+    "Val Adedokun": {
       "name": "Val Adedokun",
       "club": "Brentford",
       "position": "DF",
@@ -647,13 +1215,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "284502": {
-      "id": "284502",
+    "James Lannin-Sweet": {
       "name": "James Lannin-Sweet",
       "club": "Arsenal",
       "position": "DF",
@@ -661,13 +1227,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "284540": {
-      "id": "284540",
+    "Mauro Bandeira": {
       "name": "Mauro Bandeira",
       "club": "Arsenal",
       "position": "MF",
@@ -675,13 +1239,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "294638": {
-      "id": "294638",
+    "Finley Munroe": {
       "name": "Finley Munroe",
       "club": "Aston Villa",
       "position": "DF",
@@ -689,13 +1251,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "309501": {
-      "id": "309501",
+    "A. Cozier-Duberry": {
       "name": "A. Cozier-Duberry",
       "club": "Arsenal",
       "position": "MF",
@@ -703,13 +1263,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "309505": {
-      "id": "309505",
+    "R. Walters": {
       "name": "R. Walters",
       "club": "Arsenal",
       "position": "DF",
@@ -717,13 +1275,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "329347": {
-      "id": "329347",
+    "O. Kellyman": {
       "name": "O. Kellyman",
       "club": "Aston Villa",
       "position": "MF",
@@ -731,13 +1287,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "349288": {
-      "id": "349288",
+    "Vincent Angelini": {
       "name": "Vincent Angelini",
       "club": "Brentford",
       "position": "GK",
@@ -745,13 +1299,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "455010": {
-      "id": "455010",
+    "L. Emery": {
       "name": "L. Emery",
       "club": "Aston Villa",
       "position": "GK",
@@ -759,13 +1311,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "305": {
-      "id": "305",
+    "D. Origi": {
       "name": "D. Origi",
       "club": "Nottingham Forest",
       "position": "FW",
@@ -773,13 +1323,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "371": {
-      "id": "371",
+    "Felipe": {
       "name": "Felipe",
       "club": "Nottingham Forest",
       "position": "DF",
@@ -787,27 +1335,23 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "454": {
-      "id": "454",
+    "Y. Akgün": {
       "name": "Y. Akgün",
       "club": "Leicester",
-      "position": "MF",
-      "price": 5.5,
+      "position": "FW",
+      "price": 6.0,
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "908": {
-      "id": "908",
+    "A. Martial": {
       "name": "A. Martial",
       "club": "Manchester United",
       "position": "FW",
@@ -815,13 +1359,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "1972": {
-      "id": "1972",
+    "L. Karius": {
       "name": "L. Karius",
       "club": "Newcastle",
       "position": "GK",
@@ -829,13 +1371,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "2468": {
-      "id": "2468",
+    "G. Montiel": {
       "name": "G. Montiel",
       "club": "Nottingham Forest",
       "position": "DF",
@@ -843,13 +1383,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "2925": {
-      "id": "2925",
+    "D. Praet": {
       "name": "D. Praet",
       "club": "Leicester",
       "position": "MF",
@@ -857,13 +1395,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "18817": {
-      "id": "18817",
+    "A. Ogbonna": {
       "name": "A. Ogbonna",
       "club": "West Ham",
       "position": "DF",
@@ -871,13 +1407,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "18892": {
-      "id": "18892",
+    "P. Dummett": {
       "name": "P. Dummett",
       "club": "Newcastle",
       "position": "DF",
@@ -885,13 +1419,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "18903": {
-      "id": "18903",
+    "M. Ritchie": {
       "name": "M. Ritchie",
       "club": "Newcastle",
       "position": "MF",
@@ -899,13 +1431,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19032": {
-      "id": "19032",
+    "R. Sessegnon": {
       "name": "R. Sessegnon",
       "club": "Tottenham",
       "position": "MF",
@@ -913,13 +1443,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19130": {
-      "id": "19130",
+    "K. Phillips": {
       "name": "K. Phillips",
       "club": "West Ham",
       "position": "MF",
@@ -927,13 +1455,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "19482": {
-      "id": "19482",
+    "J. Rothwell": {
       "name": "J. Rothwell",
       "club": "Southampton",
       "position": "MF",
@@ -941,13 +1467,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "41577": {
-      "id": "41577",
+    "Nuno Tavares": {
       "name": "Nuno Tavares",
       "club": "Nottingham Forest",
       "position": "DF",
@@ -955,13 +1479,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "144709": {
-      "id": "144709",
+    "J. Anang": {
       "name": "J. Anang",
       "club": "West Ham",
       "position": "GK",
@@ -969,13 +1491,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "161921": {
-      "id": "161921",
+    "G. Reyna": {
       "name": "G. Reyna",
       "club": "Nottingham Forest",
       "position": "MF",
@@ -983,13 +1503,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "284242": {
-      "id": "284242",
+    "O. Forson": {
       "name": "O. Forson",
       "club": "Manchester United",
       "position": "FW",
@@ -997,13 +1515,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "284536": {
-      "id": "284536",
+    "J. Knightbridge": {
       "name": "J. Knightbridge",
       "club": "West Ham",
       "position": "GK",
@@ -1011,13 +1527,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": false,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "338856": {
-      "id": "338856",
+    "N. Lemina": {
       "name": "N. Lemina",
       "club": "Wolves",
       "position": "MF",
@@ -1025,13 +1539,11 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
     },
-    "341641": {
-      "id": "341641",
+    "Rodrigo Ribeiro": {
       "name": "Rodrigo Ribeiro",
       "club": "Nottingham Forest",
       "position": "FW",
@@ -1039,7 +1551,6 @@
       "stats": {
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 0,
         "appearances": 0,
         "rating": "0.00"
       }
