@@ -38,14 +38,16 @@
         .node-name { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0; }
         .node-val { font-size: 11px; color: #10b981; }
 
-        .sidebar-panel { background: var(--card-bg); border-radius: 8px; padding: 20px; display: flex; flex-direction: column; gap: 20px; }
-        .panel-heading { border-bottom: 1px solid #374151; padding-bottom: 10px; }
+        .sidebar-panel { display: flex; flex-direction: column; gap: 20px; }
+        .widget-card { background: var(--card-bg); border-radius: 8px; padding: 20px; }
+        .panel-heading { border-bottom: 1px solid #374151; padding-bottom: 10px; margin-bottom: 15px; }
+        
         .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
         .stat-item { background: #273549; padding: 10px; border-radius: 6px; display: flex; flex-direction: column; }
         .stat-lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; }
         .stat-val { font-size: 18px; font-weight: bold; margin-top: 4px; }
         
-        .swap-list-container { flex-grow: 1; overflow-y: auto; max-height: 320px; border-top: 1px solid #374151; padding-top: 15px; }
+        .swap-list-container { flex-grow: 1; overflow-y: auto; max-height: 250px; border-top: 1px solid #374151; padding-top: 15px; margin-top: 15px; }
         .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px; background: #273549; margin-bottom: 6px; border-radius: 4px; font-size: 13px; cursor: pointer; }
         .swap-row:hover { background: #374151; }
 
@@ -57,8 +59,6 @@
             .pitch-canvas { height: 520px; }
         }
     </style>
-
-    <!-- Load automated backend dataset -->
     <script src="players_data.js"></script>
 </head>
 <body>
@@ -81,25 +81,40 @@
     </div>
 
     <div class="sidebar-panel">
-        <div class="panel-heading">
-            <h3 id="panelPlayerName">Select a Player</h3>
-            <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Click an asset on the tactical board</p>
-        </div>
-        
-        <div id="statsMatrix" class="stat-matrix" style="display: none;">
-            <div class="stat-item"><span class="stat-lbl">Rating</span><span id="statRating" class="stat-val">0.00</span></div>
-            <div class="stat-item"><span class="stat-lbl">Price</span><span id="statPrice" class="stat-val">£0.0M</span></div>
-            <div class="stat-item"><span class="stat-lbl">Appearances</span><span id="statApps" class="stat-val">0</span></div>
-            <div class="stat-item"><span class="stat-lbl">Goals</span><span id="statGoals" class="stat-val">0</span></div>
-            <div class="stat-item"><span class="stat-lbl">Assists</span><span id="statAssists" class="stat-val">0</span></div>
-            <div class="stat-item"><span class="stat-lbl">Shots (On Target)</span><span id="statShots" class="stat-val">0</span></div>
-            <div class="stat-item"><span class="stat-lbl">Interceptions</span><span id="statInterceptions" class="stat-val">0</span></div>
-            <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span id="statTackles" class="stat-val">0</span></div>
+        <!-- New Integrated Club Performance Card -->
+        <div class="widget-card" style="border-left: 4px solid var(--accent-blue);">
+            <div class="panel-heading" style="margin-bottom: 10px; padding-bottom: 5px;">
+                <h4 style="text-transform: uppercase; font-size: 12px; color: var(--accent-blue);">Team Season Aggregates</h4>
+            </div>
+            <div class="stat-matrix" style="grid-template-columns: repeat(3, 1fr); gap: 6px;">
+                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Gls / xG</span><span id="teamGlsXG" style="font-size:14px; font-weight:bold; margin-top:2px;">0 / 0.0</span></div>
+                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Ast / xA</span><span id="teamAstXA" style="font-size:14px; font-weight:bold; margin-top:2px;">0 / 0.0</span></div>
+                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">CS / GA</span><span id="teamCSGA" style="font-size:14px; font-weight:bold; margin-top:2px;">0 / 0.0</span></div>
+            </div>
         </div>
 
-        <div id="swapInterface" class="swap-list-container" style="display: none;">
-            <h4 style="margin-bottom: 10px; font-size: 14px;">Eligible Tactical Substitutes</h4>
-            <div id="swapList"></div>
+        <!-- Individual Player Profiler Card -->
+        <div class="widget-card" style="flex-grow: 1;">
+            <div class="panel-heading">
+                <h3 id="panelPlayerName">Select a Player</h3>
+                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Click an asset on the tactical board</p>
+            </div>
+            
+            <div id="statsMatrix" class="stat-matrix" style="display: none;">
+                <div class="stat-item"><span class="stat-lbl">Rating</span><span id="statRating" class="stat-val">0.00</span></div>
+                <div class="stat-item"><span class="stat-lbl">Price</span><span id="statPrice" class="stat-val">£0.0M</span></div>
+                <div class="stat-item"><span class="stat-lbl">Appearances</span><span id="statApps" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Goals</span><span id="statGoals" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Assists</span><span id="statAssists" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Shots (On Target)</span><span id="statShots" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span id="statInterceptions" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span id="statTackles" class="stat-val">0</span></div>
+            </div>
+
+            <div id="swapInterface" class="swap-list-container" style="display: none;">
+                <h4 style="margin-bottom: 10px; font-size: 14px;">Eligible Tactical Substitutes</h4>
+                <div id="swapList"></div>
+            </div>
         </div>
     </div>
 </div>
@@ -135,9 +150,19 @@
         const club = document.getElementById('clubSelector').value;
         if (!club) return;
         
-        document.getElementById('formationDisplay').textContent = `Formation: ${globalData.clubs[club].formation}`;
-        activeClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
+        const clubData = globalData.clubs[club];
+        document.getElementById('formationDisplay').textContent = `Formation: ${clubData.formation}`;
+        activeClubLineup = JSON.parse(JSON.stringify(clubData.lineup));
         selectedNodeIndex = null;
+        
+        // Render macro team statistics card parameters cleanly
+        if(clubData.team_stats) {
+            const t = clubData.team_stats;
+            document.getElementById('teamGlsXG').textContent = `${t.goals} / ${t.xg}`;
+            document.getElementById('teamAstXA').textContent = `${t.assists} / ${t.xa}`;
+            document.getElementById('teamCSGA').textContent = `${t.clean_sheets} / ${t.goals_against}`;
+        }
+
         resetSidebar();
         renderTacticalPitch();
     }
@@ -146,17 +171,10 @@
         const grid = document.getElementById('tacticalGrid');
         grid.innerHTML = '';
         
-        // Multi-tier spatial grid blueprint
         const pitchLines = {
-            'FW_LINE': [],  // Wingers & Strikers
-            'AM_LINE': [],  // Attacking Midfielders
-            'CM_LINE': [],  // Central Mids & Box-to-Box
-            'DM_LINE': [],  // Defensive Anchors
-            'DF_LINE': [],  // Fullbacks & Center Backs
-            'GK_LINE': []   // Goalies
+            'FW_LINE': [], 'AM_LINE': [], 'CM_LINE': [], 'DM_LINE': [], 'DF_LINE': [], 'GK_LINE': []
         };
         
-        // Map players to granular vertical tactical layers
         activeClubLineup.forEach((slot, index) => {
             const profile = globalData.player_pool[slot.current_player];
             const role = profile ? profile.role_code : slot.position;
@@ -172,38 +190,32 @@
             pitchLines[destination].push({ slot, index, profile });
         });
 
-        // Horizontal flank-sorting logic for Defenders
         if (pitchLines['DF_LINE'].length > 0) {
             const fbs = pitchLines['DF_LINE'].filter(p => p.profile?.role_code === 'FB');
             const cbs = pitchLines['DF_LINE'].filter(p => p.profile?.role_code !== 'FB');
             const sortedDF = [];
             const leftWingCount = Math.ceil(fbs.length / 2);
-            
-            sortedDF.push(...fbs.slice(0, leftWingCount)); // Left-back channel
-            sortedDF.push(...cbs);                         // Center-back spine
-            sortedDF.push(...fbs.slice(leftWingCount));    // Right-back channel
+            sortedDF.push(...fbs.slice(0, leftWingCount));
+            sortedDF.push(...cbs);
+            sortedDF.push(...fbs.slice(leftWingCount));
             pitchLines['DF_LINE'] = sortedDF;
         }
 
-        // Horizontal flank-sorting logic for Attackers
         if (pitchLines['FW_LINE'].length > 0) {
             const wgrs = pitchLines['FW_LINE'].filter(p => p.profile?.role_code === 'WGR');
             const sts = pitchLines['FW_LINE'].filter(p => p.profile?.role_code !== 'WGR');
             const sortedFW = [];
             const leftWingerCount = Math.ceil(wgrs.length / 2);
-            
-            sortedFW.push(...wgrs.slice(0, leftWingerCount)); // Left wingers
-            sortedFW.push(...sts);                             // Central strikers
-            sortedFW.push(...wgrs.slice(leftWingerCount));    // Right wingers
+            sortedFW.push(...wgrs.slice(0, leftWingerCount));
+            sortedFW.push(...sts);
+            sortedFW.push(...wgrs.slice(leftWingerCount));
             pitchLines['FW_LINE'] = sortedFW;
         }
 
-        // Render tiers sequentially down the field mapping array
         const renderingSequence = ['FW_LINE', 'AM_LINE', 'CM_LINE', 'DM_LINE', 'DF_LINE', 'GK_LINE'];
-        
         renderingSequence.forEach(lineKey => {
             const items = pitchLines[lineKey];
-            if (items.length === 0) return; 
+            if (items.length === 0) return;
 
             const rowDiv = document.createElement('div');
             rowDiv.className = 'formation-row';
