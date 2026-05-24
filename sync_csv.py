@@ -10,32 +10,24 @@ def determine_tactical_role(raw_pos, gls, ast, sh, tklw, intel, minutes):
     if 'GK' in raw_pos: 
         return 'GK', 'Goalkeeper'
 
-    # Protect against low-minute statistical inflation
-    # If a player has under 400 minutes, use absolute values and safer baselines
     if minutes < 400:
         if 'DF' in raw_pos:
-            # Low-minute defenders default to CB unless they have clear crossing/assist production
             if ast >= 2: return 'FB', 'Fullback'
             return 'CB', 'Center Back'
         if 'FW' in raw_pos:
             return 'ST', 'Striker'
         return 'CM', 'Central Midfielder'
 
-    # High-minute players: Safe to calculate stabilized Per-90 metrics
     gls_90 = (gls / minutes) * 90
     ast_90 = (ast / minutes) * 90
     sh_90 = (sh / minutes) * 90
     def_90 = ((tklw + intel) / minutes) * 90
 
-    # 1. DEFENDER SEGREGATION (CB vs FB)
     if 'DF' in raw_pos and 'MF' not in raw_pos:
-        # Fullbacks demonstrate significantly higher sustained passing/creative output 
-        # and rarely match the ultra-pure high defensive volumes of a true center back.
         if ast_90 > 0.09 or (sh_90 > 0.5 and ast_90 > 0.04):
             return 'FB', 'Fullback'
         return 'CB', 'Center Back'
 
-    # 2. HYBRID WINGERS / WIDE ATTACKERS
     if 'MF' in raw_pos and 'FW' in raw_pos:
         if gls_90 > 0.28 or sh_90 > 2.2:
             return 'ST', 'Striker'
@@ -43,13 +35,11 @@ def determine_tactical_role(raw_pos, gls, ast, sh, tklw, intel, minutes):
             return 'WGR', 'Winger'
         return 'AM', 'Attacking Midfielder'
 
-    # 3. PURE FORWARDS
     if 'FW' in raw_pos:
         if ast_90 > 0.15 and sh_90 > 1.5:
             return 'WGR', 'Winger'
         return 'ST', 'Striker'
 
-    # 4. PURE MIDFIELDERS (AM, DM, B2B, CM)
     if 'MF' in raw_pos:
         if (gls_90 + ast_90) > 0.25 or sh_90 > 1.4:
             return 'AM', 'Attacking Midfielder'
@@ -65,7 +55,6 @@ def process_local_csv():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     csv_filename = os.path.join(script_dir, "players_data-2025_2026.csv")
     
-    # Check if user is operating inside or outside a docs environment
     docs_dir = os.path.join(script_dir, "docs")
     if os.path.exists(docs_dir):
         output_path = os.path.join(docs_dir, "players_data.js")
@@ -81,6 +70,9 @@ def process_local_csv():
     
     player_pool = {}
     clubs_raw_data = {}
+    
+    # Running tracking dictionary for global team data metrics
+    team_aggregates = {}
     
     for idx, row in df.iterrows():
         p_name = str(row.get('Player', '')).strip()
@@ -106,7 +98,32 @@ def process_local_csv():
         interceptions = int(float(row.get('Int', 0)))
         tackles_won = int(float(row.get('TklW', 0)))
         
-        # Determine precise role code
+        # Safely parse expected metrics arrays from rows (accepting common abbreviations)
+        xg_val = float(row.get('xG', 0) or row.get('xg', 0))
+        xa_val = float(row.get('xA', 0) or row.get('xa', 0) or row.get('xAG', 0) or row.get('xag', 0))
+        cs_val = int(float(row.get('CS', 0) or row.get('cs', 0)))
+        ga_val = int(float(row.get('GA', 0) or row.get('ga', 0)))
+
+        # Compile rolling team-wide data
+        if club_name not in team_aggregates:
+            team_aggregates[club_name] = {
+                "goals": 0, "xg": 0.0, "assists": 0, "xa": 0.0,
+                "shots": 0, "clean_sheets": 0, "goals_against": 0
+            }
+            
+        team_aggregates[club_name]["goals"] += goals
+        team_aggregates[club_name]["xg"] += xg_val
+        team_aggregates[club_name]["assists"] += assists
+        team_aggregates[club_name]["xa"] += xa_val
+        team_aggregates[club_name]["shots"] += shots
+        
+        # Isolate baseline clean sheet data strictly to Goalkeeper appearances to prevent overlapping tallies
+        if ui_pos == 'GK':
+            if cs_val > team_aggregates[club_name]["clean_sheets"]:
+                team_aggregates[club_name]["clean_sheets"] = cs_val
+            if ga_val > team_aggregates[club_name]["goals_against"]:
+                team_aggregates[club_name]["goals_against"] = ga_val
+
         role_code, role_name = determine_tactical_role(
             raw_pos, goals, assists, shots, tackles_won, interceptions, minutes
         )
@@ -144,8 +161,8 @@ def process_local_csv():
                 "yellow_cards": int(float(row.get('CrdY', 0))),
                 "red_cards": int(float(row.get('CrdR', 0))),
                 "saves": int(float(row.get('Saves', 0))),
-                "clean_sheets": int(float(row.get('CS', 0))),
-                "goals_against": int(float(row.get('GA', 0))),
+                "clean_sheets": cs_val,
+                "goals_against": ga_val,
                 "rating": rating
             }
         }
@@ -183,9 +200,21 @@ def process_local_csv():
         for p in [x for x in selected_outfield if x['position'] == "MF"]: lineup.append({"position": "MF", "current_player": p['key']})
         for p in [x for x in selected_outfield if x['position'] == "FW"]: lineup.append({"position": "FW", "current_player": p['key']})
             
+        # Bind aggregated profile blocks cleanly alongside lineup arrays
+        stats_package = team_aggregates.get(club, {"goals":0,"xg":0.0,"assists":0,"xa":0.0,"shots":0,"clean_sheets":0,"goals_against":0})
+        
         final_clubs[club] = {
             "formation": f"{num_df}-{num_mf}-{num_fw}",
-            "lineup": lineup
+            "lineup": lineup,
+            "team_stats": {
+                "goals": int(stats_package["goals"]),
+                "xg": round(float(stats_package["xg"]), 1),
+                "assists": int(stats_package["assists"]),
+                "xa": round(float(stats_package["xa"]), 1),
+                "shots": int(stats_package["shots"]),
+                "clean_sheets": int(stats_package["clean_sheets"]),
+                "goals_against": int(stats_package["goals_against"])
+            }
         }
         
     output_package = {"clubs": final_clubs, "player_pool": player_pool}
@@ -195,7 +224,7 @@ def process_local_csv():
         json.dump(output_package, f, indent=2, ensure_ascii=False)
         f.write(";")
         
-    print(f"✅ Success! Generated balanced data layout at: {output_path}")
+    print(f"✅ Success! Packed metrics maps natively to layout target: {output_path}")
     return True
 
 if __name__ == "__main__":
