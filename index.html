@@ -3,61 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tactical Squad Interface</title>
+    <title>Dynamic Predictive Squad Interface</title>
     <style>
         :root {
-            --pitch-green: #1b4d3e;
-            --pitch-line: rgba(255, 255, 255, 0.4);
-            --dark-bg: #111827;
-            --card-bg: #1f2937;
-            --accent-blue: #3b82f6;
-            --text-main: #f9fafb;
-            --text-muted: #9ca3af;
+            --pitch-green: #143e2f;
+            --pitch-line: rgba(255, 255, 255, 0.35);
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --emerald-glow: #10b981;
+            --rose-glow: #f43f5e;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; }
         
-        .dashboard-container { display: grid; grid-template-columns: 1fr 400px; gap: 20px; max-width: 1400px; margin: 0 auto; }
-        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
-        select { background: #374151; color: white; border: 1px solid #4b5563; padding: 8px 16px; border-radius: 6px; font-size: 16px; width: 280px; }
+        .dashboard-container { display: grid; grid-template-columns: 1fr 420px; gap: 20px; max-width: 1440px; margin: 0 auto; }
+        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
+        select { background: #334155; color: white; border: 1px solid #475569; padding: 8px 16px; border-radius: 6px; font-size: 15px; width: 280px; outline: none; }
 
-        .pitch-canvas { background: var(--pitch-green); border: 4px solid white; border-radius: 12px; height: 680px; position: relative; overflow: hidden; box-shadow: inset 0 0 80px rgba(0,0,0,0.5); }
+        .pitch-canvas { background: var(--pitch-green); border: 4px solid #ffffffd0; border-radius: 14px; height: 700px; position: relative; overflow: hidden; box-shadow: inset 0 0 100px rgba(0,0,0,0.6); }
         .pitch-line-center { position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: var(--pitch-line); }
-        .pitch-center-circle { position: absolute; top: 50%; left: 50%; width: 120px; height: 120px; border: 2px solid var(--pitch-line); border-radius: 50%; transform: translate(-50%, -50%); }
-        .pitch-penalty-top { position: absolute; top: 0; left: 50%; width: 300px; height: 100px; border: 2px solid var(--pitch-line); transform: translateX(-50%); }
+        .pitch-center-circle { position: absolute; top: 50%; left: 50%; width: 130px; height: 130px; border: 2px solid var(--pitch-line); border-radius: 50%; transform: translate(-50%, -50%); }
+        .pitch-penalty-top { position: absolute; top: 0; left: 50%; width: 320px; height: 110px; border: 2px solid var(--pitch-line); transform: translateX(-50%); }
         
-        .tactical-grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-around; padding: 15px 0; }
-        .formation-row { display: flex; justify-content: space-around; width: 100%; padding: 5px 0; }
+        .tactical-grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-around; padding: 10px 0; }
+        .formation-row { display: flex; justify-content: space-around; width: 100%; min-height: 80px; align-items: center; }
 
-        .player-node { background: rgba(17, 24, 39, 0.88); border: 2px solid #4b5563; border-radius: 8px; padding: 8px; width: 115px; text-align: center; cursor: pointer; transition: all 0.2s ease; z-index: 10; }
-        .player-node:hover { border-color: var(--accent-blue); transform: scale(1.05); }
-        .player-node.selected { border-color: #eab308; box-shadow: 0 0 14px #eab308; }
-        .node-pos { font-size: 10px; font-weight: bold; color: #3b82f6; text-transform: uppercase; background: rgba(59, 130, 246, 0.15); display: inline-block; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; }
+        .player-node { background: rgba(15, 23, 42, 0.92); border: 2px solid #475569; border-radius: 8px; padding: 10px; width: 120px; text-align: center; cursor: pointer; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); z-index: 10; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
+        .player-node:hover { border-color: var(--accent-blue); transform: translateY(-4px); }
+        .player-node.selected { border-color: #f59e0b; box-shadow: 0 0 16px rgba(245, 158, 11, 0.4); }
+        .node-pos { font-size: 10px; font-weight: bold; color: var(--accent-blue); text-transform: uppercase; background: rgba(56, 189, 248, 0.12); display: inline-block; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; }
         .node-name { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0; }
-        .node-val { font-size: 11px; color: #10b981; }
+        .node-val { font-size: 11px; color: var(--emerald-glow); }
 
-        .sidebar-panel { display: flex; flex-direction: column; gap: 20px; }
-        .widget-card { background: var(--card-bg); border-radius: 8px; padding: 20px; }
-        .panel-heading { border-bottom: 1px solid #374151; padding-bottom: 10px; margin-bottom: 15px; }
+        .sidebar-panel { display: flex; flex-direction: column; gap: 20px; max-height: 850px; }
+        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #334155; }
+        .panel-heading { border-bottom: 1px solid #334155; padding-bottom: 12px; margin-bottom: 16px; }
         
         .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-        .stat-item { background: #273549; padding: 10px; border-radius: 6px; display: flex; flex-direction: column; }
-        .stat-lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; }
-        .stat-val { font-size: 16px; font-weight: bold; margin-top: 4px; }
-        .sub-rate { font-size: 11px; color: #3b82f6; font-weight: normal; margin-left: 4px; }
+        .stat-item { background: #1e293b; border: 1px solid #334155; padding: 12px; border-radius: 8px; display: flex; flex-direction: column; }
+        .stat-lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+        .stat-val { font-size: 16px; font-weight: bold; margin-top: 4px; display: flex; align-items: center; justify-content: space-between; }
+        .sub-rate { font-size: 11px; color: var(--accent-blue); }
         
-        .swap-list-container { flex-grow: 1; overflow-y: auto; max-height: 200px; border-top: 1px solid #374151; padding-top: 15px; margin-top: 15px; }
-        .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px; background: #273549; margin-bottom: 6px; border-radius: 4px; font-size: 13px; cursor: pointer; }
-        .swap-row:hover { background: #374151; }
+        .swap-list-container { flex-grow: 1; overflow-y: auto; border-top: 1px solid #334155; padding-top: 15px; margin-top: 15px; }
+        .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #0f172a; margin-bottom: 8px; border-radius: 6px; font-size: 13px; cursor: pointer; border: 1px solid #1e293b; transition: all 0.15s ease; }
+        .swap-row:hover { background: #1e293b; border-color: var(--accent-blue); }
 
-        .delta-positive { color: #10b981; font-size: 12px; margin-left: 5px; font-weight: bold; }
-        .delta-negative { color: #ef4444; font-size: 12px; margin-left: 5px; font-weight: bold; }
+        .delta-tag { font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-top: 2px; }
+        .delta-pos { background: rgba(16, 185, 129, 0.15); color: var(--emerald-glow); }
+        .delta-neg { background: rgba(244, 63, 94, 0.15); color: var(--rose-glow); }
 
-        @media (max-width: 900px) {
-            .dashboard-container { grid-template-columns: 1fr; }
-            .pitch-canvas { height: 520px; }
-        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
     </style>
     <script src="players_data.js"></script>
 </head>
@@ -65,12 +66,12 @@
 
 <div class="dashboard-container">
     <div class="control-bar">
-        <h2>Tactical Management System</h2>
+        <h2>Live Tactical Simulation Dashboard</h2>
         <div>
-            <label style="margin-right: 10px; color: var(--text-muted);">Active Club:</label>
+            <label style="margin-right: 10px; color: var(--text-muted); font-size: 14px;">Active Club Node:</label>
             <select id="clubSelector" onchange="loadClubSquad()"></select>
         </div>
-        <h3 id="formationDisplay" style="color: var(--accent-blue);">Formation: --</h3>
+        <h3 id="formationDisplay" style="color: var(--accent-blue); font-weight: 700; letter-spacing: 1px;">Formation: --</h3>
     </div>
 
     <div class="pitch-canvas">
@@ -81,49 +82,45 @@
     </div>
 
     <div class="sidebar-panel">
-        <!-- Normalized Squad Performance Panel -->
+        <!-- Live Predictive Team Aggregates Widget -->
         <div class="widget-card" style="border-left: 4px solid var(--accent-blue);">
             <div class="panel-heading" style="margin-bottom: 12px; padding-bottom: 6px;">
-                <h4 style="text-transform: uppercase; font-size: 12px; color: var(--accent-blue); letter-spacing: 0.5px;">Team Aggregates & Rates</h4>
+                <h4 style="text-transform: uppercase; font-size: 11px; color: var(--accent-blue); letter-spacing: 1px;">Active Pitch Lineup Aggregates</h4>
             </div>
             <div class="stat-matrix" style="grid-template-columns: repeat(2, 1fr); gap: 8px;">
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Goals (Per 90)</span><span id="teamGls" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Assists (Per 90)</span><span id="teamAst" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Shots (Per 90)</span><span id="teamShots" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">SoT (Per 90)</span><span id="teamSOT" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Tackles Won (Per 90)</span><span id="teamTkl" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Interceptions (Per 90)</span><span id="teamInt" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Saves (Per 90)</span><span id="teamSaves" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
-                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Clean Sheets / GA (P90)</span><span id="teamDef" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0 (0.00)</span></div>
-                <div class="stat-item" style="grid-column: span 2; padding: 8px; background: #2e1a1a; display: flex; justify-content: space-between; align-items: center;">
-                    <span class="stat-lbl" style="font-size:10px; color:#fca5a5;">Discipline (Per 90)</span>
-                    <span id="teamCards" style="font-size:12px; font-weight:bold; color: #f59e0b;">🟨 0 (0.0) | 🟥 0 (0.0)</span>
+                <div class="stat-item"><span class="stat-lbl">Squad Goals / P90</span><span id="teamGls" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item"><span class="stat-lbl">Squad Assists / P90</span><span id="teamAst" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item"><span class="stat-lbl">Total Shots / P90</span><span id="teamShots" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won / P90</span><span id="teamTkl" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions / P90</span><span id="teamInt" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item"><span class="stat-lbl">Goalkeeper Saves / P90</span><span id="teamSaves" style="font-size:14px;">0 (0.00)</span></div>
+                <div class="stat-item" style="grid-column: span 2; background: #1e1b4b; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-color: #312e81; padding: 10px;">
+                    <span class="stat-lbl" style="color: #c084fc;">Squad Discipline Aggregates</span>
+                    <span id="teamCards" style="font-size:13px; font-weight:bold; color: #f59e0b;">🟨 0  |  🟥 0</span>
                 </div>
             </div>
         </div>
 
-        <!-- Individual Player Profiler Card -->
-        <div class="widget-card" style="flex-grow: 1;">
-            <div class="panel-heading">
-                <h3 id="panelPlayerName">Select a Player</h3>
-                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Click an asset on the tactical board</p>
+        <!-- Dynamic Asset Profiler & Predictive Substitutes Section -->
+        <div class="widget-card" style="display: flex; flex-direction: column; overflow: hidden;">
+            <div class="panel-heading" style="margin-bottom: 10px;">
+                <h3 id="panelPlayerName" style="font-size: 18px;">Select Pitch Node</h3>
+                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 2px;">Simulate cross-positional replacements</p>
             </div>
             
-            <div id="statsMatrix" class="stat-matrix" style="display: none;">
-                <div class="stat-item"><span class="stat-lbl">Rating</span><span id="statRating" class="stat-val">0.00</span></div>
-                <div class="stat-item"><span class="stat-lbl">Price</span><span id="statPrice" class="stat-val">£0.0M</span></div>
-                <div class="stat-item"><span class="stat-lbl">Appearances / Min</span><span id="statApps" class="stat-val">0 / 0'</span></div>
-                
-                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.00 /90</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.00 /90</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Shots (On Target)</span><span class="stat-val"><span id="totShots">0</span><span id="p90Shots" class="sub-rate">0.00 /90</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.00 /90</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.00 /90</span></span></div>
+            <div id="statsMatrix" class="stat-matrix" style="display: none; margin-bottom: 10px;">
+                <div class="stat-item"><span class="stat-lbl">Tactical Rating</span><span id="statRating" class="stat-val">-</span></div>
+                <div class="stat-item"><span class="stat-lbl">Market Valuation</span><span id="statPrice" class="stat-val">-</span></div>
+                <div class="stat-item" style="grid-column: span 2;"><span class="stat-lbl">Appearances / Minutes Vol</span><span id="statApps" class="stat-val">-</span></div>
+                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.00</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.00</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.00</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.00</span></span></div>
             </div>
 
             <div id="swapInterface" class="swap-list-container" style="display: none;">
-                <h4 style="margin-bottom: 10px; font-size: 14px;">Eligible Tactical Substitutes</h4>
-                <div id="swapList"></div>
+                <h4 style="margin-bottom: 12px; font-size: 13px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Predictive Synergy Impact Swaps</h4>
+                <div id="swapList" style="max-height: 280px; overflow-y: auto; padding-right: 4px;"></div>
             </div>
         </div>
     </div>
@@ -139,8 +136,7 @@
             globalData = window.TACTICAL_DATA;
             populateClubSelector();
         } else {
-            document.getElementById('panelPlayerName').textContent = "Data feed disconnected";
-            document.getElementById('panelPlayerMeta').textContent = "Verify your workflow pipeline has generated players_data.js.";
+            document.getElementById('panelPlayerName').textContent = "Pipeline Offline";
         }
     }
 
@@ -152,7 +148,6 @@
             opt.value = club; opt.textContent = club;
             selector.appendChild(opt);
         });
-        resetSidebar();
         loadClubSquad();
     }
 
@@ -160,25 +155,50 @@
         const club = document.getElementById('clubSelector').value;
         if (!club) return;
         
-        const clubData = globalData.clubs[club];
-        document.getElementById('formationDisplay').textContent = `Formation: ${clubData.formation}`;
-        activeClubLineup = JSON.parse(JSON.stringify(clubData.lineup));
+        activeClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
         selectedNodeIndex = null;
         
-        if (clubData.team_stats) {
-            const t = clubData.team_stats;
-            document.getElementById('teamGls').textContent = `${t.goals} (${t.goals_90}/90)`;
-            document.getElementById('teamAst').textContent = `${t.assists} (${t.assists_90}/90)`;
-            document.getElementById('teamShots').textContent = `${t.shots} (${t.shots_90}/90)`;
-            document.getElementById('teamSOT').textContent = `${t.shots_on_target} (${t.sot_90}/90)`;
-            document.getElementById('teamTkl').textContent = `${t.tackles_won} (${t.tackles_90}/90)`;
-            document.getElementById('teamInt').textContent = `${t.interceptions} (${t.interceptions_90}/90)`;
-            document.getElementById('teamSaves').textContent = `${t.saves} (${t.saves_90}/90)`;
-            document.getElementById('teamDef').textContent = `${t.clean_sheets} CS / ${t.goals_against} (${t.ga_90}/90)`;
-            document.getElementById('teamCards').textContent = `🟨 ${t.yellow_cards} (${t.yc_90}/90) | 🟥 ${t.red_cards} (${t.rc_90}/90)`;
-        }
-
+        recalculateAndRenderTeamDashboard();
         resetSidebar();
+    }
+
+    // Dynamic Team Aggregate Calculation Engine based on active pitch nodes
+    function recalculateAndRenderTeamDashboard() {
+        let totalMins = 0, gls = 0, ast = 0, sh = 0, sot = 0, tkl = 0, intel = 0, saves = 0, yc = 0, rc = 0;
+        let dfCount = 0, mfCount = 0, fwCount = 0;
+
+        activeClubLineup.forEach(slot => {
+            const p = globalData.player_pool[slot.current_player];
+            if (!p) return;
+
+            totalMins += p.stats.minutes;
+            gls += p.stats.goals;
+            ast += p.stats.assists;
+            sh += p.stats.shots;
+            sot += p.stats.shots_on_target;
+            tkl += p.stats.tackles_won;
+            intel += p.stats.interceptions;
+            saves += p.stats.saves;
+            yc += p.stats.yellow_cards;
+            rc += p.stats.red_cards;
+
+            if (p.position === 'DF') dfCount++;
+            else if (p.position === 'MF') mfCount++;
+            else if (p.position === 'FW') fwCount++;
+        });
+
+        // Compute active team 90s coefficient 
+        const team90s = Math.max(1.0, totalMins / 990);
+
+        document.getElementById('formationDisplay').textContent = `Formation: ${dfCount}-${mfCount}-${fwCount}`;
+        document.getElementById('teamGls').textContent = `${gls} (${(gls / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamAst').textContent = `${ast} (${(ast / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamShots').textContent = `${sh} (${(sh / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamTkl').textContent = `${tkl} (${(tkl / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamInt').textContent = `${intel} (${(intel / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamSaves').textContent = `${saves} (${(saves / team90s).toFixed(2)}/90)`;
+        document.getElementById('teamCards').textContent = `🟨 ${yc}  |  🟥 ${rc}`;
+
         renderTacticalPitch();
     }
 
@@ -190,17 +210,20 @@
         
         activeClubLineup.forEach((slot, index) => {
             const profile = globalData.player_pool[slot.current_player];
-            const role = profile ? profile.role_code : slot.position;
+            const currentEffectivePos = profile ? profile.position : slot.position;
+            const role = profile ? profile.role_code : currentEffectivePos;
             
             let destination = 'CM_LINE';
-            if (role === 'GK') destination = 'GK_LINE';
-            else if (role === 'CB' || role === 'FB' || slot.position === 'DF') destination = 'DF_LINE';
-            else if (role === 'DM') destination = 'DM_LINE';
-            else if (role === 'CM' || role === 'B2B') destination = 'CM_LINE';
-            else if (role === 'AM') destination = 'AM_LINE';
-            else if (role === 'ST' || role === 'WGR' || slot.position === 'FW') destination = 'FW_LINE';
+            if (currentEffectivePos === 'GK') destination = 'GK_LINE';
+            else if (currentEffectivePos === 'DF') destination = 'DF_LINE';
+            else if (currentEffectivePos === 'FW') destination = 'FW_LINE';
+            else {
+                if (role === 'AM') destination = 'AM_LINE';
+                else if (role === 'DM') destination = 'DM_LINE';
+                else destination = 'CM_LINE';
+            }
             
-            pitchLines[destination].push({ slot, index, profile });
+            pitchLines[destination].push({ slot, index, profile, currentEffectivePos });
         });
 
         const renderingSequence = ['FW_LINE', 'AM_LINE', 'CM_LINE', 'DM_LINE', 'DF_LINE', 'GK_LINE'];
@@ -216,7 +239,7 @@
                 node.className = `player-node ${selectedNodeIndex === item.index ? 'selected' : ''}`;
                 node.onclick = () => selectPitchNode(item.index);
                 
-                const dispRole = item.profile ? (item.profile.role_code || item.slot.position) : item.slot.position;
+                const dispRole = item.profile ? (item.profile.role_code || item.currentEffectivePos) : item.slot.position;
                 const dispName = item.profile ? item.profile.name : "Vacant Slot";
                 const dispPrice = item.profile ? `£${item.profile.price}M` : "--";
                 
@@ -234,85 +257,110 @@
     function selectPitchNode(index) {
         selectedNodeIndex = index;
         renderTacticalPitch();
+        
         const slot = activeClubLineup[index];
         const activePlayer = globalData.player_pool[slot.current_player];
         if (!activePlayer) return;
 
         document.getElementById('panelPlayerName').textContent = activePlayer.name;
-        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | ${activePlayer.role_name || activePlayer.position}`;
+        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Assigned as Base ${activePlayer.position}`;
         
         document.getElementById('statRating').textContent = activePlayer.stats.rating;
         document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
-        document.getElementById('statApps').textContent = `${activePlayer.stats.appearances} (${activePlayer.stats.minutes}')`;
+        document.getElementById('statApps').textContent = `${activePlayer.stats.appearances} Match Nodes (${activePlayer.stats.minutes} mins)`;
         
-        // Calculate player performance profiles dynamically using exact match volumes
         const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
         
         document.getElementById('totGoals').textContent = activePlayer.stats.goals;
         document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(2)} /90`;
-        
         document.getElementById('totAssists').textContent = activePlayer.stats.assists;
         document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(2)} /90`;
-        
-        document.getElementById('totShots').textContent = `${activePlayer.stats.shots} (${activePlayer.stats.shots_on_target})`;
-        document.getElementById('p90Shots').textContent = `${(activePlayer.stats.shots * normalizer).toFixed(2)} /90`;
-        
         document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
         document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(2)} /90`;
-        
         document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
         document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(2)} /90`;
         
         document.getElementById('statsMatrix').style.display = 'grid';
-        renderSubstitutesList(slot.position, activePlayer);
+        renderIntelligentPredictiveSubs(activePlayer);
     }
 
-    function renderSubstitutesList(position, originalPlayer) {
+    // Predictive Synergy Allocation Engine
+    function renderIntelligentPredictiveSubs(originalPlayer) {
         const container = document.getElementById('swapInterface');
         const list = document.getElementById('swapList');
         list.innerHTML = '';
         
-        const substitutes = Object.keys(globalData.player_pool)
+        const isGKNode = originalPlayer.position === 'GK';
+        
+        // Intelligent Filtering Strategy: GKs swap with GKs, all Outfield Players can cross-swap fluidly
+        const candidates = Object.keys(globalData.player_pool)
             .map(key => globalData.player_pool[key])
-            .filter(p => p.position === position && p.name !== originalPlayer.name);
+            .filter(p => p.name !== originalPlayer.name && (isGKNode ? p.position === 'GK' : p.position !== 'GK'));
 
-        if (substitutes.length === 0) {
-            list.innerHTML = '<p style="color:var(--text-muted); font-size:12px;">No squad depth at position.</p>';
-        } else {
-            substitutes.sort((a,b) => b.stats.minutes - a.stats.minutes).slice(0, 15).forEach(sub => {
+        // Compute baseline rates
+        const currMins = originalPlayer.stats.minutes || 1;
+        const currAtt90 = ((originalPlayer.stats.goals + originalPlayer.stats.assists) / currMins) * 90;
+        const currDef90 = ((originalPlayer.stats.tackles_won + originalPlayer.stats.interceptions) / currMins) * 90;
+
+        // Score, sort, and slice candidates based on sample minutes volume
+        candidates
+            .filter(p => p.stats.minutes > 300)
+            .forEach(sub => {
+                const subMins = sub.stats.minutes || 1;
+                const subAtt90 = ((sub.stats.goals + sub.stats.assists) / subMins) * 90;
+                const subDef90 = ((sub.stats.tackles_won + sub.stats.interceptions) / subMins) * 90;
+
+                const attDelta = subAtt90 - currAtt90;
+                const defDelta = subDef90 - currDef90;
+
+                // Predict formation shifting architecture strings beforehand
+                let formationNote = "Maintains Structure";
+                if (sub.position !== originalPlayer.position) {
+                    formationNote = `Shifts Role: ${originalPlayer.position} ➔ ${sub.position}`;
+                }
+
                 const row = document.createElement('div');
                 row.className = 'swap-row';
-                row.onclick = () => executeSwapSequence(sub);
+                row.onclick = () => executeIntelligentSwap(sub);
                 
-                const goalDelta = sub.stats.goals - originalPlayer.stats.goals;
-                const displayRoleTag = sub.role_code || sub.position;
-                
+                const attClass = attDelta >= 0 ? 'delta-pos' : 'delta-neg';
+                const defClass = defDelta >= 0 ? 'delta-pos' : 'delta-neg';
+
                 row.innerHTML = `
-                    <div>
-                        <strong>${sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${displayRoleTag}]</span><br>
-                        <span style="font-size:11px; color:var(--text-muted);">${sub.club}</span>
+                    <div style="max-width: 60%;">
+                        <strong>${sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${sub.role_code}]</span><br>
+                        <span style="font-size:11px; color:var(--text-muted);">${sub.club}</span><br>
+                        <span style="font-size:10px; color:#f59e0b; font-style:italic;">${formationNote}</span>
                     </div>
                     <div style="text-align:right;">
-                        <span>£${sub.price}M</span><br>
-                        <span class="${goalDelta >= 0 ? 'delta-positive' : 'delta-negative'}">Gls: ${sub.stats.goals}</span>
+                        <span style="font-weight:bold; font-size:12px;">£${sub.price}M</span><br>
+                        <div class="delta-tag ${attClass}">⚔️ ${attDelta >= 0 ? '+' : ''}${attDelta.toFixed(2)}/90</div><br>
+                        <div class="delta-tag ${defClass}">🛡️ ${defDelta >= 0 ? '+' : ''}${defDelta.toFixed(2)}/90</div>
                     </div>
                 `;
                 list.appendChild(row);
             });
-        }
+
         container.style.display = 'block';
     }
 
-    function executeSwapSequence(targetPlayerProfile) {
+    function executeIntelligentSwap(targetPlayerProfile) {
         if (selectedNodeIndex === null) return;
-        activeClubLineup[selectedNodeIndex].current_player = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
-        renderTacticalPitch();
+        
+        const compoundKey = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
+        
+        // Dynamically update the structural properties of this node slot 
+        activeClubLineup[selectedNodeIndex].current_player = compoundKey;
+        activeClubLineup[selectedNodeIndex].position = targetPlayerProfile.position;
+        
+        // Recalculate whole dashboard architecture 
+        recalculateAndRenderTeamDashboard();
         selectPitchNode(selectedNodeIndex);
     }
 
     function resetSidebar() {
-        document.getElementById('panelPlayerName').textContent = "Select a Player";
-        document.getElementById('panelPlayerMeta').textContent = "Click an asset on the tactical board";
+        document.getElementById('panelPlayerName').textContent = "Select Pitch Node";
+        document.getElementById('panelPlayerMeta').textContent = "Simulate cross-positional replacements";
         document.getElementById('statsMatrix').style.display = 'none';
         document.getElementById('swapInterface').style.display = 'none';
     }
