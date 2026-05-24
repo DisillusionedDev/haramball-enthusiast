@@ -30,7 +30,7 @@
 
         .main-tactical-area { display: flex; flex-direction: column; gap: 15px; }
 
-        /* Persistent Team Performance Bar */
+        /* Team Performance Bar */
         .team-horizontal-bar {
             background: var(--card-bg);
             border: 1px solid #334155;
@@ -74,11 +74,7 @@
             flex-wrap: wrap;
             gap: 4px;
         }
-        .preview-arrow {
-            color: var(--text-muted);
-            font-weight: bold;
-            font-size: 12px;
-        }
+        .preview-arrow { color: var(--text-muted); font-weight: bold; font-size: 12px; }
         .previewing .preview-arrow { color: var(--amber-warn); }
         .persisted-change .preview-arrow { color: var(--accent-blue); }
 
@@ -133,7 +129,7 @@
 <div class="dashboard-container">
     <div class="control-bar">
         <div>
-            <h2 style="font-size: 20px;">Tactical Simulation Sandbox</h2>
+            <h2 style="font-size: 20px;">Predictive Optimization Sandbox</h2>
         </div>
         <div style="display: flex; align-items: center; gap: 15px;">
             <select id="clubSelector" onchange="loadClubSquad()"></select>
@@ -144,32 +140,13 @@
 
     <!-- Left Structural Performance Arena -->
     <div class="main-tactical-area">
-        <!-- Persistent Delta Performance monitor -->
         <div id="teamMetricsBar" class="team-horizontal-bar">
-            <div class="h-stat-item" id="card_gls">
-                <span class="h-stat-lbl">Goals / P90</span>
-                <div id="teamGls" class="h-stat-val">-</div>
-            </div>
-            <div class="h-stat-item" id="card_ast">
-                <span class="h-stat-lbl">Assists / P90</span>
-                <div id="teamAst" class="h-stat-val">-</div>
-            </div>
-            <div class="h-stat-item" id="card_sh">
-                <span class="h-stat-lbl">Shots / P90</span>
-                <div id="teamShots" class="h-stat-val">-</div>
-            </div>
-            <div class="h-stat-item" id="card_tkl">
-                <span class="h-stat-lbl">Tackles / P90</span>
-                <div id="teamTkl" class="h-stat-val">-</div>
-            </div>
-            <div class="h-stat-item" id="card_int">
-                <span class="h-stat-lbl">Interceptions / P90</span>
-                <div id="teamInt" class="h-stat-val">-</div>
-            </div>
-            <div class="h-stat-item" id="card_saves">
-                <span class="h-stat-lbl">Saves / P90</span>
-                <div id="teamSaves" class="h-stat-val">-</div>
-            </div>
+            <div class="h-stat-item" id="card_gls"><span class="h-stat-lbl">Goals / P90</span><div id="teamGls" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_ast"><span class="h-stat-lbl">Assists / P90</span><div id="teamAst" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_sh"><span class="h-stat-lbl">Shots / P90</span><div id="teamShots" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_tkl"><span class="h-stat-lbl">Tackles / P90</span><div id="teamTkl" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_int"><span class="h-stat-lbl">Interceptions / P90</span><div id="teamInt" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_saves"><span class="h-stat-lbl">Saves / P90</span><div id="teamSaves" class="h-stat-val">-</div></div>
         </div>
 
         <div class="pitch-canvas">
@@ -182,7 +159,6 @@
 
     <!-- Right Sidebar Analysis Engine -->
     <div class="sidebar-panel">
-        <!-- Target Selection Profiling Panel -->
         <div class="widget-card" style="display: flex; flex-direction: column; min-height: 380px;">
             <div class="panel-heading">
                 <h3 id="panelPlayerName" style="font-size: 16px;">Select Pitch Node</h3>
@@ -200,18 +176,18 @@
             </div>
 
             <div id="swapInterface" class="swap-list-container" style="display: none; flex-grow:1; display:flex; flex-direction:column; overflow:hidden;">
-                <h4 style="margin-bottom: 8px; font-size: 11px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Predictive Synergy Replacements</h4>
+                <h4 style="margin-bottom: 8px; font-size: 11px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Optimized Strategic Replacements</h4>
                 <div id="swapList" style="overflow-y: auto; max-height: 220px; padding-right: 2px;"></div>
             </div>
         </div>
 
-        <!-- Live Modification Log Dashboard Card -->
+        <!-- Ledger Card -->
         <div class="widget-card" style="display: flex; flex-direction: column;">
             <div class="panel-heading" style="border-bottom-color: #1e293b; padding-bottom: 6px; margin-bottom: 8px;">
                 <h4 style="font-size: 12px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Tactical Transaction Ledger</h4>
             </div>
             <div id="ledgerContainer" class="ledger-container">
-                <div style="color: var(--text-muted); font-size:12px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>
+                <div style="color: var(--text-muted); font-size:11px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>
             </div>
         </div>
     </div>
@@ -221,7 +197,6 @@
     let globalData = { clubs: {}, player_pool: {} };
     let selectedNodeIndex = null;
     
-    // Core Isolated States for Tracking Deltas
     let activeClubLineup = [];
     let originalClubLineup = []; 
     let originalTeamStats = {};
@@ -252,11 +227,9 @@
         const club = document.getElementById('clubSelector').value;
         if (!club) return;
         
-        // Deep copy baseline state to monitor structural mutations
         originalClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
         activeClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
         
-        // Lock initial calculations
         originalTeamStats = calculateTeamStats(originalClubLineup);
         currentTeamStats = JSON.parse(JSON.stringify(originalTeamStats));
         
@@ -308,21 +281,19 @@
         });
 
         document.getElementById('formationDisplay').textContent = `Formation: ${dfCount}-${mfCount}-${fwCount}`;
-        
         currentTeamStats = calculateTeamStats(activeClubLineup);
-        renderMetricsDisplay(currentTeamStats, false); // Render actual persistent state
+        renderMetricsDisplay(currentTeamStats, false);
         renderTacticalPitch();
     }
 
-    // Unified Engine Render Loop for Base vs Dynamic State Comparisons
     function renderMetricsDisplay(targetStats, isPreviewMode = false) {
         const metricsConfig = [
-            { elId: 'teamGls', cardId: 'card_gls', baseVal: originalTeamStats.gls, base90: originalTeamStats.gls90, tgtVal: targetStats.gls, tgt90: targetStats.gls90 },
-            { elId: 'teamAst', cardId: 'card_ast', baseVal: originalTeamStats.ast, base90: originalTeamStats.ast90, tgtVal: targetStats.ast, tgt90: targetStats.ast90 },
-            { elId: 'teamShots', cardId: 'card_sh', baseVal: originalTeamStats.sh, base90: originalTeamStats.sh90, tgtVal: targetStats.sh, tgt90: targetStats.sh90 },
-            { elId: 'teamTkl', cardId: 'card_tkl', baseVal: originalTeamStats.tkl, base90: originalTeamStats.tkl90, tgtVal: targetStats.tkl, tgt90: targetStats.tkl90 },
-            { elId: 'teamInt', cardId: 'card_int', baseVal: originalTeamStats.intel, base90: originalTeamStats.intel90, tgtVal: targetStats.intel, tgt90: targetStats.intel90 },
-            { elId: 'teamSaves', cardId: 'card_saves', baseVal: originalTeamStats.saves, base90: originalTeamStats.saves90, tgtVal: targetStats.saves, tgt90: targetStats.saves90 }
+            { elId: 'teamGls', cardId: 'card_gls', base90: originalTeamStats.gls90, baseVal: originalTeamStats.gls, tgt90: targetStats.gls90, tgtVal: targetStats.gls },
+            { elId: 'teamAst', cardId: 'card_ast', base90: originalTeamStats.ast90, baseVal: originalTeamStats.ast, tgt90: targetStats.ast90, tgtVal: targetStats.ast },
+            { elId: 'teamShots', cardId: 'card_sh', base90: originalTeamStats.sh90, baseVal: originalTeamStats.sh, tgt90: targetStats.sh90, tgtVal: targetStats.sh },
+            { elId: 'teamTkl', cardId: 'card_tkl', base90: originalTeamStats.tkl90, baseVal: originalTeamStats.tkl, tgt90: targetStats.tkl90, tgtVal: targetStats.tkl },
+            { elId: 'teamInt', cardId: 'card_int', base90: originalTeamStats.intel90, baseVal: originalTeamStats.intel, tgt90: targetStats.intel90, tgtVal: targetStats.intel },
+            { elId: 'teamSaves', cardId: 'card_saves', base90: originalTeamStats.saves90, baseVal: originalTeamStats.saves, tgt90: targetStats.saves90, tgtVal: targetStats.saves }
         ];
 
         metricsConfig.forEach(m => {
@@ -333,7 +304,6 @@
             const sign = diff90 >= 0 ? '+' : '';
             const deltaClass = diff90 >= 0 ? 'delta-pos' : 'delta-neg';
             
-            // Adjust tracking classes based on mode context
             containerCard.classList.remove('previewing', 'persisted-change');
             if (isPreviewMode) {
                 containerCard.classList.add('previewing');
@@ -342,10 +312,8 @@
             }
 
             if (Math.abs(diff90) < 0.001) {
-                // No variance detected vs initial setup
                 domNode.innerHTML = `${m.baseVal} <span class="sub-rate">(${m.base90.toFixed(2)}/90)</span>`;
             } else {
-                // Variant Mutation Path rendering format
                 domNode.innerHTML = `
                     <span style="color: var(--text-muted); font-size:10px;">${m.baseVal}(${m.base90.toFixed(1)})</span>
                     <span class="preview-arrow">➔</span>
@@ -356,7 +324,6 @@
         });
     }
 
-    // Temporary Hover-Based Preview
     function previewSwapImpact(subKey) {
         if (selectedNodeIndex === null) return;
         
@@ -365,11 +332,11 @@
         simulatedLineup[selectedNodeIndex].position = globalData.player_pool[subKey].position;
 
         const simulatedStats = calculateTeamStats(simulatedLineup);
-        renderMetricsDisplay(simulatedStats, true); // Render with hover styles
+        renderMetricsDisplay(simulatedStats, true);
     }
 
     function clearSwapPreview() {
-        renderMetricsDisplay(currentTeamStats, false); // Revert to current actual state
+        renderMetricsDisplay(currentTeamStats, false);
     }
 
     function executeIntelligentSwap(targetPlayerProfile) {
@@ -384,11 +351,9 @@
         const pOut = globalData.player_pool[outgoingPlayerKey];
         const oldRole = pOut ? pOut.role_code : slot.position;
 
-        // Commit tactical alterations to state matrix
         slot.current_player = incomingPlayerKey;
         slot.position = targetPlayerProfile.position;
 
-        // Log transaction history entry
         tacticalTransactionLog.unshift({
             outName: pOut ? pOut.name : "Vacant Node",
             outRole: oldRole,
@@ -419,14 +384,125 @@
                     <span>${log.timestamp}</span>
                 </div>
                 <div style="margin-top:2px;">
-                    <span style="color: var(--rose-glow); font-weight:500;">🔻 ${log.outName}</span> 
-                    <span style="color: var(--text-muted); font-size:10px;">[${log.outRole}]</span>
+                    <span style="color: var(--rose-glow); font-weight:500;">🔻 ${log.outName}</span> <span style="color: var(--text-muted); font-size:10px;">[${log.outRole}]</span>
                     <span style="color: var(--text-muted); margin: 0 4px;">➔</span>
-                    <span style="color: var(--emerald-glow); font-weight:500;">🔺 ${log.inName}</span> 
-                    <span style="color: var(--text-muted); font-size:10px;">[${log.inRole}]</span>
+                    <span style="color: var(--emerald-glow); font-weight:500;">🔺 ${log.inName}</span> <span style="color: var(--text-muted); font-size:10px;">[${log.inRole}]</span>
                 </div>
             `;
             container.appendChild(row);
+        });
+    }
+
+    // Toggle Deselection Interface Modification
+    function selectPitchNode(index) {
+        if (selectedNodeIndex === index) {
+            selectedNodeIndex = null;
+            renderTacticalPitch();
+            resetSidebar();
+            return;
+        }
+        
+        selectedNodeIndex = index;
+        renderTacticalPitch();
+        
+        const slot = activeClubLineup[index];
+        const activePlayer = globalData.player_pool[slot.current_player];
+        if (!activePlayer) return;
+
+        document.getElementById('panelPlayerName').textContent = activePlayer.name;
+        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Role: ${activePlayer.position}`;
+        
+        document.getElementById('statRating').textContent = activePlayer.stats.rating;
+        document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
+        document.getElementById('statApps').textContent = `${activePlayer.stats.minutes} mins played`;
+        
+        const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
+        
+        document.getElementById('totGoals').textContent = activePlayer.stats.goals;
+        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(1)}/90`;
+        document.getElementById('totAssists').textContent = activePlayer.stats.assists;
+        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(1)}/90`;
+        document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
+        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(1)}/90`;
+        document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
+        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(1)}/90`;
+        
+        document.getElementById('statsMatrix').style.display = 'grid';
+        document.getElementById('swapInterface').style.display = 'flex';
+        renderIntelligentPredictiveSubs(activePlayer);
+    }
+
+    // Predictive Candidate Engine Layer with Descending Sorting Metrics
+    function renderIntelligentPredictiveSubs(originalPlayer) {
+        const list = document.getElementById('swapList');
+        list.innerHTML = '';
+        
+        const isGKNode = originalPlayer.position === 'GK';
+        const candidates = Object.keys(globalData.player_pool)
+            .map(key => globalData.player_pool[key])
+            .filter(p => p.name !== originalPlayer.name && (isGKNode ? p.position === 'GK' : p.position !== 'GK'))
+            .filter(p => p.stats.minutes > 300);
+
+        const currMins = originalPlayer.stats.minutes || 1;
+        const currAtt90 = ((originalPlayer.stats.goals + originalPlayer.stats.assists) / currMins) * 90;
+        const currDef90 = ((originalPlayer.stats.tackles_won + originalPlayer.stats.interceptions) / currMins) * 90;
+
+        // Process composite lift score across team parameters
+        let derivedCandidates = candidates.map(sub => {
+            const subMins = sub.stats.minutes || 1;
+            const subAtt90 = ((sub.stats.goals + sub.stats.assists) / subMins) * 90;
+            const subDef90 = ((sub.stats.tackles_won + sub.stats.interceptions) / subMins) * 90;
+
+            const attDelta = subAtt90 - currAtt90;
+            const defDelta = subDef90 - currDef90;
+            const lookupKey = `${sub.name} (${sub.club})`;
+
+            // Simulate the change to isolate absolute net structural impact
+            let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
+            simulatedLineup[selectedNodeIndex].current_player = lookupKey;
+            simulatedLineup[selectedNodeIndex].position = sub.position;
+            const simulatedStats = calculateTeamStats(simulatedLineup);
+
+            // Impact metric: Σ Δ team performance indicators per 90 mins
+            const netTeamLift = (simulatedStats.gls90 + simulatedStats.ast90 + simulatedStats.sh90 + simulatedStats.tkl90 + simulatedStats.intel90 + simulatedStats.saves90) - 
+                                (currentTeamStats.gls90 + currentTeamStats.ast90 + currentTeamStats.sh90 + currentTeamStats.tkl90 + currentTeamStats.intel90 + currentTeamStats.saves90);
+
+            let formationNote = "Structural Match";
+            if (sub.position !== originalPlayer.position) {
+                formationNote = `Pos Shift: ${originalPlayer.position} ➔ ${sub.position}`;
+            }
+
+            return { sub, attDelta, defDelta, lookupKey, netTeamLift, formationNote };
+        });
+
+        // Sort descending: highest positive lift sorted to index 0
+        derivedCandidates.sort((a, b) => b.netTeamLift - a.netTeamLift);
+
+        derivedCandidates.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'swap-row';
+            row.setAttribute('onmouseenter', `previewSwapImpact("${item.lookupKey}")`);
+            row.setAttribute('onmouseleave', 'clearSwapPreview()');
+            row.onclick = () => executeIntelligentSwap(item.sub);
+            
+            const attClass = item.attDelta >= 0 ? 'delta-pos' : 'delta-neg';
+            const defClass = item.defDelta >= 0 ? 'delta-pos' : 'delta-neg';
+            const netLiftClass = item.netTeamLift >= 0 ? 'delta-pos' : 'delta-neg';
+
+            row.innerHTML = `
+                <div style="max-width: 65%;">
+                    <strong>${item.sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${item.sub.role_code}]</span><br>
+                    <span style="font-size:11px; color:var(--text-muted);">${item.sub.club}</span><br>
+                    <span style="font-size:10px; color:var(--amber-warn); font-style:italic;">${item.formationNote}</span>
+                </div>
+                <div style="text-align:right;">
+                    <span class="delta-tag ${netLiftClass}" style="font-size:9px; display:inline-block; margin-bottom:4px;">Net Lift: ${item.netTeamLift >= 0 ? '+' : ''}${item.netTeamLift.toFixed(2)}</span><br>
+                    <span style="font-weight:bold; font-size:11px; margin-right:4px;">£${item.sub.price}M</span><br>
+                    <div class="delta-tag ${attClass}" style="margin-bottom:2px; font-size:9px; display:inline-block;">⚔️ ${item.attDelta >= 0 ? '+' : ''}${item.attDelta.toFixed(1)}</div>
+                    <div class="delta-tag ${defClass}" style="font-size:9px; display:inline-block;">🛡️ ${item.defDelta >= 0 ? '+' : ''}${item.defDelta.toFixed(1)}</div>
+                </div>
+            `;
+            list.appendChild(row);
         });
     }
 
@@ -480,91 +556,6 @@
             });
             grid.appendChild(rowDiv);
         });
-    }
-
-    function selectPitchNode(index) {
-        selectedNodeIndex = index;
-        renderTacticalPitch();
-        
-        const slot = activeClubLineup[index];
-        const activePlayer = globalData.player_pool[slot.current_player];
-        if (!activePlayer) return;
-
-        document.getElementById('panelPlayerName').textContent = activePlayer.name;
-        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Role: ${activePlayer.position}`;
-        
-        document.getElementById('statRating').textContent = activePlayer.stats.rating;
-        document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
-        document.getElementById('statApps').textContent = `${activePlayer.stats.minutes} mins played`;
-        
-        const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
-        
-        document.getElementById('totGoals').textContent = activePlayer.stats.goals;
-        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(1)}/90`;
-        document.getElementById('totAssists').textContent = activePlayer.stats.assists;
-        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(1)}/90`;
-        document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
-        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(1)}/90`;
-        document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
-        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(1)}/90`;
-        
-        document.getElementById('statsMatrix').style.display = 'grid';
-        document.getElementById('swapInterface').style.display = 'flex';
-        renderIntelligentPredictiveSubs(activePlayer);
-    }
-
-    function renderIntelligentPredictiveSubs(originalPlayer) {
-        const list = document.getElementById('swapList');
-        list.innerHTML = '';
-        
-        const isGKNode = originalPlayer.position === 'GK';
-        const candidates = Object.keys(globalData.player_pool)
-            .map(key => globalData.player_pool[key])
-            .filter(p => p.name !== originalPlayer.name && (isGKNode ? p.position === 'GK' : p.position !== 'GK'));
-
-        const currMins = originalPlayer.stats.minutes || 1;
-        const currAtt90 = ((originalPlayer.stats.goals + originalPlayer.stats.assists) / currMins) * 90;
-        const currDef90 = ((originalPlayer.stats.tackles_won + originalPlayer.stats.interceptions) / currMins) * 90;
-
-        candidates
-            .filter(p => p.stats.minutes > 300)
-            .forEach(sub => {
-                const subMins = sub.stats.minutes || 1;
-                const subAtt90 = ((sub.stats.goals + sub.stats.assists) / subMins) * 90;
-                const subDef90 = ((sub.stats.tackles_won + sub.stats.interceptions) / subMins) * 90;
-
-                const attDelta = subAtt90 - currAtt90;
-                const defDelta = subDef90 - currDef90;
-                const lookupKey = `${sub.name} (${sub.club})`;
-
-                let formationNote = "Structural Match";
-                if (sub.position !== originalPlayer.position) {
-                    formationNote = `Pos Shift: ${originalPlayer.position} ➔ ${sub.position}`;
-                }
-
-                const row = document.createElement('div');
-                row.className = 'swap-row';
-                row.setAttribute('onmouseenter', `previewSwapImpact("${lookupKey}")`);
-                row.setAttribute('onmouseleave', 'clearSwapPreview()');
-                row.onclick = () => executeIntelligentSwap(sub);
-                
-                const attClass = attDelta >= 0 ? 'delta-pos' : 'delta-neg';
-                const defClass = defDelta >= 0 ? 'delta-pos' : 'delta-neg';
-
-                row.innerHTML = `
-                    <div style="max-width: 65%;">
-                        <strong>${sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${sub.role_code}]</span><br>
-                        <span style="font-size:11px; color:var(--text-muted);">${sub.club}</span><br>
-                        <span style="font-size:10px; color:var(--amber-warn); font-style:italic;">${formationNote}</span>
-                    </div>
-                    <div style="text-align:right;">
-                        <span style="font-weight:bold; font-size:11px;">£${sub.price}M</span><br>
-                        <div class="delta-tag ${attClass}" style="margin-bottom:2px; font-size:9px;">⚔️ ${attDelta >= 0 ? '+' : ''}${attDelta.toFixed(1)}</div><br>
-                        <div class="delta-tag ${defClass}" style="font-size:9px;">🛡️ ${defDelta >= 0 ? '+' : ''}${defDelta.toFixed(1)}</div>
-                    </div>
-                `;
-                list.appendChild(row);
-            });
     }
 
     function resetSidebar() {
