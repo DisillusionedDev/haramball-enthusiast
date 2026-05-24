@@ -4711,6 +4711,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.7,
       "stats": {
         "appearances": 34,
@@ -4734,6 +4736,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -4757,6 +4761,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 21,
@@ -4780,6 +4786,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -4803,6 +4811,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 13,
@@ -4826,6 +4836,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 20,
@@ -4849,6 +4861,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 17,
@@ -4872,6 +4886,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 24,
@@ -4895,6 +4911,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -4918,6 +4936,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -4941,6 +4961,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 32,
@@ -4964,6 +4986,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 24,
@@ -4987,6 +5011,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -5010,6 +5036,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 20,
@@ -5033,6 +5061,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 12,
@@ -5056,6 +5086,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -5079,6 +5111,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 21,
@@ -5102,6 +5136,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -5125,6 +5161,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 16,
@@ -5148,6 +5186,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 29,
@@ -5171,6 +5211,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 15,
@@ -5194,6 +5236,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 28,
@@ -5217,6 +5261,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.4,
       "stats": {
         "appearances": 31,
@@ -5240,6 +5286,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 22,
@@ -5263,6 +5311,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 9,
@@ -5286,6 +5336,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -5309,6 +5361,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 12,
@@ -5332,6 +5386,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 27,
@@ -5355,6 +5411,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 14,
@@ -5378,6 +5436,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 12,
@@ -5401,6 +5461,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -5424,6 +5486,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -5447,6 +5511,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 29,
@@ -5470,6 +5536,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 10,
@@ -5493,6 +5561,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 33,
@@ -5516,6 +5586,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 32,
@@ -5539,6 +5611,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -5562,6 +5636,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -5585,6 +5661,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 18,
@@ -5608,6 +5686,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -5631,6 +5711,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -5654,6 +5736,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -5677,6 +5761,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -5700,6 +5786,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -5723,6 +5811,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 16,
@@ -5746,6 +5836,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -5769,6 +5861,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 24,
@@ -5792,6 +5886,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -5815,6 +5911,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -5838,6 +5936,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -5861,6 +5961,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 16,
@@ -5884,6 +5986,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -5907,6 +6011,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -5930,6 +6036,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 18,
@@ -5953,6 +6061,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 15,
@@ -5976,6 +6086,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 25,
@@ -5999,6 +6111,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -6022,6 +6136,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -6045,6 +6161,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 10.4,
       "stats": {
         "appearances": 29,
@@ -6068,6 +6186,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 33,
@@ -6091,6 +6211,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -6114,6 +6236,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -6137,6 +6261,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 11,
@@ -6160,6 +6286,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 21,
@@ -6183,6 +6311,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.5,
       "stats": {
         "appearances": 29,
@@ -6206,6 +6336,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -6229,6 +6361,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 19,
@@ -6252,6 +6386,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -6275,6 +6411,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 17,
@@ -6298,6 +6436,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -6321,6 +6461,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -6344,6 +6486,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -6367,6 +6511,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 8,
@@ -6390,6 +6536,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 18,
@@ -6413,6 +6561,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 31,
@@ -6436,6 +6586,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 22,
@@ -6459,6 +6611,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 34,
@@ -6482,6 +6636,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 18,
@@ -6505,6 +6661,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 8,
@@ -6528,6 +6686,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 10,
@@ -6551,6 +6711,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.3,
       "stats": {
         "appearances": 22,
@@ -6574,6 +6736,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 25,
@@ -6597,6 +6761,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -6620,6 +6786,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -6643,6 +6811,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 24,
@@ -6666,6 +6836,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 20,
@@ -6689,6 +6861,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -6712,6 +6886,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 28,
@@ -6735,6 +6911,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -6758,6 +6936,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 22,
@@ -6781,6 +6961,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 30,
@@ -6804,6 +6986,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 24,
@@ -6827,6 +7011,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.7,
       "stats": {
         "appearances": 29,
@@ -6850,6 +7036,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -6873,6 +7061,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -6896,6 +7086,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 17,
@@ -6919,6 +7111,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -6942,6 +7136,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -6965,6 +7161,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -6988,6 +7186,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -7011,6 +7211,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 23,
@@ -7034,6 +7236,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 24,
@@ -7057,6 +7261,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 16,
@@ -7080,6 +7286,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.2,
       "stats": {
         "appearances": 24,
@@ -7103,6 +7311,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -7126,6 +7336,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -7149,6 +7361,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -7172,6 +7386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 29,
@@ -7195,6 +7411,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 32,
@@ -7218,6 +7436,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -7241,6 +7461,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 32,
@@ -7264,6 +7486,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.8,
       "stats": {
         "appearances": 35,
@@ -7287,6 +7511,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 13,
@@ -7310,6 +7536,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -7333,6 +7561,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 32,
@@ -7356,6 +7586,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 25,
@@ -7379,6 +7611,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 30,
@@ -7402,6 +7636,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -7425,6 +7661,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 12,
@@ -7448,6 +7686,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -7471,6 +7711,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -7494,6 +7736,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 32,
@@ -7517,6 +7761,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -7540,6 +7786,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -7563,6 +7811,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 31,
@@ -7586,6 +7836,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 6,
@@ -7609,6 +7861,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -7632,6 +7886,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -7655,6 +7911,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 34,
@@ -7678,6 +7936,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 31,
@@ -7701,6 +7961,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -7724,6 +7986,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -7747,6 +8011,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 28,
@@ -7770,6 +8036,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 25,
@@ -7793,6 +8061,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 33,
@@ -7816,6 +8086,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 32,
@@ -7839,6 +8111,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -7862,6 +8136,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 22,
@@ -7885,6 +8161,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 25,
@@ -7908,6 +8186,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -7931,6 +8211,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 20,
@@ -7954,6 +8236,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -7977,6 +8261,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 7,
@@ -8000,6 +8286,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -8023,6 +8311,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -8046,6 +8336,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 23,
@@ -8069,6 +8361,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -8092,6 +8386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 11,
@@ -8115,6 +8411,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -8138,6 +8436,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 25,
@@ -8161,6 +8461,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 30,
@@ -8184,6 +8486,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -8207,6 +8511,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 24,
@@ -8230,6 +8536,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 18,
@@ -8253,6 +8561,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 17,
@@ -8276,6 +8586,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 20,
@@ -8299,6 +8611,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.9,
       "stats": {
         "appearances": 31,
@@ -8322,6 +8636,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -8345,6 +8661,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -8368,6 +8686,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 28,
@@ -8391,6 +8711,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 15,
@@ -8414,6 +8736,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -8437,6 +8761,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 27,
@@ -8460,6 +8786,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -8483,6 +8811,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -8506,6 +8836,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 24,
@@ -8529,6 +8861,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 29,
@@ -8552,6 +8886,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -8575,6 +8911,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.2,
       "stats": {
         "appearances": 29,
@@ -8598,6 +8936,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -8621,6 +8961,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 31,
@@ -8644,6 +8986,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 21,
@@ -8667,6 +9011,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -8690,6 +9036,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 14,
@@ -8713,6 +9061,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 29,
@@ -8736,6 +9086,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -8759,6 +9111,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 14,
@@ -8782,6 +9136,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 27,
@@ -8805,6 +9161,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 22,
@@ -8828,6 +9186,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -8851,6 +9211,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -8874,6 +9236,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 11,
@@ -8897,6 +9261,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 30,
@@ -8920,6 +9286,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -8943,6 +9311,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -8966,6 +9336,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.7,
       "stats": {
         "appearances": 24,
@@ -8989,6 +9361,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 22,
@@ -9012,6 +9386,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 11,
@@ -9035,6 +9411,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 7,
@@ -9058,6 +9436,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 12,
@@ -9081,6 +9461,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -9104,6 +9486,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 17,
@@ -9127,6 +9511,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 19,
@@ -9150,6 +9536,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -9173,6 +9561,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 5,
@@ -9196,6 +9586,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -9219,6 +9611,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.2,
       "stats": {
         "appearances": 3,
@@ -9242,6 +9636,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -9265,6 +9661,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -9288,6 +9686,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 7,
@@ -9311,6 +9711,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 10,
@@ -9334,6 +9736,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 24,
@@ -9357,6 +9761,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 14,
@@ -9380,6 +9786,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 28,
@@ -9403,6 +9811,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 24,
@@ -9426,6 +9836,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 29,
@@ -9449,6 +9861,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -9472,6 +9886,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -9495,6 +9911,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -9518,6 +9936,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.2,
       "stats": {
         "appearances": 28,
@@ -9541,6 +9961,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -9564,6 +9986,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 16,
@@ -9587,6 +10011,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 18,
@@ -9610,6 +10036,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.3,
       "stats": {
         "appearances": 29,
@@ -9633,6 +10061,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -9656,6 +10086,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 24,
@@ -9679,6 +10111,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -9702,6 +10136,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 25,
@@ -9725,6 +10161,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.7,
       "stats": {
         "appearances": 26,
@@ -9748,6 +10186,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -9771,6 +10211,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 19,
@@ -9794,6 +10236,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 32,
@@ -9817,6 +10261,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 24,
@@ -9840,6 +10286,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 18,
@@ -9863,6 +10311,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -9886,6 +10336,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 34,
@@ -9909,6 +10361,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.4,
       "stats": {
         "appearances": 28,
@@ -9932,6 +10386,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -9955,6 +10411,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 35,
@@ -9978,6 +10436,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 28,
@@ -10001,6 +10461,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -10024,6 +10486,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 29,
@@ -10047,6 +10511,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 20,
@@ -10070,6 +10536,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 27,
@@ -10093,6 +10561,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 27,
@@ -10116,6 +10586,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -10139,6 +10611,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 6,
@@ -10162,6 +10636,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 26,
@@ -10185,6 +10661,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 20,
@@ -10208,6 +10686,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -10231,6 +10711,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -10254,6 +10736,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 10.8,
       "stats": {
         "appearances": 31,
@@ -10277,6 +10761,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -10300,6 +10786,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.9,
       "stats": {
         "appearances": 14,
@@ -10323,6 +10811,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -10346,6 +10836,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -10369,6 +10861,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -10392,6 +10886,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 9,
@@ -10415,6 +10911,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 12,
@@ -10438,6 +10936,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -10461,6 +10961,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -10484,6 +10986,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 14,
@@ -10507,6 +11011,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.4,
       "stats": {
         "appearances": 31,
@@ -10530,6 +11036,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -10553,6 +11061,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 4,
@@ -10576,6 +11086,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 12,
@@ -10599,6 +11111,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -10622,6 +11136,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -10645,6 +11161,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 31,
@@ -10668,6 +11186,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 27,
@@ -10691,6 +11211,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 18,
@@ -10714,6 +11236,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -10737,6 +11261,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 22,
@@ -10760,6 +11286,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -10783,6 +11311,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 23,
@@ -10806,6 +11336,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -10829,6 +11361,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 24,
@@ -10852,6 +11386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 12,
@@ -10875,6 +11411,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -10898,6 +11436,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 6,
@@ -10921,6 +11461,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 13,
@@ -10944,6 +11486,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -10967,6 +11511,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.2,
       "stats": {
         "appearances": 27,
@@ -10990,6 +11536,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -11013,6 +11561,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -11036,6 +11586,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -11059,6 +11611,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 14,
@@ -11082,6 +11636,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -11105,6 +11661,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -11128,6 +11686,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -11151,6 +11711,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -11174,6 +11736,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.9,
       "stats": {
         "appearances": 21,
@@ -11197,6 +11761,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 24,
@@ -11220,6 +11786,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -11243,6 +11811,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -11266,6 +11836,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -11289,6 +11861,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.7,
       "stats": {
         "appearances": 24,
@@ -11312,6 +11886,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 30,
@@ -11335,6 +11911,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 28,
@@ -11358,6 +11936,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 33,
@@ -11381,6 +11961,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 5,
@@ -11404,6 +11986,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 22,
@@ -11427,6 +12011,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 13,
@@ -11450,6 +12036,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -11473,6 +12061,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 32,
@@ -11496,6 +12086,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 18,
@@ -11519,6 +12111,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -11542,6 +12136,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 26,
@@ -11565,6 +12161,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 27,
@@ -11588,6 +12186,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -11611,6 +12211,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -11634,6 +12236,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -11657,6 +12261,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 26,
@@ -11680,6 +12286,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 34,
@@ -11703,6 +12311,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 23,
@@ -11726,6 +12336,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 24,
@@ -11749,6 +12361,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 30,
@@ -11772,6 +12386,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 25,
@@ -11795,6 +12411,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 14,
@@ -11818,6 +12436,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 22,
@@ -11841,6 +12461,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -11864,6 +12486,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -11887,6 +12511,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 24,
@@ -11910,6 +12536,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -11933,6 +12561,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 16,
@@ -11956,6 +12586,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -11979,6 +12611,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -12002,6 +12636,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 32,
@@ -12025,6 +12661,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 30,
@@ -12048,6 +12686,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 11,
@@ -12071,6 +12711,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 31,
@@ -12094,6 +12736,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 7,
@@ -12117,6 +12761,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 9,
@@ -12140,6 +12786,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -12163,6 +12811,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -12186,6 +12836,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -12209,6 +12861,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -12232,6 +12886,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 14,
@@ -12255,6 +12911,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 12,
@@ -12278,6 +12936,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 26,
@@ -12301,6 +12961,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 33,
@@ -12324,6 +12986,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -12347,6 +13011,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -12370,6 +13036,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -12393,6 +13061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 11,
@@ -12416,6 +13086,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -12439,6 +13111,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -12462,6 +13136,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 3,
@@ -12485,6 +13161,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 32,
@@ -12508,6 +13186,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -12531,6 +13211,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -12554,6 +13236,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.9,
       "stats": {
         "appearances": 11,
@@ -12577,6 +13261,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -12600,6 +13286,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 30,
@@ -12623,6 +13311,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 9,
@@ -12646,6 +13336,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -12669,6 +13361,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 26,
@@ -12692,6 +13386,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 12,
@@ -12715,6 +13411,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -12738,6 +13436,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -12761,6 +13461,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -12784,6 +13486,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -12807,6 +13511,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -12830,6 +13536,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 12,
@@ -12853,6 +13561,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 23,
@@ -12876,6 +13586,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 15,
@@ -12899,6 +13611,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -12922,6 +13636,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.9,
       "stats": {
         "appearances": 35,
@@ -12945,6 +13661,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 11,
@@ -12968,6 +13686,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 27,
@@ -12991,6 +13711,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -13014,6 +13736,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -13037,6 +13761,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 27,
@@ -13060,6 +13786,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -13083,6 +13811,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -13106,6 +13836,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 28,
@@ -13129,6 +13861,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 10,
@@ -13152,6 +13886,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -13175,6 +13911,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 27,
@@ -13198,6 +13936,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 8,
@@ -13221,6 +13961,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 14,
@@ -13244,6 +13986,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.8,
       "stats": {
         "appearances": 24,
@@ -13267,6 +14011,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 14,
@@ -13290,6 +14036,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 9,
@@ -13313,6 +14061,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -13336,6 +14086,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 27,
@@ -13359,6 +14111,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 28,
@@ -13382,6 +14136,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 11,
@@ -13405,6 +14161,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -13428,6 +14186,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 29,
@@ -13451,6 +14211,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 32,
@@ -13474,6 +14236,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 17,
@@ -13497,6 +14261,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -13520,6 +14286,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 25,
@@ -13543,6 +14311,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.8,
       "stats": {
         "appearances": 31,
@@ -13566,6 +14336,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.6,
       "stats": {
         "appearances": 34,
@@ -13589,6 +14361,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 33,
@@ -13612,6 +14386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 32,
@@ -13635,6 +14411,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -13658,6 +14436,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 6.1,
       "stats": {
         "appearances": 26,
@@ -13681,6 +14461,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -13704,6 +14486,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 22,
@@ -13727,6 +14511,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 17,
@@ -13750,6 +14536,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 30,
@@ -13773,6 +14561,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -13796,6 +14586,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -13819,6 +14611,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 31,
@@ -13842,6 +14636,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -13865,6 +14661,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -13888,6 +14686,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 28,
@@ -13911,6 +14711,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 21,
@@ -13934,6 +14736,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 27,
@@ -13957,6 +14761,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -13980,6 +14786,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -14003,6 +14811,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -14026,6 +14836,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 28,
@@ -14049,6 +14861,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -14072,6 +14886,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 35,
@@ -14095,6 +14911,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -14118,6 +14936,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -14141,6 +14961,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 9,
@@ -14164,6 +14986,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 11,
@@ -14187,6 +15011,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -14210,6 +15036,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -14233,6 +15061,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 33,
@@ -14256,6 +15086,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -14279,6 +15111,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.3,
       "stats": {
         "appearances": 26,
@@ -14302,6 +15136,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -14325,6 +15161,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 30,
@@ -14348,6 +15186,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 22,
@@ -14371,6 +15211,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -14394,6 +15236,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 23,
@@ -14417,6 +15261,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 19,
@@ -14440,6 +15286,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -14463,6 +15311,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -14486,6 +15336,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.0,
       "stats": {
         "appearances": 22,
@@ -14509,6 +15361,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.3,
       "stats": {
         "appearances": 32,
@@ -14532,6 +15386,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -14555,6 +15411,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.3,
       "stats": {
         "appearances": 27,
@@ -14578,6 +15436,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -14601,6 +15461,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -14624,6 +15486,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 22,
@@ -14647,6 +15511,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.6,
       "stats": {
         "appearances": 30,
@@ -14670,6 +15536,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 30,
@@ -14693,6 +15561,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 19,
@@ -14716,6 +15586,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -14739,6 +15611,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.2,
       "stats": {
         "appearances": 28,
@@ -14762,6 +15636,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 33,
@@ -14785,6 +15661,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -14808,6 +15686,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 19,
@@ -14831,6 +15711,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -14854,6 +15736,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -14877,6 +15761,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 9,
@@ -14900,6 +15786,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 27,
@@ -14923,6 +15811,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 12,
@@ -14946,6 +15836,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -14969,6 +15861,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 34,
@@ -14992,6 +15886,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -15015,6 +15911,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -15038,6 +15936,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 24,
@@ -15061,6 +15961,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -15084,6 +15986,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -15107,6 +16011,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 27,
@@ -15130,6 +16036,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 33,
@@ -15153,6 +16061,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -15176,6 +16086,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -15199,6 +16111,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -15222,6 +16136,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 28,
@@ -15245,6 +16161,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -15268,6 +16186,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -15291,6 +16211,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -15314,6 +16236,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 16,
@@ -15337,6 +16261,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -15360,6 +16286,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -15383,6 +16311,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 21,
@@ -15406,6 +16336,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -15429,6 +16361,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 31,
@@ -15452,6 +16386,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -15475,6 +16411,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 30,
@@ -15498,6 +16436,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -15521,6 +16461,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -15544,6 +16486,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -15567,6 +16511,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -15590,6 +16536,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 31,
@@ -15613,6 +16561,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 21,
@@ -15636,6 +16586,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -15659,6 +16611,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.6,
       "stats": {
         "appearances": 33,
@@ -15682,6 +16636,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.5,
       "stats": {
         "appearances": 32,
@@ -15705,6 +16661,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 29,
@@ -15728,6 +16686,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.7,
       "stats": {
         "appearances": 29,
@@ -15751,6 +16711,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 27,
@@ -15774,6 +16736,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 11,
@@ -15797,6 +16761,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 15,
@@ -15820,6 +16786,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -15843,6 +16811,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 33,
@@ -15866,6 +16836,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 32,
@@ -15889,6 +16861,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -15912,6 +16886,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 27,
@@ -15935,6 +16911,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 6.3,
       "stats": {
         "appearances": 32,
@@ -15958,6 +16936,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -15981,6 +16961,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 24,
@@ -16004,6 +16986,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -16027,6 +17011,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 9,
@@ -16050,6 +17036,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 18,
@@ -16073,6 +17061,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -16096,6 +17086,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -16119,6 +17111,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 15,
@@ -16142,6 +17136,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 9,
@@ -16165,6 +17161,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -16188,6 +17186,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -16211,6 +17211,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -16234,6 +17236,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -16257,6 +17261,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 27,
@@ -16280,6 +17286,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 32,
@@ -16303,6 +17311,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.9,
       "stats": {
         "appearances": 32,
@@ -16326,6 +17336,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -16349,6 +17361,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 28,
@@ -16372,6 +17386,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -16395,6 +17411,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -16418,6 +17436,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 11,
@@ -16441,6 +17461,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -16464,6 +17486,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -16487,6 +17511,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -16510,6 +17536,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 14,
@@ -16533,6 +17561,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -16556,6 +17586,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 14,
@@ -16579,6 +17611,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 19,
@@ -16602,6 +17636,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.9,
       "stats": {
         "appearances": 29,
@@ -16625,6 +17661,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 17,
@@ -16648,6 +17686,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -16671,6 +17711,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 24,
@@ -16694,6 +17736,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 20,
@@ -16717,6 +17761,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -16740,6 +17786,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.3,
       "stats": {
         "appearances": 30,
@@ -16763,6 +17811,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -16786,6 +17836,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 25,
@@ -16809,6 +17861,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 27,
@@ -16832,6 +17886,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -16855,6 +17911,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 21,
@@ -16878,6 +17936,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 27,
@@ -16901,6 +17961,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 28,
@@ -16924,6 +17986,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -16947,6 +18011,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 25,
@@ -16970,6 +18036,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -16993,6 +18061,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -17016,6 +18086,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -17039,6 +18111,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 28,
@@ -17062,6 +18136,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 28,
@@ -17085,6 +18161,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 8,
@@ -17108,6 +18186,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 33,
@@ -17131,6 +18211,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -17154,6 +18236,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -17177,6 +18261,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 32,
@@ -17200,6 +18286,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 23,
@@ -17223,6 +18311,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -17246,6 +18336,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 29,
@@ -17269,6 +18361,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 35,
@@ -17292,6 +18386,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -17315,6 +18411,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 14,
@@ -17338,6 +18436,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 31,
@@ -17361,6 +18461,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -17384,6 +18486,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 28,
@@ -17407,6 +18511,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 7,
@@ -17430,6 +18536,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 15,
@@ -17453,6 +18561,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 16,
@@ -17476,6 +18586,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -17499,6 +18611,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 11,
@@ -17522,6 +18636,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -17545,6 +18661,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -17568,6 +18686,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 16,
@@ -17591,6 +18711,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -17614,6 +18736,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -17637,6 +18761,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -17660,6 +18786,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 32,
@@ -17683,6 +18811,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -17706,6 +18836,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -17729,6 +18861,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 16,
@@ -17752,6 +18886,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -17775,6 +18911,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 32,
@@ -17798,6 +18936,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 31,
@@ -17821,6 +18961,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -17844,6 +18986,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 22,
@@ -17867,6 +19011,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 32,
@@ -17890,6 +19036,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 26,
@@ -17913,6 +19061,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -17936,6 +19086,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 30,
@@ -17959,6 +19111,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -17982,6 +19136,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 23,
@@ -18005,6 +19161,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -18028,6 +19186,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -18051,6 +19211,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -18074,6 +19236,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -18097,6 +19261,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 18,
@@ -18120,6 +19286,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 14,
@@ -18143,6 +19311,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 29,
@@ -18166,6 +19336,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -18189,6 +19361,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.3,
       "stats": {
         "appearances": 28,
@@ -18212,6 +19386,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 34,
@@ -18235,6 +19411,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -18258,6 +19436,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -18281,6 +19461,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 29,
@@ -18304,6 +19486,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 1,
@@ -18327,6 +19511,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 29,
@@ -18350,6 +19536,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 31,
@@ -18373,6 +19561,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -18396,6 +19586,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.3,
       "stats": {
         "appearances": 10,
@@ -18419,6 +19611,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 18,
@@ -18442,6 +19636,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -18465,6 +19661,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -18488,6 +19686,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.6,
       "stats": {
         "appearances": 31,
@@ -18511,6 +19711,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 15,
@@ -18534,6 +19736,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 33,
@@ -18557,6 +19761,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.7,
       "stats": {
         "appearances": 25,
@@ -18580,6 +19786,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -18603,6 +19811,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 14,
@@ -18626,6 +19836,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -18649,6 +19861,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -18672,6 +19886,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 21,
@@ -18695,6 +19911,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 33,
@@ -18718,6 +19936,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 15,
@@ -18741,6 +19961,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 30,
@@ -18764,6 +19986,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.8,
       "stats": {
         "appearances": 30,
@@ -18787,6 +20011,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.6,
       "stats": {
         "appearances": 31,
@@ -18810,6 +20036,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -18833,6 +20061,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 11,
@@ -18856,6 +20086,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -18879,6 +20111,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -18902,6 +20136,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 34,
@@ -18925,6 +20161,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 19,
@@ -18948,6 +20186,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -18971,6 +20211,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -18994,6 +20236,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -19017,6 +20261,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 12,
@@ -19040,6 +20286,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 33,
@@ -19063,6 +20311,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 13,
@@ -19086,6 +20336,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 3,
@@ -19109,6 +20361,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -19132,6 +20386,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 27,
@@ -19155,6 +20411,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 16,
@@ -19178,6 +20436,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -19201,6 +20461,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 27,
@@ -19224,6 +20486,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.4,
       "stats": {
         "appearances": 28,
@@ -19247,6 +20511,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 5,
@@ -19270,6 +20536,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 2,
@@ -19293,6 +20561,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 8,
@@ -19316,6 +20586,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -19339,6 +20611,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -19362,6 +20636,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 24,
@@ -19385,6 +20661,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 18,
@@ -19408,6 +20686,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 29,
@@ -19431,6 +20711,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 33,
@@ -19454,6 +20736,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -19477,6 +20761,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 26,
@@ -19500,6 +20786,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 21,
@@ -19523,6 +20811,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 14,
@@ -19546,6 +20836,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 14,
@@ -19569,6 +20861,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -19592,6 +20886,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.7,
       "stats": {
         "appearances": 19,
@@ -19615,6 +20911,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 30,
@@ -19638,6 +20936,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.4,
       "stats": {
         "appearances": 23,
@@ -19661,6 +20961,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 14,
@@ -19684,6 +20986,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 30,
@@ -19707,6 +21011,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 13,
@@ -19730,6 +21036,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 19,
@@ -19753,6 +21061,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -19776,6 +21086,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -19799,6 +21111,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -19822,6 +21136,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 5,
@@ -19845,6 +21161,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -19868,6 +21186,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -19891,6 +21211,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -19914,6 +21236,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.7,
       "stats": {
         "appearances": 28,
@@ -19937,6 +21261,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -19960,6 +21286,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -19983,6 +21311,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -20006,6 +21336,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 24,
@@ -20029,6 +21361,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 6,
@@ -20052,6 +21386,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -20075,6 +21411,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 8,
@@ -20098,6 +21436,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -20121,6 +21461,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 29,
@@ -20144,6 +21486,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 24,
@@ -20167,6 +21511,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -20190,6 +21536,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -20213,6 +21561,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 14,
@@ -20236,6 +21586,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 10,
@@ -20259,6 +21611,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 18,
@@ -20282,6 +21636,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -20305,6 +21661,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 25,
@@ -20328,6 +21686,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -20351,6 +21711,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 18,
@@ -20374,6 +21736,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 28,
@@ -20397,6 +21761,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 26,
@@ -20420,6 +21786,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -20443,6 +21811,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 4,
@@ -20466,6 +21836,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -20489,6 +21861,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 12.6,
       "stats": {
         "appearances": 30,
@@ -20512,6 +21886,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 30,
@@ -20535,6 +21911,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -20558,6 +21936,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 8,
@@ -20581,6 +21961,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -20604,6 +21986,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 20,
@@ -20627,6 +22011,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 9,
@@ -20650,6 +22036,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 29,
@@ -20673,6 +22061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 28,
@@ -20696,6 +22086,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 10.5,
       "stats": {
         "appearances": 33,
@@ -20719,6 +22111,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 16,
@@ -20742,6 +22136,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 25,
@@ -20765,6 +22161,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 12,
@@ -20788,6 +22186,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -20811,6 +22211,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 22,
@@ -20834,6 +22236,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.5,
       "stats": {
         "appearances": 31,
@@ -20857,6 +22261,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -20880,6 +22286,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -20903,6 +22311,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 31,
@@ -20926,6 +22336,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -20949,6 +22361,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -20972,6 +22386,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 29,
@@ -20995,6 +22411,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 24,
@@ -21018,6 +22436,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -21041,6 +22461,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -21064,6 +22486,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 18,
@@ -21087,6 +22511,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 31,
@@ -21110,6 +22536,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 15,
@@ -21133,6 +22561,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -21156,6 +22586,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -21179,6 +22611,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -21202,6 +22636,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 30,
@@ -21225,6 +22661,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 33,
@@ -21248,6 +22686,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.5,
       "stats": {
         "appearances": 32,
@@ -21271,6 +22711,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -21294,6 +22736,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -21317,6 +22761,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.7,
       "stats": {
         "appearances": 26,
@@ -21340,6 +22786,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.6,
       "stats": {
         "appearances": 33,
@@ -21363,6 +22811,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 7,
@@ -21386,6 +22836,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 14,
@@ -21409,6 +22861,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -21432,6 +22886,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 24,
@@ -21455,6 +22911,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 20,
@@ -21478,6 +22936,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.3,
       "stats": {
         "appearances": 17,
@@ -21501,6 +22961,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -21524,6 +22986,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -21547,6 +23011,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 23,
@@ -21570,6 +23036,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -21593,6 +23061,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 9,
@@ -21616,6 +23086,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 5,
@@ -21639,6 +23111,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 24,
@@ -21662,6 +23136,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -21685,6 +23161,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 21,
@@ -21708,6 +23186,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 21,
@@ -21731,6 +23211,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 23,
@@ -21754,6 +23236,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 21,
@@ -21777,6 +23261,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.3,
       "stats": {
         "appearances": 35,
@@ -21800,6 +23286,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 13,
@@ -21823,6 +23311,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 5,
@@ -21846,6 +23336,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -21869,6 +23361,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -21892,6 +23386,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -21915,6 +23411,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 30,
@@ -21938,6 +23436,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -21961,6 +23461,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 19,
@@ -21984,6 +23486,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -22007,6 +23511,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 8,
@@ -22030,6 +23536,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 26,
@@ -22053,6 +23561,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 32,
@@ -22076,6 +23586,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 12,
@@ -22099,6 +23611,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 19,
@@ -22122,6 +23636,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 11,
@@ -22145,6 +23661,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -22168,6 +23686,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 27,
@@ -22191,6 +23711,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -22214,6 +23736,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 5,
@@ -22237,6 +23761,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -22260,6 +23786,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -22283,6 +23811,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 11,
@@ -22306,6 +23836,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 13,
@@ -22329,6 +23861,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -22352,6 +23886,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -22375,6 +23911,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -22398,6 +23936,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -22421,6 +23961,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -22444,6 +23986,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -22467,6 +24011,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.7,
       "stats": {
         "appearances": 28,
@@ -22490,6 +24036,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 3,
@@ -22513,6 +24061,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -22536,6 +24086,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -22559,6 +24111,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 22,
@@ -22582,6 +24136,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -22605,6 +24161,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 32,
@@ -22628,6 +24186,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 30,
@@ -22651,6 +24211,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -22674,6 +24236,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -22697,6 +24261,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -22720,6 +24286,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 28,
@@ -22743,6 +24311,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.6,
       "stats": {
         "appearances": 28,
@@ -22766,6 +24336,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 31,
@@ -22789,6 +24361,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -22812,6 +24386,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 29,
@@ -22835,6 +24411,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 30,
@@ -22858,6 +24436,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -22881,6 +24461,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 12,
@@ -22904,6 +24486,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -22927,6 +24511,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 33,
@@ -22950,6 +24536,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -22973,6 +24561,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -22996,6 +24586,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -23019,6 +24611,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 7,
@@ -23042,6 +24636,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -23065,6 +24661,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -23088,6 +24686,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 29,
@@ -23111,6 +24711,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 10,
@@ -23134,6 +24736,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 26,
@@ -23157,6 +24761,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 24,
@@ -23180,6 +24786,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 8,
@@ -23203,6 +24811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -23226,6 +24836,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 14,
@@ -23249,6 +24861,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 29,
@@ -23272,6 +24886,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 29,
@@ -23295,6 +24911,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 34,
@@ -23318,6 +24936,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -23341,6 +24961,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 22,
@@ -23364,6 +24986,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 26,
@@ -23387,6 +25011,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 33,
@@ -23410,6 +25036,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.3,
       "stats": {
         "appearances": 33,
@@ -23433,6 +25061,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -23456,6 +25086,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 14,
@@ -23479,6 +25111,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -23502,6 +25136,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -23525,6 +25161,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -23548,6 +25186,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -23571,6 +25211,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 30,
@@ -23594,6 +25236,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 18,
@@ -23617,6 +25261,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.2,
       "stats": {
         "appearances": 3,
@@ -23640,6 +25286,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 28,
@@ -23663,6 +25311,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 33,
@@ -23686,6 +25336,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 32,
@@ -23709,6 +25361,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 29,
@@ -23732,6 +25386,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -23755,6 +25411,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.5,
       "stats": {
         "appearances": 25,
@@ -23778,6 +25436,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 14,
@@ -23801,6 +25461,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -23824,6 +25486,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 28,
@@ -23847,6 +25511,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -23870,6 +25536,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 31,
@@ -23893,6 +25561,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 10,
@@ -23916,6 +25586,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -23939,6 +25611,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -23962,6 +25636,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 23,
@@ -23985,6 +25661,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -24008,6 +25686,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 20,
@@ -24031,6 +25711,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 33,
@@ -24054,6 +25736,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 11,
@@ -24077,6 +25761,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -24100,6 +25786,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -24123,6 +25811,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -24146,6 +25836,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 32,
@@ -24169,6 +25861,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 28,
@@ -24192,6 +25886,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.8,
       "stats": {
         "appearances": 16,
@@ -24215,6 +25911,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 24,
@@ -24238,6 +25936,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 11.7,
       "stats": {
         "appearances": 32,
@@ -24261,6 +25961,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 7.0,
       "stats": {
         "appearances": 33,
@@ -24284,6 +25986,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -24307,6 +26011,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -24330,6 +26036,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 9,
@@ -24353,6 +26061,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.5,
       "stats": {
         "appearances": 33,
@@ -24376,6 +26086,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 20,
@@ -24399,6 +26111,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -24422,6 +26136,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -24445,6 +26161,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 34,
@@ -24468,6 +26186,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 13,
@@ -24491,6 +26211,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -24514,6 +26236,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.9,
       "stats": {
         "appearances": 27,
@@ -24537,6 +26261,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 7,
@@ -24560,6 +26286,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -24583,6 +26311,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -24606,6 +26336,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 10,
@@ -24629,6 +26361,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 26,
@@ -24652,6 +26386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -24675,6 +26411,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 22,
@@ -24698,6 +26436,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 26,
@@ -24721,6 +26461,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -24744,6 +26486,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -24767,6 +26511,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -24790,6 +26536,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.2,
       "stats": {
         "appearances": 29,
@@ -24813,6 +26561,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 10,
@@ -24836,6 +26586,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 25,
@@ -24859,6 +26611,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -24882,6 +26636,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 12,
@@ -24905,6 +26661,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -24928,6 +26686,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 30,
@@ -24951,6 +26711,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 25,
@@ -24974,6 +26736,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 17,
@@ -24997,6 +26761,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 25,
@@ -25020,6 +26786,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -25043,6 +26811,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 15,
@@ -25066,6 +26836,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.6,
       "stats": {
         "appearances": 34,
@@ -25089,6 +26861,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 11,
@@ -25112,6 +26886,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -25135,6 +26911,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.8,
       "stats": {
         "appearances": 25,
@@ -25158,6 +26936,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -25181,6 +26961,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -25204,6 +26986,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 21,
@@ -25227,6 +27011,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 19,
@@ -25250,6 +27036,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 21,
@@ -25273,6 +27061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 4,
@@ -25296,6 +27086,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -25319,6 +27111,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -25342,6 +27136,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 33,
@@ -25365,6 +27161,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 28,
@@ -25388,6 +27186,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 26,
@@ -25411,6 +27211,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 28,
@@ -25434,6 +27236,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -25457,6 +27261,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 19,
@@ -25480,6 +27286,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.7,
       "stats": {
         "appearances": 32,
@@ -25503,6 +27311,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.8,
       "stats": {
         "appearances": 31,
@@ -25526,6 +27336,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.4,
       "stats": {
         "appearances": 30,
@@ -25549,6 +27361,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -25572,6 +27386,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 17,
@@ -25595,6 +27411,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -25618,6 +27436,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 27,
@@ -25641,6 +27461,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 34,
@@ -25664,6 +27486,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.7,
       "stats": {
         "appearances": 30,
@@ -25687,6 +27511,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 27,
@@ -25710,6 +27536,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.6,
       "stats": {
         "appearances": 33,
@@ -25733,6 +27561,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -25756,6 +27586,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -25779,6 +27611,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -25802,6 +27636,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 13,
@@ -25825,6 +27661,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 19,
@@ -25848,6 +27686,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 34,
@@ -25871,6 +27711,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 25,
@@ -25894,6 +27736,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 13,
@@ -25917,6 +27761,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 17,
@@ -25940,6 +27786,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 21,
@@ -25963,6 +27811,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 7,
@@ -25986,6 +27836,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -26009,6 +27861,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 31,
@@ -26032,6 +27886,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 31,
@@ -26055,6 +27911,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -26078,6 +27936,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -26101,6 +27961,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 31,
@@ -26124,6 +27986,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -26147,6 +28011,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 26,
@@ -26170,6 +28036,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -26193,6 +28061,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -26216,6 +28086,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -26239,6 +28111,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.1,
       "stats": {
         "appearances": 32,
@@ -26262,6 +28136,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -26285,6 +28161,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -26308,6 +28186,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 20,
@@ -26331,6 +28211,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 23,
@@ -26354,6 +28236,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 35,
@@ -26377,6 +28261,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -26400,6 +28286,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 18,
@@ -26423,6 +28311,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -26446,6 +28336,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 8,
@@ -26469,6 +28361,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -26492,6 +28386,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -26515,6 +28411,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 29,
@@ -26538,6 +28436,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.3,
       "stats": {
         "appearances": 30,
@@ -26561,6 +28461,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -26584,6 +28486,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -26607,6 +28511,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -26630,6 +28536,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -26653,6 +28561,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -26676,6 +28586,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -26699,6 +28611,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 22,
@@ -26722,6 +28636,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -26745,6 +28661,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -26768,6 +28686,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -26791,6 +28711,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -26814,6 +28736,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -26837,6 +28761,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 26,
@@ -26860,6 +28786,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 10.2,
       "stats": {
         "appearances": 35,
@@ -26883,6 +28811,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 26,
@@ -26906,6 +28836,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 28,
@@ -26929,6 +28861,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 15,
@@ -26952,6 +28886,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -26975,6 +28911,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 13,
@@ -26998,6 +28936,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -27021,6 +28961,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -27044,6 +28986,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 21,
@@ -27067,6 +29011,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 11,
@@ -27090,6 +29036,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 29,
@@ -27113,6 +29061,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 16,
@@ -27136,6 +29086,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.8,
       "stats": {
         "appearances": 19,
@@ -27159,6 +29111,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.1,
       "stats": {
         "appearances": 21,
@@ -27182,6 +29136,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 20,
@@ -27205,6 +29161,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 24,
@@ -27228,6 +29186,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.1,
       "stats": {
         "appearances": 25,
@@ -27251,6 +29211,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -27274,6 +29236,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -27297,6 +29261,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -27320,6 +29286,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 24,
@@ -27343,6 +29311,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -27366,6 +29336,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 14,
@@ -27389,6 +29361,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -27412,6 +29386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 33,
@@ -27435,6 +29411,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 19,
@@ -27458,6 +29436,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -27481,6 +29461,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.2,
       "stats": {
         "appearances": 30,
@@ -27504,6 +29486,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 18,
@@ -27527,6 +29511,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 23,
@@ -27550,6 +29536,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 31,
@@ -27573,6 +29561,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 22,
@@ -27596,6 +29586,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 24,
@@ -27619,6 +29611,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 17,
@@ -27642,6 +29636,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 11,
@@ -27665,6 +29661,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -27688,6 +29686,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 24,
@@ -27711,6 +29711,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 24,
@@ -27734,6 +29736,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -27757,6 +29761,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -27780,6 +29786,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -27803,6 +29811,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 26,
@@ -27826,6 +29836,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.4,
       "stats": {
         "appearances": 29,
@@ -27849,6 +29861,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 20,
@@ -27872,6 +29886,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.4,
       "stats": {
         "appearances": 28,
@@ -27895,6 +29911,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -27918,6 +29936,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 22,
@@ -27941,6 +29961,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -27964,6 +29986,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -27987,6 +30011,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 20,
@@ -28010,6 +30036,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 20,
@@ -28033,6 +30061,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -28056,6 +30086,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -28079,6 +30111,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 9,
@@ -28102,6 +30136,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -28125,6 +30161,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -28148,6 +30186,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -28171,6 +30211,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 33,
@@ -28194,6 +30236,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -28217,6 +30261,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 20,
@@ -28240,6 +30286,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 11.2,
       "stats": {
         "appearances": 30,
@@ -28263,6 +30311,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 15,
@@ -28286,6 +30336,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 27,
@@ -28309,6 +30361,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 30,
@@ -28332,6 +30386,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.2,
       "stats": {
         "appearances": 31,
@@ -28355,6 +30411,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.3,
       "stats": {
         "appearances": 27,
@@ -28378,6 +30436,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 11,
@@ -28401,6 +30461,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 16,
@@ -28424,6 +30486,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 11,
@@ -28447,6 +30511,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 18,
@@ -28470,6 +30536,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -28493,6 +30561,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 31,
@@ -28516,6 +30586,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 5,
@@ -28539,6 +30611,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -28562,6 +30636,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 30,
@@ -28585,6 +30661,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -28608,6 +30686,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.7,
       "stats": {
         "appearances": 31,
@@ -28631,6 +30711,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 20,
@@ -28654,6 +30736,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -28677,6 +30761,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 16,
@@ -28700,6 +30786,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 32,
@@ -28723,6 +30811,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.4,
       "stats": {
         "appearances": 17,
@@ -28746,6 +30836,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -28769,6 +30861,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -28792,6 +30886,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 6,
@@ -28815,6 +30911,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 13,
@@ -28838,6 +30936,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -28861,6 +30961,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -28884,6 +30986,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -28907,6 +31011,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 27,
@@ -28930,6 +31036,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 16,
@@ -28953,6 +31061,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -28976,6 +31086,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -28999,6 +31111,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.2,
       "stats": {
         "appearances": 26,
@@ -29022,6 +31136,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -29045,6 +31161,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 20,
@@ -29068,6 +31186,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.5,
       "stats": {
         "appearances": 32,
@@ -29091,6 +31211,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -29114,6 +31236,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 8,
@@ -29137,6 +31261,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 22,
@@ -29160,6 +31286,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.5,
       "stats": {
         "appearances": 32,
@@ -29183,6 +31311,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 25,
@@ -29206,6 +31336,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -29229,6 +31361,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 24,
@@ -29252,6 +31386,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 24,
@@ -29275,6 +31411,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 31,
@@ -29298,6 +31436,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 32,
@@ -29321,6 +31461,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -29344,6 +31486,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 25,
@@ -29367,6 +31511,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.8,
       "stats": {
         "appearances": 30,
@@ -29390,6 +31536,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 16,
@@ -29413,6 +31561,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.9,
       "stats": {
         "appearances": 33,
@@ -29436,6 +31586,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 15.0,
       "stats": {
         "appearances": 33,
@@ -29459,6 +31611,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -29482,6 +31636,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -29505,6 +31661,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -29528,6 +31686,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -29551,6 +31711,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 18,
@@ -29574,6 +31736,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -29597,6 +31761,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -29620,6 +31786,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -29643,6 +31811,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -29666,6 +31836,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 13,
@@ -29689,6 +31861,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 26,
@@ -29712,6 +31886,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -29735,6 +31911,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -29758,6 +31936,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -29781,6 +31961,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.3,
       "stats": {
         "appearances": 30,
@@ -29804,6 +31986,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 28,
@@ -29827,6 +32011,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 13,
@@ -29850,6 +32036,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 11,
@@ -29873,6 +32061,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 21,
@@ -29896,6 +32086,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 21,
@@ -29919,6 +32111,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 33,
@@ -29942,6 +32136,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -29965,6 +32161,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -29988,6 +32186,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -30011,6 +32211,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -30034,6 +32236,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.2,
       "stats": {
         "appearances": 9,
@@ -30057,6 +32261,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -30080,6 +32286,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.5,
       "stats": {
         "appearances": 33,
@@ -30103,6 +32311,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 23,
@@ -30126,6 +32336,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -30149,6 +32361,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.3,
       "stats": {
         "appearances": 27,
@@ -30172,6 +32386,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -30195,6 +32411,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -30218,6 +32436,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -30241,6 +32461,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 33,
@@ -30264,6 +32486,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 29,
@@ -30287,6 +32511,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 29,
@@ -30310,6 +32536,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 15,
@@ -30333,6 +32561,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 27,
@@ -30356,6 +32586,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -30379,6 +32611,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -30402,6 +32636,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 15,
@@ -30425,6 +32661,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.3,
       "stats": {
         "appearances": 24,
@@ -30448,6 +32686,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 23,
@@ -30471,6 +32711,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -30494,6 +32736,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 27,
@@ -30517,6 +32761,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -30540,6 +32786,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -30563,6 +32811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -30586,6 +32836,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 1,
@@ -30609,6 +32861,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -30632,6 +32886,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -30655,6 +32911,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 27,
@@ -30678,6 +32936,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 26,
@@ -30701,6 +32961,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -30724,6 +32986,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 32,
@@ -30747,6 +33011,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 26,
@@ -30770,6 +33036,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 6,
@@ -30793,6 +33061,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 23,
@@ -30816,6 +33086,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -30839,6 +33111,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -30862,6 +33136,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -30885,6 +33161,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -30908,6 +33186,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -30931,6 +33211,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 22,
@@ -30954,6 +33236,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -30977,6 +33261,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 31,
@@ -31000,6 +33286,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 14,
@@ -31023,6 +33311,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 11,
@@ -31046,6 +33336,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -31069,6 +33361,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.3,
       "stats": {
         "appearances": 26,
@@ -31092,6 +33386,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 25,
@@ -31115,6 +33411,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -31138,6 +33436,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 19,
@@ -31161,6 +33461,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -31184,6 +33486,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 15,
@@ -31207,6 +33511,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 28,
@@ -31230,6 +33536,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -31253,6 +33561,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 30,
@@ -31276,6 +33586,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 29,
@@ -31299,6 +33611,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -31322,6 +33636,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 35,
@@ -31345,6 +33661,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -31368,6 +33686,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -31391,6 +33711,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 28,
@@ -31414,6 +33736,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -31437,6 +33761,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -31460,6 +33786,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -31483,6 +33811,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -31506,6 +33836,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 30,
@@ -31529,6 +33861,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 24,
@@ -31552,6 +33886,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 30,
@@ -31575,6 +33911,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 15,
@@ -31598,6 +33936,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 33,
@@ -31621,6 +33961,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 30,
@@ -31644,6 +33986,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 23,
@@ -31667,6 +34011,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -31690,6 +34036,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 8,
@@ -31713,6 +34061,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 34,
@@ -31736,6 +34086,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 13,
@@ -31759,6 +34111,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 33,
@@ -31782,6 +34136,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.8,
       "stats": {
         "appearances": 31,
@@ -31805,6 +34161,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -31828,6 +34186,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 21,
@@ -31851,6 +34211,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 15,
@@ -31874,6 +34236,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 30,
@@ -31897,6 +34261,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -31920,6 +34286,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 18,
@@ -31943,6 +34311,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -31966,6 +34336,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 17,
@@ -31989,6 +34361,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 11,
@@ -32012,6 +34386,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -32035,6 +34411,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -32058,6 +34436,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -32081,6 +34461,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 26,
@@ -32104,6 +34486,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -32127,6 +34511,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -32150,6 +34536,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -32173,6 +34561,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 13,
@@ -32196,6 +34586,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 28,
@@ -32219,6 +34611,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 4,
@@ -32242,6 +34636,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 30,
@@ -32265,6 +34661,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 24,
@@ -32288,6 +34686,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 9,
@@ -32311,6 +34711,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 15,
@@ -32334,6 +34736,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 27,
@@ -32357,6 +34761,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 11,
@@ -32380,6 +34786,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -32403,6 +34811,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 21,
@@ -32426,6 +34836,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -32449,6 +34861,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.1,
       "stats": {
         "appearances": 26,
@@ -32472,6 +34886,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 25,
@@ -32495,6 +34911,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -32518,6 +34936,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -32541,6 +34961,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 27,
@@ -32564,6 +34986,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 22,
@@ -32587,6 +35011,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -32610,6 +35036,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -32633,6 +35061,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -32656,6 +35086,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 12,
@@ -32679,6 +35111,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 12,
@@ -32702,6 +35136,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 14,
@@ -32725,6 +35161,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 32,
@@ -32748,6 +35186,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -32771,6 +35211,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -32794,6 +35236,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 26,
@@ -32817,6 +35261,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 33,
@@ -32840,6 +35286,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 32,
@@ -32863,6 +35311,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -32886,6 +35336,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 13,
@@ -32909,6 +35361,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 34,
@@ -32932,6 +35386,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -32955,6 +35411,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 31,
@@ -32978,6 +35436,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -33001,6 +35461,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -33024,6 +35486,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 34,
@@ -33047,6 +35511,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -33070,6 +35536,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 12.0,
       "stats": {
         "appearances": 33,
@@ -33093,6 +35561,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 26,
@@ -33116,6 +35586,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 23,
@@ -33139,6 +35611,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -33162,6 +35636,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 29,
@@ -33185,6 +35661,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 5,
@@ -33208,6 +35686,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 11,
@@ -33231,6 +35711,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 16,
@@ -33254,6 +35736,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 15,
@@ -33277,6 +35761,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -33300,6 +35786,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 12,
@@ -33323,6 +35811,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 31,
@@ -33346,6 +35836,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 8,
@@ -33369,6 +35861,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 23,
@@ -33392,6 +35886,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -33415,6 +35911,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 17,
@@ -33438,6 +35936,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.7,
       "stats": {
         "appearances": 29,
@@ -33461,6 +35961,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -33484,6 +35986,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 8,
@@ -33507,6 +36011,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -33530,6 +36036,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -33553,6 +36061,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 30,
@@ -33576,6 +36086,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -33599,6 +36111,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 1,
@@ -33622,6 +36136,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 13,
@@ -33645,6 +36161,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 12.0,
       "stats": {
         "appearances": 33,
@@ -33668,6 +36186,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 9,
@@ -33691,6 +36211,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -33714,6 +36236,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 26,
@@ -33737,6 +36261,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -33760,6 +36286,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 27,
@@ -33783,6 +36311,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -33806,6 +36336,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -33829,6 +36361,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 23,
@@ -33852,6 +36386,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -33875,6 +36411,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.9,
       "stats": {
         "appearances": 28,
@@ -33898,6 +36436,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 26,
@@ -33921,6 +36461,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 34,
@@ -33944,6 +36486,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 13,
@@ -33967,6 +36511,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -33990,6 +36536,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 9,
@@ -34013,6 +36561,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 18,
@@ -34036,6 +36586,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 34,
@@ -34059,6 +36611,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -34082,6 +36636,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -34105,6 +36661,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 24,
@@ -34128,6 +36686,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 23,
@@ -34151,6 +36711,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -34174,6 +36736,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -34197,6 +36761,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 18,
@@ -34220,6 +36786,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -34243,6 +36811,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 24,
@@ -34266,6 +36836,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -34289,6 +36861,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -34312,6 +36886,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.2,
       "stats": {
         "appearances": 32,
@@ -34335,6 +36911,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -34358,6 +36936,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -34381,6 +36961,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 15.0,
       "stats": {
         "appearances": 29,
@@ -34404,6 +36986,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 25,
@@ -34427,6 +37011,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -34450,6 +37036,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -34473,6 +37061,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 21,
@@ -34496,6 +37086,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -34519,6 +37111,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 28,
@@ -34542,6 +37136,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.8,
       "stats": {
         "appearances": 24,
@@ -34565,6 +37161,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 33,
@@ -34588,6 +37186,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 7,
@@ -34611,6 +37211,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -34634,6 +37236,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 8,
@@ -34657,6 +37261,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 14,
@@ -34680,6 +37286,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 16,
@@ -34703,6 +37311,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -34726,6 +37336,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 34,
@@ -34749,6 +37361,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 26,
@@ -34772,6 +37386,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 30,
@@ -34795,6 +37411,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 27,
@@ -34818,6 +37436,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 28,
@@ -34841,6 +37461,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 26,
@@ -34864,6 +37486,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 34,
@@ -34887,6 +37511,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -34910,6 +37536,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -34933,6 +37561,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -34956,6 +37586,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 32,
@@ -34979,6 +37611,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -35002,6 +37636,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -35025,6 +37661,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 17,
@@ -35048,6 +37686,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.8,
       "stats": {
         "appearances": 31,
@@ -35071,6 +37711,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -35094,6 +37736,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -35117,6 +37761,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 24,
@@ -35140,6 +37786,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 7.2,
       "stats": {
         "appearances": 31,
@@ -35163,6 +37811,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -35186,6 +37836,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -35209,6 +37861,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 22,
@@ -35232,6 +37886,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 33,
@@ -35255,6 +37911,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 22,
@@ -35278,6 +37936,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -35301,6 +37961,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 27,
@@ -35324,6 +37986,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 29,
@@ -35347,6 +38011,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -35370,6 +38036,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -35393,6 +38061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -35416,6 +38086,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 5,
@@ -35439,6 +38111,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 18,
@@ -35462,6 +38136,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 15,
@@ -35485,6 +38161,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 27,
@@ -35508,6 +38186,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -35531,6 +38211,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 33,
@@ -35554,6 +38236,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 6.1,
       "stats": {
         "appearances": 31,
@@ -35577,6 +38261,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 28,
@@ -35600,6 +38286,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -35623,6 +38311,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -35646,6 +38336,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 28,
@@ -35669,6 +38361,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 19,
@@ -35692,6 +38386,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 27,
@@ -35715,6 +38411,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 30,
@@ -35738,6 +38436,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -35761,6 +38461,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 14,
@@ -35784,6 +38486,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -35807,6 +38511,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 6,
@@ -35830,6 +38536,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 27,
@@ -35853,6 +38561,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -35876,6 +38586,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 26,
@@ -35899,6 +38611,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 33,
@@ -35922,6 +38636,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -35945,6 +38661,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -35968,6 +38686,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 33,
@@ -35991,6 +38711,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 27,
@@ -36014,6 +38736,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 32,
@@ -36037,6 +38761,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -36060,6 +38786,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -36083,6 +38811,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -36106,6 +38836,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 18,
@@ -36129,6 +38861,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 18,
@@ -36152,6 +38886,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 18,
@@ -36175,6 +38911,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -36198,6 +38936,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -36221,6 +38961,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -36244,6 +38986,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 29,
@@ -36267,6 +39011,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -36290,6 +39036,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 27,
@@ -36313,6 +39061,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 8,
@@ -36336,6 +39086,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 28,
@@ -36359,6 +39111,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -36382,6 +39136,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -36405,6 +39161,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 3,
@@ -36428,6 +39186,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 11,
@@ -36451,6 +39211,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 11,
@@ -36474,6 +39236,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -36497,6 +39261,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 20,
@@ -36520,6 +39286,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.7,
       "stats": {
         "appearances": 32,
@@ -36543,6 +39311,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -36566,6 +39336,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 25,
@@ -36589,6 +39361,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -36612,6 +39386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -36635,6 +39411,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -36658,6 +39436,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 21,
@@ -36681,6 +39461,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.9,
       "stats": {
         "appearances": 25,
@@ -36704,6 +39486,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.3,
       "stats": {
         "appearances": 31,
@@ -36727,6 +39511,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 21,
@@ -36750,6 +39536,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 22,
@@ -36773,6 +39561,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.1,
       "stats": {
         "appearances": 19,
@@ -36796,6 +39586,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 23,
@@ -36819,6 +39611,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 12,
@@ -36842,6 +39636,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 22,
@@ -36865,6 +39661,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -36888,6 +39686,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -36911,6 +39711,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -36934,6 +39736,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -36957,6 +39761,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 25,
@@ -36980,6 +39786,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 8,
@@ -37003,6 +39811,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 13,
@@ -37026,6 +39836,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 30,
@@ -37049,6 +39861,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 24,
@@ -37072,6 +39886,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -37095,6 +39911,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 32,
@@ -37118,6 +39936,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -37141,6 +39961,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -37164,6 +39986,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 8,
@@ -37187,6 +40011,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 7.5,
       "stats": {
         "appearances": 27,
@@ -37210,6 +40036,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 30,
@@ -37233,6 +40061,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -37256,6 +40086,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 29,
@@ -37279,6 +40111,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -37302,6 +40136,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 18,
@@ -37325,6 +40161,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -37348,6 +40186,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 25,
@@ -37371,6 +40211,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -37394,6 +40236,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 10,
@@ -37417,6 +40261,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.3,
       "stats": {
         "appearances": 31,
@@ -37440,6 +40286,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 36,
@@ -37463,6 +40311,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -37486,6 +40336,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -37509,6 +40361,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 31,
@@ -37532,6 +40386,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 20,
@@ -37555,6 +40411,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -37578,6 +40436,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 28,
@@ -37601,6 +40461,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 5,
@@ -37624,6 +40486,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.7,
       "stats": {
         "appearances": 33,
@@ -37647,6 +40511,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -37670,6 +40536,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 25,
@@ -37693,6 +40561,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 21,
@@ -37716,6 +40586,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 27,
@@ -37739,6 +40611,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 20,
@@ -37762,6 +40636,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -37785,6 +40661,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 32,
@@ -37808,6 +40686,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -37831,6 +40711,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -37854,6 +40736,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -37877,6 +40761,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 33,
@@ -37900,6 +40786,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 23,
@@ -37923,6 +40811,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -37946,6 +40836,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 24,
@@ -37969,6 +40861,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 11,
@@ -37992,6 +40886,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.3,
       "stats": {
         "appearances": 27,
@@ -38015,6 +40911,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -38038,6 +40936,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 16,
@@ -38061,6 +40961,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -38084,6 +40986,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 27,
@@ -38107,6 +41011,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 2,
@@ -38130,6 +41036,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 12.9,
       "stats": {
         "appearances": 30,
@@ -38153,6 +41061,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 27,
@@ -38176,6 +41086,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 31,
@@ -38199,6 +41111,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 27,
@@ -38222,6 +41136,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -38245,6 +41161,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.8,
       "stats": {
         "appearances": 27,
@@ -38268,6 +41186,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.2,
       "stats": {
         "appearances": 30,
@@ -38291,6 +41211,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 10,
@@ -38314,6 +41236,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 33,
@@ -38337,6 +41261,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -38360,6 +41286,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 18,
@@ -38383,6 +41311,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 13,
@@ -38406,6 +41336,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -38429,6 +41361,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 14,
@@ -38452,6 +41386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -38475,6 +41411,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 22,
@@ -38498,6 +41436,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -38521,6 +41461,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -38544,6 +41486,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 27,
@@ -38567,6 +41511,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -38590,6 +41536,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -38613,6 +41561,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 2,
@@ -38636,6 +41586,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -38659,6 +41611,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 15,
@@ -38682,6 +41636,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -38705,6 +41661,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -38728,6 +41686,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 21,
@@ -38751,6 +41711,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 28,
@@ -38774,6 +41736,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 29,
@@ -38797,6 +41761,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 33,
@@ -38820,6 +41786,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 20,
@@ -38843,6 +41811,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 26,
@@ -38866,6 +41836,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 21,
@@ -38889,6 +41861,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 12,
@@ -38912,6 +41886,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 8,
@@ -38935,6 +41911,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -38958,6 +41936,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -38981,6 +41961,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -39004,6 +41986,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 30,
@@ -39027,6 +42011,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 9,
@@ -39050,6 +42036,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 13,
@@ -39073,6 +42061,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.1,
       "stats": {
         "appearances": 28,
@@ -39096,6 +42086,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -39119,6 +42111,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -39142,6 +42136,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -39165,6 +42161,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 24,
@@ -39188,6 +42186,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 9,
@@ -39211,6 +42211,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 25,
@@ -39234,6 +42236,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -39257,6 +42261,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 9,
@@ -39280,6 +42286,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 20,
@@ -39303,6 +42311,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 25,
@@ -39326,6 +42336,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -39349,6 +42361,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 6,
@@ -39372,6 +42386,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -39395,6 +42411,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 9,
@@ -39418,6 +42436,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 30,
@@ -39441,6 +42461,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -39464,6 +42486,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -39487,6 +42511,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -39510,6 +42536,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 3,
@@ -39533,6 +42561,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 27,
@@ -39556,6 +42586,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 3,
@@ -39579,6 +42611,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 28,
@@ -39602,6 +42636,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -39625,6 +42661,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 20,
@@ -39648,6 +42686,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 10,
@@ -39671,6 +42711,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -39694,6 +42736,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 5,
@@ -39717,6 +42761,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 24,
@@ -39740,6 +42786,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 2,
@@ -39763,6 +42811,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 24,
@@ -39786,6 +42836,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 31,
@@ -39809,6 +42861,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -39832,6 +42886,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 12,
@@ -39855,6 +42911,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 19,
@@ -39878,6 +42936,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 1,
@@ -39901,6 +42961,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -39924,6 +42986,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 7,
@@ -39947,6 +43011,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -39970,6 +43036,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 10,
@@ -39993,6 +43061,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 29,
@@ -40016,6 +43086,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -40039,6 +43111,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 27,
@@ -40062,6 +43136,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 34,
@@ -40085,6 +43161,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 14,
@@ -40108,6 +43186,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -40131,6 +43211,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -40154,6 +43236,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -40177,6 +43261,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 30,
@@ -40200,6 +43286,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -40223,6 +43311,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -40246,6 +43336,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 24,
@@ -40269,6 +43361,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 28,
@@ -40292,6 +43386,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.7,
       "stats": {
         "appearances": 29,
@@ -40315,6 +43411,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 22,
@@ -40338,6 +43436,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 30,
@@ -40361,6 +43461,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 17,
@@ -40384,6 +43486,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 20,
@@ -40407,6 +43511,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -40430,6 +43536,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -40453,6 +43561,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 22,
@@ -40476,6 +43586,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 32,
@@ -40499,6 +43611,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 25,
@@ -40522,6 +43636,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 28,
@@ -40545,6 +43661,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 10,
@@ -40568,6 +43686,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 26,
@@ -40591,6 +43711,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -40614,6 +43736,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 29,
@@ -40637,6 +43761,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -40660,6 +43786,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -40683,6 +43811,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.9,
       "stats": {
         "appearances": 32,
@@ -40706,6 +43836,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -40729,6 +43861,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -40752,6 +43886,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 10,
@@ -40775,6 +43911,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -40798,6 +43936,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 11,
@@ -40821,6 +43961,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -40844,6 +43986,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 21,
@@ -40867,6 +44011,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.2,
       "stats": {
         "appearances": 15,
@@ -40890,6 +44036,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 32,
@@ -40913,6 +44061,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 20,
@@ -40936,6 +44086,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 7,
@@ -40959,6 +44111,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 8,
@@ -40982,6 +44136,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -41005,6 +44161,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -41028,6 +44186,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 6.0,
       "stats": {
         "appearances": 33,
@@ -41051,6 +44211,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -41074,6 +44236,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 27,
@@ -41097,6 +44261,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 31,
@@ -41120,6 +44286,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -41143,6 +44311,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 24,
@@ -41166,6 +44336,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -41189,6 +44361,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -41212,6 +44386,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -41235,6 +44411,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 25,
@@ -41258,6 +44436,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 25,
@@ -41281,6 +44461,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 29,
@@ -41304,6 +44486,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 13,
@@ -41327,6 +44511,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -41350,6 +44536,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 21,
@@ -41373,6 +44561,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -41396,6 +44586,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -41419,6 +44611,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -41442,6 +44636,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -41465,6 +44661,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 2,
@@ -41488,6 +44686,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -41511,6 +44711,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -41534,6 +44736,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -41557,6 +44761,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 20,
@@ -41580,6 +44786,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -41603,6 +44811,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 8,
@@ -41626,6 +44836,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 10,
@@ -41649,6 +44861,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 26,
@@ -41672,6 +44886,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 18,
@@ -41695,6 +44911,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -41718,6 +44936,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -41741,6 +44961,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -41764,6 +44986,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 30,
@@ -41787,6 +45011,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 30,
@@ -41810,6 +45036,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -41833,6 +45061,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 29,
@@ -41856,6 +45086,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -41879,6 +45111,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -41902,6 +45136,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 31,
@@ -41925,6 +45161,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 28,
@@ -41948,6 +45186,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -41971,6 +45211,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -41994,6 +45236,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 30,
@@ -42017,6 +45261,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 17,
@@ -42040,6 +45286,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -42063,6 +45311,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 12.3,
       "stats": {
         "appearances": 27,
@@ -42086,6 +45336,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -42109,6 +45361,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 24,
@@ -42132,6 +45386,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -42155,6 +45411,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.4,
       "stats": {
         "appearances": 33,
@@ -42178,6 +45436,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -42201,6 +45461,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 27,
@@ -42224,6 +45486,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 5,
@@ -42247,6 +45511,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -42270,6 +45536,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.3,
       "stats": {
         "appearances": 31,
@@ -42293,6 +45561,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 19,
@@ -42316,6 +45586,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -42339,6 +45611,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -42362,6 +45636,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -42385,6 +45661,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 29,
@@ -42408,6 +45686,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 24,
@@ -42431,6 +45711,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 28,
@@ -42454,6 +45736,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 32,
@@ -42477,6 +45761,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 9,
@@ -42500,6 +45786,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -42523,6 +45811,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -42546,6 +45836,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.2,
       "stats": {
         "appearances": 26,
@@ -42569,6 +45861,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 19,
@@ -42592,6 +45886,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -42615,6 +45911,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 8,
@@ -42638,6 +45936,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 28,
@@ -42661,6 +45961,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -42684,6 +45986,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 19,
@@ -42707,6 +46011,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -42730,6 +46036,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 15,
@@ -42753,6 +46061,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.5,
       "stats": {
         "appearances": 23,
@@ -42776,6 +46086,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 26,
@@ -42799,6 +46111,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -42822,6 +46136,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 18,
@@ -42845,6 +46161,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -42868,6 +46186,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 12,
@@ -42891,6 +46211,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.8,
       "stats": {
         "appearances": 24,
@@ -42914,6 +46236,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 16,
@@ -42937,6 +46261,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 14.5,
       "stats": {
         "appearances": 28,
@@ -42960,6 +46286,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 22,
@@ -42983,6 +46311,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -43006,6 +46336,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -43029,6 +46361,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 30,
@@ -43052,6 +46386,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -43075,6 +46411,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -43098,6 +46436,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 30,
@@ -43121,6 +46461,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -43144,6 +46486,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 27,
@@ -43167,6 +46511,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 33,
@@ -43190,6 +46536,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 28,
@@ -43213,6 +46561,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 21,
@@ -43236,6 +46586,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.8,
       "stats": {
         "appearances": 30,
@@ -43259,6 +46611,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -43282,6 +46636,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -43305,6 +46661,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 26,
@@ -43328,6 +46686,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 24,
@@ -43351,6 +46711,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.8,
       "stats": {
         "appearances": 17,
@@ -43374,6 +46736,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 24,
@@ -43397,6 +46761,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -43420,6 +46786,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 7.2,
       "stats": {
         "appearances": 20,
@@ -43443,6 +46811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.7,
       "stats": {
         "appearances": 28,
@@ -43466,6 +46836,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -43489,6 +46861,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 7,
@@ -43512,6 +46886,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 23,
@@ -43535,6 +46911,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 27,
@@ -43558,6 +46936,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -43581,6 +46961,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -43604,6 +46986,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 21,
@@ -43627,6 +47011,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 6,
@@ -43650,6 +47036,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 28,
@@ -43673,6 +47061,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 21,
@@ -43696,6 +47086,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 9,
@@ -43719,6 +47111,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 21,
@@ -43742,6 +47136,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 31,
@@ -43765,6 +47161,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -43788,6 +47186,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 20,
@@ -43811,6 +47211,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -43834,6 +47236,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 23,
@@ -43857,6 +47261,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -43880,6 +47286,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 23,
@@ -43903,6 +47311,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 24,
@@ -43926,6 +47336,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -43949,6 +47361,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -43972,6 +47386,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.8,
       "stats": {
         "appearances": 29,
@@ -43995,6 +47411,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 2,
@@ -44018,6 +47436,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -44041,6 +47461,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 25,
@@ -44064,6 +47486,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -44087,6 +47511,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -44110,6 +47536,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 35,
@@ -44133,6 +47561,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -44156,6 +47586,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -44179,6 +47611,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 26,
@@ -44202,6 +47636,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 16,
@@ -44225,6 +47661,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 33,
@@ -44248,6 +47686,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 30,
@@ -44271,6 +47711,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 21,
@@ -44294,6 +47736,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 19,
@@ -44317,6 +47761,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -44340,6 +47786,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 13,
@@ -44363,6 +47811,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 24,
@@ -44386,6 +47836,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 24,
@@ -44409,6 +47861,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 15,
@@ -44432,6 +47886,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -44455,6 +47911,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 30,
@@ -44478,6 +47936,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 31,
@@ -44501,6 +47961,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -44524,6 +47986,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.9,
       "stats": {
         "appearances": 27,
@@ -44547,6 +48011,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.7,
       "stats": {
         "appearances": 29,
@@ -44570,6 +48036,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 21,
@@ -44593,6 +48061,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 34,
@@ -44616,6 +48086,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 24,
@@ -44639,6 +48111,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 30,
@@ -44662,6 +48136,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 27,
@@ -44685,6 +48161,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -44708,6 +48186,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -44731,6 +48211,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 3,
@@ -44754,6 +48236,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.7,
       "stats": {
         "appearances": 33,
@@ -44777,6 +48261,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 22,
@@ -44800,6 +48286,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 10,
@@ -44823,6 +48311,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 24,
@@ -44846,6 +48336,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 13,
@@ -44869,6 +48361,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.8,
       "stats": {
         "appearances": 33,
@@ -44892,6 +48386,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -44915,6 +48411,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.3,
       "stats": {
         "appearances": 33,
@@ -44938,6 +48436,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 25,
@@ -44961,6 +48461,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 33,
@@ -44984,6 +48486,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -45007,6 +48511,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -45030,6 +48536,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 32,
@@ -45053,6 +48561,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 24,
@@ -45076,6 +48586,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -45099,6 +48611,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -45122,6 +48636,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -45145,6 +48661,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 25,
@@ -45168,6 +48686,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 25,
@@ -45191,6 +48711,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -45214,6 +48736,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 27,
@@ -45237,6 +48761,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -45260,6 +48786,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 19,
@@ -45283,6 +48811,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -45306,6 +48836,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 9,
@@ -45329,6 +48861,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -45352,6 +48886,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 34,
@@ -45375,6 +48911,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.3,
       "stats": {
         "appearances": 17,
@@ -45398,6 +48936,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 33,
@@ -45421,6 +48961,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 28,
@@ -45444,6 +48986,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 14,
@@ -45467,6 +49011,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 27,
@@ -45490,6 +49036,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -45513,6 +49061,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 28,
@@ -45536,6 +49086,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -45559,6 +49111,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -45582,6 +49136,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.9,
       "stats": {
         "appearances": 22,
@@ -45605,6 +49161,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -45628,6 +49186,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 8,
@@ -45651,6 +49211,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -45674,6 +49236,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 20,
@@ -45697,6 +49261,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -45720,6 +49286,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 25,
@@ -45743,6 +49311,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 31,
@@ -45766,6 +49336,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -45789,6 +49361,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 31,
@@ -45812,6 +49386,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -45835,6 +49411,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -45858,6 +49436,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -45881,6 +49461,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 7,
@@ -45904,6 +49486,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.5,
       "stats": {
         "appearances": 29,
@@ -45927,6 +49511,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -45950,6 +49536,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 14,
@@ -45973,6 +49561,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 14,
@@ -45996,6 +49586,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 13,
@@ -46019,6 +49611,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 18,
@@ -46042,6 +49636,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -46065,6 +49661,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -46088,6 +49686,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 25,
@@ -46111,6 +49711,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -46134,6 +49736,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -46157,6 +49761,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.4,
       "stats": {
         "appearances": 33,
@@ -46180,6 +49786,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -46203,6 +49811,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -46226,6 +49836,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 13.0,
       "stats": {
         "appearances": 33,
@@ -46249,6 +49861,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -46272,6 +49886,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.8,
       "stats": {
         "appearances": 30,
@@ -46295,6 +49911,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 6,
@@ -46318,6 +49936,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -46341,6 +49961,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -46364,6 +49986,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 13,
@@ -46387,6 +50011,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -46410,6 +50036,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -46433,6 +50061,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 29,
@@ -46456,6 +50086,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -46479,6 +50111,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -46502,6 +50136,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 15,
@@ -46525,6 +50161,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 27,
@@ -46548,6 +50186,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 30,
@@ -46571,6 +50211,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 14,
@@ -46594,6 +50236,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 19,
@@ -46617,6 +50261,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 29,
@@ -46640,6 +50286,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 24,
@@ -46663,6 +50311,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 13,
@@ -46686,6 +50336,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 20,
@@ -46709,6 +50361,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -46732,6 +50386,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 12,
@@ -46755,6 +50411,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 17,
@@ -46778,6 +50436,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 26,
@@ -46801,6 +50461,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 10,
@@ -46824,6 +50486,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -46847,6 +50511,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -46870,6 +50536,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 28,
@@ -46893,6 +50561,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -46916,6 +50586,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 35,
@@ -46939,6 +50611,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -46962,6 +50636,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -46985,6 +50661,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 29,
@@ -47008,6 +50686,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 31,
@@ -47031,6 +50711,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 10,
@@ -47054,6 +50736,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 8,
@@ -47077,6 +50761,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 30,
@@ -47100,6 +50786,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 24,
@@ -47123,6 +50811,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -47146,6 +50836,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 28,
@@ -47169,6 +50861,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -47192,6 +50886,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 29,
@@ -47215,6 +50911,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -47238,6 +50936,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 9,
@@ -47261,6 +50961,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 35,
@@ -47284,6 +50986,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 16,
@@ -47307,6 +51011,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 25,
@@ -47330,6 +51036,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.8,
       "stats": {
         "appearances": 32,
@@ -47353,6 +51061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 15,
@@ -47376,6 +51086,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -47399,6 +51111,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 21,
@@ -47422,6 +51136,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 17,
@@ -47445,6 +51161,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -47468,6 +51186,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 18,
@@ -47491,6 +51211,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -47514,6 +51236,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -47537,6 +51261,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -47560,6 +51286,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 20,
@@ -47583,6 +51311,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 9,
@@ -47606,6 +51336,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -47629,6 +51361,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -47652,6 +51386,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 27,
@@ -47675,6 +51411,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -47698,6 +51436,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 16,
@@ -47721,6 +51461,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 30,
@@ -47744,6 +51486,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -47767,6 +51511,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 8,
@@ -47790,6 +51536,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -47813,6 +51561,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 19,
@@ -47836,6 +51586,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -47859,6 +51611,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 31,
@@ -47882,6 +51636,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -47905,6 +51661,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 11,
@@ -47928,6 +51686,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -47951,6 +51711,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.4,
       "stats": {
         "appearances": 24,
@@ -47974,6 +51736,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -47997,6 +51761,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 13,
@@ -48020,6 +51786,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 31,
@@ -48043,6 +51811,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 12,
@@ -48066,6 +51836,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 12,
@@ -48089,6 +51861,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 10,
@@ -48112,6 +51886,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 29,
@@ -48135,6 +51911,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 28,
@@ -48158,6 +51936,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 28,
@@ -48181,6 +51961,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 6,
@@ -48204,6 +51986,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -48227,6 +52011,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 13,
@@ -48250,6 +52036,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 8,
@@ -48273,6 +52061,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -48296,6 +52086,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 26,
@@ -48319,6 +52111,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -48342,6 +52136,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -48365,6 +52161,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 11,
@@ -48388,6 +52186,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -48411,6 +52211,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 32,
@@ -48434,6 +52236,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.3,
       "stats": {
         "appearances": 31,
@@ -48457,6 +52261,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 19,
@@ -48480,6 +52286,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -48503,6 +52311,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -48526,6 +52336,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -48549,6 +52361,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -48572,6 +52386,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 29,
@@ -48595,6 +52411,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -48618,6 +52436,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 9,
@@ -48641,6 +52461,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -48664,6 +52486,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -48687,6 +52511,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -48710,6 +52536,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -48733,6 +52561,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 16,
@@ -48756,6 +52586,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 12,
@@ -48779,6 +52611,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -48802,6 +52636,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 34,
@@ -48825,6 +52661,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -48848,6 +52686,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 15,
@@ -48871,6 +52711,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 6,
@@ -48894,6 +52736,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 32,
@@ -48917,6 +52761,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -48940,6 +52786,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 5,
@@ -48963,6 +52811,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 14,
@@ -48986,6 +52836,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -49009,6 +52861,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -49032,6 +52886,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 25,
@@ -49055,6 +52911,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 24,
@@ -49078,6 +52936,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -49101,6 +52961,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 5,
@@ -49124,6 +52986,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -49147,6 +53011,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -49170,6 +53036,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -49193,6 +53061,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -49216,6 +53086,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 28,
@@ -49239,6 +53111,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 8,
@@ -49262,6 +53136,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -49285,6 +53161,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 27,
@@ -49308,6 +53186,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 30,
@@ -49331,6 +53211,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 13.5,
       "stats": {
         "appearances": 30,
@@ -49354,6 +53236,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -49377,6 +53261,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -49400,6 +53286,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.0,
       "stats": {
         "appearances": 29,
@@ -49423,6 +53311,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -49446,6 +53336,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 25,
@@ -49469,6 +53361,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 18,
@@ -49492,6 +53386,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 23,
@@ -49515,6 +53411,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 24,
@@ -49538,6 +53436,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -49561,6 +53461,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 16,
@@ -49584,6 +53486,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 6,
@@ -49607,6 +53511,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -49630,6 +53536,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 24,
@@ -49653,6 +53561,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -49676,6 +53586,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 21,
@@ -49699,6 +53611,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 28,
@@ -49722,6 +53636,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 31,
@@ -49745,6 +53661,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 25,
@@ -49768,6 +53686,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -49791,6 +53711,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -49814,6 +53736,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 28,
@@ -49837,6 +53761,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 33,
@@ -49860,6 +53786,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -49883,6 +53811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -49906,6 +53836,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 15,
@@ -49929,6 +53861,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -49952,6 +53886,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.9,
       "stats": {
         "appearances": 14,
@@ -49975,6 +53911,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -49998,6 +53936,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 20,
@@ -50021,6 +53961,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 21,
@@ -50044,6 +53986,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 9,
@@ -50067,6 +54011,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -50090,6 +54036,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 25,
@@ -50113,6 +54061,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 29,
@@ -50136,6 +54086,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 15,
@@ -50159,6 +54111,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 17,
@@ -50182,6 +54136,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.4,
       "stats": {
         "appearances": 20,
@@ -50205,6 +54161,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 27,
@@ -50228,6 +54186,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.3,
       "stats": {
         "appearances": 30,
@@ -50251,6 +54211,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 7,
@@ -50274,6 +54236,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -50297,6 +54261,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -50320,6 +54286,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 30,
@@ -50343,6 +54311,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -50366,6 +54336,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 32,
@@ -50389,6 +54361,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 11,
@@ -50412,6 +54386,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 22,
@@ -50435,6 +54411,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -50458,6 +54436,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -50481,6 +54461,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 15,
@@ -50504,6 +54486,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 26,
@@ -50527,6 +54511,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.3,
       "stats": {
         "appearances": 28,
@@ -50550,6 +54536,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -50573,6 +54561,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 16,
@@ -50596,6 +54586,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 31,
@@ -50619,6 +54611,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 27,
@@ -50642,6 +54636,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 34,
@@ -50665,6 +54661,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 30,
@@ -50688,6 +54686,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -50711,6 +54711,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.4,
       "stats": {
         "appearances": 23,
@@ -50734,6 +54736,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 26,
@@ -50757,6 +54761,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -50780,6 +54786,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 3,
@@ -50803,6 +54811,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.5,
       "stats": {
         "appearances": 27,
@@ -50826,6 +54836,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -50849,6 +54861,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 18,
@@ -50872,6 +54886,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 26,
@@ -50895,6 +54911,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 18,
@@ -50918,6 +54936,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -50941,6 +54961,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 28,
@@ -50964,6 +54986,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 21,
@@ -50987,6 +55011,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -51010,6 +55036,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 30,
@@ -51033,6 +55061,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -51056,6 +55086,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -51079,6 +55111,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 25,
@@ -51102,6 +55136,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -51125,6 +55161,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 24,
@@ -51148,6 +55186,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.4,
       "stats": {
         "appearances": 31,
@@ -51171,6 +55211,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 13,
@@ -51194,6 +55236,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 25,
@@ -51217,6 +55261,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 10.3,
       "stats": {
         "appearances": 34,
@@ -51240,6 +55286,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -51263,6 +55311,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -51286,6 +55336,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 27,
@@ -51309,6 +55361,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 25,
@@ -51332,6 +55386,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 26,
@@ -51355,6 +55411,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 26,
@@ -51378,6 +55436,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 21,
@@ -51401,6 +55461,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -51424,6 +55486,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -51447,6 +55511,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 28,
@@ -51470,6 +55536,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 24,
@@ -51493,6 +55561,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -51516,6 +55586,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.1,
       "stats": {
         "appearances": 34,
@@ -51539,6 +55611,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -51562,6 +55636,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -51585,6 +55661,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 16,
@@ -51608,6 +55686,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 30,
@@ -51631,6 +55711,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 33,
@@ -51654,6 +55736,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 27,
@@ -51677,6 +55761,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 25,
@@ -51700,6 +55786,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -51723,6 +55811,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 28,
@@ -51746,6 +55836,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 12,
@@ -51769,6 +55861,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.7,
       "stats": {
         "appearances": 21,
@@ -51792,6 +55886,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 26,
@@ -51815,6 +55911,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -51838,6 +55936,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -51861,6 +55961,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -51884,6 +55986,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -51907,6 +56011,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 8,
@@ -51930,6 +56036,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.7,
       "stats": {
         "appearances": 28,
@@ -51953,6 +56061,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 16,
@@ -51976,6 +56086,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 10,
@@ -51999,6 +56111,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 33,
@@ -52022,6 +56136,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -52045,6 +56161,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 28,
@@ -52068,6 +56186,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -52091,6 +56211,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -52114,6 +56236,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 28,
@@ -52137,6 +56261,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -52160,6 +56286,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -52183,6 +56311,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 26,
@@ -52206,6 +56336,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -52229,6 +56361,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 29,
@@ -52252,6 +56386,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 21,
@@ -52275,6 +56411,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -52298,6 +56436,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 17,
@@ -52321,6 +56461,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 25,
@@ -52344,6 +56486,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 11,
@@ -52367,6 +56511,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 34,
@@ -52390,6 +56536,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -52413,6 +56561,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 34,
@@ -52436,6 +56586,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -52459,6 +56611,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -52482,6 +56636,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -52505,6 +56661,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 2,
@@ -52528,6 +56686,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 31,
@@ -52551,6 +56711,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 31,
@@ -52574,6 +56736,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 14,
@@ -52597,6 +56761,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 22,
@@ -52620,6 +56786,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -52643,6 +56811,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 23,
@@ -52666,6 +56836,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -52689,6 +56861,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 28,
@@ -52712,6 +56886,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 32,
@@ -52735,6 +56911,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -52758,6 +56936,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 32,
@@ -52781,6 +56961,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 24,
@@ -52804,6 +56986,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -52827,6 +57011,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -52850,6 +57036,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 14,
@@ -52873,6 +57061,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -52896,6 +57086,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 22,
@@ -52919,6 +57111,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 13,
@@ -52942,6 +57136,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 13,
@@ -52965,6 +57161,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -52988,6 +57186,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 30,
@@ -53011,6 +57211,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -53034,6 +57236,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 20,
@@ -53057,6 +57261,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -53080,6 +57286,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.0,
       "stats": {
         "appearances": 31,
@@ -53103,6 +57311,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 27,
@@ -53126,6 +57336,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 10,
@@ -53149,6 +57361,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -53172,6 +57386,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 26,
@@ -53195,6 +57411,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 28,
@@ -53218,6 +57436,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -53241,6 +57461,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 29,
@@ -53264,6 +57486,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 26,
@@ -53287,6 +57511,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 30,
@@ -53310,6 +57536,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 9,
@@ -53333,6 +57561,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -53356,6 +57586,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 13,
@@ -53379,6 +57611,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -53402,6 +57636,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.1,
       "stats": {
         "appearances": 26,
@@ -53425,6 +57661,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -53448,6 +57686,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -53471,6 +57711,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -53494,6 +57736,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -53517,6 +57761,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 23,
@@ -53540,6 +57786,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 34,
@@ -53563,6 +57811,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 31,
@@ -53586,6 +57836,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 23,
@@ -53609,6 +57861,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 30,
@@ -53632,6 +57886,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 27,
@@ -53655,6 +57911,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -53678,6 +57936,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 12,
@@ -53701,6 +57961,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 25,
@@ -53724,6 +57986,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 32,
@@ -53747,6 +58011,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 8,
@@ -53770,6 +58036,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 30,
@@ -53793,6 +58061,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.4,
       "stats": {
         "appearances": 20,
@@ -53816,6 +58086,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 29,
@@ -53839,6 +58111,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -53862,6 +58136,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 10,
@@ -53885,6 +58161,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 12,
@@ -53908,6 +58186,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -53931,6 +58211,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 31,
@@ -53954,6 +58236,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -53977,6 +58261,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 33,
@@ -54000,6 +58286,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 7.1,
       "stats": {
         "appearances": 29,
@@ -54023,6 +58311,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 17,
@@ -54046,6 +58336,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -54069,6 +58361,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 12,
@@ -54092,6 +58386,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 26,
@@ -54115,6 +58411,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -54138,6 +58436,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 7,
@@ -54161,6 +58461,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 7,
@@ -54184,6 +58486,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 25,
@@ -54207,6 +58511,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.4,
       "stats": {
         "appearances": 26,
@@ -54230,6 +58536,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 33,
@@ -54253,6 +58561,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 32,
@@ -54276,6 +58586,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 30,
@@ -54299,6 +58611,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -54322,6 +58636,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -54345,6 +58661,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 21,
@@ -54368,6 +58686,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -54391,6 +58711,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 26,
@@ -54414,6 +58736,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 19,
@@ -54437,6 +58761,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 17,
@@ -54460,6 +58786,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 7,
@@ -54483,6 +58811,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -54506,6 +58836,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 12,
@@ -54529,6 +58861,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 29,
@@ -54552,6 +58886,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.7,
       "stats": {
         "appearances": 34,
@@ -54575,6 +58911,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 30,
@@ -54598,6 +58936,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -54621,6 +58961,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.3,
       "stats": {
         "appearances": 29,
@@ -54644,6 +58986,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 28,
@@ -54667,6 +59011,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 18,
@@ -54690,6 +59036,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 30,
@@ -54713,6 +59061,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -54736,6 +59086,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -54759,6 +59111,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 16,
@@ -54782,6 +59136,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -54805,6 +59161,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 31,
@@ -54828,6 +59186,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 33,
@@ -54851,6 +59211,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 22,
@@ -54874,6 +59236,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 32,
@@ -54897,6 +59261,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -54920,6 +59286,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 20,
@@ -54943,6 +59311,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -54966,6 +59336,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -54989,6 +59361,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 23,
@@ -55012,6 +59386,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -55035,6 +59411,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 28,
@@ -55058,6 +59436,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -55081,6 +59461,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -55104,6 +59486,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -55127,6 +59511,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 32,
@@ -55150,6 +59536,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 20,
@@ -55173,6 +59561,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.0,
       "stats": {
         "appearances": 30,
@@ -55196,6 +59586,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -55219,6 +59611,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -55242,6 +59636,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -55265,6 +59661,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 12,
@@ -55288,6 +59686,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 29,
@@ -55311,6 +59711,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 28,
@@ -55334,6 +59736,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -55357,6 +59761,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 21,
@@ -55380,6 +59786,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 19,
@@ -55403,6 +59811,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -55426,6 +59836,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.2,
       "stats": {
         "appearances": 35,
@@ -55449,6 +59861,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -55472,6 +59886,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -55495,6 +59911,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -55518,6 +59936,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -55541,6 +59961,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 29,
@@ -55564,6 +59986,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 19,
@@ -55587,6 +60011,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -55610,6 +60036,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.9,
       "stats": {
         "appearances": 32,
@@ -55633,6 +60061,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.4,
       "stats": {
         "appearances": 23,
@@ -55656,6 +60086,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.7,
       "stats": {
         "appearances": 26,
@@ -55679,6 +60111,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 29,
@@ -55702,6 +60136,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -55725,6 +60161,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 28,
@@ -55748,6 +60186,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 16,
@@ -55771,6 +60211,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 29,
@@ -55794,6 +60236,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -55817,6 +60261,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -55840,6 +60286,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 12,
@@ -55863,6 +60311,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -55886,6 +60336,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 28,
@@ -55909,6 +60361,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 19,
@@ -55932,6 +60386,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 19,
@@ -55955,6 +60411,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 9,
@@ -55978,6 +60436,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 25,
@@ -56001,6 +60461,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -56024,6 +60486,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -56047,6 +60511,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -56070,6 +60536,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -56093,6 +60561,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 16,
@@ -56116,6 +60586,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 23,
@@ -56139,6 +60611,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -56162,6 +60636,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -56185,6 +60661,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 22,
@@ -56208,6 +60686,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 26,
@@ -56231,6 +60711,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 9,
@@ -56254,6 +60736,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 17,
@@ -56277,6 +60761,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 27,
@@ -56300,6 +60786,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 12,
@@ -56323,6 +60811,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.0,
       "stats": {
         "appearances": 29,
@@ -56346,6 +60836,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 33,
@@ -56369,6 +60861,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.3,
       "stats": {
         "appearances": 30,
@@ -56392,6 +60886,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 30,
@@ -56415,6 +60911,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 11,
@@ -56438,6 +60936,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 21,
@@ -56461,6 +60961,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -56484,6 +60986,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -56507,6 +61011,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -56530,6 +61036,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -56553,6 +61061,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 26,
@@ -56576,6 +61086,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -56599,6 +61111,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.8,
       "stats": {
         "appearances": 16,
@@ -56622,6 +61136,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 5,
@@ -56645,6 +61161,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 33,
@@ -56668,6 +61186,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 13,
@@ -56691,6 +61211,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -56714,6 +61236,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 17,
@@ -56737,6 +61261,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.9,
       "stats": {
         "appearances": 27,
@@ -56760,6 +61286,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 9,
@@ -56783,6 +61311,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 29,
@@ -56806,6 +61336,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -56829,6 +61361,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 9,
@@ -56852,6 +61386,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -56875,6 +61411,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.8,
       "stats": {
         "appearances": 25,
@@ -56898,6 +61436,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -56921,6 +61461,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -56944,6 +61486,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 17,
@@ -56967,6 +61511,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 29,
@@ -56990,6 +61536,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -57013,6 +61561,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 12,
@@ -57036,6 +61586,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 25,
@@ -57059,6 +61611,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 25,
@@ -57082,6 +61636,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 16,
@@ -57105,6 +61661,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -57128,6 +61686,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -57151,6 +61711,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 24,
@@ -57174,6 +61736,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 27,
@@ -57197,6 +61761,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 1,
@@ -57220,6 +61786,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 24,
@@ -57243,6 +61811,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 28,
@@ -57266,6 +61836,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 29,
@@ -57289,6 +61861,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -57312,6 +61886,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.7,
       "stats": {
         "appearances": 30,
@@ -57335,6 +61911,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.7,
       "stats": {
         "appearances": 33,
@@ -57358,6 +61936,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 7,
@@ -57381,6 +61961,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 22,
@@ -57404,6 +61986,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 17,
@@ -57427,6 +62011,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 28,
@@ -57450,6 +62036,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 24,
@@ -57473,6 +62061,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 16,
@@ -57496,6 +62086,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.8,
       "stats": {
         "appearances": 21,
@@ -57519,6 +62111,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 26,
@@ -57542,6 +62136,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -57565,6 +62161,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 26,
@@ -57588,6 +62186,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 28,
@@ -57611,6 +62211,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -57634,6 +62236,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 9,
@@ -57657,6 +62261,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 32,
@@ -57680,6 +62286,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 29,
@@ -57703,6 +62311,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 19,
@@ -57726,6 +62336,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -57749,6 +62361,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -57772,6 +62386,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 11,
@@ -57795,6 +62411,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 25,
@@ -57818,6 +62436,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 13,
@@ -57841,6 +62461,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -57864,6 +62486,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -57887,6 +62511,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -57910,6 +62536,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -57933,6 +62561,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -57956,6 +62586,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 32,
@@ -57979,6 +62611,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -58002,6 +62636,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.8,
       "stats": {
         "appearances": 24,
@@ -58025,6 +62661,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 31,
@@ -58048,6 +62686,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -58071,6 +62711,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -58094,6 +62736,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 15,
@@ -58117,6 +62761,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.3,
       "stats": {
         "appearances": 11,
@@ -58140,6 +62786,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 25,
@@ -58163,6 +62811,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 7,
@@ -58186,6 +62836,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 20,
@@ -58209,6 +62861,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 14,
@@ -58232,6 +62886,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -58255,6 +62911,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 21,
@@ -58278,6 +62936,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.7,
       "stats": {
         "appearances": 23,
@@ -58301,6 +62961,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -58324,6 +62986,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -58347,6 +63011,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.2,
       "stats": {
         "appearances": 32,
@@ -58370,6 +63036,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -58393,6 +63061,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -58416,6 +63086,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 7,
@@ -58439,6 +63111,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 29,
@@ -58462,6 +63136,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.9,
       "stats": {
         "appearances": 26,
@@ -58485,6 +63161,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 25,
@@ -58508,6 +63186,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 25,
@@ -58531,6 +63211,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 24,
@@ -58554,6 +63236,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.7,
       "stats": {
         "appearances": 27,
@@ -58577,6 +63261,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -58600,6 +63286,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.3,
       "stats": {
         "appearances": 32,
@@ -58623,6 +63311,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 17,
@@ -58646,6 +63336,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -58669,6 +63361,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -58692,6 +63386,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 29,
@@ -58715,6 +63411,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -58738,6 +63436,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 2,
@@ -58761,6 +63461,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 35,
@@ -58784,6 +63486,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 7,
@@ -58807,6 +63511,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 29,
@@ -58830,6 +63536,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -58853,6 +63561,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -58876,6 +63586,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 20,
@@ -58899,6 +63611,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -58922,6 +63636,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 31,
@@ -58945,6 +63661,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 29,
@@ -58968,6 +63686,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 28,
@@ -58991,6 +63711,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.1,
       "stats": {
         "appearances": 20,
@@ -59014,6 +63736,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 13,
@@ -59037,6 +63761,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 22,
@@ -59060,6 +63786,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.3,
       "stats": {
         "appearances": 23,
@@ -59083,6 +63811,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.0,
       "stats": {
         "appearances": 34,
@@ -59106,6 +63836,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 20,
@@ -59129,6 +63861,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 14,
@@ -59152,6 +63886,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 30,
@@ -59175,6 +63911,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.1,
       "stats": {
         "appearances": 27,
@@ -59198,6 +63936,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.9,
       "stats": {
         "appearances": 18,
@@ -59221,6 +63961,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 35,
@@ -59244,6 +63986,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 10,
@@ -59267,6 +64011,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 25,
@@ -59290,6 +64036,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 31,
@@ -59313,6 +64061,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 21,
@@ -59336,6 +64086,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 18,
@@ -59359,6 +64111,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 10,
@@ -59382,6 +64136,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 15,
@@ -59405,6 +64161,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -59428,6 +64186,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 27,
@@ -59451,6 +64211,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 34,
@@ -59474,6 +64236,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 22,
@@ -59497,6 +64261,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 27,
@@ -59520,6 +64286,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -59543,6 +64311,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -59566,6 +64336,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.5,
       "stats": {
         "appearances": 19,
@@ -59589,6 +64361,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.8,
       "stats": {
         "appearances": 30,
@@ -59612,6 +64386,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 29,
@@ -59635,6 +64411,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.0,
       "stats": {
         "appearances": 28,
@@ -59658,6 +64436,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -59681,6 +64461,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 28,
@@ -59704,6 +64486,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -59727,6 +64511,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -59750,6 +64536,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 29,
@@ -59773,6 +64561,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -59796,6 +64586,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.0,
       "stats": {
         "appearances": 30,
@@ -59819,6 +64611,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -59842,6 +64636,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -59865,6 +64661,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -59888,6 +64686,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -59911,6 +64711,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -59934,6 +64736,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.7,
       "stats": {
         "appearances": 29,
@@ -59957,6 +64761,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -59980,6 +64786,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 17,
@@ -60003,6 +64811,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 8,
@@ -60026,6 +64836,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -60049,6 +64861,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -60072,6 +64886,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 19,
@@ -60095,6 +64911,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -60118,6 +64936,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 34,
@@ -60141,6 +64961,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 25,
@@ -60164,6 +64986,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 11,
@@ -60187,6 +65011,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 16,
@@ -60210,6 +65036,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -60233,6 +65061,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 15,
@@ -60256,6 +65086,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 29,
@@ -60279,6 +65111,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -60302,6 +65136,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 32,
@@ -60325,6 +65161,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -60348,6 +65186,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 6,
@@ -60371,6 +65211,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.1,
       "stats": {
         "appearances": 13,
@@ -60394,6 +65236,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -60417,6 +65261,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -60440,6 +65286,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -60463,6 +65311,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 7,
@@ -60486,6 +65336,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 34,
@@ -60509,6 +65361,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -60532,6 +65386,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 19,
@@ -60555,6 +65411,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 24,
@@ -60578,6 +65436,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 21,
@@ -60601,6 +65461,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 32,
@@ -60624,6 +65486,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.3,
       "stats": {
         "appearances": 30,
@@ -60647,6 +65511,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -60670,6 +65536,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 30,
@@ -60693,6 +65561,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.6,
       "stats": {
         "appearances": 32,
@@ -60716,6 +65586,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -60739,6 +65611,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -60762,6 +65636,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.4,
       "stats": {
         "appearances": 29,
@@ -60785,6 +65661,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 27,
@@ -60808,6 +65686,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 30,
@@ -60831,6 +65711,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 27,
@@ -60854,6 +65736,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.9,
       "stats": {
         "appearances": 27,
@@ -60877,6 +65761,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 17,
@@ -60900,6 +65786,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -60923,6 +65811,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -60946,6 +65836,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 24,
@@ -60969,6 +65861,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -60992,6 +65886,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 14,
@@ -61015,6 +65911,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 17,
@@ -61038,6 +65936,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -61061,6 +65961,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 2,
@@ -61084,6 +65986,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 4,
@@ -61107,6 +66011,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -61130,6 +66036,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 32,
@@ -61153,6 +66061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 27,
@@ -61176,6 +66086,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 10,
@@ -61199,6 +66111,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 7,
@@ -61222,6 +66136,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 10,
@@ -61245,6 +66161,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 22,
@@ -61268,6 +66186,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.2,
       "stats": {
         "appearances": 12,
@@ -61291,6 +66211,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 32,
@@ -61314,6 +66236,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 17,
@@ -61337,6 +66261,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 32,
@@ -61360,6 +66286,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 26,
@@ -61383,6 +66311,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 25,
@@ -61406,6 +66336,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 18,
@@ -61429,6 +66361,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 31,
@@ -61452,6 +66386,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 30,
@@ -61475,6 +66411,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.4,
       "stats": {
         "appearances": 25,
@@ -61498,6 +66436,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 11,
@@ -61521,6 +66461,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 3,
@@ -61544,6 +66486,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 13,
@@ -61567,6 +66511,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 23,
@@ -61590,6 +66536,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 28,
@@ -61613,6 +66561,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 8,
@@ -61636,6 +66586,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.1,
       "stats": {
         "appearances": 25,
@@ -61659,6 +66611,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 18,
@@ -61682,6 +66636,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 22,
@@ -61705,6 +66661,8 @@ window.TACTICAL_DATA = {
       "club": "Dortmund",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 32,
@@ -61728,6 +66686,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -61751,6 +66711,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 25,
@@ -61774,6 +66736,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 22,
@@ -61797,6 +66761,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -61820,6 +66786,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -61843,6 +66811,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -61866,6 +66836,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -61889,6 +66861,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.8,
       "stats": {
         "appearances": 33,
@@ -61912,6 +66886,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.4,
       "stats": {
         "appearances": 14,
@@ -61935,6 +66911,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.1,
       "stats": {
         "appearances": 31,
@@ -61958,6 +66936,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -61981,6 +66961,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 31,
@@ -62004,6 +66986,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.7,
       "stats": {
         "appearances": 31,
@@ -62027,6 +67011,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 20,
@@ -62050,6 +67036,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.8,
       "stats": {
         "appearances": 26,
@@ -62073,6 +67061,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -62096,6 +67086,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 26,
@@ -62119,6 +67111,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 27,
@@ -62142,6 +67136,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -62165,6 +67161,8 @@ window.TACTICAL_DATA = {
       "club": "Leeds United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 25,
@@ -62188,6 +67186,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 6,
@@ -62211,6 +67211,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 7.1,
       "stats": {
         "appearances": 27,
@@ -62234,6 +67236,8 @@ window.TACTICAL_DATA = {
       "club": "Everton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.7,
       "stats": {
         "appearances": 34,
@@ -62257,6 +67261,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -62280,6 +67286,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 28,
@@ -62303,6 +67311,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 20,
@@ -62326,6 +67336,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 22,
@@ -62349,6 +67361,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.1,
       "stats": {
         "appearances": 31,
@@ -62372,6 +67386,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -62395,6 +67411,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.1,
       "stats": {
         "appearances": 26,
@@ -62418,6 +67436,8 @@ window.TACTICAL_DATA = {
       "club": "Wolves",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 31,
@@ -62441,6 +67461,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 30,
@@ -62464,6 +67486,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 28,
@@ -62487,6 +67511,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 17,
@@ -62510,6 +67536,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 32,
@@ -62533,6 +67561,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 6,
@@ -62556,6 +67586,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -62579,6 +67611,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.6,
       "stats": {
         "appearances": 33,
@@ -62602,6 +67636,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -62625,6 +67661,8 @@ window.TACTICAL_DATA = {
       "club": "Espanyol",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 26,
@@ -62648,6 +67686,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 18,
@@ -62671,6 +67711,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 29,
@@ -62694,6 +67736,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -62717,6 +67761,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -62740,6 +67786,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.5,
       "stats": {
         "appearances": 31,
@@ -62763,6 +67811,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 24,
@@ -62786,6 +67836,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 13.3,
       "stats": {
         "appearances": 35,
@@ -62809,6 +67861,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 32,
@@ -62832,6 +67886,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 25,
@@ -62855,6 +67911,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.2,
       "stats": {
         "appearances": 30,
@@ -62878,6 +67936,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 13,
@@ -62901,6 +67961,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 8,
@@ -62924,6 +67986,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 30,
@@ -62947,6 +68011,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 33,
@@ -62970,6 +68036,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.4,
       "stats": {
         "appearances": 28,
@@ -62993,6 +68061,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.9,
       "stats": {
         "appearances": 14,
@@ -63016,6 +68086,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.3,
       "stats": {
         "appearances": 22,
@@ -63039,6 +68111,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 10,
@@ -63062,6 +68136,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 17,
@@ -63085,6 +68161,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.5,
       "stats": {
         "appearances": 27,
@@ -63108,6 +68186,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.9,
       "stats": {
         "appearances": 30,
@@ -63131,6 +68211,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 13,
@@ -63154,6 +68236,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 21,
@@ -63177,6 +68261,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -63200,6 +68286,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.3,
       "stats": {
         "appearances": 28,
@@ -63223,6 +68311,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 34,
@@ -63246,6 +68336,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.6,
       "stats": {
         "appearances": 25,
@@ -63269,6 +68361,8 @@ window.TACTICAL_DATA = {
       "club": "Milan",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.4,
       "stats": {
         "appearances": 31,
@@ -63292,6 +68386,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 33,
@@ -63315,6 +68411,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 20,
@@ -63338,6 +68436,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 8.0,
       "stats": {
         "appearances": 31,
@@ -63361,6 +68461,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -63384,6 +68486,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 11.2,
       "stats": {
         "appearances": 30,
@@ -63407,6 +68511,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -63430,6 +68536,8 @@ window.TACTICAL_DATA = {
       "club": "Osasuna",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 31,
@@ -63453,6 +68561,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 23,
@@ -63476,6 +68586,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 7,
@@ -63499,6 +68611,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 11,
@@ -63522,6 +68636,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 29,
@@ -63545,6 +68661,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 9.5,
       "stats": {
         "appearances": 28,
@@ -63568,6 +68686,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 30,
@@ -63591,6 +68711,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -63614,6 +68736,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 21,
@@ -63637,6 +68761,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester City",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -63660,6 +68786,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.5,
       "stats": {
         "appearances": 27,
@@ -63683,6 +68811,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 9,
@@ -63706,6 +68836,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 15,
@@ -63729,6 +68861,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 12,
@@ -63752,6 +68886,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 19,
@@ -63775,6 +68911,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 16,
@@ -63798,6 +68936,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 24,
@@ -63821,6 +68961,8 @@ window.TACTICAL_DATA = {
       "club": "Paris FC",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 20,
@@ -63844,6 +68986,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -63867,6 +69011,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 7,
@@ -63890,6 +69036,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 6,
@@ -63913,6 +69061,8 @@ window.TACTICAL_DATA = {
       "club": "Freiburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 26,
@@ -63936,6 +69086,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 27,
@@ -63959,6 +69111,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 19,
@@ -63982,6 +69136,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 18,
@@ -64005,6 +69161,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 29,
@@ -64028,6 +69186,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.9,
       "stats": {
         "appearances": 35,
@@ -64051,6 +69211,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 18,
@@ -64074,6 +69236,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.3,
       "stats": {
         "appearances": 32,
@@ -64097,6 +69261,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.1,
       "stats": {
         "appearances": 28,
@@ -64120,6 +69286,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 11,
@@ -64143,6 +69311,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 18,
@@ -64166,6 +69336,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 4,
@@ -64189,6 +69361,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 24,
@@ -64212,6 +69386,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 9,
@@ -64235,6 +69411,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 14,
@@ -64258,6 +69436,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 3,
@@ -64281,6 +69461,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -64304,6 +69486,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 32,
@@ -64327,6 +69511,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -64350,6 +69536,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 32,
@@ -64373,6 +69561,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 23,
@@ -64396,6 +69586,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 21,
@@ -64419,6 +69611,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -64442,6 +69636,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 20,
@@ -64465,6 +69661,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 13.1,
       "stats": {
         "appearances": 27,
@@ -64488,6 +69686,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.5,
       "stats": {
         "appearances": 22,
@@ -64511,6 +69711,8 @@ window.TACTICAL_DATA = {
       "club": "Gladbach",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -64534,6 +69736,8 @@ window.TACTICAL_DATA = {
       "club": "Bayern Munich",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 12,
@@ -64557,6 +69761,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.7,
       "stats": {
         "appearances": 20,
@@ -64580,6 +69786,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 25,
@@ -64603,6 +69811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -64626,6 +69836,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 1,
@@ -64649,6 +69861,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 24,
@@ -64672,6 +69886,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 29,
@@ -64695,6 +69911,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 18,
@@ -64718,6 +69936,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 32,
@@ -64741,6 +69961,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 31,
@@ -64764,6 +69986,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 33,
@@ -64787,6 +70011,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.1,
       "stats": {
         "appearances": 27,
@@ -64810,6 +70036,8 @@ window.TACTICAL_DATA = {
       "club": "Real Betis",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 25,
@@ -64833,6 +70061,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 8.1,
       "stats": {
         "appearances": 32,
@@ -64856,6 +70086,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 17,
@@ -64879,6 +70111,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 35,
@@ -64902,6 +70136,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 27,
@@ -64925,6 +70161,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.6,
       "stats": {
         "appearances": 29,
@@ -64948,6 +70186,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.4,
       "stats": {
         "appearances": 14,
@@ -64971,6 +70211,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 11,
@@ -64994,6 +70236,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.9,
       "stats": {
         "appearances": 25,
@@ -65017,6 +70261,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.4,
       "stats": {
         "appearances": 26,
@@ -65040,6 +70286,8 @@ window.TACTICAL_DATA = {
       "club": "Atlético Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 8,
@@ -65063,6 +70311,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.4,
       "stats": {
         "appearances": 20,
@@ -65086,6 +70336,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 32,
@@ -65109,6 +70361,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 35,
@@ -65132,6 +70386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 15,
@@ -65155,6 +70411,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.6,
       "stats": {
         "appearances": 27,
@@ -65178,6 +70436,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.1,
       "stats": {
         "appearances": 14,
@@ -65201,6 +70461,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 11,
@@ -65224,6 +70486,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 15,
@@ -65247,6 +70511,8 @@ window.TACTICAL_DATA = {
       "club": "Valencia",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 20,
@@ -65270,6 +70536,8 @@ window.TACTICAL_DATA = {
       "club": "Leverkusen",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 11,
@@ -65293,6 +70561,8 @@ window.TACTICAL_DATA = {
       "club": "Getafe",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 14,
@@ -65316,6 +70586,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 13,
@@ -65339,6 +70611,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 4,
@@ -65362,6 +70636,8 @@ window.TACTICAL_DATA = {
       "club": "Lecce",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 33,
@@ -65385,6 +70661,8 @@ window.TACTICAL_DATA = {
       "club": "Villarreal",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 30,
@@ -65408,6 +70686,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -65431,6 +70711,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 6.4,
       "stats": {
         "appearances": 32,
@@ -65454,6 +70736,8 @@ window.TACTICAL_DATA = {
       "club": "Levante",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -65477,6 +70761,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 2,
@@ -65500,6 +70786,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 9,
@@ -65523,6 +70811,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 20,
@@ -65546,6 +70836,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 35,
@@ -65569,6 +70861,8 @@ window.TACTICAL_DATA = {
       "club": "Lille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -65592,6 +70886,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 11,
@@ -65615,6 +70911,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 18,
@@ -65638,6 +70936,8 @@ window.TACTICAL_DATA = {
       "club": "Hellas Verona",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -65661,6 +70961,8 @@ window.TACTICAL_DATA = {
       "club": "Rayo Vallecano",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -65684,6 +70986,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "DM",
+      "role_name": "Defensive Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 21,
@@ -65707,6 +71011,8 @@ window.TACTICAL_DATA = {
       "club": "Tottenham Hotspur",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 31,
@@ -65730,6 +71036,8 @@ window.TACTICAL_DATA = {
       "club": "Alavés",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 21,
@@ -65753,6 +71061,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -65776,6 +71086,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.3,
       "stats": {
         "appearances": 27,
@@ -65799,6 +71111,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.1,
       "stats": {
         "appearances": 13,
@@ -65822,6 +71136,8 @@ window.TACTICAL_DATA = {
       "club": "Elche",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.8,
       "stats": {
         "appearances": 8,
@@ -65845,6 +71161,8 @@ window.TACTICAL_DATA = {
       "club": "Oviedo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.4,
       "stats": {
         "appearances": 30,
@@ -65868,6 +71186,8 @@ window.TACTICAL_DATA = {
       "club": "Mallorca",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 27,
@@ -65891,6 +71211,8 @@ window.TACTICAL_DATA = {
       "club": "Fiorentina",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 10,
@@ -65914,6 +71236,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 19,
@@ -65937,6 +71261,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 33,
@@ -65960,6 +71286,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.2,
       "stats": {
         "appearances": 27,
@@ -65983,6 +71311,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.3,
       "stats": {
         "appearances": 28,
@@ -66006,6 +71336,8 @@ window.TACTICAL_DATA = {
       "club": "Sevilla",
       "league": "es La Liga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 30,
@@ -66029,6 +71361,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 16,
@@ -66052,6 +71386,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.5,
       "stats": {
         "appearances": 35,
@@ -66075,6 +71411,8 @@ window.TACTICAL_DATA = {
       "club": "Como",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 28,
@@ -66098,6 +71436,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.9,
       "stats": {
         "appearances": 22,
@@ -66121,6 +71461,8 @@ window.TACTICAL_DATA = {
       "club": "Toulouse",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.0,
       "stats": {
         "appearances": 22,
@@ -66144,6 +71486,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -66167,6 +71511,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -66190,6 +71536,8 @@ window.TACTICAL_DATA = {
       "club": "Pisa",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 12,
@@ -66213,6 +71561,8 @@ window.TACTICAL_DATA = {
       "club": "Hamburger SV",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.5,
       "stats": {
         "appearances": 26,
@@ -66236,6 +71586,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 4,
@@ -66259,6 +71611,8 @@ window.TACTICAL_DATA = {
       "club": "Nice",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.2,
       "stats": {
         "appearances": 12,
@@ -66282,6 +71636,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.7,
       "stats": {
         "appearances": 10,
@@ -66305,6 +71661,8 @@ window.TACTICAL_DATA = {
       "club": "St Pauli",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.8,
       "stats": {
         "appearances": 28,
@@ -66328,6 +71686,8 @@ window.TACTICAL_DATA = {
       "club": "Köln",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.8,
       "stats": {
         "appearances": 23,
@@ -66351,6 +71711,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 33,
@@ -66374,6 +71736,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 22,
@@ -66397,6 +71761,8 @@ window.TACTICAL_DATA = {
       "club": "Sassuolo",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 34,
@@ -66420,6 +71786,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.4,
       "stats": {
         "appearances": 23,
@@ -66443,6 +71811,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -66466,6 +71836,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.7,
       "stats": {
         "appearances": 10,
@@ -66489,6 +71861,8 @@ window.TACTICAL_DATA = {
       "club": "Aston Villa",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.2,
       "stats": {
         "appearances": 34,
@@ -66512,6 +71886,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -66535,6 +71911,8 @@ window.TACTICAL_DATA = {
       "club": "Marseille",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.0,
       "stats": {
         "appearances": 28,
@@ -66558,6 +71936,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -66581,6 +71961,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.5,
       "stats": {
         "appearances": 22,
@@ -66604,6 +71986,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.6,
       "stats": {
         "appearances": 34,
@@ -66627,6 +72011,8 @@ window.TACTICAL_DATA = {
       "club": "RB Leipzig",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 3,
@@ -66650,6 +72036,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 5,
@@ -66673,6 +72061,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 7.0,
       "stats": {
         "appearances": 28,
@@ -66696,6 +72086,8 @@ window.TACTICAL_DATA = {
       "club": "Crystal Palace",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.5,
       "stats": {
         "appearances": 30,
@@ -66719,6 +72111,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.2,
       "stats": {
         "appearances": 11,
@@ -66742,6 +72136,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.3,
       "stats": {
         "appearances": 26,
@@ -66765,6 +72161,8 @@ window.TACTICAL_DATA = {
       "club": "Brighton",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 25,
@@ -66788,6 +72186,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 26,
@@ -66811,6 +72211,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 6.2,
       "stats": {
         "appearances": 34,
@@ -66834,6 +72236,8 @@ window.TACTICAL_DATA = {
       "club": "Athletic Club",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 24,
@@ -66857,6 +72261,8 @@ window.TACTICAL_DATA = {
       "club": "Chelsea",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.5,
       "stats": {
         "appearances": 22,
@@ -66880,6 +72286,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 22,
@@ -66903,6 +72311,8 @@ window.TACTICAL_DATA = {
       "club": "West Ham United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.5,
       "stats": {
         "appearances": 29,
@@ -66926,6 +72336,8 @@ window.TACTICAL_DATA = {
       "club": "Fulham",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 9.7,
       "stats": {
         "appearances": 33,
@@ -66949,6 +72361,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.3,
       "stats": {
         "appearances": 24,
@@ -66972,6 +72386,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 6.8,
       "stats": {
         "appearances": 11,
@@ -66995,6 +72411,8 @@ window.TACTICAL_DATA = {
       "club": "Bournemouth",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -67018,6 +72436,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.6,
       "stats": {
         "appearances": 31,
@@ -67041,6 +72461,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.8,
       "stats": {
         "appearances": 16,
@@ -67064,6 +72486,8 @@ window.TACTICAL_DATA = {
       "club": "Girona",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 28,
@@ -67087,6 +72511,8 @@ window.TACTICAL_DATA = {
       "club": "Werder Bremen",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -67110,6 +72536,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.0,
       "stats": {
         "appearances": 27,
@@ -67133,6 +72561,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -67156,6 +72586,8 @@ window.TACTICAL_DATA = {
       "club": "Newcastle United",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 30,
@@ -67179,6 +72611,8 @@ window.TACTICAL_DATA = {
       "club": "Union Berlin",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.6,
       "stats": {
         "appearances": 26,
@@ -67202,6 +72636,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.4,
       "stats": {
         "appearances": 12,
@@ -67225,6 +72661,8 @@ window.TACTICAL_DATA = {
       "club": "Liverpool",
       "league": "eng Premier League",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 3,
@@ -67248,6 +72686,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 2,
@@ -67271,6 +72711,8 @@ window.TACTICAL_DATA = {
       "club": "Burnley",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 11,
@@ -67294,6 +72736,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -67317,6 +72761,8 @@ window.TACTICAL_DATA = {
       "club": "Sunderland",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.0,
       "stats": {
         "appearances": 31,
@@ -67340,6 +72786,8 @@ window.TACTICAL_DATA = {
       "club": "Barcelona",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 13.5,
       "stats": {
         "appearances": 28,
@@ -67363,6 +72811,8 @@ window.TACTICAL_DATA = {
       "club": "Real Madrid",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 1,
@@ -67386,6 +72836,8 @@ window.TACTICAL_DATA = {
       "club": "Lyon",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.9,
       "stats": {
         "appearances": 9,
@@ -67409,6 +72861,8 @@ window.TACTICAL_DATA = {
       "club": "Brentford",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 6.2,
       "stats": {
         "appearances": 35,
@@ -67432,6 +72886,8 @@ window.TACTICAL_DATA = {
       "club": "Strasbourg",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 11,
@@ -67455,6 +72911,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 20,
@@ -67478,6 +72936,8 @@ window.TACTICAL_DATA = {
       "club": "Metz",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -67501,6 +72961,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 1,
@@ -67524,6 +72986,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 10.7,
       "stats": {
         "appearances": 34,
@@ -67547,6 +73011,8 @@ window.TACTICAL_DATA = {
       "club": "Lorient",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 23,
@@ -67570,6 +73036,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 31,
@@ -67593,6 +73061,8 @@ window.TACTICAL_DATA = {
       "club": "Nantes",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 13,
@@ -67616,6 +73086,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.0,
       "stats": {
         "appearances": 8,
@@ -67639,6 +73111,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 25,
@@ -67662,6 +73136,8 @@ window.TACTICAL_DATA = {
       "club": "Rennes",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 6,
@@ -67685,6 +73161,8 @@ window.TACTICAL_DATA = {
       "club": "Lazio",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "WGR",
+      "role_name": "Winger",
       "price": 7.4,
       "stats": {
         "appearances": 26,
@@ -67708,6 +73186,8 @@ window.TACTICAL_DATA = {
       "club": "Auxerre",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -67731,6 +73211,8 @@ window.TACTICAL_DATA = {
       "club": "Stuttgart",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 3,
@@ -67754,6 +73236,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.3,
       "stats": {
         "appearances": 8,
@@ -67777,6 +73261,8 @@ window.TACTICAL_DATA = {
       "club": "Paris Saint-Germain",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 31,
@@ -67800,6 +73286,8 @@ window.TACTICAL_DATA = {
       "club": "Monaco",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.8,
       "stats": {
         "appearances": 22,
@@ -67823,6 +73311,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -67846,6 +73336,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 31,
@@ -67869,6 +73361,8 @@ window.TACTICAL_DATA = {
       "club": "Napoli",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.9,
       "stats": {
         "appearances": 18,
@@ -67892,6 +73386,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 9.2,
       "stats": {
         "appearances": 31,
@@ -67915,6 +73411,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 6.2,
       "stats": {
         "appearances": 19,
@@ -67938,6 +73436,8 @@ window.TACTICAL_DATA = {
       "club": "Torino",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.6,
       "stats": {
         "appearances": 26,
@@ -67961,6 +73461,8 @@ window.TACTICAL_DATA = {
       "club": "Cagliari",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.6,
       "stats": {
         "appearances": 28,
@@ -67984,6 +73486,8 @@ window.TACTICAL_DATA = {
       "club": "Atalanta",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.7,
       "stats": {
         "appearances": 32,
@@ -68007,6 +73511,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.7,
       "stats": {
         "appearances": 4,
@@ -68030,6 +73536,8 @@ window.TACTICAL_DATA = {
       "club": "Celta Vigo",
       "league": "es La Liga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.0,
       "stats": {
         "appearances": 19,
@@ -68053,6 +73561,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 23,
@@ -68076,6 +73586,8 @@ window.TACTICAL_DATA = {
       "club": "Genoa",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 1,
@@ -68099,6 +73611,8 @@ window.TACTICAL_DATA = {
       "club": "Wolfsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.6,
       "stats": {
         "appearances": 20,
@@ -68122,6 +73636,8 @@ window.TACTICAL_DATA = {
       "club": "Udinese",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.2,
       "stats": {
         "appearances": 15,
@@ -68145,6 +73661,8 @@ window.TACTICAL_DATA = {
       "club": "Mainz 05",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 9,
@@ -68168,6 +73686,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.9,
       "stats": {
         "appearances": 30,
@@ -68191,6 +73711,8 @@ window.TACTICAL_DATA = {
       "club": "Augsburg",
       "league": "de Bundesliga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 25,
@@ -68214,6 +73736,8 @@ window.TACTICAL_DATA = {
       "club": "Eintracht Frankfurt",
       "league": "de Bundesliga",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 21,
@@ -68237,6 +73761,8 @@ window.TACTICAL_DATA = {
       "club": "Juventus",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 16,
@@ -68260,6 +73786,8 @@ window.TACTICAL_DATA = {
       "club": "Inter",
       "league": "it Serie A",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 7.9,
       "stats": {
         "appearances": 32,
@@ -68283,6 +73811,8 @@ window.TACTICAL_DATA = {
       "club": "Nottingham Forest",
       "league": "eng Premier League",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 5,
@@ -68306,6 +73836,8 @@ window.TACTICAL_DATA = {
       "club": "Angers",
       "league": "fr Ligue 1",
       "position": "GK",
+      "role_code": "GK",
+      "role_name": "Goalkeeper",
       "price": 4.5,
       "stats": {
         "appearances": 2,
@@ -68329,6 +73861,8 @@ window.TACTICAL_DATA = {
       "club": "Roma",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.0,
       "stats": {
         "appearances": 16,
@@ -68352,6 +73886,8 @@ window.TACTICAL_DATA = {
       "club": "Manchester Utd",
       "league": "eng Premier League",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 7.3,
       "stats": {
         "appearances": 21,
@@ -68375,6 +73911,8 @@ window.TACTICAL_DATA = {
       "club": "Heidenheim",
       "league": "de Bundesliga",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 8.3,
       "stats": {
         "appearances": 18,
@@ -68398,6 +73936,8 @@ window.TACTICAL_DATA = {
       "club": "Brest",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.0,
       "stats": {
         "appearances": 9,
@@ -68421,6 +73961,8 @@ window.TACTICAL_DATA = {
       "club": "Bologna",
       "league": "it Serie A",
       "position": "DF",
+      "role_code": "FB",
+      "role_name": "Fullback",
       "price": 5.4,
       "stats": {
         "appearances": 30,
@@ -68444,6 +73986,8 @@ window.TACTICAL_DATA = {
       "club": "Le Havre",
       "league": "fr Ligue 1",
       "position": "DF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 5.5,
       "stats": {
         "appearances": 29,
@@ -68467,6 +74011,8 @@ window.TACTICAL_DATA = {
       "club": "Real Sociedad",
       "league": "es La Liga",
       "position": "DF",
+      "role_code": "CB",
+      "role_name": "Center Back",
       "price": 5.2,
       "stats": {
         "appearances": 22,
@@ -68490,6 +74036,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "B2B",
+      "role_name": "Box-to-Box CM",
       "price": 7.2,
       "stats": {
         "appearances": 35,
@@ -68513,6 +74061,8 @@ window.TACTICAL_DATA = {
       "club": "Arsenal",
       "league": "eng Premier League",
       "position": "MF",
+      "role_code": "AM",
+      "role_name": "Attacking Midfielder",
       "price": 6.8,
       "stats": {
         "appearances": 22,
@@ -68536,6 +74086,8 @@ window.TACTICAL_DATA = {
       "club": "Hoffenheim",
       "league": "de Bundesliga",
       "position": "MF",
+      "role_code": "CM",
+      "role_name": "Central Midfielder",
       "price": 5.5,
       "stats": {
         "appearances": 1,
@@ -68559,6 +74111,8 @@ window.TACTICAL_DATA = {
       "club": "Cremonese",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.7,
       "stats": {
         "appearances": 10,
@@ -68582,6 +74136,8 @@ window.TACTICAL_DATA = {
       "club": "Parma",
       "league": "it Serie A",
       "position": "FW",
+      "role_code": "ST",
+      "role_name": "Striker",
       "price": 6.5,
       "stats": {
         "appearances": 12,
@@ -68605,6 +74161,8 @@ window.TACTICAL_DATA = {
       "club": "Lens",
       "league": "fr Ligue 1",
       "position": "MF",
+      "role_code": "UTL",
+      "role_name": "Utility Player",
       "price": 5.8,
       "stats": {
         "appearances": 1,
