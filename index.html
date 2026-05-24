@@ -15,6 +15,7 @@
             --text-muted: #94a3b8;
             --emerald-glow: #10b981;
             --rose-glow: #f43f5e;
+            --amber-warn: #f59e0b;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -22,12 +23,14 @@
         
         .dashboard-container { display: grid; grid-template-columns: 1fr 420px; gap: 20px; max-width: 1440px; margin: 0 auto; }
         .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
-        select { background: #334155; color: white; border: 1px solid #475569; padding: 8px 16px; border-radius: 6px; font-size: 15px; width: 280px; outline: none; }
+        select { background: #334155; color: white; border: 1px solid #475569; padding: 8px 16px; border-radius: 6px; font-size: 15px; width: 260px; outline: none; }
+        
+        .btn-reset { background: #312e81; color: #c084fc; border: 1px solid #4338ca; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
+        .btn-reset:hover { background: #3730a3; color: #d8b4fe; }
 
-        /* Left Column Structure */
         .main-tactical-area { display: flex; flex-direction: column; gap: 15px; }
 
-        /* Horizontal Team Metrics Bar Styling */
+        /* Persistent Team Performance Bar */
         .team-horizontal-bar {
             background: var(--card-bg);
             border: 1px solid #334155;
@@ -36,7 +39,6 @@
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             gap: 12px;
-            transition: all 0.3s ease;
         }
         .h-stat-item {
             background: #0f172a;
@@ -46,12 +48,16 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            transition: all 0.25s ease;
+            transition: all 0.2s ease;
         }
         .h-stat-item.previewing {
-            border-color: var(--accent-blue);
-            box-shadow: 0 0 8px rgba(56, 189, 248, 0.25);
+            border-color: var(--amber-warn);
+            box-shadow: 0 0 10px rgba(245, 158, 11, 0.25);
             background: #1e293b;
+        }
+        .h-stat-item.persisted-change {
+            border-color: var(--accent-blue);
+            background: #1e2433;
         }
         .h-stat-lbl {
             font-size: 10px;
@@ -61,21 +67,23 @@
             margin-bottom: 4px;
         }
         .h-stat-val {
-            font-size: 12px;
-            font-weight: 600;
+            font-size: 11px;
+            font-weight: 500;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             gap: 4px;
         }
         .preview-arrow {
-            color: var(--accent-blue);
+            color: var(--text-muted);
             font-weight: bold;
-            margin: 0 2px;
+            font-size: 12px;
         }
+        .previewing .preview-arrow { color: var(--amber-warn); }
+        .persisted-change .preview-arrow { color: var(--accent-blue); }
 
-        /* Pitch Arena Layout */
-        .pitch-canvas { background: var(--pitch-green); border: 4px solid #ffffffd0; border-radius: 14px; height: 660px; position: relative; overflow: hidden; box-shadow: inset 0 0 100px rgba(0,0,0,0.6); }
+        /* Pitch Canvas Arena */
+        .pitch-canvas { background: var(--pitch-green); border: 4px solid #ffffffd0; border-radius: 14px; height: 640px; position: relative; overflow: hidden; box-shadow: inset 0 0 100px rgba(0,0,0,0.6); }
         .pitch-line-center { position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: var(--pitch-line); }
         .pitch-center-circle { position: absolute; top: 50%; left: 50%; width: 130px; height: 130px; border: 2px solid var(--pitch-line); border-radius: 50%; transform: translate(-50%, -50%); }
         .pitch-penalty-top { position: absolute; top: 0; left: 50%; width: 320px; height: 110px; border: 2px solid var(--pitch-line); transform: translateX(-50%); }
@@ -83,39 +91,40 @@
         .tactical-grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-around; padding: 10px 0; }
         .formation-row { display: flex; justify-content: space-around; width: 100%; min-height: 80px; align-items: center; }
 
-        .player-node { background: rgba(15, 23, 42, 0.92); border: 2px solid #475569; border-radius: 8px; padding: 10px; width: 120px; text-align: center; cursor: pointer; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); z-index: 10; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
-        .player-node:hover { border-color: var(--accent-blue); transform: translateY(-4px); }
-        .player-node.selected { border-color: #f59e0b; box-shadow: 0 0 16px rgba(245, 158, 11, 0.4); }
+        .player-node { background: rgba(15, 23, 42, 0.92); border: 2px solid #475569; border-radius: 8px; padding: 10px; width: 120px; text-align: center; cursor: pointer; transition: all 0.2s ease; z-index: 10; }
+        .player-node:hover { border-color: var(--accent-blue); transform: translateY(-3px); }
+        .player-node.selected { border-color: var(--amber-warn); box-shadow: 0 0 12px rgba(245, 158, 11, 0.35); }
+        
         .node-pos { font-size: 10px; font-weight: bold; color: var(--accent-blue); text-transform: uppercase; background: rgba(56, 189, 248, 0.12); display: inline-block; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; }
         .node-name { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0; }
         .node-val { font-size: 11px; color: var(--emerald-glow); }
 
-        /* Sidebar Architecture */
-        .sidebar-panel { display: flex; flex-direction: column; gap: 20px; max-height: 775px; }
-        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #334155; }
-        .panel-heading { border-bottom: 1px solid #334155; padding-bottom: 12px; margin-bottom: 16px; }
+        /* Sidebar Panels */
+        .sidebar-panel { display: flex; flex-direction: column; gap: 15px; max-height: 760px; overflow-y: auto; }
+        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 16px; border: 1px solid #334155; }
+        .panel-heading { border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 12px; }
         
-        .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-        .stat-item { background: #1e293b; border: 1px solid #334155; padding: 12px; border-radius: 8px; display: flex; flex-direction: column; }
-        .stat-lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
-        .stat-val { font-size: 16px; font-weight: bold; margin-top: 4px; display: flex; align-items: center; justify-content: space-between; }
+        .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+        .stat-item { background: #1e293b; border: 1px solid #334155; padding: 10px; border-radius: 8px; display: flex; flex-direction: column; }
+        .stat-lbl { font-size: 10px; color: var(--text-muted); text-transform: uppercase; }
+        .stat-val { font-size: 14px; font-weight: bold; margin-top: 2px; display: flex; align-items: center; justify-content: space-between; }
         .sub-rate { font-size: 11px; color: var(--accent-blue); }
         
-        .swap-list-container { flex-grow: 1; overflow-y: auto; border-top: 1px solid #334155; padding-top: 15px; margin-top: 15px; }
-        .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #0f172a; margin-bottom: 8px; border-radius: 6px; font-size: 13px; cursor: pointer; border: 1px solid #1e293b; transition: all 0.15s ease; }
-        .swap-row:hover { background: #1e293b; border-color: var(--accent-blue); }
+        .swap-list-container { margin-top: 12px; border-top: 1px solid #334155; padding-top: 12px; }
+        .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 10px; background: #0f172a; margin-bottom: 6px; border-radius: 6px; font-size: 13px; cursor: pointer; border: 1px solid #1e293b; }
+        .swap-row:hover { background: #1e293b; border-color: var(--amber-warn); }
 
-        .delta-tag { font-size: 10px; font-weight: bold; padding: 1px 4px; border-radius: 4px; display: inline-block; }
+        /* Transaction Log Layout */
+        .ledger-container { display: flex; flex-direction: column; gap: 6px; max-height: 160px; overflow-y: auto; padding-right: 4px; }
+        .ledger-row { background: #0f172a; border-left: 3px solid var(--accent-blue); padding: 8px; border-radius: 4px; font-size: 11px; display: flex; flex-direction: column; gap: 2px; }
+        .ledger-meta { display: flex; justify-content: space-between; color: var(--text-muted); font-size: 10px; }
+
+        .delta-tag { font-size: 10px; font-weight: bold; padding: 1px 4px; border-radius: 4px; }
         .delta-pos { background: rgba(16, 185, 129, 0.15); color: var(--emerald-glow); }
         .delta-neg { background: rgba(244, 63, 94, 0.15); color: var(--rose-glow); }
 
-        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
-
-        @media (max-width: 1100px) {
-            .dashboard-container { grid-template-columns: 1fr; }
-            .team-horizontal-bar { grid-template-columns: repeat(3, 1fr); }
-        }
     </style>
     <script src="players_data.js"></script>
 </head>
@@ -123,45 +132,46 @@
 
 <div class="dashboard-container">
     <div class="control-bar">
-        <h2>Live Tactical Simulation Dashboard</h2>
         <div>
-            <label style="margin-right: 10px; color: var(--text-muted); font-size: 14px;">Active Club Node:</label>
-            <select id="clubSelector" onchange="loadClubSquad()"></select>
+            <h2 style="font-size: 20px;">Tactical Simulation Sandbox</h2>
         </div>
-        <h3 id="formationDisplay" style="color: var(--accent-blue); font-weight: 700; letter-spacing: 1px;">Formation: --</h3>
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <select id="clubSelector" onchange="loadClubSquad()"></select>
+            <button class="btn-reset" onclick="resetActiveClub()">Reset To Base</button>
+        </div>
+        <h3 id="formationDisplay" style="color: var(--accent-blue); font-weight: 700;">Formation: --</h3>
     </div>
 
-    <!-- Main Tactical Command Space (Left) -->
+    <!-- Left Structural Performance Arena -->
     <div class="main-tactical-area">
-        <!-- Re-arranged Horizontal Team Performance Command Console -->
+        <!-- Persistent Delta Performance monitor -->
         <div id="teamMetricsBar" class="team-horizontal-bar">
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_gls">
                 <span class="h-stat-lbl">Goals / P90</span>
-                <div id="teamGls" class="h-stat-val">0 (0.00)</div>
+                <div id="teamGls" class="h-stat-val">-</div>
             </div>
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_ast">
                 <span class="h-stat-lbl">Assists / P90</span>
-                <div id="teamAst" class="h-stat-val">0 (0.00)</div>
+                <div id="teamAst" class="h-stat-val">-</div>
             </div>
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_sh">
                 <span class="h-stat-lbl">Shots / P90</span>
-                <div id="teamShots" class="h-stat-val">0 (0.00)</div>
+                <div id="teamShots" class="h-stat-val">-</div>
             </div>
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_tkl">
                 <span class="h-stat-lbl">Tackles / P90</span>
-                <div id="teamTkl" class="h-stat-val">0 (0.00)</div>
+                <div id="teamTkl" class="h-stat-val">-</div>
             </div>
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_int">
                 <span class="h-stat-lbl">Interceptions / P90</span>
-                <div id="teamInt" class="h-stat-val">0 (0.00)</div>
+                <div id="teamInt" class="h-stat-val">-</div>
             </div>
-            <div class="h-stat-item">
+            <div class="h-stat-item" id="card_saves">
                 <span class="h-stat-lbl">Saves / P90</span>
-                <div id="teamSaves" class="h-stat-val">0 (0.00)</div>
+                <div id="teamSaves" class="h-stat-val">-</div>
             </div>
         </div>
 
-        <!-- Pitch Arena -->
         <div class="pitch-canvas">
             <div class="pitch-line-center"></div>
             <div class="pitch-center-circle"></div>
@@ -170,27 +180,38 @@
         </div>
     </div>
 
-    <!-- Sidebar Profiling Controls (Right) -->
+    <!-- Right Sidebar Analysis Engine -->
     <div class="sidebar-panel">
-        <div class="widget-card" style="display: flex; flex-direction: column; overflow: hidden; height: 100%;">
-            <div class="panel-heading" style="margin-bottom: 10px;">
-                <h3 id="panelPlayerName" style="font-size: 18px;">Select Pitch Node</h3>
-                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 2px;">Simulate cross-positional replacements</p>
+        <!-- Target Selection Profiling Panel -->
+        <div class="widget-card" style="display: flex; flex-direction: column; min-height: 380px;">
+            <div class="panel-heading">
+                <h3 id="panelPlayerName" style="font-size: 16px;">Select Pitch Node</h3>
+                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 12px; margin-top: 2px;">Simulate cross-positional adjustments</p>
             </div>
             
-            <div id="statsMatrix" class="stat-matrix" style="display: none; margin-bottom: 10px;">
+            <div id="statsMatrix" class="stat-matrix" style="display: none;">
                 <div class="stat-item"><span class="stat-lbl">Tactical Rating</span><span id="statRating" class="stat-val">-</span></div>
                 <div class="stat-item"><span class="stat-lbl">Valuation</span><span id="statPrice" class="stat-val">-</span></div>
-                <div class="stat-item" style="grid-column: span 2;"><span class="stat-lbl">Appearances / Minutes Vol</span><span id="statApps" class="stat-val">-</span></div>
-                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.00</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.00</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.00</span></span></div>
-                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.00</span></span></div>
+                <div class="stat-item" style="grid-column: span 2;"><span class="stat-lbl">Minutes Vol</span><span id="statApps" class="stat-val">-</span></div>
+                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.0</span></span></div>
             </div>
 
-            <div id="swapInterface" class="swap-list-container" style="display: none;">
-                <h4 style="margin-bottom: 12px; font-size: 13px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Predictive Synergy Impacts (Hover to Simulate)</h4>
-                <div id="swapList" style="max-height: 340px; overflow-y: auto; padding-right: 4px;"></div>
+            <div id="swapInterface" class="swap-list-container" style="display: none; flex-grow:1; display:flex; flex-direction:column; overflow:hidden;">
+                <h4 style="margin-bottom: 8px; font-size: 11px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Predictive Synergy Replacements</h4>
+                <div id="swapList" style="overflow-y: auto; max-height: 220px; padding-right: 2px;"></div>
+            </div>
+        </div>
+
+        <!-- Live Modification Log Dashboard Card -->
+        <div class="widget-card" style="display: flex; flex-direction: column;">
+            <div class="panel-heading" style="border-bottom-color: #1e293b; padding-bottom: 6px; margin-bottom: 8px;">
+                <h4 style="font-size: 12px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Tactical Transaction Ledger</h4>
+            </div>
+            <div id="ledgerContainer" class="ledger-container">
+                <div style="color: var(--text-muted); font-size:12px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>
             </div>
         </div>
     </div>
@@ -199,8 +220,13 @@
 <script>
     let globalData = { clubs: {}, player_pool: {} };
     let selectedNodeIndex = null;
+    
+    // Core Isolated States for Tracking Deltas
     let activeClubLineup = [];
+    let originalClubLineup = []; 
+    let originalTeamStats = {};
     let currentTeamStats = {};
+    let tacticalTransactionLog = [];
 
     function initializeSystem() {
         if (window.TACTICAL_DATA && window.TACTICAL_DATA.clubs) {
@@ -226,20 +252,31 @@
         const club = document.getElementById('clubSelector').value;
         if (!club) return;
         
+        // Deep copy baseline state to monitor structural mutations
+        originalClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
         activeClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
+        
+        // Lock initial calculations
+        originalTeamStats = calculateTeamStats(originalClubLineup);
+        currentTeamStats = JSON.parse(JSON.stringify(originalTeamStats));
+        
+        tacticalTransactionLog = [];
         selectedNodeIndex = null;
         
         recalculateAndRenderTeamDashboard();
+        renderTransactionLogDOM();
         resetSidebar();
     }
 
-    // Isolate pure metrics processing for targeted dashboard evaluation
+    function resetActiveClub() {
+        loadClubSquad();
+    }
+
     function calculateTeamStats(lineup) {
         let totalMins = 0, gls = 0, ast = 0, sh = 0, tkl = 0, intel = 0, saves = 0;
         lineup.forEach(slot => {
             const p = globalData.player_pool[slot.current_player];
             if (!p) return;
-
             totalMins += p.stats.minutes;
             gls += p.stats.goals;
             ast += p.stats.assists;
@@ -273,62 +310,124 @@
         document.getElementById('formationDisplay').textContent = `Formation: ${dfCount}-${mfCount}-${fwCount}`;
         
         currentTeamStats = calculateTeamStats(activeClubLineup);
-        renderTeamMetricsDOM(currentTeamStats);
+        renderMetricsDisplay(currentTeamStats, false); // Render actual persistent state
         renderTacticalPitch();
     }
 
-    function renderTeamMetricsDOM(stats) {
-        document.getElementById('teamGls').innerHTML = `${stats.gls} <span class="sub-rate">(${stats.gls90.toFixed(2)}/90)</span>`;
-        document.getElementById('teamAst').innerHTML = `${stats.ast} <span class="sub-rate">(${stats.ast90.toFixed(2)}/90)</span>`;
-        document.getElementById('teamShots').innerHTML = `${stats.sh} <span class="sub-rate">(${stats.sh90.toFixed(2)}/90)</span>`;
-        document.getElementById('teamTkl').innerHTML = `${stats.tkl} <span class="sub-rate">(${stats.tkl90.toFixed(2)}/90)</span>`;
-        document.getElementById('teamInt').innerHTML = `${stats.intel} <span class="sub-rate">(${stats.intel90.toFixed(2)}/90)</span>`;
-        document.getElementById('teamSaves').innerHTML = `${stats.saves} <span class="sub-rate">(${stats.saves90.toFixed(2)}/90)</span>`;
-        
-        // Remove tracking styles
-        document.querySelectorAll('.h-stat-item').forEach(el => el.classList.remove('previewing'));
-    }
-
-    // Dynamic Team Forecast engine mapping: Current -> New State (+/- Change)
-    function previewSwapImpact(subKey) {
-        if (selectedNodeIndex === null) return;
-
-        let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
-        const subProfile = globalData.player_pool[subKey];
-        
-        simulatedLineup[selectedNodeIndex].current_player = subKey;
-        simulatedLineup[selectedNodeIndex].position = subProfile.position;
-
-        const predictedStats = calculateTeamStats(simulatedLineup);
-        
-        const trackingMetrics = [
-            { id: 'teamGls', cVal: currentTeamStats.gls, c90: currentTeamStats.gls90, pVal: predictedStats.gls, p90: predictedStats.gls90 },
-            { id: 'teamAst', cVal: currentTeamStats.ast, c90: currentTeamStats.ast90, pVal: predictedStats.ast, p90: predictedStats.ast90 },
-            { id: 'teamShots', cVal: currentTeamStats.sh, c90: currentTeamStats.sh90, pVal: predictedStats.sh, p90: predictedStats.sh90 },
-            { id: 'teamTkl', cVal: currentTeamStats.tkl, c90: currentTeamStats.tkl90, pVal: predictedStats.tkl, p90: predictedStats.tkl90 },
-            { id: 'teamInt', cVal: currentTeamStats.intel, c90: currentTeamStats.intel90, pVal: predictedStats.intel, p90: predictedStats.intel90 },
-            { id: 'teamSaves', cVal: currentTeamStats.saves, c90: currentTeamStats.saves90, pVal: predictedStats.saves, p90: predictedStats.saves90 }
+    // Unified Engine Render Loop for Base vs Dynamic State Comparisons
+    function renderMetricsDisplay(targetStats, isPreviewMode = false) {
+        const metricsConfig = [
+            { elId: 'teamGls', cardId: 'card_gls', baseVal: originalTeamStats.gls, base90: originalTeamStats.gls90, tgtVal: targetStats.gls, tgt90: targetStats.gls90 },
+            { elId: 'teamAst', cardId: 'card_ast', baseVal: originalTeamStats.ast, base90: originalTeamStats.ast90, tgtVal: targetStats.ast, tgt90: targetStats.ast90 },
+            { elId: 'teamShots', cardId: 'card_sh', baseVal: originalTeamStats.sh, base90: originalTeamStats.sh90, tgtVal: targetStats.sh, tgt90: targetStats.sh90 },
+            { elId: 'teamTkl', cardId: 'card_tkl', baseVal: originalTeamStats.tkl, base90: originalTeamStats.tkl90, tgtVal: targetStats.tkl, tgt90: targetStats.tkl90 },
+            { elId: 'teamInt', cardId: 'card_int', baseVal: originalTeamStats.intel, base90: originalTeamStats.intel90, tgtVal: targetStats.intel, tgt90: targetStats.intel90 },
+            { elId: 'teamSaves', cardId: 'card_saves', baseVal: originalTeamStats.saves, base90: originalTeamStats.saves90, tgtVal: targetStats.saves, tgt90: targetStats.saves90 }
         ];
 
-        trackingMetrics.forEach(m => {
-            const diff90 = m.p90 - m.c90;
+        metricsConfig.forEach(m => {
+            const domNode = document.getElementById(m.elId);
+            const containerCard = document.getElementById(m.cardId);
+            
+            const diff90 = m.tgt90 - m.base90;
             const sign = diff90 >= 0 ? '+' : '';
             const deltaClass = diff90 >= 0 ? 'delta-pos' : 'delta-neg';
             
-            const element = document.getElementById(m.id);
-            element.parentElement.classList.add('previewing');
-            
-            element.innerHTML = `
-                <span style="color: var(--text-muted); font-size:11px;">${m.cVal}(${m.c90.toFixed(1)})</span>
-                <span class="preview-arrow">➔</span>
-                <span style="color: var(--text-main); font-weight:700;">${m.pVal}(${m.p90.toFixed(1)})</span>
-                <span class="delta-tag ${deltaClass}" style="font-size:9px; padding:1px 3px;">${sign}${diff90.toFixed(2)}</span>
-            `;
+            // Adjust tracking classes based on mode context
+            containerCard.classList.remove('previewing', 'persisted-change');
+            if (isPreviewMode) {
+                containerCard.classList.add('previewing');
+            } else if (Math.abs(diff90) > 0.001) {
+                containerCard.classList.add('persisted-change');
+            }
+
+            if (Math.abs(diff90) < 0.001) {
+                // No variance detected vs initial setup
+                domNode.innerHTML = `${m.baseVal} <span class="sub-rate">(${m.base90.toFixed(2)}/90)</span>`;
+            } else {
+                // Variant Mutation Path rendering format
+                domNode.innerHTML = `
+                    <span style="color: var(--text-muted); font-size:10px;">${m.baseVal}(${m.base90.toFixed(1)})</span>
+                    <span class="preview-arrow">➔</span>
+                    <span style="color: var(--text-main); font-weight:700;">${m.tgtVal}(${m.tgt90.toFixed(1)})</span>
+                    <span class="delta-tag ${deltaClass}" style="font-size:9px; padding:0px 2px;">${sign}${diff90.toFixed(2)}</span>
+                `;
+            }
         });
     }
 
+    // Temporary Hover-Based Preview
+    function previewSwapImpact(subKey) {
+        if (selectedNodeIndex === null) return;
+        
+        let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
+        simulatedLineup[selectedNodeIndex].current_player = subKey;
+        simulatedLineup[selectedNodeIndex].position = globalData.player_pool[subKey].position;
+
+        const simulatedStats = calculateTeamStats(simulatedLineup);
+        renderMetricsDisplay(simulatedStats, true); // Render with hover styles
+    }
+
     function clearSwapPreview() {
-        renderTeamMetricsDOM(currentTeamStats);
+        renderMetricsDisplay(currentTeamStats, false); // Revert to current actual state
+    }
+
+    function executeIntelligentSwap(targetPlayerProfile) {
+        if (selectedNodeIndex === null) return;
+        
+        const slot = activeClubLineup[selectedNodeIndex];
+        const outgoingPlayerKey = slot.current_player;
+        const incomingPlayerKey = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
+        
+        if (outgoingPlayerKey === incomingPlayerKey) return;
+
+        const pOut = globalData.player_pool[outgoingPlayerKey];
+        const oldRole = pOut ? pOut.role_code : slot.position;
+
+        // Commit tactical alterations to state matrix
+        slot.current_player = incomingPlayerKey;
+        slot.position = targetPlayerProfile.position;
+
+        // Log transaction history entry
+        tacticalTransactionLog.unshift({
+            outName: pOut ? pOut.name : "Vacant Node",
+            outRole: oldRole,
+            inName: targetPlayerProfile.name,
+            inRole: targetPlayerProfile.role_code,
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })
+        });
+
+        recalculateAndRenderTeamDashboard();
+        renderTransactionLogDOM();
+        selectPitchNode(selectedNodeIndex);
+    }
+
+    function renderTransactionLogDOM() {
+        const container = document.getElementById('ledgerContainer');
+        if (tacticalTransactionLog.length === 0) {
+            container.innerHTML = `<div style="color: var(--text-muted); font-size:11px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>`;
+            return;
+        }
+
+        container.innerHTML = '';
+        tacticalTransactionLog.forEach(log => {
+            const row = document.createElement('div');
+            row.className = 'ledger-row';
+            row.innerHTML = `
+                <div class="ledger-meta">
+                    <span style="color: var(--accent-blue); font-weight:bold;">TACTICAL ADJUSTMENT</span>
+                    <span>${log.timestamp}</span>
+                </div>
+                <div style="margin-top:2px;">
+                    <span style="color: var(--rose-glow); font-weight:500;">🔻 ${log.outName}</span> 
+                    <span style="color: var(--text-muted); font-size:10px;">[${log.outRole}]</span>
+                    <span style="color: var(--text-muted); margin: 0 4px;">➔</span>
+                    <span style="color: var(--emerald-glow); font-weight:500;">🔺 ${log.inName}</span> 
+                    <span style="color: var(--text-muted); font-size:10px;">[${log.inRole}]</span>
+                </div>
+            `;
+            container.appendChild(row);
+        });
     }
 
     function renderTacticalPitch() {
@@ -392,29 +491,29 @@
         if (!activePlayer) return;
 
         document.getElementById('panelPlayerName').textContent = activePlayer.name;
-        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Base Position: ${activePlayer.position}`;
+        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Role: ${activePlayer.position}`;
         
         document.getElementById('statRating').textContent = activePlayer.stats.rating;
         document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
-        document.getElementById('statApps').textContent = `${activePlayer.stats.appearances} matches (${activePlayer.stats.minutes} mins)`;
+        document.getElementById('statApps').textContent = `${activePlayer.stats.minutes} mins played`;
         
         const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
         
         document.getElementById('totGoals').textContent = activePlayer.stats.goals;
-        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(2)} /90`;
+        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(1)}/90`;
         document.getElementById('totAssists').textContent = activePlayer.stats.assists;
-        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(2)} /90`;
+        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(1)}/90`;
         document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
-        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(2)} /90`;
+        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(1)}/90`;
         document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
-        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(2)} /90`;
+        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(1)}/90`;
         
         document.getElementById('statsMatrix').style.display = 'grid';
+        document.getElementById('swapInterface').style.display = 'flex';
         renderIntelligentPredictiveSubs(activePlayer);
     }
 
     function renderIntelligentPredictiveSubs(originalPlayer) {
-        const container = document.getElementById('swapInterface');
         const list = document.getElementById('swapList');
         list.innerHTML = '';
         
@@ -438,15 +537,13 @@
                 const defDelta = subDef90 - currDef90;
                 const lookupKey = `${sub.name} (${sub.club})`;
 
-                let formationNote = "Maintains Structure";
+                let formationNote = "Structural Match";
                 if (sub.position !== originalPlayer.position) {
-                    formationNote = `Shifts Role: ${originalPlayer.position} ➔ ${sub.position}`;
+                    formationNote = `Pos Shift: ${originalPlayer.position} ➔ ${sub.position}`;
                 }
 
                 const row = document.createElement('div');
                 row.className = 'swap-row';
-                
-                // Mount hover simulation hooks 
                 row.setAttribute('onmouseenter', `previewSwapImpact("${lookupKey}")`);
                 row.setAttribute('onmouseleave', 'clearSwapPreview()');
                 row.onclick = () => executeIntelligentSwap(sub);
@@ -455,37 +552,24 @@
                 const defClass = defDelta >= 0 ? 'delta-pos' : 'delta-neg';
 
                 row.innerHTML = `
-                    <div style="max-width: 60%;">
+                    <div style="max-width: 65%;">
                         <strong>${sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${sub.role_code}]</span><br>
                         <span style="font-size:11px; color:var(--text-muted);">${sub.club}</span><br>
-                        <span style="font-size:10px; color:#f59e0b; font-style:italic;">${formationNote}</span>
+                        <span style="font-size:10px; color:var(--amber-warn); font-style:italic;">${formationNote}</span>
                     </div>
                     <div style="text-align:right;">
-                        <span style="font-weight:bold; font-size:12px;">£${sub.price}M</span><br>
-                        <div class="delta-tag ${attClass}" style="margin-bottom:2px;">⚔️ ${attDelta >= 0 ? '+' : ''}${attDelta.toFixed(1)}/90</div><br>
-                        <div class="delta-tag ${defClass}">🛡️ ${defDelta >= 0 ? '+' : ''}${defDelta.toFixed(1)}/90</div>
+                        <span style="font-weight:bold; font-size:11px;">£${sub.price}M</span><br>
+                        <div class="delta-tag ${attClass}" style="margin-bottom:2px; font-size:9px;">⚔️ ${attDelta >= 0 ? '+' : ''}${attDelta.toFixed(1)}</div><br>
+                        <div class="delta-tag ${defClass}" style="font-size:9px;">🛡️ ${defDelta >= 0 ? '+' : ''}${defDelta.toFixed(1)}</div>
                     </div>
                 `;
                 list.appendChild(row);
             });
-
-        container.style.display = 'block';
-    }
-
-    function executeIntelligentSwap(targetPlayerProfile) {
-        if (selectedNodeIndex === null) return;
-        
-        const compoundKey = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
-        activeClubLineup[selectedNodeIndex].current_player = compoundKey;
-        activeClubLineup[selectedNodeIndex].position = targetPlayerProfile.position;
-        
-        recalculateAndRenderTeamDashboard();
-        selectPitchNode(selectedNodeIndex);
     }
 
     function resetSidebar() {
         document.getElementById('panelPlayerName').textContent = "Select Pitch Node";
-        document.getElementById('panelPlayerMeta').textContent = "Simulate cross-positional replacements";
+        document.getElementById('panelPlayerMeta').textContent = "Simulate cross-positional adjustments";
         document.getElementById('statsMatrix').style.display = 'none';
         document.getElementById('swapInterface').style.display = 'none';
     }
