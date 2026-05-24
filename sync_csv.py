@@ -4,60 +4,58 @@ import pandas as pd
 
 def determine_tactical_role(raw_pos, gls, ast, sh, tklw, intel, minutes):
     """
-    Analyzes player performance stats per 90 minutes to categorize them 
-    into granular, highly accurate real-world tactical roles.
+    Analyzes player performance profiles with sample-size protection 
+    to prevent low-minute anomalies from breaking tactical roles.
     """
-    # Safe fallbacks if minutes are virtually non-existent
     if 'GK' in raw_pos: 
         return 'GK', 'Goalkeeper'
-        
-    # Calculate Per-90 baselines if player has substantial minutes
-    if minutes > 180:
-        gls_90 = (gls / minutes) * 90
-        ast_90 = (ast / minutes) * 90
-        sh_90 = (sh / minutes) * 90
-        def_90 = ((tklw + intel) / minutes) * 90
-    else:
-        # Fallback to absolute scale metrics for low minute outliers
-        gls_90 = gls
-        ast_90 = ast
-        sh_90 = sh
-        def_90 = tklw + intel
 
-    # 1. DEFENDER SEGREGATION
+    # Protect against low-minute statistical inflation
+    # If a player has under 400 minutes, use absolute values and safer baselines
+    if minutes < 400:
+        if 'DF' in raw_pos:
+            # Low-minute defenders default to CB unless they have clear crossing/assist production
+            if ast >= 2: return 'FB', 'Fullback'
+            return 'CB', 'Center Back'
+        if 'FW' in raw_pos:
+            return 'ST', 'Striker'
+        return 'CM', 'Central Midfielder'
+
+    # High-minute players: Safe to calculate stabilized Per-90 metrics
+    gls_90 = (gls / minutes) * 90
+    ast_90 = (ast / minutes) * 90
+    sh_90 = (sh / minutes) * 90
+    def_90 = ((tklw + intel) / minutes) * 90
+
+    # 1. DEFENDER SEGREGATION (CB vs FB)
     if 'DF' in raw_pos and 'MF' not in raw_pos:
-        # Fullbacks trigger significantly higher attacking involvement/assists
-        if ast_90 > 0.08 or sh_90 > 0.6:
+        # Fullbacks demonstrate significantly higher sustained passing/creative output 
+        # and rarely match the ultra-pure high defensive volumes of a true center back.
+        if ast_90 > 0.09 or (sh_90 > 0.5 and ast_90 > 0.04):
             return 'FB', 'Fullback'
         return 'CB', 'Center Back'
 
     # 2. HYBRID WINGERS / WIDE ATTACKERS
     if 'MF' in raw_pos and 'FW' in raw_pos:
-        if gls_90 > 0.25 or sh_90 > 2.0:
+        if gls_90 > 0.28 or sh_90 > 2.2:
             return 'ST', 'Striker'
-        if ast_90 > 0.12 or sh_90 > 1.2:
+        if ast_90 > 0.14 or sh_90 > 1.4:
             return 'WGR', 'Winger'
         return 'AM', 'Attacking Midfielder'
 
     # 3. PURE FORWARDS
     if 'FW' in raw_pos:
-        # Central Strikers vs Wide Wingers categorized by shots and goals ratios
-        if gls_90 > 0.30 or sh_90 > 2.2:
-            return 'ST', 'Striker'
-        if ast_90 > 0.10 or sh_90 > 1.4:
+        if ast_90 > 0.15 and sh_90 > 1.5:
             return 'WGR', 'Winger'
         return 'ST', 'Striker'
 
-    # 4. MIDFIELD DEPLOYMENTS
+    # 4. PURE MIDFIELDERS (AM, DM, B2B, CM)
     if 'MF' in raw_pos:
-        # High attacking output -> Attacking Midfielder
-        if (gls_90 + ast_90) > 0.22 or sh_90 > 1.2:
+        if (gls_90 + ast_90) > 0.25 or sh_90 > 1.4:
             return 'AM', 'Attacking Midfielder'
-        # Extreme defensive work rates -> Defensive Midfielder
-        elif def_90 > 3.2:
+        elif def_90 > 3.4 and sh_90 < 0.6:
             return 'DM', 'Defensive Midfielder'
-        # Well rounded box-to-box tracking capabilities
-        elif def_90 > 1.8 and (gls_90 + ast_90) > 0.04:
+        elif def_90 > 2.0 and (gls_90 + ast_90) > 0.05:
             return 'B2B', 'Box-to-Box CM'
         return 'CM', 'Central Midfielder'
 
@@ -67,6 +65,7 @@ def process_local_csv():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     csv_filename = os.path.join(script_dir, "players_data-2025_2026.csv")
     
+    # Check if user is operating inside or outside a docs environment
     docs_dir = os.path.join(script_dir, "docs")
     if os.path.exists(docs_dir):
         output_path = os.path.join(docs_dir, "players_data.js")
@@ -93,7 +92,6 @@ def process_local_csv():
             
         raw_pos = str(row.get('Pos', '')).upper()
         
-        # Parse structural baseline positions for formation building
         if 'GK' in raw_pos: ui_pos = 'GK'
         elif 'DF' in raw_pos: ui_pos = 'DF'
         elif 'FW' in raw_pos: ui_pos = 'FW'
@@ -108,7 +106,7 @@ def process_local_csv():
         interceptions = int(float(row.get('Int', 0)))
         tackles_won = int(float(row.get('TklW', 0)))
         
-        # Call profile engine to determine exact roles
+        # Determine precise role code
         role_code, role_name = determine_tactical_role(
             raw_pos, goals, assists, shots, tackles_won, interceptions, minutes
         )
@@ -197,7 +195,7 @@ def process_local_csv():
         json.dump(output_package, f, indent=2, ensure_ascii=False)
         f.write(";")
         
-    print(f"✅ Success! Generated updated script file layout at: {output_path}")
+    print(f"✅ Success! Generated balanced data layout at: {output_path}")
     return True
 
 if __name__ == "__main__":
