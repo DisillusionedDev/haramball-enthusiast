@@ -1,11 +1,14 @@
 window.TACTICAL_DATA = {
   "clubs": {
     "Leeds United": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Karl Darlow (Leeds United)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ethan Ampadu (Leeds United)"
         },
         {
           "position": "DF",
@@ -24,18 +27,6 @@ window.TACTICAL_DATA = {
           "current_player": "Joe Rodon (Leeds United)"
         },
         {
-          "position": "DF",
-          "current_player": "Jaka Bijol (Leeds United)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Ethan Ampadu (Leeds United)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Anton Stach (Leeds United)"
-        },
-        {
           "position": "FW",
           "current_player": "Dominic Calvert-Lewin (Leeds United)"
         },
@@ -44,36 +35,20 @@ window.TACTICAL_DATA = {
           "current_player": "Brenden Aaronson (Leeds United)"
         },
         {
+          "position": "MF",
+          "current_player": "Anton Stach (Leeds United)"
+        },
+        {
           "position": "FW",
           "current_player": "Noah Okafor (Leeds United)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Jaka Bijol (Leeds United)"
         }
-      ],
-      "team_stats": {
-        "goals": 46,
-        "goals_90": 1.32,
-        "assists": 24,
-        "assists_90": 0.69,
-        "shots": 446,
-        "shots_90": 12.76,
-        "shots_on_target": 143,
-        "sot_90": 4.09,
-        "clean_sheets": 4,
-        "goals_against": 29,
-        "ga_90": 0.83,
-        "tackles_won": 361,
-        "tackles_90": 10.33,
-        "interceptions": 318,
-        "interceptions_90": 9.1,
-        "saves": 88,
-        "saves_90": 2.52,
-        "yellow_cards": 59,
-        "yc_90": 1.69,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Nottingham Forest": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
@@ -84,24 +59,24 @@ window.TACTICAL_DATA = {
           "current_player": "Nikola Milenković (Nottingham Forest)"
         },
         {
+          "position": "MF",
+          "current_player": "Elliot Anderson (Nottingham Forest)"
+        },
+        {
           "position": "DF",
           "current_player": "Neco Williams (Nottingham Forest)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Morgan Gibbs-White (Nottingham Forest)"
         },
         {
           "position": "DF",
           "current_player": "Murillo (Nottingham Forest)"
         },
         {
-          "position": "DF",
-          "current_player": "Ola Aina (Nottingham Forest)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Elliot Anderson (Nottingham Forest)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Morgan Gibbs-White (Nottingham Forest)"
+          "position": "FW",
+          "current_player": "Igor Jesus (Nottingham Forest)"
         },
         {
           "position": "MF",
@@ -112,40 +87,16 @@ window.TACTICAL_DATA = {
           "current_player": "Callum Hudson-Odoi (Nottingham Forest)"
         },
         {
-          "position": "MF",
-          "current_player": "Omari Hutchinson (Nottingham Forest)"
+          "position": "DF",
+          "current_player": "Ola Aina (Nottingham Forest)"
         },
         {
-          "position": "FW",
-          "current_player": "Igor Jesus (Nottingham Forest)"
+          "position": "MF",
+          "current_player": "Omari Hutchinson (Nottingham Forest)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.23,
-        "assists": 30,
-        "assists_90": 0.86,
-        "shots": 433,
-        "shots_90": 12.39,
-        "shots_on_target": 141,
-        "sot_90": 4.03,
-        "clean_sheets": 7,
-        "goals_against": 34,
-        "ga_90": 0.97,
-        "tackles_won": 354,
-        "tackles_90": 10.13,
-        "interceptions": 269,
-        "interceptions_90": 7.7,
-        "saves": 94,
-        "saves_90": 2.69,
-        "yellow_cards": 56,
-        "yc_90": 1.6,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Celta Vigo": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -156,28 +107,20 @@ window.TACTICAL_DATA = {
           "current_player": "Marcos Alonso (Celta Vigo)"
         },
         {
-          "position": "DF",
-          "current_player": "Javi Rodríguez (Celta Vigo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Óscar Mingueza (Celta Vigo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Carl Starfelt (Celta Vigo)"
-        },
-        {
           "position": "MF",
           "current_player": "Sergio Carreira (Celta Vigo)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Javi Rodríguez (Celta Vigo)"
         },
         {
           "position": "MF",
           "current_player": "Ilaix Moriba (Celta Vigo)"
         },
         {
-          "position": "MF",
-          "current_player": "Hugo Sotelo (Celta Vigo)"
+          "position": "DF",
+          "current_player": "Óscar Mingueza (Celta Vigo)"
         },
         {
           "position": "FW",
@@ -188,44 +131,40 @@ window.TACTICAL_DATA = {
           "current_player": "Borja Iglesias (Celta Vigo)"
         },
         {
+          "position": "DF",
+          "current_player": "Carl Starfelt (Celta Vigo)"
+        },
+        {
           "position": "FW",
           "current_player": "Pablo Durán (Celta Vigo)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Hugo Sotelo (Celta Vigo)"
         }
-      ],
-      "team_stats": {
-        "goals": 47,
-        "goals_90": 1.38,
-        "assists": 31,
-        "assists_90": 0.91,
-        "shots": 353,
-        "shots_90": 10.4,
-        "shots_on_target": 141,
-        "sot_90": 4.15,
-        "clean_sheets": 8,
-        "goals_against": 44,
-        "ga_90": 1.3,
-        "tackles_won": 279,
-        "tackles_90": 8.22,
-        "interceptions": 249,
-        "interceptions_90": 7.33,
-        "saves": 94,
-        "saves_90": 2.77,
-        "yellow_cards": 68,
-        "yc_90": 2.0,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Marseille": {
-      "formation": "6-3-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Gerónimo Rulli (Marseille)"
         },
         {
+          "position": "MF",
+          "current_player": "Pierre Højbjerg (Marseille)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mason Greenwood (Marseille)"
+        },
+        {
           "position": "DF",
           "current_player": "Timothy Weah (Marseille)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Pierre-Emerick Aubameyang (Marseille)"
         },
         {
           "position": "DF",
@@ -234,6 +173,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Benjamin Pavard (Marseille)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Igor Paixão (Marseille)"
         },
         {
           "position": "DF",
@@ -246,50 +189,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Facundo Medina (Marseille)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Pierre Højbjerg (Marseille)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Mason Greenwood (Marseille)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Igor Paixão (Marseille)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Pierre-Emerick Aubameyang (Marseille)"
         }
-      ],
-      "team_stats": {
-        "goals": 58,
-        "goals_90": 1.82,
-        "assists": 45,
-        "assists_90": 1.41,
-        "shots": 478,
-        "shots_90": 15.03,
-        "shots_on_target": 181,
-        "sot_90": 5.69,
-        "clean_sheets": 7,
-        "goals_against": 33,
-        "ga_90": 1.04,
-        "tackles_won": 276,
-        "tackles_90": 8.68,
-        "interceptions": 254,
-        "interceptions_90": 7.98,
-        "saves": 83,
-        "saves_90": 2.61,
-        "yellow_cards": 75,
-        "yc_90": 2.36,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Angers": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -300,8 +203,16 @@ window.TACTICAL_DATA = {
           "current_player": "Jordan Lefort (Angers)"
         },
         {
+          "position": "MF",
+          "current_player": "Haris Belkebla (Angers)"
+        },
+        {
           "position": "DF",
           "current_player": "Ousmane Camara (Angers)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Yassin Belkhdim (Angers)"
         },
         {
           "position": "DF",
@@ -312,18 +223,6 @@ window.TACTICAL_DATA = {
           "current_player": "Carlens Arcus (Angers)"
         },
         {
-          "position": "DF",
-          "current_player": "Lilian Raolisoa (Angers)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Haris Belkebla (Angers)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Yassin Belkhdim (Angers)"
-        },
-        {
           "position": "MF",
           "current_player": "Louis Mouton (Angers)"
         },
@@ -332,36 +231,16 @@ window.TACTICAL_DATA = {
           "current_player": "Mohamed Amine Sbai (Angers)"
         },
         {
+          "position": "DF",
+          "current_player": "Lilian Raolisoa (Angers)"
+        },
+        {
           "position": "FW",
           "current_player": "Sidiki Cherif (Angers)"
         }
-      ],
-      "team_stats": {
-        "goals": 26,
-        "goals_90": 0.81,
-        "assists": 15,
-        "assists_90": 0.47,
-        "shots": 297,
-        "shots_90": 9.3,
-        "shots_on_target": 105,
-        "sot_90": 3.29,
-        "clean_sheets": 10,
-        "goals_against": 35,
-        "ga_90": 1.1,
-        "tackles_won": 369,
-        "tackles_90": 11.56,
-        "interceptions": 289,
-        "interceptions_90": 9.05,
-        "saves": 126,
-        "saves_90": 3.95,
-        "yellow_cards": 48,
-        "yc_90": 1.5,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Nice": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -380,6 +259,10 @@ window.TACTICAL_DATA = {
           "current_player": "Melvin Bard (Nice)"
         },
         {
+          "position": "FW",
+          "current_player": "Sofiane Diop (Nice)"
+        },
+        {
           "position": "DF",
           "current_player": "Antoine Mendy (Nice)"
         },
@@ -392,48 +275,20 @@ window.TACTICAL_DATA = {
           "current_player": "Charles Vanhoutte (Nice)"
         },
         {
+          "position": "FW",
+          "current_player": "Mohamed Ali Cho (Nice)"
+        },
+        {
           "position": "MF",
           "current_player": "Morgan Sanson (Nice)"
         },
         {
           "position": "MF",
           "current_player": "Hicham Boudaoui (Nice)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Sofiane Diop (Nice)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Mohamed Ali Cho (Nice)"
         }
-      ],
-      "team_stats": {
-        "goals": 34,
-        "goals_90": 1.07,
-        "assists": 25,
-        "assists_90": 0.78,
-        "shots": 350,
-        "shots_90": 10.97,
-        "shots_on_target": 124,
-        "sot_90": 3.89,
-        "clean_sheets": 4,
-        "goals_against": 43,
-        "ga_90": 1.35,
-        "tackles_won": 295,
-        "tackles_90": 9.25,
-        "interceptions": 323,
-        "interceptions_90": 10.13,
-        "saves": 105,
-        "saves_90": 3.29,
-        "yellow_cards": 67,
-        "yc_90": 2.1,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Lens": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
@@ -448,14 +303,6 @@ window.TACTICAL_DATA = {
           "current_player": "Malang Sarr (Lens)"
         },
         {
-          "position": "DF",
-          "current_player": "Ismaëlo Ganiou (Lens)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Samson Baidoo (Lens)"
-        },
-        {
           "position": "MF",
           "current_player": "Adrien Thomasson (Lens)"
         },
@@ -468,44 +315,28 @@ window.TACTICAL_DATA = {
           "current_player": "Mamadou Sangare (Lens)"
         },
         {
+          "position": "FW",
+          "current_player": "Odsonne Édouard (Lens)"
+        },
+        {
           "position": "MF",
           "current_player": "Wesley Saïd (Lens)"
         },
         {
-          "position": "MF",
-          "current_player": "Ruben Aguilar (Lens)"
+          "position": "DF",
+          "current_player": "Ismaëlo Ganiou (Lens)"
         },
         {
-          "position": "FW",
-          "current_player": "Odsonne Édouard (Lens)"
+          "position": "DF",
+          "current_player": "Samson Baidoo (Lens)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ruben Aguilar (Lens)"
         }
-      ],
-      "team_stats": {
-        "goals": 61,
-        "goals_90": 1.92,
-        "assists": 47,
-        "assists_90": 1.48,
-        "shots": 522,
-        "shots_90": 16.39,
-        "shots_on_target": 175,
-        "sot_90": 5.5,
-        "clean_sheets": 11,
-        "goals_against": 33,
-        "ga_90": 1.04,
-        "tackles_won": 365,
-        "tackles_90": 11.46,
-        "interceptions": 342,
-        "interceptions_90": 10.74,
-        "saves": 75,
-        "saves_90": 2.36,
-        "yellow_cards": 62,
-        "yc_90": 1.95,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Levante": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -524,6 +355,10 @@ window.TACTICAL_DATA = {
           "current_player": "Adrián de la Fuente (Levante)"
         },
         {
+          "position": "FW",
+          "current_player": "Iván Romero (Levante)"
+        },
+        {
           "position": "DF",
           "current_player": "Matias Moreno (Levante)"
         },
@@ -540,64 +375,28 @@ window.TACTICAL_DATA = {
           "current_player": "Olasagasti (Levante)"
         },
         {
-          "position": "MF",
-          "current_player": "Kareem Tunde (Levante)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Iván Romero (Levante)"
-        },
-        {
           "position": "FW",
           "current_player": "Karl Etta Eyong (Levante)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Kareem Tunde (Levante)"
         }
-      ],
-      "team_stats": {
-        "goals": 41,
-        "goals_90": 1.18,
-        "assists": 26,
-        "assists_90": 0.75,
-        "shots": 432,
-        "shots_90": 12.4,
-        "shots_on_target": 131,
-        "sot_90": 3.76,
-        "clean_sheets": 8,
-        "goals_against": 52,
-        "ga_90": 1.49,
-        "tackles_won": 332,
-        "tackles_90": 9.53,
-        "interceptions": 301,
-        "interceptions_90": 8.64,
-        "saves": 122,
-        "saves_90": 3.5,
-        "yellow_cards": 79,
-        "yc_90": 2.27,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Lorient": {
-      "formation": "3-6-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Yvon Mvogo (Lorient)"
         },
         {
-          "position": "DF",
-          "current_player": "Montassar Talbi (Lorient)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Bamo Meïté (Lorient)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Darlin Yongwa (Lorient)"
-        },
-        {
           "position": "MF",
           "current_player": "Arsène Kouassi (Lorient)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Montassar Talbi (Lorient)"
         },
         {
           "position": "MF",
@@ -608,6 +407,10 @@ window.TACTICAL_DATA = {
           "current_player": "Arthur Avom (Lorient)"
         },
         {
+          "position": "DF",
+          "current_player": "Bamo Meïté (Lorient)"
+        },
+        {
           "position": "MF",
           "current_player": "Théo Le Bris (Lorient)"
         },
@@ -616,44 +419,28 @@ window.TACTICAL_DATA = {
           "current_player": "Jean-Victor Makengo (Lorient)"
         },
         {
+          "position": "FW",
+          "current_player": "Pablo Pagis (Lorient)"
+        },
+        {
           "position": "MF",
           "current_player": "Noah Cadiou (Lorient)"
         },
         {
-          "position": "FW",
-          "current_player": "Pablo Pagis (Lorient)"
+          "position": "DF",
+          "current_player": "Darlin Yongwa (Lorient)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.35,
-        "assists": 28,
-        "assists_90": 0.88,
-        "shots": 359,
-        "shots_90": 11.25,
-        "shots_on_target": 125,
-        "sot_90": 3.92,
-        "clean_sheets": 5,
-        "goals_against": 41,
-        "ga_90": 1.28,
-        "tackles_won": 299,
-        "tackles_90": 9.37,
-        "interceptions": 288,
-        "interceptions_90": 9.02,
-        "saves": 79,
-        "saves_90": 2.48,
-        "yellow_cards": 51,
-        "yc_90": 1.6,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Nantes": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Anthony Lopes (Nantes)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Matthis Abline (Nantes)"
         },
         {
           "position": "DF",
@@ -662,6 +449,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Chidozie Awaziem (Nantes)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Johann Lepenant (Nantes)"
         },
         {
           "position": "DF",
@@ -677,10 +468,6 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Johann Lepenant (Nantes)"
-        },
-        {
-          "position": "MF",
           "current_player": "Junior Mwanga (Nantes)"
         },
         {
@@ -689,39 +476,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Matthis Abline (Nantes)"
-        },
-        {
-          "position": "FW",
           "current_player": "Mostafa Mohamed (Nantes)"
         }
-      ],
-      "team_stats": {
-        "goals": 28,
-        "goals_90": 0.85,
-        "assists": 18,
-        "assists_90": 0.55,
-        "shots": 374,
-        "shots_90": 11.37,
-        "shots_on_target": 108,
-        "sot_90": 3.28,
-        "clean_sheets": 6,
-        "goals_against": 50,
-        "ga_90": 1.52,
-        "tackles_won": 351,
-        "tackles_90": 10.67,
-        "interceptions": 273,
-        "interceptions_90": 8.3,
-        "saves": 108,
-        "saves_90": 3.28,
-        "yellow_cards": 67,
-        "yc_90": 2.04,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Lyon": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -736,24 +495,20 @@ window.TACTICAL_DATA = {
           "current_player": "Moussa Niakhate (Lyon)"
         },
         {
-          "position": "DF",
-          "current_player": "Ainsley Maitland-Niles (Lyon)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Abner (Lyon)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Nicolás Tagliafico (Lyon)"
-        },
-        {
           "position": "MF",
           "current_player": "Tyler Morton (Lyon)"
         },
         {
+          "position": "DF",
+          "current_player": "Ainsley Maitland-Niles (Lyon)"
+        },
+        {
           "position": "MF",
           "current_player": "Corentin Tolisso (Lyon)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Abner (Lyon)"
         },
         {
           "position": "MF",
@@ -766,46 +521,42 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Pavel Šulc (Lyon)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Nicolás Tagliafico (Lyon)"
         }
-      ],
-      "team_stats": {
-        "goals": 51,
-        "goals_90": 1.6,
-        "assists": 40,
-        "assists_90": 1.26,
-        "shots": 383,
-        "shots_90": 12.05,
-        "shots_on_target": 152,
-        "sot_90": 4.78,
-        "clean_sheets": 11,
-        "goals_against": 31,
-        "ga_90": 0.98,
-        "tackles_won": 289,
-        "tackles_90": 9.09,
-        "interceptions": 228,
-        "interceptions_90": 7.17,
-        "saves": 86,
-        "saves_90": 2.71,
-        "yellow_cards": 58,
-        "yc_90": 1.82,
-        "red_cards": 7,
-        "rc_90": 0.22
-      }
+      ]
     },
     "Torino": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Alberto Paleari (Torino)"
         },
         {
+          "position": "FW",
+          "current_player": "Nikola Vlašić (Torino)"
+        },
+        {
           "position": "DF",
           "current_player": "Saúl Coco (Torino)"
         },
         {
+          "position": "MF",
+          "current_player": "Valentino Lazaro (Torino)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Giovanni Simeone (Torino)"
+        },
+        {
           "position": "DF",
           "current_player": "Guillermo Maripán (Torino)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Gvidas Gineitis (Torino)"
         },
         {
           "position": "DF",
@@ -817,59 +568,27 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Valentino Lazaro (Torino)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Gvidas Gineitis (Torino)"
-        },
-        {
-          "position": "MF",
           "current_player": "Cesare Casadei (Torino)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Nikola Vlašić (Torino)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Giovanni Simeone (Torino)"
         },
         {
           "position": "FW",
           "current_player": "Che Adams (Torino)"
         }
-      ],
-      "team_stats": {
-        "goals": 39,
-        "goals_90": 1.08,
-        "assists": 23,
-        "assists_90": 0.64,
-        "shots": 427,
-        "shots_90": 11.88,
-        "shots_on_target": 143,
-        "sot_90": 3.98,
-        "clean_sheets": 9,
-        "goals_against": 41,
-        "ga_90": 1.14,
-        "tackles_won": 316,
-        "tackles_90": 8.79,
-        "interceptions": 301,
-        "interceptions_90": 8.37,
-        "saves": 103,
-        "saves_90": 2.86,
-        "yellow_cards": 69,
-        "yc_90": 1.92,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Getafe": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "David Soria (Getafe)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Luis Milla (Getafe)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mauro Arambarri (Getafe)"
         },
         {
           "position": "DF",
@@ -888,18 +607,6 @@ window.TACTICAL_DATA = {
           "current_player": "Kiko Femenía (Getafe)"
         },
         {
-          "position": "DF",
-          "current_player": "Diego Rico (Getafe)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Luis Milla (Getafe)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Mauro Arambarri (Getafe)"
-        },
-        {
           "position": "FW",
           "current_player": "Mario Martín (Getafe)"
         },
@@ -908,40 +615,24 @@ window.TACTICAL_DATA = {
           "current_player": "Adrián Liso (Getafe)"
         },
         {
+          "position": "DF",
+          "current_player": "Diego Rico (Getafe)"
+        },
+        {
           "position": "FW",
           "current_player": "Martin Satriano (Getafe)"
         }
-      ],
-      "team_stats": {
-        "goals": 27,
-        "goals_90": 0.8,
-        "assists": 23,
-        "assists_90": 0.68,
-        "shots": 312,
-        "shots_90": 9.22,
-        "shots_on_target": 94,
-        "sot_90": 2.78,
-        "clean_sheets": 10,
-        "goals_against": 36,
-        "ga_90": 1.06,
-        "tackles_won": 386,
-        "tackles_90": 11.41,
-        "interceptions": 317,
-        "interceptions_90": 9.37,
-        "saves": 103,
-        "saves_90": 3.04,
-        "yellow_cards": 101,
-        "yc_90": 2.99,
-        "red_cards": 7,
-        "rc_90": 0.21
-      }
+      ]
     },
     "Aston Villa": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Emiliano Martínez (Aston Villa)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Morgan Rogers (Aston Villa)"
         },
         {
           "position": "DF",
@@ -952,16 +643,8 @@ window.TACTICAL_DATA = {
           "current_player": "Matty Cash (Aston Villa)"
         },
         {
-          "position": "DF",
-          "current_player": "Lucas Digne (Aston Villa)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Pau Torres (Aston Villa)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Morgan Rogers (Aston Villa)"
+          "position": "FW",
+          "current_player": "Ollie Watkins (Aston Villa)"
         },
         {
           "position": "MF",
@@ -972,6 +655,10 @@ window.TACTICAL_DATA = {
           "current_player": "Amadou Onana (Aston Villa)"
         },
         {
+          "position": "DF",
+          "current_player": "Lucas Digne (Aston Villa)"
+        },
+        {
           "position": "MF",
           "current_player": "Youri Tielemans (Aston Villa)"
         },
@@ -980,40 +667,20 @@ window.TACTICAL_DATA = {
           "current_player": "Emi Buendía (Aston Villa)"
         },
         {
-          "position": "FW",
-          "current_player": "Ollie Watkins (Aston Villa)"
+          "position": "DF",
+          "current_player": "Pau Torres (Aston Villa)"
         }
-      ],
-      "team_stats": {
-        "goals": 45,
-        "goals_90": 1.29,
-        "assists": 34,
-        "assists_90": 0.97,
-        "shots": 439,
-        "shots_90": 12.55,
-        "shots_on_target": 149,
-        "sot_90": 4.26,
-        "clean_sheets": 8,
-        "goals_against": 35,
-        "ga_90": 1.0,
-        "tackles_won": 312,
-        "tackles_90": 8.92,
-        "interceptions": 203,
-        "interceptions_90": 5.8,
-        "saves": 105,
-        "saves_90": 3.0,
-        "yellow_cards": 54,
-        "yc_90": 1.54,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Toulouse": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Guillaume Restes (Toulouse)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Yann Gboho (Toulouse)"
         },
         {
           "position": "DF",
@@ -1022,6 +689,14 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Charlie Cresswell (Toulouse)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Cristian Cásseres Jr. (Toulouse)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Aron Dønnum (Toulouse)"
         },
         {
           "position": "DF",
@@ -1033,19 +708,7 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Cristian Cásseres Jr. (Toulouse)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Aron Dønnum (Toulouse)"
-        },
-        {
-          "position": "MF",
           "current_player": "Dayann Methalie (Toulouse)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Yann Gboho (Toulouse)"
         },
         {
           "position": "FW",
@@ -1055,33 +718,9 @@ window.TACTICAL_DATA = {
           "position": "FW",
           "current_player": "Frank Magri (Toulouse)"
         }
-      ],
-      "team_stats": {
-        "goals": 44,
-        "goals_90": 1.38,
-        "assists": 30,
-        "assists_90": 0.94,
-        "shots": 411,
-        "shots_90": 12.92,
-        "shots_on_target": 137,
-        "sot_90": 4.31,
-        "clean_sheets": 9,
-        "goals_against": 44,
-        "ga_90": 1.38,
-        "tackles_won": 308,
-        "tackles_90": 9.68,
-        "interceptions": 309,
-        "interceptions_90": 9.72,
-        "saves": 83,
-        "saves_90": 2.61,
-        "yellow_cards": 72,
-        "yc_90": 2.26,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Metz": {
-      "formation": "6-2-2",
       "lineup": [
         {
           "position": "GK",
@@ -1100,6 +739,18 @@ window.TACTICAL_DATA = {
           "current_player": "Koffi Kouao (Metz)"
         },
         {
+          "position": "FW",
+          "current_player": "Gauthier Hein (Metz)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Jessy Deminguet (Metz)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Habib Diallo (Metz)"
+        },
+        {
           "position": "DF",
           "current_player": "Terry Yegbe (Metz)"
         },
@@ -1113,47 +764,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Jessy Deminguet (Metz)"
-        },
-        {
-          "position": "MF",
           "current_player": "Boubacar Traoré (Metz)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Gauthier Hein (Metz)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Habib Diallo (Metz)"
         }
-      ],
-      "team_stats": {
-        "goals": 31,
-        "goals_90": 0.97,
-        "assists": 20,
-        "assists_90": 0.63,
-        "shots": 318,
-        "shots_90": 9.98,
-        "shots_on_target": 102,
-        "sot_90": 3.2,
-        "clean_sheets": 4,
-        "goals_against": 56,
-        "ga_90": 1.76,
-        "tackles_won": 338,
-        "tackles_90": 10.61,
-        "interceptions": 257,
-        "interceptions_90": 8.07,
-        "saves": 114,
-        "saves_90": 3.58,
-        "yellow_cards": 52,
-        "yc_90": 1.63,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Inter": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
@@ -1164,20 +779,24 @@ window.TACTICAL_DATA = {
           "current_player": "Manuel Akanji (Inter)"
         },
         {
-          "position": "DF",
-          "current_player": "Alessandro Bastoni (Inter)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Yann Aurel Bisseck (Inter)"
-        },
-        {
           "position": "MF",
           "current_player": "Federico Dimarco (Inter)"
         },
         {
           "position": "MF",
           "current_player": "Nicolò Barella (Inter)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Alessandro Bastoni (Inter)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Lautaro Martínez (Inter)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Marcus Thuram (Inter)"
         },
         {
           "position": "MF",
@@ -1188,48 +807,24 @@ window.TACTICAL_DATA = {
           "current_player": "Hakan Çalhanoğlu (Inter)"
         },
         {
+          "position": "DF",
+          "current_player": "Yann Aurel Bisseck (Inter)"
+        },
+        {
           "position": "MF",
           "current_player": "Petar Sucic (Inter)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Lautaro Martínez (Inter)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Marcus Thuram (Inter)"
         }
-      ],
-      "team_stats": {
-        "goals": 79,
-        "goals_90": 2.26,
-        "assists": 60,
-        "assists_90": 1.71,
-        "shots": 608,
-        "shots_90": 17.37,
-        "shots_on_target": 213,
-        "sot_90": 6.09,
-        "clean_sheets": 15,
-        "goals_against": 30,
-        "ga_90": 0.86,
-        "tackles_won": 330,
-        "tackles_90": 9.43,
-        "interceptions": 231,
-        "interceptions_90": 6.6,
-        "saves": 66,
-        "saves_90": 1.89,
-        "yellow_cards": 61,
-        "yc_90": 1.74,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     },
     "Köln": {
-      "formation": "5-1-4",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Marvin Schwäbe (Köln)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Jakub Kamiński (Köln)"
         },
         {
           "position": "DF",
@@ -1244,20 +839,8 @@ window.TACTICAL_DATA = {
           "current_player": "Kristoffer Lund (Köln)"
         },
         {
-          "position": "DF",
-          "current_player": "Tom Krauß (Köln)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Cenk Özkacar (Köln)"
-        },
-        {
           "position": "MF",
           "current_player": "Ísak Jóhannesson (Köln)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Jakub Kamiński (Köln)"
         },
         {
           "position": "FW",
@@ -1268,44 +851,44 @@ window.TACTICAL_DATA = {
           "current_player": "Said El Mala (Köln)"
         },
         {
+          "position": "DF",
+          "current_player": "Tom Krauß (Köln)"
+        },
+        {
           "position": "FW",
           "current_player": "Ragnar Ache (Köln)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Cenk Özkacar (Köln)"
         }
-      ],
-      "team_stats": {
-        "goals": 45,
-        "goals_90": 1.41,
-        "assists": 32,
-        "assists_90": 1.0,
-        "shots": 429,
-        "shots_90": 13.43,
-        "shots_on_target": 149,
-        "sot_90": 4.67,
-        "clean_sheets": 3,
-        "goals_against": 55,
-        "ga_90": 1.72,
-        "tackles_won": 298,
-        "tackles_90": 9.33,
-        "interceptions": 260,
-        "interceptions_90": 8.14,
-        "saves": 88,
-        "saves_90": 2.76,
-        "yellow_cards": 60,
-        "yc_90": 1.88,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Chelsea": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Robert Sánchez (Chelsea)"
         },
         {
+          "position": "MF",
+          "current_player": "Enzo Fernández (Chelsea)"
+        },
+        {
           "position": "DF",
           "current_player": "Trevoh Chalobah (Chelsea)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Moisés Caicedo (Chelsea)"
+        },
+        {
+          "position": "FW",
+          "current_player": "João Pedro (Chelsea)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Pedro Neto (Chelsea)"
         },
         {
           "position": "DF",
@@ -1316,64 +899,28 @@ window.TACTICAL_DATA = {
           "current_player": "Malo Gusto (Chelsea)"
         },
         {
+          "position": "MF",
+          "current_player": "Cole Palmer (Chelsea)"
+        },
+        {
           "position": "DF",
           "current_player": "Reece James (Chelsea)"
         },
         {
           "position": "DF",
           "current_player": "Wesley Fofana (Chelsea)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Enzo Fernández (Chelsea)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Moisés Caicedo (Chelsea)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Pedro Neto (Chelsea)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Cole Palmer (Chelsea)"
-        },
-        {
-          "position": "FW",
-          "current_player": "João Pedro (Chelsea)"
         }
-      ],
-      "team_stats": {
-        "goals": 53,
-        "goals_90": 1.53,
-        "assists": 36,
-        "assists_90": 1.04,
-        "shots": 486,
-        "shots_90": 14.0,
-        "shots_on_target": 156,
-        "sot_90": 4.49,
-        "clean_sheets": 9,
-        "goals_against": 46,
-        "ga_90": 1.33,
-        "tackles_won": 314,
-        "tackles_90": 9.05,
-        "interceptions": 327,
-        "interceptions_90": 9.42,
-        "saves": 96,
-        "saves_90": 2.77,
-        "yellow_cards": 85,
-        "yc_90": 2.45,
-        "red_cards": 7,
-        "rc_90": 0.2
-      }
+      ]
     },
     "Sevilla": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Odysseas Vlachodimos (Sevilla)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Lucien Agoume (Sevilla)"
         },
         {
           "position": "DF",
@@ -1382,6 +929,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Nemanja Gudelj (Sevilla)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Djibril Sow (Sevilla)"
         },
         {
           "position": "DF",
@@ -1396,12 +947,8 @@ window.TACTICAL_DATA = {
           "current_player": "Kike Salas (Sevilla)"
         },
         {
-          "position": "MF",
-          "current_player": "Lucien Agoume (Sevilla)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Djibril Sow (Sevilla)"
+          "position": "FW",
+          "current_player": "Akor Adams (Sevilla)"
         },
         {
           "position": "MF",
@@ -1409,39 +956,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Akor Adams (Sevilla)"
-        },
-        {
-          "position": "FW",
           "current_player": "Ruben Vargas (Sevilla)"
         }
-      ],
-      "team_stats": {
-        "goals": 39,
-        "goals_90": 1.15,
-        "assists": 28,
-        "assists_90": 0.83,
-        "shots": 381,
-        "shots_90": 11.26,
-        "shots_on_target": 118,
-        "sot_90": 3.49,
-        "clean_sheets": 5,
-        "goals_against": 48,
-        "ga_90": 1.42,
-        "tackles_won": 385,
-        "tackles_90": 11.38,
-        "interceptions": 295,
-        "interceptions_90": 8.72,
-        "saves": 91,
-        "saves_90": 2.69,
-        "yellow_cards": 97,
-        "yc_90": 2.87,
-        "red_cards": 5,
-        "rc_90": 0.15
-      }
+      ]
     },
     "Bournemouth": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -1456,8 +975,24 @@ window.TACTICAL_DATA = {
           "current_player": "Marcos Senesi (Bournemouth)"
         },
         {
+          "position": "MF",
+          "current_player": "Alex Scott (Bournemouth)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Evanilson (Bournemouth)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Marcus Tavernier (Bournemouth)"
+        },
+        {
           "position": "DF",
           "current_player": "Álex Jiménez (Bournemouth)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Antoine Semenyo (Bournemouth)"
         },
         {
           "position": "DF",
@@ -1465,83 +1000,39 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Alex Scott (Bournemouth)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Marcus Tavernier (Bournemouth)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Antoine Semenyo (Bournemouth)"
-        },
-        {
-          "position": "MF",
           "current_player": "Tyler Adams (Bournemouth)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Evanilson (Bournemouth)"
         },
         {
           "position": "FW",
           "current_player": "Eli Junior Kroupi (Bournemouth)"
         }
-      ],
-      "team_stats": {
-        "goals": 54,
-        "goals_90": 1.54,
-        "assists": 32,
-        "assists_90": 0.91,
-        "shots": 489,
-        "shots_90": 13.97,
-        "shots_on_target": 167,
-        "sot_90": 4.77,
-        "clean_sheets": 10,
-        "goals_against": 52,
-        "ga_90": 1.49,
-        "tackles_won": 355,
-        "tackles_90": 10.14,
-        "interceptions": 317,
-        "interceptions_90": 9.06,
-        "saves": 101,
-        "saves_90": 2.89,
-        "yellow_cards": 81,
-        "yc_90": 2.31,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Freiburg": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Noah Atubolu (Freiburg)"
         },
         {
-          "position": "DF",
-          "current_player": "Matthias Ginter (Freiburg)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Philipp Treu (Freiburg)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Christian Günter (Freiburg)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Lukas Kübler (Freiburg)"
-        },
-        {
           "position": "MF",
           "current_player": "Maximilian Eggestein (Freiburg)"
         },
         {
+          "position": "DF",
+          "current_player": "Matthias Ginter (Freiburg)"
+        },
+        {
           "position": "MF",
           "current_player": "Johan Manzambi (Freiburg)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Lucas Höler (Freiburg)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Philipp Treu (Freiburg)"
         },
         {
           "position": "MF",
@@ -1556,48 +1047,44 @@ window.TACTICAL_DATA = {
           "current_player": "Jan-Niklas Beste (Freiburg)"
         },
         {
-          "position": "FW",
-          "current_player": "Lucas Höler (Freiburg)"
+          "position": "DF",
+          "current_player": "Christian Günter (Freiburg)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Lukas Kübler (Freiburg)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.35,
-        "assists": 24,
-        "assists_90": 0.75,
-        "shots": 400,
-        "shots_90": 12.52,
-        "shots_on_target": 135,
-        "sot_90": 4.23,
-        "clean_sheets": 6,
-        "goals_against": 53,
-        "ga_90": 1.66,
-        "tackles_won": 252,
-        "tackles_90": 7.89,
-        "interceptions": 267,
-        "interceptions_90": 8.36,
-        "saves": 93,
-        "saves_90": 2.91,
-        "yellow_cards": 49,
-        "yc_90": 1.53,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Como": {
-      "formation": "6-3-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Jean Butez (Como)"
         },
         {
+          "position": "MF",
+          "current_player": "Nicolás Paz (Como)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Máximo Perrone (Como)"
+        },
+        {
           "position": "DF",
           "current_player": "Jacobo Ramón (Como)"
         },
         {
+          "position": "MF",
+          "current_player": "Lucas Da Cunha (Como)"
+        },
+        {
           "position": "DF",
           "current_player": "Marc-Oliver Kempf (Como)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Anastasios Douvikas (Como)"
         },
         {
           "position": "DF",
@@ -1614,50 +1101,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Ivan Smolčić (Como)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Nicolás Paz (Como)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Máximo Perrone (Como)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Lucas Da Cunha (Como)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Anastasios Douvikas (Como)"
         }
-      ],
-      "team_stats": {
-        "goals": 58,
-        "goals_90": 1.66,
-        "assists": 43,
-        "assists_90": 1.23,
-        "shots": 501,
-        "shots_90": 14.32,
-        "shots_on_target": 177,
-        "sot_90": 5.06,
-        "clean_sheets": 17,
-        "goals_against": 28,
-        "ga_90": 0.8,
-        "tackles_won": 347,
-        "tackles_90": 9.92,
-        "interceptions": 245,
-        "interceptions_90": 7.0,
-        "saves": 81,
-        "saves_90": 2.32,
-        "yellow_cards": 76,
-        "yc_90": 2.17,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Dortmund": {
-      "formation": "2-5-3",
       "lineup": [
         {
           "position": "GK",
@@ -1676,12 +1123,20 @@ window.TACTICAL_DATA = {
           "current_player": "Daniel Svensson (Dortmund)"
         },
         {
+          "position": "FW",
+          "current_player": "Serhou Guirassy (Dortmund)"
+        },
+        {
           "position": "MF",
           "current_player": "Julian Ryerson (Dortmund)"
         },
         {
           "position": "MF",
           "current_player": "Felix Nmecha (Dortmund)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Maximilian Beier (Dortmund)"
         },
         {
           "position": "MF",
@@ -1693,43 +1148,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Serhou Guirassy (Dortmund)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Maximilian Beier (Dortmund)"
-        },
-        {
-          "position": "FW",
           "current_player": "Julian Brandt (Dortmund)"
         }
-      ],
-      "team_stats": {
-        "goals": 67,
-        "goals_90": 2.03,
-        "assists": 49,
-        "assists_90": 1.49,
-        "shots": 428,
-        "shots_90": 12.99,
-        "shots_on_target": 154,
-        "sot_90": 4.67,
-        "clean_sheets": 14,
-        "goals_against": 34,
-        "ga_90": 1.03,
-        "tackles_won": 301,
-        "tackles_90": 9.13,
-        "interceptions": 262,
-        "interceptions_90": 7.95,
-        "saves": 85,
-        "saves_90": 2.58,
-        "yellow_cards": 63,
-        "yc_90": 1.91,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Sunderland": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
@@ -1744,6 +1167,18 @@ window.TACTICAL_DATA = {
           "current_player": "Omar Alderete (Sunderland)"
         },
         {
+          "position": "FW",
+          "current_player": "Enzo Le Fée (Sunderland)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Noah Sadiki (Sunderland)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Granit Xhaka (Sunderland)"
+        },
+        {
           "position": "DF",
           "current_player": "Nordi Mukiele (Sunderland)"
         },
@@ -1756,18 +1191,6 @@ window.TACTICAL_DATA = {
           "current_player": "Reinildo Mandava (Sunderland)"
         },
         {
-          "position": "MF",
-          "current_player": "Noah Sadiki (Sunderland)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Granit Xhaka (Sunderland)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Enzo Le Fée (Sunderland)"
-        },
-        {
           "position": "FW",
           "current_player": "Brian Brobbey (Sunderland)"
         },
@@ -1775,33 +1198,9 @@ window.TACTICAL_DATA = {
           "position": "FW",
           "current_player": "Chemsdine Talbi (Sunderland)"
         }
-      ],
-      "team_stats": {
-        "goals": 34,
-        "goals_90": 0.97,
-        "assists": 21,
-        "assists_90": 0.6,
-        "shots": 353,
-        "shots_90": 10.12,
-        "shots_on_target": 117,
-        "sot_90": 3.36,
-        "clean_sheets": 9,
-        "goals_against": 44,
-        "ga_90": 1.26,
-        "tackles_won": 330,
-        "tackles_90": 9.46,
-        "interceptions": 271,
-        "interceptions_90": 7.77,
-        "saves": 112,
-        "saves_90": 3.21,
-        "yellow_cards": 77,
-        "yc_90": 2.21,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Monaco": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -1816,16 +1215,16 @@ window.TACTICAL_DATA = {
           "current_player": "Thilo Kehrer (Monaco)"
         },
         {
+          "position": "FW",
+          "current_player": "Maghnes Akliouche (Monaco)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Folarin Balogun (Monaco)"
+        },
+        {
           "position": "DF",
           "current_player": "Denis Zakaria (Monaco)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Caio Henrique Oliveira Silva (Monaco)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Mohammed Salisu (Monaco)"
         },
         {
           "position": "MF",
@@ -1836,44 +1235,20 @@ window.TACTICAL_DATA = {
           "current_player": "Aleksandr Golovin (Monaco)"
         },
         {
+          "position": "DF",
+          "current_player": "Caio Henrique Oliveira Silva (Monaco)"
+        },
+        {
           "position": "MF",
           "current_player": "Mamadou Coulibaly (Monaco)"
         },
         {
-          "position": "FW",
-          "current_player": "Maghnes Akliouche (Monaco)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Folarin Balogun (Monaco)"
+          "position": "DF",
+          "current_player": "Mohammed Salisu (Monaco)"
         }
-      ],
-      "team_stats": {
-        "goals": 54,
-        "goals_90": 1.7,
-        "assists": 40,
-        "assists_90": 1.26,
-        "shots": 398,
-        "shots_90": 12.51,
-        "shots_on_target": 140,
-        "sot_90": 4.4,
-        "clean_sheets": 5,
-        "goals_against": 27,
-        "ga_90": 0.85,
-        "tackles_won": 356,
-        "tackles_90": 11.19,
-        "interceptions": 334,
-        "interceptions_90": 10.5,
-        "saves": 89,
-        "saves_90": 2.8,
-        "yellow_cards": 72,
-        "yc_90": 2.26,
-        "red_cards": 6,
-        "rc_90": 0.19
-      }
+      ]
     },
     "Wolfsburg": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
@@ -1884,8 +1259,28 @@ window.TACTICAL_DATA = {
           "current_player": "Konstantinos Koulierakis (Wolfsburg)"
         },
         {
+          "position": "MF",
+          "current_player": "Christian Eriksen (Wolfsburg)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Mohamed Amoura (Wolfsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Maximilian Arnold (Wolfsburg)"
+        },
+        {
           "position": "DF",
           "current_player": "Moritz Jenz (Wolfsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Vinicius Souza (Wolfsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Patrick Wimmer (Wolfsburg)"
         },
         {
           "position": "DF",
@@ -1897,55 +1292,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Christian Eriksen (Wolfsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Maximilian Arnold (Wolfsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Vinicius Souza (Wolfsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Patrick Wimmer (Wolfsburg)"
-        },
-        {
-          "position": "MF",
           "current_player": "Lovro Majer (Wolfsburg)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Mohamed Amoura (Wolfsburg)"
         }
-      ],
-      "team_stats": {
-        "goals": 42,
-        "goals_90": 1.31,
-        "assists": 34,
-        "assists_90": 1.06,
-        "shots": 369,
-        "shots_90": 11.53,
-        "shots_on_target": 127,
-        "sot_90": 3.97,
-        "clean_sheets": 2,
-        "goals_against": 67,
-        "ga_90": 2.09,
-        "tackles_won": 327,
-        "tackles_90": 10.22,
-        "interceptions": 269,
-        "interceptions_90": 8.41,
-        "saves": 111,
-        "saves_90": 3.47,
-        "yellow_cards": 63,
-        "yc_90": 1.97,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Juventus": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -1956,20 +1307,20 @@ window.TACTICAL_DATA = {
           "current_player": "Pierre Kalulu (Juventus)"
         },
         {
+          "position": "MF",
+          "current_player": "Manuel Locatelli (Juventus)"
+        },
+        {
           "position": "DF",
           "current_player": "Andrea Cambiaso (Juventus)"
         },
         {
+          "position": "FW",
+          "current_player": "Kenan Yıldız (Juventus)"
+        },
+        {
           "position": "DF",
           "current_player": "Lloyd Kelly (Juventus)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Gleison Bremer (Juventus)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Manuel Locatelli (Juventus)"
         },
         {
           "position": "MF",
@@ -1981,43 +1332,19 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Kenan Yıldız (Juventus)"
+          "current_player": "Francisco Conceição (Juventus)"
         },
         {
-          "position": "FW",
-          "current_player": "Francisco Conceição (Juventus)"
+          "position": "DF",
+          "current_player": "Gleison Bremer (Juventus)"
         },
         {
           "position": "FW",
           "current_player": "Jonathan David (Juventus)"
         }
-      ],
-      "team_stats": {
-        "goals": 56,
-        "goals_90": 1.6,
-        "assists": 38,
-        "assists_90": 1.09,
-        "shots": 581,
-        "shots_90": 16.63,
-        "shots_on_target": 208,
-        "sot_90": 5.95,
-        "clean_sheets": 13,
-        "goals_against": 23,
-        "ga_90": 0.66,
-        "tackles_won": 328,
-        "tackles_90": 9.39,
-        "interceptions": 234,
-        "interceptions_90": 6.7,
-        "saves": 65,
-        "saves_90": 1.86,
-        "yellow_cards": 48,
-        "yc_90": 1.37,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Pisa": {
-      "formation": "2-5-3",
       "lineup": [
         {
           "position": "GK",
@@ -2040,8 +1367,16 @@ window.TACTICAL_DATA = {
           "current_player": "Samuele Angori (Pisa)"
         },
         {
+          "position": "FW",
+          "current_player": "Stefano Moreo (Pisa)"
+        },
+        {
           "position": "MF",
           "current_player": "Idrissa Touré (Pisa)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Mattéo Tramoni (Pisa)"
         },
         {
           "position": "MF",
@@ -2053,47 +1388,19 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Stefano Moreo (Pisa)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Mattéo Tramoni (Pisa)"
-        },
-        {
-          "position": "FW",
           "current_player": "Henrik Meister (Pisa)"
         }
-      ],
-      "team_stats": {
-        "goals": 24,
-        "goals_90": 0.69,
-        "assists": 12,
-        "assists_90": 0.34,
-        "shots": 352,
-        "shots_90": 10.09,
-        "shots_on_target": 102,
-        "sot_90": 2.92,
-        "clean_sheets": 4,
-        "goals_against": 34,
-        "ga_90": 0.97,
-        "tackles_won": 345,
-        "tackles_90": 9.89,
-        "interceptions": 321,
-        "interceptions_90": 9.2,
-        "saves": 97,
-        "saves_90": 2.78,
-        "yellow_cards": 71,
-        "yc_90": 2.04,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Elche": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Matías Dituro (Elche)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Aleix Febas (Elche)"
         },
         {
           "position": "DF",
@@ -2104,24 +1411,12 @@ window.TACTICAL_DATA = {
           "current_player": "Germán Valera (Elche)"
         },
         {
-          "position": "DF",
-          "current_player": "Pedro Bigas (Elche)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Víctor Chust (Elche)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Álvaro Núñez (Elche)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Aleix Febas (Elche)"
-        },
-        {
           "position": "MF",
           "current_player": "Marc Aguado (Elche)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Pedro Bigas (Elche)"
         },
         {
           "position": "FW",
@@ -2132,72 +1427,40 @@ window.TACTICAL_DATA = {
           "current_player": "Rafa Mir (Elche)"
         },
         {
+          "position": "DF",
+          "current_player": "Víctor Chust (Elche)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Álvaro Núñez (Elche)"
+        },
+        {
           "position": "FW",
           "current_player": "André Silva (Elche)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.27,
-        "assists": 30,
-        "assists_90": 0.88,
-        "shots": 373,
-        "shots_90": 10.99,
-        "shots_on_target": 134,
-        "sot_90": 3.95,
-        "clean_sheets": 4,
-        "goals_against": 28,
-        "ga_90": 0.83,
-        "tackles_won": 355,
-        "tackles_90": 10.46,
-        "interceptions": 281,
-        "interceptions_90": 8.28,
-        "saves": 107,
-        "saves_90": 3.15,
-        "yellow_cards": 68,
-        "yc_90": 2.0,
-        "red_cards": 5,
-        "rc_90": 0.15
-      }
+      ]
     },
     "St Pauli": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Nikola Vasilj (St Pauli)"
         },
         {
-          "position": "DF",
-          "current_player": "Hauke Wahl (St Pauli)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Eric Smith (St Pauli)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Karol Mets (St Pauli)"
-        },
-        {
           "position": "MF",
           "current_player": "Joel Fujita (St Pauli)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Hauke Wahl (St Pauli)"
         },
         {
           "position": "MF",
           "current_player": "Arkadiusz Pyrka (St Pauli)"
         },
         {
-          "position": "MF",
-          "current_player": "James Sands (St Pauli)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Jackson Irvine (St Pauli)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Louis Oppie (St Pauli)"
+          "position": "DF",
+          "current_player": "Eric Smith (St Pauli)"
         },
         {
           "position": "FW",
@@ -2206,38 +1469,38 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Danel Sinani (St Pauli)"
+        },
+        {
+          "position": "MF",
+          "current_player": "James Sands (St Pauli)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Karol Mets (St Pauli)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Jackson Irvine (St Pauli)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Louis Oppie (St Pauli)"
         }
-      ],
-      "team_stats": {
-        "goals": 27,
-        "goals_90": 0.85,
-        "assists": 19,
-        "assists_90": 0.59,
-        "shots": 329,
-        "shots_90": 10.3,
-        "shots_on_target": 109,
-        "sot_90": 3.41,
-        "clean_sheets": 5,
-        "goals_against": 55,
-        "ga_90": 1.72,
-        "tackles_won": 336,
-        "tackles_90": 10.52,
-        "interceptions": 294,
-        "interceptions_90": 9.2,
-        "saves": 112,
-        "saves_90": 3.51,
-        "yellow_cards": 52,
-        "yc_90": 1.63,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Wolves": {
-      "formation": "6-3-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "José Sá (Wolves)"
+        },
+        {
+          "position": "MF",
+          "current_player": "João Gomes (Wolves)"
+        },
+        {
+          "position": "MF",
+          "current_player": "André (Wolves)"
         },
         {
           "position": "DF",
@@ -2260,52 +1523,20 @@ window.TACTICAL_DATA = {
           "current_player": "Jackson Tchatchoua (Wolves)"
         },
         {
-          "position": "DF",
-          "current_player": "Toti Gomes (Wolves)"
-        },
-        {
-          "position": "MF",
-          "current_player": "João Gomes (Wolves)"
-        },
-        {
-          "position": "MF",
-          "current_player": "André (Wolves)"
-        },
-        {
           "position": "MF",
           "current_player": "Mateus Mane (Wolves)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Toti Gomes (Wolves)"
         },
         {
           "position": "FW",
           "current_player": "Jean-Ricner Bellegarde (Wolves)"
         }
-      ],
-      "team_stats": {
-        "goals": 24,
-        "goals_90": 0.69,
-        "assists": 17,
-        "assists_90": 0.49,
-        "shots": 337,
-        "shots_90": 9.66,
-        "shots_on_target": 115,
-        "sot_90": 3.3,
-        "clean_sheets": 4,
-        "goals_against": 35,
-        "ga_90": 1.0,
-        "tackles_won": 390,
-        "tackles_90": 11.18,
-        "interceptions": 269,
-        "interceptions_90": 7.71,
-        "saves": 97,
-        "saves_90": 2.78,
-        "yellow_cards": 75,
-        "yc_90": 2.15,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Valencia": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
@@ -2316,6 +1547,10 @@ window.TACTICAL_DATA = {
           "current_player": "José Luis Gayà (Valencia)"
         },
         {
+          "position": "MF",
+          "current_player": "Luis Rioja (Valencia)"
+        },
+        {
           "position": "DF",
           "current_player": "César Tárrega (Valencia)"
         },
@@ -2324,20 +1559,12 @@ window.TACTICAL_DATA = {
           "current_player": "José Luis García Vayá (Valencia)"
         },
         {
-          "position": "DF",
-          "current_player": "Copete (Valencia)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Thierry Correia (Valencia)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Luis Rioja (Valencia)"
-        },
-        {
           "position": "MF",
           "current_player": "Javier Guerra (Valencia)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Copete (Valencia)"
         },
         {
           "position": "FW",
@@ -2348,40 +1575,28 @@ window.TACTICAL_DATA = {
           "current_player": "Arnaut Danjuma (Valencia)"
         },
         {
+          "position": "DF",
+          "current_player": "Thierry Correia (Valencia)"
+        },
+        {
           "position": "FW",
           "current_player": "Diego López (Valencia)"
         }
-      ],
-      "team_stats": {
-        "goals": 37,
-        "goals_90": 1.09,
-        "assists": 26,
-        "assists_90": 0.77,
-        "shots": 398,
-        "shots_90": 11.73,
-        "shots_on_target": 105,
-        "sot_90": 3.09,
-        "clean_sheets": 4,
-        "goals_against": 30,
-        "ga_90": 0.88,
-        "tackles_won": 320,
-        "tackles_90": 9.43,
-        "interceptions": 259,
-        "interceptions_90": 7.63,
-        "saves": 94,
-        "saves_90": 2.77,
-        "yellow_cards": 64,
-        "yc_90": 1.89,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Werder Bremen": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mio Backhaus (Werder Bremen)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Romano Schmid (Werder Bremen)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Senne Lynen (Werder Bremen)"
         },
         {
           "position": "DF",
@@ -2392,28 +1607,12 @@ window.TACTICAL_DATA = {
           "current_player": "Marco Friedl (Werder Bremen)"
         },
         {
-          "position": "DF",
-          "current_player": "Abdoul Coulibaly (Werder Bremen)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Amos Pieper (Werder Bremen)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Senne Lynen (Werder Bremen)"
-        },
-        {
           "position": "MF",
           "current_player": "Jens Stage (Werder Bremen)"
         },
         {
-          "position": "MF",
-          "current_player": "Cameron Puertas (Werder Bremen)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Romano Schmid (Werder Bremen)"
+          "position": "DF",
+          "current_player": "Abdoul Coulibaly (Werder Bremen)"
         },
         {
           "position": "FW",
@@ -2422,34 +1621,18 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Justin Njinmah (Werder Bremen)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Cameron Puertas (Werder Bremen)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Amos Pieper (Werder Bremen)"
         }
-      ],
-      "team_stats": {
-        "goals": 36,
-        "goals_90": 1.13,
-        "assists": 28,
-        "assists_90": 0.88,
-        "shots": 423,
-        "shots_90": 13.27,
-        "shots_on_target": 135,
-        "sot_90": 4.24,
-        "clean_sheets": 5,
-        "goals_against": 53,
-        "ga_90": 1.66,
-        "tackles_won": 329,
-        "tackles_90": 10.32,
-        "interceptions": 291,
-        "interceptions_90": 9.13,
-        "saves": 101,
-        "saves_90": 3.17,
-        "yellow_cards": 75,
-        "yc_90": 2.35,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Real Madrid": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -2460,6 +1643,22 @@ window.TACTICAL_DATA = {
           "current_player": "Federico Valverde (Real Madrid)"
         },
         {
+          "position": "FW",
+          "current_player": "Vinicius Júnior (Real Madrid)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Aurélien Tchouaméni (Real Madrid)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Kylian Mbappé (Real Madrid)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Arda Güler (Real Madrid)"
+        },
+        {
           "position": "DF",
           "current_player": "Álvaro Carreras (Real Madrid)"
         },
@@ -2468,80 +1667,24 @@ window.TACTICAL_DATA = {
           "current_player": "Dean Huijsen (Real Madrid)"
         },
         {
+          "position": "MF",
+          "current_player": "Jude Bellingham (Real Madrid)"
+        },
+        {
           "position": "DF",
           "current_player": "Raúl Asencio (Real Madrid)"
         },
         {
           "position": "MF",
-          "current_player": "Aurélien Tchouaméni (Real Madrid)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Arda Güler (Real Madrid)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Jude Bellingham (Real Madrid)"
-        },
-        {
-          "position": "MF",
           "current_player": "Eduardo Camavinga (Real Madrid)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Vinicius Júnior (Real Madrid)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Kylian Mbappé (Real Madrid)"
         }
-      ],
-      "team_stats": {
-        "goals": 70,
-        "goals_90": 2.07,
-        "assists": 50,
-        "assists_90": 1.48,
-        "shots": 612,
-        "shots_90": 18.05,
-        "shots_on_target": 236,
-        "sot_90": 6.96,
-        "clean_sheets": 11,
-        "goals_against": 24,
-        "ga_90": 0.71,
-        "tackles_won": 337,
-        "tackles_90": 9.94,
-        "interceptions": 224,
-        "interceptions_90": 6.61,
-        "saves": 74,
-        "saves_90": 2.18,
-        "yellow_cards": 64,
-        "yc_90": 1.89,
-        "red_cards": 7,
-        "rc_90": 0.21
-      }
+      ]
     },
     "Oviedo": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Aarón Escandell (Oviedo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Nacho Vidal (Oviedo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "David Costas (Oviedo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "David Carmo (Oviedo)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Javi López (Oviedo)"
         },
         {
           "position": "MF",
@@ -2552,8 +1695,24 @@ window.TACTICAL_DATA = {
           "current_player": "Alberto Reina (Oviedo)"
         },
         {
+          "position": "FW",
+          "current_player": "Federico Viñas (Oviedo)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Nacho Vidal (Oviedo)"
+        },
+        {
           "position": "MF",
           "current_player": "Santiago Colombatto (Oviedo)"
+        },
+        {
+          "position": "DF",
+          "current_player": "David Costas (Oviedo)"
+        },
+        {
+          "position": "DF",
+          "current_player": "David Carmo (Oviedo)"
         },
         {
           "position": "MF",
@@ -2561,51 +1720,43 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Federico Viñas (Oviedo)"
+          "current_player": "Haissem Hassan (Oviedo)"
         },
         {
-          "position": "FW",
-          "current_player": "Haissem Hassan (Oviedo)"
+          "position": "DF",
+          "current_player": "Javi López (Oviedo)"
         }
-      ],
-      "team_stats": {
-        "goals": 26,
-        "goals_90": 0.77,
-        "assists": 18,
-        "assists_90": 0.53,
-        "shots": 345,
-        "shots_90": 10.19,
-        "shots_on_target": 114,
-        "sot_90": 3.37,
-        "clean_sheets": 9,
-        "goals_against": 54,
-        "ga_90": 1.59,
-        "tackles_won": 370,
-        "tackles_90": 10.93,
-        "interceptions": 264,
-        "interceptions_90": 7.8,
-        "saves": 136,
-        "saves_90": 4.02,
-        "yellow_cards": 75,
-        "yc_90": 2.22,
-        "red_cards": 8,
-        "rc_90": 0.24
-      }
+      ]
     },
     "West Ham United": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Alphonse Areola (West Ham United)"
         },
         {
+          "position": "FW",
+          "current_player": "Jarrod Bowen (West Ham United)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mateus Fernandes (West Ham United)"
+        },
+        {
           "position": "DF",
           "current_player": "El Hadji Malick Diouf (West Ham United)"
         },
         {
+          "position": "FW",
+          "current_player": "Crysencio Summerville (West Ham United)"
+        },
+        {
           "position": "DF",
           "current_player": "Konstantinos Mavropanos (West Ham United)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tomáš Souček (West Ham United)"
         },
         {
           "position": "DF",
@@ -2616,56 +1767,16 @@ window.TACTICAL_DATA = {
           "current_player": "Jean-Clair Todibo (West Ham United)"
         },
         {
-          "position": "DF",
-          "current_player": "Max Kilman (West Ham United)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Mateus Fernandes (West Ham United)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Tomáš Souček (West Ham United)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Jarrod Bowen (West Ham United)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Crysencio Summerville (West Ham United)"
-        },
-        {
           "position": "FW",
           "current_player": "Lucas Paquetá (West Ham United)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Max Kilman (West Ham United)"
         }
-      ],
-      "team_stats": {
-        "goals": 40,
-        "goals_90": 1.14,
-        "assists": 27,
-        "assists_90": 0.77,
-        "shots": 364,
-        "shots_90": 10.41,
-        "shots_on_target": 122,
-        "sot_90": 3.49,
-        "clean_sheets": 6,
-        "goals_against": 37,
-        "ga_90": 1.06,
-        "tackles_won": 375,
-        "tackles_90": 10.73,
-        "interceptions": 321,
-        "interceptions_90": 9.18,
-        "saves": 121,
-        "saves_90": 3.46,
-        "yellow_cards": 63,
-        "yc_90": 1.8,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Real Sociedad": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -2676,20 +1787,12 @@ window.TACTICAL_DATA = {
           "current_player": "Jon Aramburu (Real Sociedad)"
         },
         {
+          "position": "FW",
+          "current_player": "Mikel Oyarzabal (Real Sociedad)"
+        },
+        {
           "position": "DF",
           "current_player": "Sergio Gómez (Real Sociedad)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Jon Martin (Real Sociedad)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Duje Ćaleta-Car (Real Sociedad)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Igor Zubeldia (Real Sociedad)"
         },
         {
           "position": "MF",
@@ -2700,48 +1803,48 @@ window.TACTICAL_DATA = {
           "current_player": "Carlos Soler (Real Sociedad)"
         },
         {
+          "position": "DF",
+          "current_player": "Jon Martin (Real Sociedad)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Duje Ćaleta-Car (Real Sociedad)"
+        },
+        {
           "position": "MF",
           "current_player": "Gonçalo Guedes (Real Sociedad)"
         },
         {
-          "position": "FW",
-          "current_player": "Mikel Oyarzabal (Real Sociedad)"
+          "position": "DF",
+          "current_player": "Igor Zubeldia (Real Sociedad)"
         },
         {
           "position": "FW",
           "current_player": "Ander Barrenetxea (Real Sociedad)"
         }
-      ],
-      "team_stats": {
-        "goals": 51,
-        "goals_90": 1.5,
-        "assists": 33,
-        "assists_90": 0.97,
-        "shots": 433,
-        "shots_90": 12.76,
-        "shots_on_target": 160,
-        "sot_90": 4.71,
-        "clean_sheets": 3,
-        "goals_against": 53,
-        "ga_90": 1.56,
-        "tackles_won": 366,
-        "tackles_90": 10.78,
-        "interceptions": 273,
-        "interceptions_90": 8.04,
-        "saves": 89,
-        "saves_90": 2.62,
-        "yellow_cards": 72,
-        "yc_90": 2.12,
-        "red_cards": 4,
-        "rc_90": 0.12
-      }
+      ]
     },
     "Auxerre": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Donovan Léon (Auxerre)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Kévin Danois (Auxerre)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Lassine Sinayoko (Auxerre)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Danny Loader (Auxerre)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Elisha Owusu (Auxerre)"
         },
         {
           "position": "DF",
@@ -2760,64 +1863,48 @@ window.TACTICAL_DATA = {
           "current_player": "Marvin Senaya (Auxerre)"
         },
         {
-          "position": "DF",
-          "current_player": "Lamine Sy (Auxerre)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Kévin Danois (Auxerre)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Elisha Owusu (Auxerre)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Lassine Sinayoko (Auxerre)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Danny Loader (Auxerre)"
-        },
-        {
           "position": "FW",
           "current_player": "Josué Casimir (Auxerre)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Lamine Sy (Auxerre)"
         }
-      ],
-      "team_stats": {
-        "goals": 26,
-        "goals_90": 0.82,
-        "assists": 17,
-        "assists_90": 0.53,
-        "shots": 345,
-        "shots_90": 10.86,
-        "shots_on_target": 111,
-        "sot_90": 3.49,
-        "clean_sheets": 8,
-        "goals_against": 34,
-        "ga_90": 1.07,
-        "tackles_won": 373,
-        "tackles_90": 11.74,
-        "interceptions": 327,
-        "interceptions_90": 10.29,
-        "saves": 105,
-        "saves_90": 3.3,
-        "yellow_cards": 66,
-        "yc_90": 2.08,
-        "red_cards": 7,
-        "rc_90": 0.22
-      }
+      ]
     },
     "Atalanta": {
-      "formation": "3-6-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Marco Carnesecchi (Atalanta)"
         },
         {
+          "position": "MF",
+          "current_player": "Marten de Roon (Atalanta)"
+        },
+        {
           "position": "DF",
           "current_player": "Berat Djimsiti (Atalanta)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Davide Zappacosta (Atalanta)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Éderson (Atalanta)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Charles De Ketelaere (Atalanta)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nicola Zalewski (Atalanta)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mario Pašalić (Atalanta)"
         },
         {
           "position": "DF",
@@ -2829,83 +1916,15 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Marten de Roon (Atalanta)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Davide Zappacosta (Atalanta)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Éderson (Atalanta)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Nicola Zalewski (Atalanta)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Mario Pašalić (Atalanta)"
-        },
-        {
-          "position": "MF",
           "current_player": "Lorenzo Bernasconi (Atalanta)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Charles De Ketelaere (Atalanta)"
         }
-      ],
-      "team_stats": {
-        "goals": 47,
-        "goals_90": 1.35,
-        "assists": 31,
-        "assists_90": 0.89,
-        "shots": 523,
-        "shots_90": 14.98,
-        "shots_on_target": 163,
-        "sot_90": 4.67,
-        "clean_sheets": 13,
-        "goals_against": 32,
-        "ga_90": 0.92,
-        "tackles_won": 333,
-        "tackles_90": 9.54,
-        "interceptions": 273,
-        "interceptions_90": 7.82,
-        "saves": 100,
-        "saves_90": 2.86,
-        "yellow_cards": 54,
-        "yc_90": 1.55,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Rennes": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Brice Samba (Rennes)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Quentin Merlin (Rennes)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Lilian Brassier (Rennes)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Jérémy Jacquet (Rennes)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Anthony Rouault (Rennes)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Abdelhamid Ait Boudlal (Rennes)"
         },
         {
           "position": "MF",
@@ -2920,44 +1939,48 @@ window.TACTICAL_DATA = {
           "current_player": "Esteban Lepaul (Rennes)"
         },
         {
+          "position": "DF",
+          "current_player": "Quentin Merlin (Rennes)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Lilian Brassier (Rennes)"
+        },
+        {
           "position": "FW",
           "current_player": "Musa Al-Taamari (Rennes)"
         },
         {
           "position": "FW",
           "current_player": "Breel Embolo (Rennes)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Jérémy Jacquet (Rennes)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Anthony Rouault (Rennes)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Abdelhamid Ait Boudlal (Rennes)"
         }
-      ],
-      "team_stats": {
-        "goals": 54,
-        "goals_90": 1.7,
-        "assists": 39,
-        "assists_90": 1.23,
-        "shots": 441,
-        "shots_90": 13.89,
-        "shots_on_target": 158,
-        "sot_90": 4.98,
-        "clean_sheets": 10,
-        "goals_against": 43,
-        "ga_90": 1.35,
-        "tackles_won": 311,
-        "tackles_90": 9.79,
-        "interceptions": 269,
-        "interceptions_90": 8.47,
-        "saves": 84,
-        "saves_90": 2.65,
-        "yellow_cards": 57,
-        "yc_90": 1.79,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Manchester City": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Gianluigi Donnarumma (Manchester City)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Erling Haaland (Manchester City)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Bernardo Silva (Manchester City)"
         },
         {
           "position": "DF",
@@ -2973,15 +1996,15 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Bernardo Silva (Manchester City)"
-        },
-        {
-          "position": "MF",
           "current_player": "Phil Foden (Manchester City)"
         },
         {
           "position": "MF",
           "current_player": "Rayan Cherki (Manchester City)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Jeremy Doku (Manchester City)"
         },
         {
           "position": "MF",
@@ -2990,42 +2013,10 @@ window.TACTICAL_DATA = {
         {
           "position": "MF",
           "current_player": "Nicolás González (Manchester City)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Erling Haaland (Manchester City)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Jeremy Doku (Manchester City)"
         }
-      ],
-      "team_stats": {
-        "goals": 66,
-        "goals_90": 1.94,
-        "assists": 53,
-        "assists_90": 1.56,
-        "shots": 525,
-        "shots_90": 15.44,
-        "shots_on_target": 183,
-        "sot_90": 5.38,
-        "clean_sheets": 13,
-        "goals_against": 28,
-        "ga_90": 0.82,
-        "tackles_won": 313,
-        "tackles_90": 9.21,
-        "interceptions": 270,
-        "interceptions_90": 7.94,
-        "saves": 80,
-        "saves_90": 2.35,
-        "yellow_cards": 60,
-        "yc_90": 1.76,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     },
     "Hellas Verona": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
@@ -3036,20 +2027,20 @@ window.TACTICAL_DATA = {
           "current_player": "Victor Nelsson (Hellas Verona)"
         },
         {
-          "position": "DF",
-          "current_player": "Martin Frese (Hellas Verona)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Unai Núñez (Hellas Verona)"
-        },
-        {
           "position": "MF",
           "current_player": "Antoine Bernede (Hellas Verona)"
         },
         {
+          "position": "DF",
+          "current_player": "Martin Frese (Hellas Verona)"
+        },
+        {
           "position": "MF",
           "current_player": "Roberto Gagliardini (Hellas Verona)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Gift Orban (Hellas Verona)"
         },
         {
           "position": "MF",
@@ -3060,52 +2051,36 @@ window.TACTICAL_DATA = {
           "current_player": "Rafik Belghali (Hellas Verona)"
         },
         {
+          "position": "FW",
+          "current_player": "Giovane (Hellas Verona)"
+        },
+        {
           "position": "MF",
           "current_player": "Jean-Daniel Akpa-Akpro (Hellas Verona)"
         },
         {
-          "position": "FW",
-          "current_player": "Gift Orban (Hellas Verona)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Giovane (Hellas Verona)"
+          "position": "DF",
+          "current_player": "Unai Núñez (Hellas Verona)"
         }
-      ],
-      "team_stats": {
-        "goals": 23,
-        "goals_90": 0.66,
-        "assists": 15,
-        "assists_90": 0.43,
-        "shots": 388,
-        "shots_90": 11.13,
-        "shots_on_target": 130,
-        "sot_90": 3.73,
-        "clean_sheets": 5,
-        "goals_against": 50,
-        "ga_90": 1.43,
-        "tackles_won": 397,
-        "tackles_90": 11.39,
-        "interceptions": 365,
-        "interceptions_90": 10.47,
-        "saves": 83,
-        "saves_90": 2.38,
-        "yellow_cards": 83,
-        "yc_90": 2.38,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Brentford": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Caoimhín Kelleher (Brentford)"
         },
         {
+          "position": "FW",
+          "current_player": "Igor Thiago (Brentford)"
+        },
+        {
           "position": "DF",
           "current_player": "Michael Kayode (Brentford)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Kevin Schade (Brentford)"
         },
         {
           "position": "DF",
@@ -3134,42 +2109,10 @@ window.TACTICAL_DATA = {
         {
           "position": "MF",
           "current_player": "Jordan Henderson (Brentford)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Igor Thiago (Brentford)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Kevin Schade (Brentford)"
         }
-      ],
-      "team_stats": {
-        "goals": 50,
-        "goals_90": 1.43,
-        "assists": 32,
-        "assists_90": 0.92,
-        "shots": 376,
-        "shots_90": 10.76,
-        "shots_on_target": 140,
-        "sot_90": 4.01,
-        "clean_sheets": 10,
-        "goals_against": 43,
-        "ga_90": 1.23,
-        "tackles_won": 304,
-        "tackles_90": 8.7,
-        "interceptions": 299,
-        "interceptions_90": 8.55,
-        "saves": 89,
-        "saves_90": 2.55,
-        "yellow_cards": 63,
-        "yc_90": 1.8,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Brest": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -3180,8 +2123,28 @@ window.TACTICAL_DATA = {
           "current_player": "Kenny Lala (Brest)"
         },
         {
+          "position": "MF",
+          "current_player": "Joris Chotard (Brest)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Ludovic Ajorque (Brest)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Hugo Magnetti (Brest)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Romain Del Castillo (Brest)"
+        },
+        {
           "position": "DF",
           "current_player": "Brendan Chardonnet (Brest)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Kamory Doumbia (Brest)"
         },
         {
           "position": "DF",
@@ -3194,74 +2157,14 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Soumaïla Coulibaly (Brest)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Joris Chotard (Brest)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Hugo Magnetti (Brest)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Kamory Doumbia (Brest)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Ludovic Ajorque (Brest)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Romain Del Castillo (Brest)"
         }
-      ],
-      "team_stats": {
-        "goals": 40,
-        "goals_90": 1.3,
-        "assists": 28,
-        "assists_90": 0.91,
-        "shots": 338,
-        "shots_90": 10.98,
-        "shots_on_target": 107,
-        "sot_90": 3.48,
-        "clean_sheets": 6,
-        "goals_against": 36,
-        "ga_90": 1.17,
-        "tackles_won": 354,
-        "tackles_90": 11.5,
-        "interceptions": 311,
-        "interceptions_90": 10.1,
-        "saves": 94,
-        "saves_90": 3.05,
-        "yellow_cards": 57,
-        "yc_90": 1.85,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Villarreal": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Luiz Lúcio Reis Júnior (Villarreal)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Renato Veiga (Villarreal)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Santiago Mouriño (Villarreal)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Pau Navarro (Villarreal)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Sergi Cardona (Villarreal)"
         },
         {
           "position": "MF",
@@ -3272,48 +2175,40 @@ window.TACTICAL_DATA = {
           "current_player": "Santi Comesaña (Villarreal)"
         },
         {
-          "position": "MF",
-          "current_player": "Pape Gueye (Villarreal)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Tajon Buchanan (Villarreal)"
+          "position": "DF",
+          "current_player": "Renato Veiga (Villarreal)"
         },
         {
           "position": "FW",
           "current_player": "Nicolas Pépé (Villarreal)"
         },
         {
+          "position": "DF",
+          "current_player": "Santiago Mouriño (Villarreal)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Pape Gueye (Villarreal)"
+        },
+        {
           "position": "FW",
           "current_player": "Georges Mikautadze (Villarreal)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Pau Navarro (Villarreal)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tajon Buchanan (Villarreal)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Sergi Cardona (Villarreal)"
         }
-      ],
-      "team_stats": {
-        "goals": 63,
-        "goals_90": 1.86,
-        "assists": 42,
-        "assists_90": 1.24,
-        "shots": 417,
-        "shots_90": 12.29,
-        "shots_on_target": 156,
-        "sot_90": 4.6,
-        "clean_sheets": 8,
-        "goals_against": 30,
-        "ga_90": 0.88,
-        "tackles_won": 366,
-        "tackles_90": 10.79,
-        "interceptions": 321,
-        "interceptions_90": 9.46,
-        "saves": 85,
-        "saves_90": 2.51,
-        "yellow_cards": 75,
-        "yc_90": 2.21,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Rayo Vallecano": {
-      "formation": "5-1-4",
       "lineup": [
         {
           "position": "GK",
@@ -3328,8 +2223,24 @@ window.TACTICAL_DATA = {
           "current_player": "Andrei Ratiu (Rayo Vallecano)"
         },
         {
+          "position": "FW",
+          "current_player": "Jorge de Frutos (Rayo Vallecano)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Isaac Palazón Camacho (Rayo Vallecano)"
+        },
+        {
           "position": "DF",
           "current_player": "Pep Chavarría (Rayo Vallecano)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Álvaro García (Rayo Vallecano)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Óscar Valentín (Rayo Vallecano)"
         },
         {
           "position": "DF",
@@ -3340,52 +2251,12 @@ window.TACTICAL_DATA = {
           "current_player": "Pathé Ciss (Rayo Vallecano)"
         },
         {
-          "position": "MF",
-          "current_player": "Óscar Valentín (Rayo Vallecano)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Jorge de Frutos (Rayo Vallecano)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Isaac Palazón Camacho (Rayo Vallecano)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Álvaro García (Rayo Vallecano)"
-        },
-        {
           "position": "FW",
           "current_player": "Pedro Díaz (Rayo Vallecano)"
         }
-      ],
-      "team_stats": {
-        "goals": 35,
-        "goals_90": 1.03,
-        "assists": 23,
-        "assists_90": 0.68,
-        "shots": 476,
-        "shots_90": 14.05,
-        "shots_on_target": 161,
-        "sot_90": 4.75,
-        "clean_sheets": 10,
-        "goals_against": 35,
-        "ga_90": 1.03,
-        "tackles_won": 350,
-        "tackles_90": 10.33,
-        "interceptions": 285,
-        "interceptions_90": 8.41,
-        "saves": 93,
-        "saves_90": 2.74,
-        "yellow_cards": 96,
-        "yc_90": 2.83,
-        "red_cards": 9,
-        "rc_90": 0.27
-      }
+      ]
     },
     "Hoffenheim": {
-      "formation": "4-2-4",
       "lineup": [
         {
           "position": "GK",
@@ -3394,6 +2265,22 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Vladimír Coufal (Hoffenheim)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Leon Avdullahu (Hoffenheim)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Fisnik Asllani (Hoffenheim)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Wouter Burger (Hoffenheim)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Bazoumana Touré (Hoffenheim)"
         },
         {
           "position": "DF",
@@ -3408,22 +2295,6 @@ window.TACTICAL_DATA = {
           "current_player": "Bernardo (Hoffenheim)"
         },
         {
-          "position": "MF",
-          "current_player": "Leon Avdullahu (Hoffenheim)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Wouter Burger (Hoffenheim)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Fisnik Asllani (Hoffenheim)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Bazoumana Touré (Hoffenheim)"
-        },
-        {
           "position": "FW",
           "current_player": "Andrej Kramarić (Hoffenheim)"
         },
@@ -3431,33 +2302,9 @@ window.TACTICAL_DATA = {
           "position": "FW",
           "current_player": "Tim Lemperle (Hoffenheim)"
         }
-      ],
-      "team_stats": {
-        "goals": 60,
-        "goals_90": 1.88,
-        "assists": 44,
-        "assists_90": 1.38,
-        "shots": 453,
-        "shots_90": 14.21,
-        "shots_on_target": 169,
-        "sot_90": 5.3,
-        "clean_sheets": 6,
-        "goals_against": 48,
-        "ga_90": 1.51,
-        "tackles_won": 304,
-        "tackles_90": 9.53,
-        "interceptions": 252,
-        "interceptions_90": 7.9,
-        "saves": 94,
-        "saves_90": 2.95,
-        "yellow_cards": 66,
-        "yc_90": 2.07,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Cagliari": {
-      "formation": "6-1-3",
       "lineup": [
         {
           "position": "GK",
@@ -3468,6 +2315,14 @@ window.TACTICAL_DATA = {
           "current_player": "Marco Palestra (Cagliari)"
         },
         {
+          "position": "FW",
+          "current_player": "Sebastiano Esposito (Cagliari)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Michel Ndary Adopo (Cagliari)"
+        },
+        {
           "position": "DF",
           "current_player": "Adam Obert (Cagliari)"
         },
@@ -3476,8 +2331,16 @@ window.TACTICAL_DATA = {
           "current_player": "Yerry Mina (Cagliari)"
         },
         {
+          "position": "FW",
+          "current_player": "Michael Folorunsho (Cagliari)"
+        },
+        {
           "position": "DF",
           "current_player": "Sebastiano Luperto (Cagliari)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Gianluca Gaetano (Cagliari)"
         },
         {
           "position": "DF",
@@ -3486,50 +2349,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Gabriele Zappa (Cagliari)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Michel Ndary Adopo (Cagliari)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Sebastiano Esposito (Cagliari)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Michael Folorunsho (Cagliari)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Gianluca Gaetano (Cagliari)"
         }
-      ],
-      "team_stats": {
-        "goals": 36,
-        "goals_90": 1.03,
-        "assists": 29,
-        "assists_90": 0.83,
-        "shots": 355,
-        "shots_90": 10.15,
-        "shots_on_target": 113,
-        "sot_90": 3.23,
-        "clean_sheets": 8,
-        "goals_against": 49,
-        "ga_90": 1.4,
-        "tackles_won": 337,
-        "tackles_90": 9.63,
-        "interceptions": 305,
-        "interceptions_90": 8.72,
-        "saves": 113,
-        "saves_90": 3.23,
-        "yellow_cards": 77,
-        "yc_90": 2.2,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Everton": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
@@ -3552,10 +2375,6 @@ window.TACTICAL_DATA = {
           "current_player": "Vitaliy Mykolenko (Everton)"
         },
         {
-          "position": "DF",
-          "current_player": "Michael Keane (Everton)"
-        },
-        {
           "position": "MF",
           "current_player": "Iliman Ndiaye (Everton)"
         },
@@ -3564,44 +2383,24 @@ window.TACTICAL_DATA = {
           "current_player": "Kiernan Dewsbury-Hall (Everton)"
         },
         {
+          "position": "DF",
+          "current_player": "Michael Keane (Everton)"
+        },
+        {
           "position": "MF",
           "current_player": "Idrissa Gana Gueye (Everton)"
         },
         {
-          "position": "MF",
-          "current_player": "Jack Grealish (Everton)"
-        },
-        {
           "position": "FW",
           "current_player": "Thierno Barry (Everton)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Jack Grealish (Everton)"
         }
-      ],
-      "team_stats": {
-        "goals": 42,
-        "goals_90": 1.2,
-        "assists": 32,
-        "assists_90": 0.92,
-        "shots": 389,
-        "shots_90": 11.15,
-        "shots_on_target": 131,
-        "sot_90": 3.75,
-        "clean_sheets": 11,
-        "goals_against": 44,
-        "ga_90": 1.26,
-        "tackles_won": 376,
-        "tackles_90": 10.78,
-        "interceptions": 286,
-        "interceptions_90": 8.2,
-        "saves": 92,
-        "saves_90": 2.64,
-        "yellow_cards": 67,
-        "yc_90": 1.92,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Alavés": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -3616,20 +2415,12 @@ window.TACTICAL_DATA = {
           "current_player": "Nahuel Tenaglia (Alavés)"
         },
         {
-          "position": "DF",
-          "current_player": "Victor Parada (Alavés)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Jon Pacheco (Alavés)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Youssef Lekhedim (Alavés)"
-        },
-        {
           "position": "MF",
           "current_player": "Antonio Blanco (Alavés)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Toni Martínez (Alavés)"
         },
         {
           "position": "MF",
@@ -3641,39 +2432,23 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Toni Martínez (Alavés)"
+          "current_player": "Lucas Boyé (Alavés)"
         },
         {
-          "position": "FW",
-          "current_player": "Lucas Boyé (Alavés)"
+          "position": "DF",
+          "current_player": "Victor Parada (Alavés)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Jon Pacheco (Alavés)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Youssef Lekhedim (Alavés)"
         }
-      ],
-      "team_stats": {
-        "goals": 37,
-        "goals_90": 1.09,
-        "assists": 24,
-        "assists_90": 0.71,
-        "shots": 415,
-        "shots_90": 12.22,
-        "shots_on_target": 135,
-        "sot_90": 3.97,
-        "clean_sheets": 3,
-        "goals_against": 53,
-        "ga_90": 1.56,
-        "tackles_won": 361,
-        "tackles_90": 10.63,
-        "interceptions": 273,
-        "interceptions_90": 8.04,
-        "saves": 88,
-        "saves_90": 2.59,
-        "yellow_cards": 84,
-        "yc_90": 2.47,
-        "red_cards": 5,
-        "rc_90": 0.15
-      }
+      ]
     },
     "Liverpool": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -3692,12 +2467,12 @@ window.TACTICAL_DATA = {
           "current_player": "Ibrahima Konaté (Liverpool)"
         },
         {
-          "position": "DF",
-          "current_player": "Milos Kerkez (Liverpool)"
-        },
-        {
           "position": "MF",
           "current_player": "Ryan Gravenberch (Liverpool)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Cody Gakpo (Liverpool)"
         },
         {
           "position": "MF",
@@ -3708,44 +2483,20 @@ window.TACTICAL_DATA = {
           "current_player": "Florian Wirtz (Liverpool)"
         },
         {
+          "position": "DF",
+          "current_player": "Milos Kerkez (Liverpool)"
+        },
+        {
           "position": "MF",
           "current_player": "Mohamed Salah (Liverpool)"
         },
         {
           "position": "FW",
-          "current_player": "Cody Gakpo (Liverpool)"
-        },
-        {
-          "position": "FW",
           "current_player": "Hugo Ekitike (Liverpool)"
         }
-      ],
-      "team_stats": {
-        "goals": 57,
-        "goals_90": 1.63,
-        "assists": 40,
-        "assists_90": 1.14,
-        "shots": 540,
-        "shots_90": 15.43,
-        "shots_on_target": 159,
-        "sot_90": 4.54,
-        "clean_sheets": 8,
-        "goals_against": 30,
-        "ga_90": 0.86,
-        "tackles_won": 290,
-        "tackles_90": 8.29,
-        "interceptions": 228,
-        "interceptions_90": 6.51,
-        "saves": 91,
-        "saves_90": 2.6,
-        "yellow_cards": 52,
-        "yc_90": 1.49,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Atlético Madrid": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -3756,20 +2507,16 @@ window.TACTICAL_DATA = {
           "current_player": "Dávid Hancko (Atlético Madrid)"
         },
         {
+          "position": "MF",
+          "current_player": "Giuliano Simeone (Atlético Madrid)"
+        },
+        {
           "position": "DF",
           "current_player": "Marcos Llorente (Atlético Madrid)"
         },
         {
-          "position": "DF",
-          "current_player": "Nicolás González (Atlético Madrid)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Matteo Ruggeri (Atlético Madrid)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Giuliano Simeone (Atlético Madrid)"
+          "position": "FW",
+          "current_player": "Julián Álvarez (Atlético Madrid)"
         },
         {
           "position": "MF",
@@ -3781,51 +2528,43 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Julián Álvarez (Atlético Madrid)"
+          "current_player": "Alexander Sørloth (Atlético Madrid)"
         },
         {
-          "position": "FW",
-          "current_player": "Alexander Sørloth (Atlético Madrid)"
+          "position": "DF",
+          "current_player": "Nicolás González (Atlético Madrid)"
         },
         {
           "position": "FW",
           "current_player": "Alex Baena (Atlético Madrid)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Matteo Ruggeri (Atlético Madrid)"
         }
-      ],
-      "team_stats": {
-        "goals": 54,
-        "goals_90": 1.6,
-        "assists": 38,
-        "assists_90": 1.12,
-        "shots": 447,
-        "shots_90": 13.22,
-        "shots_on_target": 178,
-        "sot_90": 5.26,
-        "clean_sheets": 10,
-        "goals_against": 30,
-        "ga_90": 0.89,
-        "tackles_won": 347,
-        "tackles_90": 10.26,
-        "interceptions": 273,
-        "interceptions_90": 8.07,
-        "saves": 79,
-        "saves_90": 2.34,
-        "yellow_cards": 70,
-        "yc_90": 2.07,
-        "red_cards": 4,
-        "rc_90": 0.12
-      }
+      ]
     },
     "Parma": {
-      "formation": "6-3-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Zion Suzuki (Parma)"
         },
         {
+          "position": "MF",
+          "current_player": "Mandela Keita (Parma)"
+        },
+        {
           "position": "DF",
           "current_player": "Enrico Del Prato (Parma)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Mateo Pellegrino (Parma)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Adrian Bernabe (Parma)"
         },
         {
           "position": "DF",
@@ -3844,84 +2583,28 @@ window.TACTICAL_DATA = {
           "current_player": "Sascha Britschgi (Parma)"
         },
         {
-          "position": "DF",
-          "current_player": "Mariano Troilo (Parma)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Mandela Keita (Parma)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Adrian Bernabe (Parma)"
-        },
-        {
           "position": "MF",
           "current_player": "Oliver Jensen (Parma)"
         },
         {
-          "position": "FW",
-          "current_player": "Mateo Pellegrino (Parma)"
+          "position": "DF",
+          "current_player": "Mariano Troilo (Parma)"
         }
-      ],
-      "team_stats": {
-        "goals": 23,
-        "goals_90": 0.66,
-        "assists": 14,
-        "assists_90": 0.4,
-        "shots": 378,
-        "shots_90": 10.85,
-        "shots_on_target": 96,
-        "sot_90": 2.75,
-        "clean_sheets": 6,
-        "goals_against": 24,
-        "ga_90": 0.69,
-        "tackles_won": 285,
-        "tackles_90": 8.18,
-        "interceptions": 238,
-        "interceptions_90": 6.83,
-        "saves": 102,
-        "saves_90": 2.93,
-        "yellow_cards": 59,
-        "yc_90": 1.69,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Real Betis": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Álvaro Vallés (Real Betis)"
         },
         {
-          "position": "DF",
-          "current_player": "Natan (Real Betis)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Marc Bartra (Real Betis)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Aitor Ruibal (Real Betis)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Héctor Bellerín (Real Betis)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Valentín Gómez (Real Betis)"
-        },
-        {
           "position": "MF",
           "current_player": "Pablo Fornals (Real Betis)"
         },
         {
-          "position": "MF",
-          "current_player": "Marc Roca (Real Betis)"
+          "position": "DF",
+          "current_player": "Natan (Real Betis)"
         },
         {
           "position": "FW",
@@ -3934,62 +2617,66 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Abde Ezzalzouli (Real Betis)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Marc Bartra (Real Betis)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Marc Roca (Real Betis)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aitor Ruibal (Real Betis)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Héctor Bellerín (Real Betis)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Valentín Gómez (Real Betis)"
         }
-      ],
-      "team_stats": {
-        "goals": 51,
-        "goals_90": 1.5,
-        "assists": 37,
-        "assists_90": 1.09,
-        "shots": 485,
-        "shots_90": 14.27,
-        "shots_on_target": 160,
-        "sot_90": 4.71,
-        "clean_sheets": 8,
-        "goals_against": 30,
-        "ga_90": 0.88,
-        "tackles_won": 352,
-        "tackles_90": 10.35,
-        "interceptions": 306,
-        "interceptions_90": 9.0,
-        "saves": 105,
-        "saves_90": 3.09,
-        "yellow_cards": 65,
-        "yc_90": 1.91,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Athletic Club": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Unai Simón (Athletic Club)"
         },
         {
-          "position": "DF",
-          "current_player": "Yuri Berchiche (Athletic Club)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Daniel Vivian (Athletic Club)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Aymeric Laporte (Athletic Club)"
-        },
-        {
           "position": "MF",
           "current_player": "Mikel Jauregizar (Athletic Club)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Yuri Berchiche (Athletic Club)"
         },
         {
           "position": "MF",
           "current_player": "Iñigo Ruiz de Galarreta (Athletic Club)"
         },
         {
+          "position": "DF",
+          "current_player": "Daniel Vivian (Athletic Club)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Gorka Guruzeta (Athletic Club)"
+        },
+        {
           "position": "MF",
           "current_player": "Álex Berenguer (Athletic Club)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Iñaki Williams (Athletic Club)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aymeric Laporte (Athletic Club)"
         },
         {
           "position": "MF",
@@ -3998,42 +2685,10 @@ window.TACTICAL_DATA = {
         {
           "position": "MF",
           "current_player": "Nico Williams (Athletic Club)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Gorka Guruzeta (Athletic Club)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Iñaki Williams (Athletic Club)"
         }
-      ],
-      "team_stats": {
-        "goals": 39,
-        "goals_90": 1.15,
-        "assists": 27,
-        "assists_90": 0.8,
-        "shots": 462,
-        "shots_90": 13.62,
-        "shots_on_target": 153,
-        "sot_90": 4.51,
-        "clean_sheets": 6,
-        "goals_against": 50,
-        "ga_90": 1.47,
-        "tackles_won": 313,
-        "tackles_90": 9.23,
-        "interceptions": 314,
-        "interceptions_90": 9.26,
-        "saves": 91,
-        "saves_90": 2.68,
-        "yellow_cards": 75,
-        "yc_90": 2.21,
-        "red_cards": 6,
-        "rc_90": 0.18
-      }
+      ]
     },
     "Eintracht Frankfurt": {
-      "formation": "6-3-1",
       "lineup": [
         {
           "position": "GK",
@@ -4048,8 +2703,20 @@ window.TACTICAL_DATA = {
           "current_player": "Nathaniel Brown (Eintracht Frankfurt)"
         },
         {
+          "position": "MF",
+          "current_player": "Ritsu Doan (Eintracht Frankfurt)"
+        },
+        {
           "position": "DF",
           "current_player": "Arthur Theate (Eintracht Frankfurt)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Hugo Larsson (Eintracht Frankfurt)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fares Chaïbi (Eintracht Frankfurt)"
         },
         {
           "position": "DF",
@@ -4064,48 +2731,12 @@ window.TACTICAL_DATA = {
           "current_player": "Nnamdi Collins (Eintracht Frankfurt)"
         },
         {
-          "position": "MF",
-          "current_player": "Ritsu Doan (Eintracht Frankfurt)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Hugo Larsson (Eintracht Frankfurt)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Fares Chaïbi (Eintracht Frankfurt)"
-        },
-        {
           "position": "FW",
           "current_player": "Arnaud Kalimuendo (Eintracht Frankfurt)"
         }
-      ],
-      "team_stats": {
-        "goals": 59,
-        "goals_90": 1.79,
-        "assists": 42,
-        "assists_90": 1.27,
-        "shots": 392,
-        "shots_90": 11.9,
-        "shots_on_target": 150,
-        "sot_90": 4.55,
-        "clean_sheets": 6,
-        "goals_against": 32,
-        "ga_90": 0.97,
-        "tackles_won": 331,
-        "tackles_90": 10.04,
-        "interceptions": 311,
-        "interceptions_90": 9.44,
-        "saves": 94,
-        "saves_90": 2.85,
-        "yellow_cards": 60,
-        "yc_90": 1.82,
-        "red_cards": 4,
-        "rc_90": 0.12
-      }
+      ]
     },
     "Burnley": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
@@ -4120,18 +2751,6 @@ window.TACTICAL_DATA = {
           "current_player": "Maxime Estève (Burnley)"
         },
         {
-          "position": "DF",
-          "current_player": "Quilindschy Hartman (Burnley)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Josh Laurent (Burnley)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Hjalmar Ekdal (Burnley)"
-        },
-        {
           "position": "MF",
           "current_player": "Jaidon Anthony (Burnley)"
         },
@@ -4144,48 +2763,52 @@ window.TACTICAL_DATA = {
           "current_player": "Florentino Luís (Burnley)"
         },
         {
-          "position": "MF",
-          "current_player": "Josh Cullen (Burnley)"
+          "position": "DF",
+          "current_player": "Quilindschy Hartman (Burnley)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Josh Laurent (Burnley)"
         },
         {
           "position": "FW",
           "current_player": "Zian Flemming (Burnley)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Josh Cullen (Burnley)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Hjalmar Ekdal (Burnley)"
         }
-      ],
-      "team_stats": {
-        "goals": 32,
-        "goals_90": 0.92,
-        "assists": 25,
-        "assists_90": 0.72,
-        "shots": 319,
-        "shots_90": 9.13,
-        "shots_on_target": 104,
-        "sot_90": 2.98,
-        "clean_sheets": 4,
-        "goals_against": 71,
-        "ga_90": 2.03,
-        "tackles_won": 331,
-        "tackles_90": 9.47,
-        "interceptions": 319,
-        "interceptions_90": 9.13,
-        "saves": 127,
-        "saves_90": 3.63,
-        "yellow_cards": 60,
-        "yc_90": 1.72,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Napoli": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Vanja Milinković-Savić (Napoli)"
         },
         {
+          "position": "FW",
+          "current_player": "Rasmus Højlund (Napoli)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Scott McTominay (Napoli)"
+        },
+        {
           "position": "DF",
           "current_player": "Alessandro Buongiorno (Napoli)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Stanislav Lobotka (Napoli)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Matteo Politano (Napoli)"
         },
         {
           "position": "DF",
@@ -4200,60 +2823,24 @@ window.TACTICAL_DATA = {
           "current_player": "Juan Jesus (Napoli)"
         },
         {
-          "position": "DF",
-          "current_player": "Amir Rrahmani (Napoli)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Scott McTominay (Napoli)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Stanislav Lobotka (Napoli)"
-        },
-        {
           "position": "MF",
           "current_player": "Elif Elmas (Napoli)"
         },
         {
-          "position": "FW",
-          "current_player": "Rasmus Højlund (Napoli)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Matteo Politano (Napoli)"
+          "position": "DF",
+          "current_player": "Amir Rrahmani (Napoli)"
         }
-      ],
-      "team_stats": {
-        "goals": 51,
-        "goals_90": 1.46,
-        "assists": 34,
-        "assists_90": 0.97,
-        "shots": 464,
-        "shots_90": 13.26,
-        "shots_on_target": 163,
-        "sot_90": 4.66,
-        "clean_sheets": 11,
-        "goals_against": 21,
-        "ga_90": 0.6,
-        "tackles_won": 256,
-        "tackles_90": 7.32,
-        "interceptions": 218,
-        "interceptions_90": 6.23,
-        "saves": 68,
-        "saves_90": 1.94,
-        "yellow_cards": 46,
-        "yc_90": 1.32,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Mainz 05": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Daniel Batz (Mainz 05)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Kaishu Sano (Mainz 05)"
         },
         {
           "position": "DF",
@@ -4264,12 +2851,8 @@ window.TACTICAL_DATA = {
           "current_player": "Dominik Kohr (Mainz 05)"
         },
         {
-          "position": "DF",
-          "current_player": "Stefan Posch (Mainz 05)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Kaishu Sano (Mainz 05)"
+          "position": "FW",
+          "current_player": "Lee Jae-sung (Mainz 05)"
         },
         {
           "position": "MF",
@@ -4289,51 +2872,47 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Lee Jae-sung (Mainz 05)"
+          "current_player": "Phillip Tietz (Mainz 05)"
         },
         {
-          "position": "FW",
-          "current_player": "Phillip Tietz (Mainz 05)"
+          "position": "DF",
+          "current_player": "Stefan Posch (Mainz 05)"
         }
-      ],
-      "team_stats": {
-        "goals": 41,
-        "goals_90": 1.29,
-        "assists": 24,
-        "assists_90": 0.75,
-        "shots": 381,
-        "shots_90": 11.97,
-        "shots_on_target": 129,
-        "sot_90": 4.05,
-        "clean_sheets": 3,
-        "goals_against": 27,
-        "ga_90": 0.85,
-        "tackles_won": 302,
-        "tackles_90": 9.49,
-        "interceptions": 330,
-        "interceptions_90": 10.36,
-        "saves": 105,
-        "saves_90": 3.3,
-        "yellow_cards": 67,
-        "yc_90": 2.1,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Strasbourg": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mike Penders (Strasbourg)"
         },
         {
+          "position": "FW",
+          "current_player": "Joaquín Panichelli (Strasbourg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Samir El Mourabet (Strasbourg)"
+        },
+        {
           "position": "DF",
           "current_player": "Ismaël Doukouré (Strasbourg)"
         },
         {
+          "position": "MF",
+          "current_player": "Valentín Barco (Strasbourg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Diego Moreira (Strasbourg)"
+        },
+        {
           "position": "DF",
           "current_player": "Guela Doué (Strasbourg)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Julio Enciso (Strasbourg)"
         },
         {
           "position": "DF",
@@ -4346,54 +2925,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Abdoul Ouattara (Strasbourg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Samir El Mourabet (Strasbourg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Valentín Barco (Strasbourg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Diego Moreira (Strasbourg)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Joaquín Panichelli (Strasbourg)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Julio Enciso (Strasbourg)"
         }
-      ],
-      "team_stats": {
-        "goals": 49,
-        "goals_90": 1.59,
-        "assists": 35,
-        "assists_90": 1.13,
-        "shots": 349,
-        "shots_90": 11.3,
-        "shots_on_target": 140,
-        "sot_90": 4.53,
-        "clean_sheets": 8,
-        "goals_against": 41,
-        "ga_90": 1.33,
-        "tackles_won": 295,
-        "tackles_90": 9.55,
-        "interceptions": 231,
-        "interceptions_90": 7.48,
-        "saves": 95,
-        "saves_90": 3.07,
-        "yellow_cards": 56,
-        "yc_90": 1.81,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Genoa": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -4404,24 +2939,12 @@ window.TACTICAL_DATA = {
           "current_player": "Johan Vásquez (Genoa)"
         },
         {
-          "position": "DF",
-          "current_player": "Leo Skiri Østigård (Genoa)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Alessandro Marcandalli (Genoa)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Brooke Norton-Cuffy (Genoa)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Aarón Martín (Genoa)"
-        },
-        {
           "position": "MF",
           "current_player": "Morten Frendrup (Genoa)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leo Skiri Østigård (Genoa)"
         },
         {
           "position": "MF",
@@ -4436,36 +2959,24 @@ window.TACTICAL_DATA = {
           "current_player": "Lorenzo Colombo (Genoa)"
         },
         {
+          "position": "DF",
+          "current_player": "Alessandro Marcandalli (Genoa)"
+        },
+        {
           "position": "FW",
           "current_player": "Vitinha (Genoa)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Brooke Norton-Cuffy (Genoa)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Aarón Martín (Genoa)"
         }
-      ],
-      "team_stats": {
-        "goals": 40,
-        "goals_90": 1.15,
-        "assists": 21,
-        "assists_90": 0.6,
-        "shots": 406,
-        "shots_90": 11.65,
-        "shots_on_target": 137,
-        "sot_90": 3.93,
-        "clean_sheets": 4,
-        "goals_against": 27,
-        "ga_90": 0.77,
-        "tackles_won": 395,
-        "tackles_90": 11.33,
-        "interceptions": 264,
-        "interceptions_90": 7.57,
-        "saves": 104,
-        "saves_90": 2.98,
-        "yellow_cards": 60,
-        "yc_90": 1.72,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Fulham": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
@@ -4474,6 +2985,22 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Joachim Andersen (Fulham)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Sander Berge (Fulham)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Harry Wilson (Fulham)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Alex Iwobi (Fulham)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Raúl Jiménez (Fulham)"
         },
         {
           "position": "DF",
@@ -4489,83 +3016,43 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Sander Berge (Fulham)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Harry Wilson (Fulham)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Alex Iwobi (Fulham)"
-        },
-        {
-          "position": "MF",
           "current_player": "Emile Smith Rowe (Fulham)"
         },
         {
           "position": "MF",
           "current_player": "Saša Lukić (Fulham)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Raúl Jiménez (Fulham)"
         }
-      ],
-      "team_stats": {
-        "goals": 40,
-        "goals_90": 1.14,
-        "assists": 25,
-        "assists_90": 0.71,
-        "shots": 433,
-        "shots_90": 12.37,
-        "shots_on_target": 125,
-        "sot_90": 3.57,
-        "clean_sheets": 8,
-        "goals_against": 49,
-        "ga_90": 1.4,
-        "tackles_won": 347,
-        "tackles_90": 9.91,
-        "interceptions": 290,
-        "interceptions_90": 8.29,
-        "saves": 91,
-        "saves_90": 2.6,
-        "yellow_cards": 69,
-        "yc_90": 1.97,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     },
     "Lille": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Berke Özer (Lille)"
         },
         {
+          "position": "MF",
+          "current_player": "Hákon Haraldsson (Lille)"
+        },
+        {
           "position": "DF",
           "current_player": "Aïssa Mandi (Lille)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ayyoub Bouaddi (Lille)"
         },
         {
           "position": "DF",
           "current_player": "Nathan Ngoy (Lille)"
         },
         {
+          "position": "FW",
+          "current_player": "Matias Fernandez-Pardo (Lille)"
+        },
+        {
           "position": "DF",
           "current_player": "Romain Perraud (Lille)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Thomas Meunier (Lille)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Hákon Haraldsson (Lille)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Ayyoub Bouaddi (Lille)"
         },
         {
           "position": "MF",
@@ -4576,44 +3063,24 @@ window.TACTICAL_DATA = {
           "current_player": "Félix Correia (Lille)"
         },
         {
-          "position": "FW",
-          "current_player": "Matias Fernandez-Pardo (Lille)"
+          "position": "DF",
+          "current_player": "Thomas Meunier (Lille)"
         },
         {
           "position": "FW",
           "current_player": "Olivier Giroud (Lille)"
         }
-      ],
-      "team_stats": {
-        "goals": 51,
-        "goals_90": 1.6,
-        "assists": 33,
-        "assists_90": 1.04,
-        "shots": 445,
-        "shots_90": 13.98,
-        "shots_on_target": 152,
-        "sot_90": 4.78,
-        "clean_sheets": 12,
-        "goals_against": 32,
-        "ga_90": 1.01,
-        "tackles_won": 299,
-        "tackles_90": 9.4,
-        "interceptions": 296,
-        "interceptions_90": 9.3,
-        "saves": 69,
-        "saves_90": 2.17,
-        "yellow_cards": 72,
-        "yc_90": 2.26,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Leverkusen": {
-      "formation": "4-5-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mark Flekken (Leverkusen)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Aleix García (Leverkusen)"
         },
         {
           "position": "DF",
@@ -4624,20 +3091,20 @@ window.TACTICAL_DATA = {
           "current_player": "Edmond Tapsoba (Leverkusen)"
         },
         {
+          "position": "MF",
+          "current_player": "Álex Grimaldo (Leverkusen)"
+        },
+        {
           "position": "DF",
           "current_player": "Jarell Quansah (Leverkusen)"
         },
         {
+          "position": "FW",
+          "current_player": "Patrik Schick (Leverkusen)"
+        },
+        {
           "position": "DF",
           "current_player": "Loïc Bade (Leverkusen)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Aleix García (Leverkusen)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Álex Grimaldo (Leverkusen)"
         },
         {
           "position": "MF",
@@ -4650,38 +3117,10 @@ window.TACTICAL_DATA = {
         {
           "position": "MF",
           "current_player": "Ernest Poku (Leverkusen)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Patrik Schick (Leverkusen)"
         }
-      ],
-      "team_stats": {
-        "goals": 65,
-        "goals_90": 2.03,
-        "assists": 47,
-        "assists_90": 1.47,
-        "shots": 484,
-        "shots_90": 15.14,
-        "shots_on_target": 162,
-        "sot_90": 5.07,
-        "clean_sheets": 5,
-        "goals_against": 34,
-        "ga_90": 1.06,
-        "tackles_won": 273,
-        "tackles_90": 8.54,
-        "interceptions": 241,
-        "interceptions_90": 7.54,
-        "saves": 110,
-        "saves_90": 3.44,
-        "yellow_cards": 68,
-        "yc_90": 2.13,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Espanyol": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -4698,10 +3137,6 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Omar El Hilali (Espanyol)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Fernando Calero (Espanyol)"
         },
         {
           "position": "MF",
@@ -4726,38 +3161,22 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Roberto Férnandez (Espanyol)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Fernando Calero (Espanyol)"
         }
-      ],
-      "team_stats": {
-        "goals": 36,
-        "goals_90": 1.06,
-        "assists": 24,
-        "assists_90": 0.71,
-        "shots": 434,
-        "shots_90": 12.8,
-        "shots_on_target": 137,
-        "sot_90": 4.04,
-        "clean_sheets": 9,
-        "goals_against": 51,
-        "ga_90": 1.5,
-        "tackles_won": 336,
-        "tackles_90": 9.91,
-        "interceptions": 274,
-        "interceptions_90": 8.08,
-        "saves": 119,
-        "saves_90": 3.51,
-        "yellow_cards": 83,
-        "yc_90": 2.45,
-        "red_cards": 5,
-        "rc_90": 0.15
-      }
+      ]
     },
     "Roma": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mile Svilar (Roma)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Bryan Cristante (Roma)"
         },
         {
           "position": "DF",
@@ -4772,14 +3191,6 @@ window.TACTICAL_DATA = {
           "current_player": "Zeki Çelik (Roma)"
         },
         {
-          "position": "DF",
-          "current_player": "Mario Hermoso (Roma)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Bryan Cristante (Roma)"
-        },
-        {
           "position": "MF",
           "current_player": "Manu Koné (Roma)"
         },
@@ -4788,44 +3199,24 @@ window.TACTICAL_DATA = {
           "current_player": "Wesley (Roma)"
         },
         {
+          "position": "FW",
+          "current_player": "Matìas Soulé (Roma)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Mario Hermoso (Roma)"
+        },
+        {
           "position": "MF",
           "current_player": "Lorenzo Pellegrini (Roma)"
         },
         {
           "position": "FW",
-          "current_player": "Matìas Soulé (Roma)"
-        },
-        {
-          "position": "FW",
           "current_player": "Donyell Malen (Roma)"
         }
-      ],
-      "team_stats": {
-        "goals": 52,
-        "goals_90": 1.49,
-        "assists": 36,
-        "assists_90": 1.03,
-        "shots": 453,
-        "shots_90": 12.97,
-        "shots_on_target": 157,
-        "sot_90": 4.49,
-        "clean_sheets": 16,
-        "goals_against": 29,
-        "ga_90": 0.83,
-        "tackles_won": 318,
-        "tackles_90": 9.1,
-        "interceptions": 330,
-        "interceptions_90": 9.45,
-        "saves": 101,
-        "saves_90": 2.89,
-        "yellow_cards": 65,
-        "yc_90": 1.86,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Union Berlin": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -4836,8 +3227,16 @@ window.TACTICAL_DATA = {
           "current_player": "Danilho Doekhi (Union Berlin)"
         },
         {
+          "position": "MF",
+          "current_player": "Rani Khedira (Union Berlin)"
+        },
+        {
           "position": "DF",
           "current_player": "Leopold Querfeld (Union Berlin)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Andrej Ilic (Union Berlin)"
         },
         {
           "position": "DF",
@@ -4848,56 +3247,24 @@ window.TACTICAL_DATA = {
           "current_player": "Diogo Leite (Union Berlin)"
         },
         {
+          "position": "MF",
+          "current_player": "Aljoscha Kemlein (Union Berlin)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Ilyas Ansah (Union Berlin)"
+        },
+        {
           "position": "DF",
           "current_player": "Christopher Trimmel (Union Berlin)"
         },
         {
           "position": "MF",
-          "current_player": "Rani Khedira (Union Berlin)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Aljoscha Kemlein (Union Berlin)"
-        },
-        {
-          "position": "MF",
           "current_player": "Janik Haberer (Union Berlin)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Andrej Ilic (Union Berlin)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Ilyas Ansah (Union Berlin)"
         }
-      ],
-      "team_stats": {
-        "goals": 37,
-        "goals_90": 1.16,
-        "assists": 23,
-        "assists_90": 0.72,
-        "shots": 391,
-        "shots_90": 12.25,
-        "shots_on_target": 115,
-        "sot_90": 3.6,
-        "clean_sheets": 5,
-        "goals_against": 54,
-        "ga_90": 1.69,
-        "tackles_won": 280,
-        "tackles_90": 8.77,
-        "interceptions": 276,
-        "interceptions_90": 8.65,
-        "saves": 87,
-        "saves_90": 2.73,
-        "yellow_cards": 67,
-        "yc_90": 2.1,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Girona": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
@@ -4916,16 +3283,12 @@ window.TACTICAL_DATA = {
           "current_player": "Arnau Martinez (Girona)"
         },
         {
-          "position": "DF",
-          "current_player": "Álex Moreno (Girona)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Hugo Rincón (Girona)"
-        },
-        {
           "position": "MF",
           "current_player": "Viktor Tsyhankov (Girona)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Vladyslav Vanat (Girona)"
         },
         {
           "position": "MF",
@@ -4936,40 +3299,20 @@ window.TACTICAL_DATA = {
           "current_player": "Iván Martín (Girona)"
         },
         {
+          "position": "DF",
+          "current_player": "Álex Moreno (Girona)"
+        },
+        {
           "position": "MF",
           "current_player": "Bryan Gil (Girona)"
         },
         {
-          "position": "FW",
-          "current_player": "Vladyslav Vanat (Girona)"
+          "position": "DF",
+          "current_player": "Hugo Rincón (Girona)"
         }
-      ],
-      "team_stats": {
-        "goals": 35,
-        "goals_90": 1.03,
-        "assists": 25,
-        "assists_90": 0.74,
-        "shots": 353,
-        "shots_90": 10.43,
-        "shots_on_target": 130,
-        "sot_90": 3.84,
-        "clean_sheets": 6,
-        "goals_against": 43,
-        "ga_90": 1.27,
-        "tackles_won": 325,
-        "tackles_90": 9.61,
-        "interceptions": 261,
-        "interceptions_90": 7.71,
-        "saves": 115,
-        "saves_90": 3.4,
-        "yellow_cards": 73,
-        "yc_90": 2.16,
-        "red_cards": 7,
-        "rc_90": 0.21
-      }
+      ]
     },
     "Barcelona": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -4984,16 +3327,16 @@ window.TACTICAL_DATA = {
           "current_player": "Eric García (Barcelona)"
         },
         {
+          "position": "FW",
+          "current_player": "Lamine Yamal (Barcelona)"
+        },
+        {
           "position": "DF",
           "current_player": "Gerard Martín (Barcelona)"
         },
         {
           "position": "DF",
           "current_player": "Jules Koundé (Barcelona)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Alejandro Balde (Barcelona)"
         },
         {
           "position": "MF",
@@ -5004,64 +3347,24 @@ window.TACTICAL_DATA = {
           "current_player": "Dani Olmo (Barcelona)"
         },
         {
-          "position": "MF",
-          "current_player": "Fermin López (Barcelona)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Lamine Yamal (Barcelona)"
-        },
-        {
           "position": "FW",
           "current_player": "Ferrán Torres (Barcelona)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Alejandro Balde (Barcelona)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fermin López (Barcelona)"
         }
-      ],
-      "team_stats": {
-        "goals": 88,
-        "goals_90": 2.59,
-        "assists": 65,
-        "assists_90": 1.91,
-        "shots": 648,
-        "shots_90": 19.06,
-        "shots_on_target": 237,
-        "sot_90": 6.97,
-        "clean_sheets": 14,
-        "goals_against": 20,
-        "ga_90": 0.59,
-        "tackles_won": 337,
-        "tackles_90": 9.91,
-        "interceptions": 261,
-        "interceptions_90": 7.68,
-        "saves": 88,
-        "saves_90": 2.59,
-        "yellow_cards": 53,
-        "yc_90": 1.56,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Stuttgart": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Alexander Nübel (Stuttgart)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Julian Chabot (Stuttgart)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Maximilian Mittelstädt (Stuttgart)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Ramon Hendriks (Stuttgart)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Josha Vagnoman (Stuttgart)"
         },
         {
           "position": "MF",
@@ -5072,56 +3375,56 @@ window.TACTICAL_DATA = {
           "current_player": "Jamie Leweling (Stuttgart)"
         },
         {
-          "position": "MF",
-          "current_player": "Atakan Karazor (Stuttgart)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Chris Führich (Stuttgart)"
+          "position": "DF",
+          "current_player": "Julian Chabot (Stuttgart)"
         },
         {
           "position": "FW",
           "current_player": "Deniz Undav (Stuttgart)"
         },
         {
+          "position": "DF",
+          "current_player": "Maximilian Mittelstädt (Stuttgart)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Atakan Karazor (Stuttgart)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ramon Hendriks (Stuttgart)"
+        },
+        {
           "position": "FW",
           "current_player": "Bilal El Khannouss (Stuttgart)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Josha Vagnoman (Stuttgart)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Chris Führich (Stuttgart)"
         }
-      ],
-      "team_stats": {
-        "goals": 65,
-        "goals_90": 2.03,
-        "assists": 52,
-        "assists_90": 1.63,
-        "shots": 486,
-        "shots_90": 15.2,
-        "shots_on_target": 191,
-        "sot_90": 5.97,
-        "clean_sheets": 11,
-        "goals_against": 46,
-        "ga_90": 1.44,
-        "tackles_won": 275,
-        "tackles_90": 8.6,
-        "interceptions": 266,
-        "interceptions_90": 8.32,
-        "saves": 98,
-        "saves_90": 3.07,
-        "yellow_cards": 58,
-        "yc_90": 1.81,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Le Havre": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mory Diaw (Le Havre)"
         },
         {
+          "position": "FW",
+          "current_player": "Issa Soumaré (Le Havre)"
+        },
+        {
           "position": "DF",
           "current_player": "Ayumu Seko (Le Havre)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Rassoul Ndiaye (Le Havre)"
         },
         {
           "position": "DF",
@@ -5141,51 +3444,19 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Rassoul Ndiaye (Le Havre)"
-        },
-        {
-          "position": "MF",
           "current_player": "Simon Ebonog (Le Havre)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Yassine Kechta (Le Havre)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Issa Soumaré (Le Havre)"
         },
         {
           "position": "FW",
           "current_player": "Mbwana Samatta (Le Havre)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Yassine Kechta (Le Havre)"
         }
-      ],
-      "team_stats": {
-        "goals": 30,
-        "goals_90": 0.94,
-        "assists": 21,
-        "assists_90": 0.66,
-        "shots": 356,
-        "shots_90": 11.19,
-        "shots_on_target": 118,
-        "sot_90": 3.71,
-        "clean_sheets": 6,
-        "goals_against": 40,
-        "ga_90": 1.26,
-        "tackles_won": 320,
-        "tackles_90": 10.06,
-        "interceptions": 303,
-        "interceptions_90": 9.53,
-        "saves": 94,
-        "saves_90": 2.96,
-        "yellow_cards": 60,
-        "yc_90": 1.89,
-        "red_cards": 4,
-        "rc_90": 0.13
-      }
+      ]
     },
     "Osasuna": {
-      "formation": "4-2-4",
       "lineup": [
         {
           "position": "GK",
@@ -5196,24 +3467,8 @@ window.TACTICAL_DATA = {
           "current_player": "Catena (Osasuna)"
         },
         {
-          "position": "DF",
-          "current_player": "Valentin Rosier (Osasuna)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Enzo Boyomo (Osasuna)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Javi Galán (Osasuna)"
-        },
-        {
           "position": "MF",
           "current_player": "Jon Moncayola (Osasuna)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Lucas Torró (Osasuna)"
         },
         {
           "position": "FW",
@@ -5224,48 +3479,56 @@ window.TACTICAL_DATA = {
           "current_player": "Víctor Muñoz (Osasuna)"
         },
         {
+          "position": "MF",
+          "current_player": "Lucas Torró (Osasuna)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Valentin Rosier (Osasuna)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Enzo Boyomo (Osasuna)"
+        },
+        {
           "position": "FW",
           "current_player": "Rubén García (Osasuna)"
         },
         {
           "position": "FW",
           "current_player": "Aimar Oroz (Osasuna)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Javi Galán (Osasuna)"
         }
-      ],
-      "team_stats": {
-        "goals": 40,
-        "goals_90": 1.15,
-        "assists": 28,
-        "assists_90": 0.8,
-        "shots": 392,
-        "shots_90": 11.24,
-        "shots_on_target": 133,
-        "sot_90": 3.81,
-        "clean_sheets": 7,
-        "goals_against": 44,
-        "ga_90": 1.26,
-        "tackles_won": 296,
-        "tackles_90": 8.48,
-        "interceptions": 283,
-        "interceptions_90": 8.11,
-        "saves": 117,
-        "saves_90": 3.35,
-        "yellow_cards": 82,
-        "yc_90": 2.35,
-        "red_cards": 7,
-        "rc_90": 0.2
-      }
+      ]
     },
     "Udinese": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Maduka Okoye (Udinese)"
         },
         {
+          "position": "MF",
+          "current_player": "Jesper Karlström (Udinese)"
+        },
+        {
           "position": "DF",
           "current_player": "Oumar Solet (Udinese)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Jurgen Ekkelenkamp (Udinese)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Nicolò Zaniolo (Udinese)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Arthur Atta (Udinese)"
         },
         {
           "position": "DF",
@@ -5276,60 +3539,20 @@ window.TACTICAL_DATA = {
           "current_player": "Thomas Kristensen (Udinese)"
         },
         {
+          "position": "FW",
+          "current_player": "Keinan Davis (Udinese)"
+        },
+        {
           "position": "DF",
           "current_player": "Hassane Kamara (Udinese)"
         },
         {
           "position": "DF",
           "current_player": "Nicolò Bertola (Udinese)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Jesper Karlström (Udinese)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Jurgen Ekkelenkamp (Udinese)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Arthur Atta (Udinese)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Nicolò Zaniolo (Udinese)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Keinan Davis (Udinese)"
         }
-      ],
-      "team_stats": {
-        "goals": 42,
-        "goals_90": 1.2,
-        "assists": 28,
-        "assists_90": 0.8,
-        "shots": 410,
-        "shots_90": 11.74,
-        "shots_on_target": 135,
-        "sot_90": 3.87,
-        "clean_sheets": 9,
-        "goals_against": 35,
-        "ga_90": 1.0,
-        "tackles_won": 352,
-        "tackles_90": 10.08,
-        "interceptions": 303,
-        "interceptions_90": 8.68,
-        "saves": 86,
-        "saves_90": 2.46,
-        "yellow_cards": 66,
-        "yc_90": 1.89,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Mallorca": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
@@ -5340,12 +3563,24 @@ window.TACTICAL_DATA = {
           "current_player": "Martin Valjent (Mallorca)"
         },
         {
+          "position": "FW",
+          "current_player": "Vedat Muriqi (Mallorca)"
+        },
+        {
           "position": "DF",
           "current_player": "Johan Mojica (Mallorca)"
         },
         {
+          "position": "MF",
+          "current_player": "Samu Costa (Mallorca)"
+        },
+        {
           "position": "DF",
           "current_player": "Pablo Maffeo (Mallorca)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Sergi Darder (Mallorca)"
         },
         {
           "position": "DF",
@@ -5356,18 +3591,6 @@ window.TACTICAL_DATA = {
           "current_player": "Omar Mascarell (Mallorca)"
         },
         {
-          "position": "MF",
-          "current_player": "Samu Costa (Mallorca)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Sergi Darder (Mallorca)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Vedat Muriqi (Mallorca)"
-        },
-        {
           "position": "FW",
           "current_player": "Mateo Joseph (Mallorca)"
         },
@@ -5375,33 +3598,9 @@ window.TACTICAL_DATA = {
           "position": "FW",
           "current_player": "Jan Virgili (Mallorca)"
         }
-      ],
-      "team_stats": {
-        "goals": 42,
-        "goals_90": 1.24,
-        "assists": 30,
-        "assists_90": 0.89,
-        "shots": 354,
-        "shots_90": 10.45,
-        "shots_on_target": 138,
-        "sot_90": 4.07,
-        "clean_sheets": 3,
-        "goals_against": 44,
-        "ga_90": 1.3,
-        "tackles_won": 284,
-        "tackles_90": 8.39,
-        "interceptions": 246,
-        "interceptions_90": 7.26,
-        "saves": 111,
-        "saves_90": 3.28,
-        "yellow_cards": 75,
-        "yc_90": 2.21,
-        "red_cards": 4,
-        "rc_90": 0.12
-      }
+      ]
     },
     "Paris FC": {
-      "formation": "6-2-2",
       "lineup": [
         {
           "position": "GK",
@@ -5412,12 +3611,28 @@ window.TACTICAL_DATA = {
           "current_player": "Moustapha Mbow (Paris FC)"
         },
         {
+          "position": "FW",
+          "current_player": "Ilan Kebbal (Paris FC)"
+        },
+        {
           "position": "DF",
           "current_player": "Adama Camara (Paris FC)"
         },
         {
+          "position": "FW",
+          "current_player": "Moses Simon (Paris FC)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Maxime Lopez (Paris FC)"
+        },
+        {
           "position": "DF",
           "current_player": "Otavio Ataide (Paris FC)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Pierre Lees-Melou (Paris FC)"
         },
         {
           "position": "DF",
@@ -5430,74 +3645,14 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Hamari Traoré (Paris FC)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Maxime Lopez (Paris FC)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Pierre Lees-Melou (Paris FC)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Ilan Kebbal (Paris FC)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Moses Simon (Paris FC)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.35,
-        "assists": 26,
-        "assists_90": 0.81,
-        "shots": 367,
-        "shots_90": 11.5,
-        "shots_on_target": 125,
-        "sot_90": 3.92,
-        "clean_sheets": 7,
-        "goals_against": 26,
-        "ga_90": 0.81,
-        "tackles_won": 305,
-        "tackles_90": 9.55,
-        "interceptions": 248,
-        "interceptions_90": 7.77,
-        "saves": 78,
-        "saves_90": 2.44,
-        "yellow_cards": 68,
-        "yc_90": 2.13,
-        "red_cards": 5,
-        "rc_90": 0.16
-      }
+      ]
     },
     "Milan": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Mike Maignan (Milan)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Strahinja Pavlović (Milan)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Fikayo Tomori (Milan)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Matteo Gabbia (Milan)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Davide Bartesaghi (Milan)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Koni De Winter (Milan)"
         },
         {
           "position": "MF",
@@ -5508,6 +3663,14 @@ window.TACTICAL_DATA = {
           "current_player": "Alexis Saelemaekers (Milan)"
         },
         {
+          "position": "DF",
+          "current_player": "Strahinja Pavlović (Milan)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Fikayo Tomori (Milan)"
+        },
+        {
           "position": "MF",
           "current_player": "Youssouf Fofana (Milan)"
         },
@@ -5516,36 +3679,24 @@ window.TACTICAL_DATA = {
           "current_player": "Adrien Rabiot (Milan)"
         },
         {
+          "position": "DF",
+          "current_player": "Matteo Gabbia (Milan)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Davide Bartesaghi (Milan)"
+        },
+        {
           "position": "FW",
           "current_player": "Rafael Leão (Milan)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Koni De Winter (Milan)"
         }
-      ],
-      "team_stats": {
-        "goals": 48,
-        "goals_90": 1.38,
-        "assists": 34,
-        "assists_90": 0.97,
-        "shots": 459,
-        "shots_90": 13.15,
-        "shots_on_target": 148,
-        "sot_90": 4.24,
-        "clean_sheets": 14,
-        "goals_against": 29,
-        "ga_90": 0.83,
-        "tackles_won": 293,
-        "tackles_90": 8.4,
-        "interceptions": 226,
-        "interceptions_90": 6.48,
-        "saves": 98,
-        "saves_90": 2.81,
-        "yellow_cards": 56,
-        "yc_90": 1.6,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Cremonese": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -5558,6 +3709,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Federico Baschirotto (Cremonese)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Federico Bonazzoli (Cremonese)"
         },
         {
           "position": "DF",
@@ -5576,48 +3731,20 @@ window.TACTICAL_DATA = {
           "current_player": "Warren Bondo (Cremonese)"
         },
         {
+          "position": "FW",
+          "current_player": "Jamie Vardy (Cremonese)"
+        },
+        {
           "position": "MF",
           "current_player": "Alessio Zerbin (Cremonese)"
         },
         {
           "position": "MF",
           "current_player": "Tommaso Barbieri (Cremonese)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Federico Bonazzoli (Cremonese)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Jamie Vardy (Cremonese)"
         }
-      ],
-      "team_stats": {
-        "goals": 27,
-        "goals_90": 0.77,
-        "assists": 20,
-        "assists_90": 0.57,
-        "shots": 323,
-        "shots_90": 9.23,
-        "shots_on_target": 114,
-        "sot_90": 3.26,
-        "clean_sheets": 9,
-        "goals_against": 46,
-        "ga_90": 1.31,
-        "tackles_won": 283,
-        "tackles_90": 8.09,
-        "interceptions": 247,
-        "interceptions_90": 7.06,
-        "saves": 134,
-        "saves_90": 3.83,
-        "yellow_cards": 66,
-        "yc_90": 1.89,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Brighton": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -5636,12 +3763,20 @@ window.TACTICAL_DATA = {
           "current_player": "Lewis Dunk (Brighton)"
         },
         {
-          "position": "DF",
-          "current_player": "Mats Wieffer (Brighton)"
+          "position": "FW",
+          "current_player": "Diego Gómez (Brighton)"
         },
         {
           "position": "MF",
           "current_player": "Yankuba Minteh (Brighton)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Danny Welbeck (Brighton)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Mats Wieffer (Brighton)"
         },
         {
           "position": "MF",
@@ -5653,43 +3788,11 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "FW",
-          "current_player": "Diego Gómez (Brighton)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Danny Welbeck (Brighton)"
-        },
-        {
-          "position": "FW",
           "current_player": "Georginio Rutter (Brighton)"
         }
-      ],
-      "team_stats": {
-        "goals": 48,
-        "goals_90": 1.37,
-        "assists": 31,
-        "assists_90": 0.89,
-        "shots": 449,
-        "shots_90": 12.83,
-        "shots_on_target": 160,
-        "sot_90": 4.57,
-        "clean_sheets": 9,
-        "goals_against": 42,
-        "ga_90": 1.2,
-        "tackles_won": 386,
-        "tackles_90": 11.03,
-        "interceptions": 288,
-        "interceptions_90": 8.23,
-        "saves": 96,
-        "saves_90": 2.74,
-        "yellow_cards": 85,
-        "yc_90": 2.43,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     },
     "RB Leipzig": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -5700,18 +3803,6 @@ window.TACTICAL_DATA = {
           "current_player": "Willi Orban (RB Leipzig)"
         },
         {
-          "position": "DF",
-          "current_player": "David Raum (RB Leipzig)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Ridle Baku (RB Leipzig)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Castello Lukeba (RB Leipzig)"
-        },
-        {
           "position": "MF",
           "current_player": "Christoph Baumgartner (RB Leipzig)"
         },
@@ -5720,8 +3811,12 @@ window.TACTICAL_DATA = {
           "current_player": "Nicolas Seiwald (RB Leipzig)"
         },
         {
-          "position": "MF",
-          "current_player": "Xaver Schlager (RB Leipzig)"
+          "position": "DF",
+          "current_player": "David Raum (RB Leipzig)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Ridle Baku (RB Leipzig)"
         },
         {
           "position": "FW",
@@ -5734,34 +3829,18 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Antonio Nusa (RB Leipzig)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Castello Lukeba (RB Leipzig)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Xaver Schlager (RB Leipzig)"
         }
-      ],
-      "team_stats": {
-        "goals": 61,
-        "goals_90": 1.91,
-        "assists": 45,
-        "assists_90": 1.41,
-        "shots": 511,
-        "shots_90": 15.97,
-        "shots_on_target": 193,
-        "sot_90": 6.03,
-        "clean_sheets": 9,
-        "goals_against": 28,
-        "ga_90": 0.88,
-        "tackles_won": 322,
-        "tackles_90": 10.06,
-        "interceptions": 292,
-        "interceptions_90": 9.12,
-        "saves": 79,
-        "saves_90": 2.47,
-        "yellow_cards": 49,
-        "yc_90": 1.53,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     },
     "Sassuolo": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -5780,20 +3859,8 @@ window.TACTICAL_DATA = {
           "current_player": "Tarik Muharemovic (Sassuolo)"
         },
         {
-          "position": "DF",
-          "current_player": "Josh Doig (Sassuolo)"
-        },
-        {
           "position": "MF",
           "current_player": "Ismaël Koné (Sassuolo)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Nemanja Matić (Sassuolo)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Kristian Thorstvedt (Sassuolo)"
         },
         {
           "position": "FW",
@@ -5804,36 +3871,24 @@ window.TACTICAL_DATA = {
           "current_player": "Andrea Pinamonti (Sassuolo)"
         },
         {
+          "position": "MF",
+          "current_player": "Nemanja Matić (Sassuolo)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Kristian Thorstvedt (Sassuolo)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Josh Doig (Sassuolo)"
+        },
+        {
           "position": "FW",
           "current_player": "Domenico Berardi (Sassuolo)"
         }
-      ],
-      "team_stats": {
-        "goals": 43,
-        "goals_90": 1.2,
-        "assists": 33,
-        "assists_90": 0.92,
-        "shots": 385,
-        "shots_90": 10.75,
-        "shots_on_target": 136,
-        "sot_90": 3.8,
-        "clean_sheets": 6,
-        "goals_against": 43,
-        "ga_90": 1.2,
-        "tackles_won": 293,
-        "tackles_90": 8.18,
-        "interceptions": 280,
-        "interceptions_90": 7.81,
-        "saves": 128,
-        "saves_90": 3.57,
-        "yellow_cards": 80,
-        "yc_90": 2.23,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Fiorentina": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -5848,18 +3903,6 @@ window.TACTICAL_DATA = {
           "current_player": "Marin Pongračić (Fiorentina)"
         },
         {
-          "position": "DF",
-          "current_player": "Luca Ranieri (Fiorentina)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Robin Gosens (Fiorentina)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Pietro Comuzzo (Fiorentina)"
-        },
-        {
           "position": "MF",
           "current_player": "Nicolò Fagioli (Fiorentina)"
         },
@@ -5868,8 +3911,8 @@ window.TACTICAL_DATA = {
           "current_player": "Rolando Mandragora (Fiorentina)"
         },
         {
-          "position": "MF",
-          "current_player": "Cher Ndour (Fiorentina)"
+          "position": "DF",
+          "current_player": "Luca Ranieri (Fiorentina)"
         },
         {
           "position": "FW",
@@ -5878,38 +3921,34 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Moise Kean (Fiorentina)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Robin Gosens (Fiorentina)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Cher Ndour (Fiorentina)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Pietro Comuzzo (Fiorentina)"
         }
-      ],
-      "team_stats": {
-        "goals": 37,
-        "goals_90": 1.06,
-        "assists": 21,
-        "assists_90": 0.6,
-        "shots": 455,
-        "shots_90": 13.0,
-        "shots_on_target": 122,
-        "sot_90": 3.49,
-        "clean_sheets": 8,
-        "goals_against": 49,
-        "ga_90": 1.4,
-        "tackles_won": 248,
-        "tackles_90": 7.09,
-        "interceptions": 247,
-        "interceptions_90": 7.06,
-        "saves": 107,
-        "saves_90": 3.06,
-        "yellow_cards": 79,
-        "yc_90": 2.26,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Hamburger SV": {
-      "formation": "6-2-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Daniel Heuer Fernandes (Hamburger SV)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nicolai Remberg (Hamburger SV)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Ransford Königsdörffer (Hamburger SV)"
         },
         {
           "position": "DF",
@@ -5920,6 +3959,10 @@ window.TACTICAL_DATA = {
           "current_player": "Luka Vušković (Hamburger SV)"
         },
         {
+          "position": "FW",
+          "current_player": "Fabio Vieira (Hamburger SV)"
+        },
+        {
           "position": "DF",
           "current_player": "Nicolás Capaldo (Hamburger SV)"
         },
@@ -5928,60 +3971,28 @@ window.TACTICAL_DATA = {
           "current_player": "Jordan Torunarigha (Hamburger SV)"
         },
         {
+          "position": "MF",
+          "current_player": "Albert Sambi Lokonga (Hamburger SV)"
+        },
+        {
           "position": "DF",
           "current_player": "Warmed Omari (Hamburger SV)"
         },
         {
           "position": "DF",
           "current_player": "William Mikelbrencis (Hamburger SV)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Nicolai Remberg (Hamburger SV)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Albert Sambi Lokonga (Hamburger SV)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Ransford Königsdörffer (Hamburger SV)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Fabio Vieira (Hamburger SV)"
         }
-      ],
-      "team_stats": {
-        "goals": 36,
-        "goals_90": 1.13,
-        "assists": 27,
-        "assists_90": 0.85,
-        "shots": 386,
-        "shots_90": 12.11,
-        "shots_on_target": 144,
-        "sot_90": 4.52,
-        "clean_sheets": 6,
-        "goals_against": 51,
-        "ga_90": 1.6,
-        "tackles_won": 283,
-        "tackles_90": 8.88,
-        "interceptions": 276,
-        "interceptions_90": 8.66,
-        "saves": 104,
-        "saves_90": 3.26,
-        "yellow_cards": 74,
-        "yc_90": 2.32,
-        "red_cards": 8,
-        "rc_90": 0.25
-      }
+      ]
     },
     "Lecce": {
-      "formation": "5-2-3",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Wladimiro Falcone (Lecce)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ylber Ramadani (Lecce)"
         },
         {
           "position": "DF",
@@ -5996,18 +4007,6 @@ window.TACTICAL_DATA = {
           "current_player": "Danilo Veiga (Lecce)"
         },
         {
-          "position": "DF",
-          "current_player": "Kialonda (Lecce)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Jamil Siebert (Lecce)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Ylber Ramadani (Lecce)"
-        },
-        {
           "position": "MF",
           "current_player": "Lassana Coulibaly (Lecce)"
         },
@@ -6016,44 +4015,48 @@ window.TACTICAL_DATA = {
           "current_player": "Santiago Pierotti (Lecce)"
         },
         {
+          "position": "DF",
+          "current_player": "Kialonda (Lecce)"
+        },
+        {
           "position": "FW",
           "current_player": "Nikola Štulić (Lecce)"
         },
         {
           "position": "FW",
           "current_player": "Lameck Banda (Lecce)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Jamil Siebert (Lecce)"
         }
-      ],
-      "team_stats": {
-        "goals": 24,
-        "goals_90": 0.69,
-        "assists": 17,
-        "assists_90": 0.49,
-        "shots": 345,
-        "shots_90": 9.87,
-        "shots_on_target": 84,
-        "sot_90": 2.4,
-        "clean_sheets": 9,
-        "goals_against": 47,
-        "ga_90": 1.34,
-        "tackles_won": 371,
-        "tackles_90": 10.61,
-        "interceptions": 243,
-        "interceptions_90": 6.95,
-        "saves": 98,
-        "saves_90": 2.8,
-        "yellow_cards": 62,
-        "yc_90": 1.77,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Augsburg": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Finn Dahmen (Augsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Robin Fellhauer (Augsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Han-Noah Massengo (Augsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Fabian Rieder (Augsburg)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Alexis Claude-Maurice (Augsburg)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Dimitris Giannoulis (Augsburg)"
         },
         {
           "position": "DF",
@@ -6072,56 +4075,12 @@ window.TACTICAL_DATA = {
           "current_player": "Kristijan Jakić (Augsburg)"
         },
         {
-          "position": "MF",
-          "current_player": "Robin Fellhauer (Augsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Han-Noah Massengo (Augsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Fabian Rieder (Augsburg)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Dimitris Giannoulis (Augsburg)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Alexis Claude-Maurice (Augsburg)"
-        },
-        {
           "position": "FW",
           "current_player": "Anton Kade (Augsburg)"
         }
-      ],
-      "team_stats": {
-        "goals": 42,
-        "goals_90": 1.31,
-        "assists": 26,
-        "assists_90": 0.81,
-        "shots": 419,
-        "shots_90": 13.1,
-        "shots_on_target": 146,
-        "sot_90": 4.56,
-        "clean_sheets": 5,
-        "goals_against": 56,
-        "ga_90": 1.75,
-        "tackles_won": 315,
-        "tackles_90": 9.85,
-        "interceptions": 273,
-        "interceptions_90": 8.53,
-        "saves": 97,
-        "saves_90": 3.03,
-        "yellow_cards": 79,
-        "yc_90": 2.47,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Paris Saint-Germain": {
-      "formation": "5-1-4",
       "lineup": [
         {
           "position": "GK",
@@ -6136,24 +4095,20 @@ window.TACTICAL_DATA = {
           "current_player": "Illia Zabarnyi (Paris Saint-Germain)"
         },
         {
-          "position": "DF",
-          "current_player": "Willian Pacho (Paris Saint-Germain)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Lucas Hernández (Paris Saint-Germain)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Achraf Hakimi (Paris Saint-Germain)"
-        },
-        {
           "position": "MF",
           "current_player": "Vitinha (Paris Saint-Germain)"
         },
         {
+          "position": "DF",
+          "current_player": "Willian Pacho (Paris Saint-Germain)"
+        },
+        {
           "position": "FW",
           "current_player": "Senny Mayulu (Paris Saint-Germain)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Lucas Hernández (Paris Saint-Germain)"
         },
         {
           "position": "FW",
@@ -6166,34 +4121,14 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Khvicha Kvaratskhelia (Paris Saint-Germain)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Achraf Hakimi (Paris Saint-Germain)"
         }
-      ],
-      "team_stats": {
-        "goals": 69,
-        "goals_90": 2.23,
-        "assists": 51,
-        "assists_90": 1.65,
-        "shots": 559,
-        "shots_90": 18.05,
-        "shots_on_target": 215,
-        "sot_90": 6.94,
-        "clean_sheets": 9,
-        "goals_against": 13,
-        "ga_90": 0.42,
-        "tackles_won": 284,
-        "tackles_90": 9.17,
-        "interceptions": 214,
-        "interceptions_90": 6.91,
-        "saves": 58,
-        "saves_90": 1.87,
-        "yellow_cards": 35,
-        "yc_90": 1.13,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Newcastle United": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -6204,18 +4139,6 @@ window.TACTICAL_DATA = {
           "current_player": "Malick Thiaw (Newcastle United)"
         },
         {
-          "position": "DF",
-          "current_player": "Dan Burn (Newcastle United)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Lewis Hall (Newcastle United)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Sven Botman (Newcastle United)"
-        },
-        {
           "position": "MF",
           "current_player": "Sandro Tonali (Newcastle United)"
         },
@@ -6224,12 +4147,20 @@ window.TACTICAL_DATA = {
           "current_player": "Bruno Guimarães (Newcastle United)"
         },
         {
+          "position": "FW",
+          "current_player": "Anthony Gordon (Newcastle United)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Dan Burn (Newcastle United)"
+        },
+        {
           "position": "MF",
           "current_player": "Joelinton (Newcastle United)"
         },
         {
-          "position": "FW",
-          "current_player": "Anthony Gordon (Newcastle United)"
+          "position": "DF",
+          "current_player": "Lewis Hall (Newcastle United)"
         },
         {
           "position": "FW",
@@ -6238,34 +4169,14 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Harvey Barnes (Newcastle United)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Sven Botman (Newcastle United)"
         }
-      ],
-      "team_stats": {
-        "goals": 49,
-        "goals_90": 1.4,
-        "assists": 28,
-        "assists_90": 0.8,
-        "shots": 454,
-        "shots_90": 13.01,
-        "shots_on_target": 161,
-        "sot_90": 4.61,
-        "clean_sheets": 7,
-        "goals_against": 34,
-        "ga_90": 0.97,
-        "tackles_won": 312,
-        "tackles_90": 8.94,
-        "interceptions": 234,
-        "interceptions_90": 6.71,
-        "saves": 97,
-        "saves_90": 2.78,
-        "yellow_cards": 64,
-        "yc_90": 1.83,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Lazio": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -6284,8 +4195,8 @@ window.TACTICAL_DATA = {
           "current_player": "Mario Gila (Lazio)"
         },
         {
-          "position": "DF",
-          "current_player": "Nuno Tavares (Lazio)"
+          "position": "FW",
+          "current_player": "Mattia Zaccagni (Lazio)"
         },
         {
           "position": "MF",
@@ -6296,48 +4207,24 @@ window.TACTICAL_DATA = {
           "current_player": "Toma Bašić (Lazio)"
         },
         {
-          "position": "MF",
-          "current_player": "Mattéo Guendouzi (Lazio)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Mattia Zaccagni (Lazio)"
-        },
-        {
           "position": "FW",
           "current_player": "Gustav Isaksen (Lazio)"
         },
         {
           "position": "FW",
           "current_player": "Matteo Cancellieri (Lazio)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Mattéo Guendouzi (Lazio)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Nuno Tavares (Lazio)"
         }
-      ],
-      "team_stats": {
-        "goals": 37,
-        "goals_90": 1.06,
-        "assists": 26,
-        "assists_90": 0.74,
-        "shots": 387,
-        "shots_90": 11.09,
-        "shots_on_target": 140,
-        "sot_90": 4.01,
-        "clean_sheets": 12,
-        "goals_against": 27,
-        "ga_90": 0.77,
-        "tackles_won": 284,
-        "tackles_90": 8.14,
-        "interceptions": 273,
-        "interceptions_90": 7.82,
-        "saves": 107,
-        "saves_90": 3.07,
-        "yellow_cards": 71,
-        "yc_90": 2.03,
-        "red_cards": 7,
-        "rc_90": 0.2
-      }
+      ]
     },
     "Manchester Utd": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -6348,18 +4235,6 @@ window.TACTICAL_DATA = {
           "current_player": "Luke Shaw (Manchester Utd)"
         },
         {
-          "position": "DF",
-          "current_player": "Diogo Dalot (Manchester Utd)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Leny Yoro (Manchester Utd)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Harry Maguire (Manchester Utd)"
-        },
-        {
           "position": "MF",
           "current_player": "Bruno Fernandes (Manchester Utd)"
         },
@@ -6368,48 +4243,36 @@ window.TACTICAL_DATA = {
           "current_player": "Casemiro (Manchester Utd)"
         },
         {
-          "position": "MF",
-          "current_player": "Amad Diallo (Manchester Utd)"
-        },
-        {
           "position": "FW",
           "current_player": "Bryan Mbeumo (Manchester Utd)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Diogo Dalot (Manchester Utd)"
         },
         {
           "position": "FW",
           "current_player": "Matheus Cunha (Manchester Utd)"
         },
         {
+          "position": "MF",
+          "current_player": "Amad Diallo (Manchester Utd)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Leny Yoro (Manchester Utd)"
+        },
+        {
           "position": "FW",
           "current_player": "Benjamin Šeško (Manchester Utd)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Harry Maguire (Manchester Utd)"
         }
-      ],
-      "team_stats": {
-        "goals": 60,
-        "goals_90": 1.72,
-        "assists": 42,
-        "assists_90": 1.2,
-        "shots": 544,
-        "shots_90": 15.59,
-        "shots_on_target": 199,
-        "sot_90": 5.7,
-        "clean_sheets": 6,
-        "goals_against": 37,
-        "ga_90": 1.06,
-        "tackles_won": 375,
-        "tackles_90": 10.74,
-        "interceptions": 279,
-        "interceptions_90": 7.99,
-        "saves": 83,
-        "saves_90": 2.38,
-        "yellow_cards": 58,
-        "yc_90": 1.66,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Heidenheim": {
-      "formation": "5-3-2",
       "lineup": [
         {
           "position": "GK",
@@ -6420,22 +4283,6 @@ window.TACTICAL_DATA = {
           "current_player": "Patrick Mainka (Heidenheim)"
         },
         {
-          "position": "DF",
-          "current_player": "Jonas Föhrenbach (Heidenheim)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Marnon Busch (Heidenheim)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Benedikt Gimber (Heidenheim)"
-        },
-        {
-          "position": "DF",
-          "current_player": "Omar Traoré (Heidenheim)"
-        },
-        {
           "position": "MF",
           "current_player": "Jan Schöppner (Heidenheim)"
         },
@@ -6444,48 +4291,44 @@ window.TACTICAL_DATA = {
           "current_player": "Niklas Dorsch (Heidenheim)"
         },
         {
-          "position": "MF",
-          "current_player": "Julian Niehues (Heidenheim)"
+          "position": "DF",
+          "current_player": "Jonas Föhrenbach (Heidenheim)"
         },
         {
           "position": "FW",
           "current_player": "Arijon Ibrahimović (Heidenheim)"
         },
         {
+          "position": "DF",
+          "current_player": "Marnon Busch (Heidenheim)"
+        },
+        {
           "position": "FW",
           "current_player": "Marvin Pieringer (Heidenheim)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Benedikt Gimber (Heidenheim)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Julian Niehues (Heidenheim)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Omar Traoré (Heidenheim)"
         }
-      ],
-      "team_stats": {
-        "goals": 38,
-        "goals_90": 1.19,
-        "assists": 27,
-        "assists_90": 0.85,
-        "shots": 363,
-        "shots_90": 11.37,
-        "shots_on_target": 113,
-        "sot_90": 3.54,
-        "clean_sheets": 1,
-        "goals_against": 67,
-        "ga_90": 2.1,
-        "tackles_won": 297,
-        "tackles_90": 9.3,
-        "interceptions": 301,
-        "interceptions_90": 9.43,
-        "saves": 104,
-        "saves_90": 3.26,
-        "yellow_cards": 45,
-        "yc_90": 1.41,
-        "red_cards": 1,
-        "rc_90": 0.03
-      }
+      ]
     },
     "Crystal Palace": {
-      "formation": "3-5-2",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Dean Henderson (Crystal Palace)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Tyrick Mitchell (Crystal Palace)"
         },
         {
           "position": "DF",
@@ -6496,14 +4339,6 @@ window.TACTICAL_DATA = {
           "current_player": "Chris Richards (Crystal Palace)"
         },
         {
-          "position": "DF",
-          "current_player": "Marc Guéhi (Crystal Palace)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Tyrick Mitchell (Crystal Palace)"
-        },
-        {
           "position": "MF",
           "current_player": "Adam Wharton (Crystal Palace)"
         },
@@ -6512,48 +4347,28 @@ window.TACTICAL_DATA = {
           "current_player": "Daniel Muñoz (Crystal Palace)"
         },
         {
-          "position": "MF",
-          "current_player": "Ismaila Sarr (Crystal Palace)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Daichi Kamada (Crystal Palace)"
-        },
-        {
           "position": "FW",
           "current_player": "Jean-Philippe Mateta (Crystal Palace)"
         },
         {
           "position": "FW",
           "current_player": "Yeremi Pino (Crystal Palace)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Ismaila Sarr (Crystal Palace)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Marc Guéhi (Crystal Palace)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Daichi Kamada (Crystal Palace)"
         }
-      ],
-      "team_stats": {
-        "goals": 35,
-        "goals_90": 1.03,
-        "assists": 21,
-        "assists_90": 0.62,
-        "shots": 391,
-        "shots_90": 11.52,
-        "shots_on_target": 123,
-        "sot_90": 3.62,
-        "clean_sheets": 11,
-        "goals_against": 42,
-        "ga_90": 1.24,
-        "tackles_won": 373,
-        "tackles_90": 10.99,
-        "interceptions": 276,
-        "interceptions_90": 8.13,
-        "saves": 95,
-        "saves_90": 2.8,
-        "yellow_cards": 71,
-        "yc_90": 2.09,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Tottenham Hotspur": {
-      "formation": "6-1-3",
       "lineup": [
         {
           "position": "GK",
@@ -6580,10 +4395,6 @@ window.TACTICAL_DATA = {
           "current_player": "João Palhinha (Tottenham Hotspur)"
         },
         {
-          "position": "DF",
-          "current_player": "Archie Gray (Tottenham Hotspur)"
-        },
-        {
           "position": "MF",
           "current_player": "Rodrigo Bentancur (Tottenham Hotspur)"
         },
@@ -6598,34 +4409,14 @@ window.TACTICAL_DATA = {
         {
           "position": "FW",
           "current_player": "Randal Kolo Muani (Tottenham Hotspur)"
+        },
+        {
+          "position": "DF",
+          "current_player": "Archie Gray (Tottenham Hotspur)"
         }
-      ],
-      "team_stats": {
-        "goals": 44,
-        "goals_90": 1.26,
-        "assists": 35,
-        "assists_90": 1.01,
-        "shots": 390,
-        "shots_90": 11.2,
-        "shots_on_target": 138,
-        "sot_90": 3.96,
-        "clean_sheets": 7,
-        "goals_against": 50,
-        "ga_90": 1.44,
-        "tackles_won": 410,
-        "tackles_90": 11.77,
-        "interceptions": 280,
-        "interceptions_90": 8.04,
-        "saves": 87,
-        "saves_90": 2.5,
-        "yellow_cards": 92,
-        "yc_90": 2.64,
-        "red_cards": 4,
-        "rc_90": 0.11
-      }
+      ]
     },
     "Bologna": {
-      "formation": "4-3-3",
       "lineup": [
         {
           "position": "GK",
@@ -6636,12 +4427,32 @@ window.TACTICAL_DATA = {
           "current_player": "Juan Miranda (Bologna)"
         },
         {
+          "position": "FW",
+          "current_player": "Riccardo Orsolini (Bologna)"
+        },
+        {
           "position": "DF",
           "current_player": "Jhon Lucumí (Bologna)"
         },
         {
+          "position": "FW",
+          "current_player": "Santiago Castro (Bologna)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Remo Freuler (Bologna)"
+        },
+        {
           "position": "DF",
           "current_player": "Torbjørn Heggem (Bologna)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Nikola Moro (Bologna)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Nicolò Cambiaghi (Bologna)"
         },
         {
           "position": "DF",
@@ -6649,59 +4460,35 @@ window.TACTICAL_DATA = {
         },
         {
           "position": "MF",
-          "current_player": "Remo Freuler (Bologna)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Nikola Moro (Bologna)"
-        },
-        {
-          "position": "MF",
           "current_player": "Jens Odgaard (Bologna)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Riccardo Orsolini (Bologna)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Santiago Castro (Bologna)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Nicolò Cambiaghi (Bologna)"
         }
-      ],
-      "team_stats": {
-        "goals": 41,
-        "goals_90": 1.18,
-        "assists": 28,
-        "assists_90": 0.8,
-        "shots": 459,
-        "shots_90": 13.18,
-        "shots_on_target": 132,
-        "sot_90": 3.79,
-        "clean_sheets": 7,
-        "goals_against": 29,
-        "ga_90": 0.83,
-        "tackles_won": 292,
-        "tackles_90": 8.38,
-        "interceptions": 250,
-        "interceptions_90": 7.18,
-        "saves": 86,
-        "saves_90": 2.47,
-        "yellow_cards": 62,
-        "yc_90": 1.78,
-        "red_cards": 6,
-        "rc_90": 0.17
-      }
+      ]
     },
     "Bayern Munich": {
-      "formation": "5-4-1",
       "lineup": [
         {
           "position": "GK",
           "current_player": "Manuel Neuer (Bayern Munich)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Luis Díaz (Bayern Munich)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Harry Kane (Bayern Munich)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Leon Goretzka (Bayern Munich)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Michael Olise (Bayern Munich)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Joshua Kimmich (Bayern Munich)"
         },
         {
           "position": "DF",
@@ -6722,54 +4509,10 @@ window.TACTICAL_DATA = {
         {
           "position": "DF",
           "current_player": "Kim Min-jae (Bayern Munich)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Luis Díaz (Bayern Munich)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Leon Goretzka (Bayern Munich)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Michael Olise (Bayern Munich)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Joshua Kimmich (Bayern Munich)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Harry Kane (Bayern Munich)"
         }
-      ],
-      "team_stats": {
-        "goals": 113,
-        "goals_90": 3.54,
-        "assists": 85,
-        "assists_90": 2.66,
-        "shots": 618,
-        "shots_90": 19.35,
-        "shots_on_target": 273,
-        "sot_90": 8.55,
-        "clean_sheets": 7,
-        "goals_against": 19,
-        "ga_90": 0.59,
-        "tackles_won": 256,
-        "tackles_90": 8.01,
-        "interceptions": 268,
-        "interceptions_90": 8.39,
-        "saves": 63,
-        "saves_90": 1.97,
-        "yellow_cards": 57,
-        "yc_90": 1.78,
-        "red_cards": 2,
-        "rc_90": 0.06
-      }
+      ]
     },
     "Gladbach": {
-      "formation": "4-4-2",
       "lineup": [
         {
           "position": "GK",
@@ -6780,8 +4523,20 @@ window.TACTICAL_DATA = {
           "current_player": "Nico Elvedi (Gladbach)"
         },
         {
+          "position": "MF",
+          "current_player": "Rocco Reitz (Gladbach)"
+        },
+        {
           "position": "DF",
           "current_player": "Joe Scally (Gladbach)"
+        },
+        {
+          "position": "FW",
+          "current_player": "Haris Tabakovic (Gladbach)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Yannik Engelhardt (Gladbach)"
         },
         {
           "position": "DF",
@@ -6792,12 +4547,8 @@ window.TACTICAL_DATA = {
           "current_player": "Kevin Diks (Gladbach)"
         },
         {
-          "position": "MF",
-          "current_player": "Rocco Reitz (Gladbach)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Yannik Engelhardt (Gladbach)"
+          "position": "FW",
+          "current_player": "Franck Honorat (Gladbach)"
         },
         {
           "position": "MF",
@@ -6806,46 +4557,22 @@ window.TACTICAL_DATA = {
         {
           "position": "MF",
           "current_player": "Kevin Stöger (Gladbach)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Haris Tabakovic (Gladbach)"
-        },
-        {
-          "position": "FW",
-          "current_player": "Franck Honorat (Gladbach)"
         }
-      ],
-      "team_stats": {
-        "goals": 35,
-        "goals_90": 1.1,
-        "assists": 25,
-        "assists_90": 0.78,
-        "shots": 369,
-        "shots_90": 11.57,
-        "shots_on_target": 131,
-        "sot_90": 4.11,
-        "clean_sheets": 12,
-        "goals_against": 50,
-        "ga_90": 1.57,
-        "tackles_won": 315,
-        "tackles_90": 9.88,
-        "interceptions": 304,
-        "interceptions_90": 9.53,
-        "saves": 126,
-        "saves_90": 3.95,
-        "yellow_cards": 54,
-        "yc_90": 1.69,
-        "red_cards": 3,
-        "rc_90": 0.09
-      }
+      ]
     },
     "Arsenal": {
-      "formation": "4-2-4",
       "lineup": [
         {
           "position": "GK",
           "current_player": "David Raya (Arsenal)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Declan Rice (Arsenal)"
+        },
+        {
+          "position": "MF",
+          "current_player": "Martín Zubimendi (Arsenal)"
         },
         {
           "position": "DF",
@@ -6860,18 +4587,6 @@ window.TACTICAL_DATA = {
           "current_player": "William Saliba (Arsenal)"
         },
         {
-          "position": "DF",
-          "current_player": "Piero Hincapié (Arsenal)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Declan Rice (Arsenal)"
-        },
-        {
-          "position": "MF",
-          "current_player": "Martín Zubimendi (Arsenal)"
-        },
-        {
           "position": "FW",
           "current_player": "Viktor Gyökeres (Arsenal)"
         },
@@ -6884,33 +4599,14 @@ window.TACTICAL_DATA = {
           "current_player": "Leandro Trossard (Arsenal)"
         },
         {
+          "position": "DF",
+          "current_player": "Piero Hincapié (Arsenal)"
+        },
+        {
           "position": "FW",
           "current_player": "Eberechi Eze (Arsenal)"
         }
-      ],
-      "team_stats": {
-        "goals": 63,
-        "goals_90": 1.8,
-        "assists": 47,
-        "assists_90": 1.34,
-        "shots": 507,
-        "shots_90": 14.49,
-        "shots_on_target": 172,
-        "sot_90": 4.91,
-        "clean_sheets": 17,
-        "goals_against": 26,
-        "ga_90": 0.74,
-        "tackles_won": 316,
-        "tackles_90": 9.03,
-        "interceptions": 248,
-        "interceptions_90": 7.09,
-        "saves": 56,
-        "saves_90": 1.6,
-        "yellow_cards": 45,
-        "yc_90": 1.29,
-        "red_cards": 0,
-        "rc_90": 0.0
-      }
+      ]
     }
   },
   "player_pool": {
