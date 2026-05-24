@@ -82,8 +82,8 @@
 
     <div class="sidebar-panel">
         <div class="panel-heading">
-            <h3 id="panelPlayerName">Loading Tactical Grid...</h3>
-            <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Assembling spatial vectors</p>
+            <h3 id="panelPlayerName">Select a Player</h3>
+            <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">Click an asset on the tactical board</p>
         </div>
         
         <div id="statsMatrix" class="stat-matrix" style="display: none;">
@@ -163,11 +163,11 @@
             
             let destination = 'CM_LINE';
             if (role === 'GK') destination = 'GK_LINE';
-            elif (role === 'CB' || role === 'FB' || slot.position === 'DF') destination = 'DF_LINE';
-            elif (role === 'DM') destination = 'DM_LINE';
-            elif (role === 'CM' || role === 'B2B') destination = 'CM_LINE';
-            elif (role === 'AM') destination = 'AM_LINE';
-            elif (role === 'ST' || role === 'WGR' || slot.position === 'FW') destination = 'FW_LINE';
+            else if (role === 'CB' || role === 'FB' || slot.position === 'DF') destination = 'DF_LINE';
+            else if (role === 'DM') destination = 'DM_LINE';
+            else if (role === 'CM' || role === 'B2B') destination = 'CM_LINE';
+            else if (role === 'AM') destination = 'AM_LINE';
+            else if (role === 'ST' || role === 'WGR' || slot.position === 'FW') destination = 'FW_LINE';
             
             pitchLines[destination].push({ slot, index, profile });
         });
@@ -203,7 +203,7 @@
         
         renderingSequence.forEach(lineKey => {
             const items = pitchLines[lineKey];
-            if (items.length === 0) return; // Skip tier if unpopulated, CSS handles spacing beautifully
+            if (items.length === 0) return; 
 
             const rowDiv = document.createElement('div');
             rowDiv.className = 'formation-row';
