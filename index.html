@@ -18,8 +18,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; }
         
-        .dashboard-container { display: grid; grid-template-columns: 1fr 380px; gap: 20px; max-width: 1400px; margin: 0 auto; }
-        
+        .dashboard-container { display: grid; grid-template-columns: 1fr 400px; gap: 20px; max-width: 1400px; margin: 0 auto; }
         .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
         select { background: #374151; color: white; border: 1px solid #4b5563; padding: 8px 16px; border-radius: 6px; font-size: 16px; width: 280px; }
 
@@ -45,7 +44,8 @@
         .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
         .stat-item { background: #273549; padding: 10px; border-radius: 6px; display: flex; flex-direction: column; }
         .stat-lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; }
-        .stat-val { font-size: 18px; font-weight: bold; margin-top: 4px; }
+        .stat-val { font-size: 16px; font-weight: bold; margin-top: 4px; }
+        .sub-rate { font-size: 11px; color: #3b82f6; font-weight: normal; margin-left: 4px; }
         
         .swap-list-container { flex-grow: 1; overflow-y: auto; max-height: 200px; border-top: 1px solid #374151; padding-top: 15px; margin-top: 15px; }
         .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px; background: #273549; margin-bottom: 6px; border-radius: 4px; font-size: 13px; cursor: pointer; }
@@ -81,21 +81,23 @@
     </div>
 
     <div class="sidebar-panel">
-        <!-- Upgraded Expanded Team Performance Card -->
+        <!-- Normalized Squad Performance Panel -->
         <div class="widget-card" style="border-left: 4px solid var(--accent-blue);">
             <div class="panel-heading" style="margin-bottom: 12px; padding-bottom: 6px;">
-                <h4 style="text-transform: uppercase; font-size: 12px; color: var(--accent-blue); letter-spacing: 0.5px;">Team Season Aggregates</h4>
+                <h4 style="text-transform: uppercase; font-size: 12px; color: var(--accent-blue); letter-spacing: 0.5px;">Team Aggregates & Rates</h4>
             </div>
-            <div class="stat-matrix" style="grid-template-columns: repeat(2, 1fr); gap: 6px;">
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Goals / xG</span><span id="teamGlsXG" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0.0</span></div>
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Assists / xA</span><span id="teamAstXA" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0.0</span></div>
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Shots (On Target)</span><span id="teamShotsSOT" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0)</span></div>
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Clean Sheets / GA</span><span id="teamCSGA" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0</span></div>
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Saves Made</span><span id="teamSaves" style="font-size:13px; font-weight:bold; margin-top:2px;">0</span></div>
-                <div class="stat-item" style="padding: 6px;"><span class="stat-lbl" style="font-size:9px;">Tackles / Int</span><span id="teamDef" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0</span></div>
-                <div class="stat-item" style="padding: 6px; grid-column: span 2; display: flex; flex-direction: row; justify-content: space-between; align-items: center; background: #2e1a1a;">
-                    <span class="stat-lbl" style="font-size:9px; color:#fca5a5;">Squad Discipline</span>
-                    <span id="teamCards" style="font-size:12px; font-weight:bold; color: #f59e0b; letter-spacing: 1px;">🟨 0  |  🟥 0</span>
+            <div class="stat-matrix" style="grid-template-columns: repeat(2, 1fr); gap: 8px;">
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Goals (Per 90)</span><span id="teamGls" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Assists (Per 90)</span><span id="teamAst" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Shots (Per 90)</span><span id="teamShots" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">SoT (Per 90)</span><span id="teamSOT" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Tackles Won (Per 90)</span><span id="teamTkl" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Interceptions (Per 90)</span><span id="teamInt" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Saves (Per 90)</span><span id="teamSaves" style="font-size:13px; font-weight:bold; margin-top:2px;">0 (0.00)</span></div>
+                <div class="stat-item" style="padding: 8px;"><span class="stat-lbl" style="font-size:10px;">Clean Sheets / GA (P90)</span><span id="teamDef" style="font-size:13px; font-weight:bold; margin-top:2px;">0 / 0 (0.00)</span></div>
+                <div class="stat-item" style="grid-column: span 2; padding: 8px; background: #2e1a1a; display: flex; justify-content: space-between; align-items: center;">
+                    <span class="stat-lbl" style="font-size:10px; color:#fca5a5;">Discipline (Per 90)</span>
+                    <span id="teamCards" style="font-size:12px; font-weight:bold; color: #f59e0b;">🟨 0 (0.0) | 🟥 0 (0.0)</span>
                 </div>
             </div>
         </div>
@@ -110,12 +112,13 @@
             <div id="statsMatrix" class="stat-matrix" style="display: none;">
                 <div class="stat-item"><span class="stat-lbl">Rating</span><span id="statRating" class="stat-val">0.00</span></div>
                 <div class="stat-item"><span class="stat-lbl">Price</span><span id="statPrice" class="stat-val">£0.0M</span></div>
-                <div class="stat-item"><span class="stat-lbl">Appearances</span><span id="statApps" class="stat-val">0</span></div>
-                <div class="stat-item"><span class="stat-lbl">Goals</span><span id="statGoals" class="stat-val">0</span></div>
-                <div class="stat-item"><span class="stat-lbl">Assists</span><span id="statAssists" class="stat-val">0</span></div>
-                <div class="stat-item"><span class="stat-lbl">Shots (On Target)</span><span id="statShots" class="stat-val">0</span></div>
-                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span id="statInterceptions" class="stat-val">0</span></div>
-                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span id="statTackles" class="stat-val">0</span></div>
+                <div class="stat-item"><span class="stat-lbl">Appearances / Min</span><span id="statApps" class="stat-val">0 / 0'</span></div>
+                
+                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.00 /90</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.00 /90</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Shots (On Target)</span><span class="stat-val"><span id="totShots">0</span><span id="p90Shots" class="sub-rate">0.00 /90</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.00 /90</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.00 /90</span></span></div>
             </div>
 
             <div id="swapInterface" class="swap-list-container" style="display: none;">
@@ -162,16 +165,17 @@
         activeClubLineup = JSON.parse(JSON.stringify(clubData.lineup));
         selectedNodeIndex = null;
         
-        // Map all macro-level structural attributes safely into the dashboard card
         if (clubData.team_stats) {
             const t = clubData.team_stats;
-            document.getElementById('teamGlsXG').textContent = `${t.goals} / ${t.xg}`;
-            document.getElementById('teamAstXA').textContent = `${t.assists} / ${t.xa}`;
-            document.getElementById('teamShotsSOT').textContent = `${t.shots} (${t.shots_on_target})`;
-            document.getElementById('teamCSGA').textContent = `${t.clean_sheets} / ${t.goals_against}`;
-            document.getElementById('teamSaves').textContent = t.saves;
-            document.getElementById('teamDef').textContent = `${t.tackles_won} / ${t.interceptions}`;
-            document.getElementById('teamCards').textContent = `🟨 ${t.yellow_cards}  |  🟥 ${t.red_cards}`;
+            document.getElementById('teamGls').textContent = `${t.goals} (${t.goals_90}/90)`;
+            document.getElementById('teamAst').textContent = `${t.assists} (${t.assists_90}/90)`;
+            document.getElementById('teamShots').textContent = `${t.shots} (${t.shots_90}/90)`;
+            document.getElementById('teamSOT').textContent = `${t.shots_on_target} (${t.sot_90}/90)`;
+            document.getElementById('teamTkl').textContent = `${t.tackles_won} (${t.tackles_90}/90)`;
+            document.getElementById('teamInt').textContent = `${t.interceptions} (${t.interceptions_90}/90)`;
+            document.getElementById('teamSaves').textContent = `${t.saves} (${t.saves_90}/90)`;
+            document.getElementById('teamDef').textContent = `${t.clean_sheets} CS / ${t.goals_against} (${t.ga_90}/90)`;
+            document.getElementById('teamCards').textContent = `🟨 ${t.yellow_cards} (${t.yc_90}/90) | 🟥 ${t.red_cards} (${t.rc_90}/90)`;
         }
 
         resetSidebar();
@@ -182,9 +186,7 @@
         const grid = document.getElementById('tacticalGrid');
         grid.innerHTML = '';
         
-        const pitchLines = {
-            'FW_LINE': [], 'AM_LINE': [], 'CM_LINE': [], 'DM_LINE': [], 'DF_LINE': [], 'GK_LINE': []
-        };
+        const pitchLines = { 'FW_LINE': [], 'AM_LINE': [], 'CM_LINE': [], 'DM_LINE': [], 'DF_LINE': [], 'GK_LINE': [] };
         
         activeClubLineup.forEach((slot, index) => {
             const profile = globalData.player_pool[slot.current_player];
@@ -200,28 +202,6 @@
             
             pitchLines[destination].push({ slot, index, profile });
         });
-
-        if (pitchLines['DF_LINE'].length > 0) {
-            const fbs = pitchLines['DF_LINE'].filter(p => p.profile?.role_code === 'FB');
-            const cbs = pitchLines['DF_LINE'].filter(p => p.profile?.role_code !== 'FB');
-            const sortedDF = [];
-            const leftWingCount = Math.ceil(fbs.length / 2);
-            sortedDF.push(...fbs.slice(0, leftWingCount));
-            sortedDF.push(...cbs);
-            sortedDF.push(...fbs.slice(leftWingCount));
-            pitchLines['DF_LINE'] = sortedDF;
-        }
-
-        if (pitchLines['FW_LINE'].length > 0) {
-            const wgrs = pitchLines['FW_LINE'].filter(p => p.profile?.role_code === 'WGR');
-            const sts = pitchLines['FW_LINE'].filter(p => p.profile?.role_code !== 'WGR');
-            const sortedFW = [];
-            const leftWingerCount = Math.ceil(wgrs.length / 2);
-            sortedFW.push(...wgrs.slice(0, leftWingerCount));
-            sortedFW.push(...sts);
-            sortedFW.push(...wgrs.slice(leftWingerCount));
-            pitchLines['FW_LINE'] = sortedFW;
-        }
 
         const renderingSequence = ['FW_LINE', 'AM_LINE', 'CM_LINE', 'DM_LINE', 'DF_LINE', 'GK_LINE'];
         renderingSequence.forEach(lineKey => {
@@ -263,12 +243,25 @@
         
         document.getElementById('statRating').textContent = activePlayer.stats.rating;
         document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
-        document.getElementById('statApps').textContent = activePlayer.stats.appearances;
-        document.getElementById('statGoals').textContent = activePlayer.stats.goals;
-        document.getElementById('statAssists').textContent = activePlayer.stats.assists;
-        document.getElementById('statShots').textContent = `${activePlayer.stats.shots} (${activePlayer.stats.shots_on_target})`;
-        document.getElementById('statInterceptions').textContent = activePlayer.stats.interceptions;
-        document.getElementById('statTackles').textContent = activePlayer.stats.tackles_won;
+        document.getElementById('statApps').textContent = `${activePlayer.stats.appearances} (${activePlayer.stats.minutes}')`;
+        
+        // Calculate player performance profiles dynamically using exact match volumes
+        const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
+        
+        document.getElementById('totGoals').textContent = activePlayer.stats.goals;
+        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(2)} /90`;
+        
+        document.getElementById('totAssists').textContent = activePlayer.stats.assists;
+        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(2)} /90`;
+        
+        document.getElementById('totShots').textContent = `${activePlayer.stats.shots} (${activePlayer.stats.shots_on_target})`;
+        document.getElementById('p90Shots').textContent = `${(activePlayer.stats.shots * normalizer).toFixed(2)} /90`;
+        
+        document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
+        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(2)} /90`;
+        
+        document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
+        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(2)} /90`;
         
         document.getElementById('statsMatrix').style.display = 'grid';
         renderSubstitutesList(slot.position, activePlayer);
@@ -312,9 +305,7 @@
 
     function executeSwapSequence(targetPlayerProfile) {
         if (selectedNodeIndex === null) return;
-        const compoundKey = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
-        
-        activeClubLineup[selectedNodeIndex].current_player = compoundKey;
+        activeClubLineup[selectedNodeIndex].current_player = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
         renderTacticalPitch();
         selectPitchNode(selectedNodeIndex);
     }
