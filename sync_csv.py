@@ -70,8 +70,6 @@ def process_local_csv():
     
     player_pool = {}
     clubs_raw_data = {}
-    
-    # Running tracking dictionary for global team data metrics
     team_aggregates = {}
     
     for idx, row in df.iterrows():
@@ -98,17 +96,21 @@ def process_local_csv():
         interceptions = int(float(row.get('Int', 0)))
         tackles_won = int(float(row.get('TklW', 0)))
         
-        # Safely parse expected metrics arrays from rows (accepting common abbreviations)
         xg_val = float(row.get('xG', 0) or row.get('xg', 0))
         xa_val = float(row.get('xA', 0) or row.get('xa', 0) or row.get('xAG', 0) or row.get('xag', 0))
         cs_val = int(float(row.get('CS', 0) or row.get('cs', 0)))
         ga_val = int(float(row.get('GA', 0) or row.get('ga', 0)))
+        saves_val = int(float(row.get('Saves', 0) or row.get('saves', 0)))
+        crd_y = int(float(row.get('CrdY', 0) or row.get('crdy', 0)))
+        crd_r = int(float(row.get('CrdR', 0) or row.get('crdr', 0)))
 
-        # Compile rolling team-wide data
+        # Compile fully extended rolling team-wide data metrics map
         if club_name not in team_aggregates:
             team_aggregates[club_name] = {
                 "goals": 0, "xg": 0.0, "assists": 0, "xa": 0.0,
-                "shots": 0, "clean_sheets": 0, "goals_against": 0
+                "shots": 0, "shots_on_target": 0, "clean_sheets": 0, "goals_against": 0,
+                "tackles_won": 0, "interceptions": 0, "saves": 0,
+                "yellow_cards": 0, "red_cards": 0
             }
             
         team_aggregates[club_name]["goals"] += goals
@@ -116,9 +118,14 @@ def process_local_csv():
         team_aggregates[club_name]["assists"] += assists
         team_aggregates[club_name]["xa"] += xa_val
         team_aggregates[club_name]["shots"] += shots
+        team_aggregates[club_name]["shots_on_target"] += sot
+        team_aggregates[club_name]["tackles_won"] += tackles_won
+        team_aggregates[club_name]["interceptions"] += interceptions
+        team_aggregates[club_name]["yellow_cards"] += crd_y
+        team_aggregates[club_name]["red_cards"] += crd_r
         
-        # Isolate baseline clean sheet data strictly to Goalkeeper appearances to prevent overlapping tallies
         if ui_pos == 'GK':
+            team_aggregates[club_name]["saves"] += saves_val
             if cs_val > team_aggregates[club_name]["clean_sheets"]:
                 team_aggregates[club_name]["clean_sheets"] = cs_val
             if ga_val > team_aggregates[club_name]["goals_against"]:
@@ -158,9 +165,9 @@ def process_local_csv():
                 "shots_on_target": sot,
                 "interceptions": interceptions,
                 "tackles_won": tackles_won,
-                "yellow_cards": int(float(row.get('CrdY', 0))),
-                "red_cards": int(float(row.get('CrdR', 0))),
-                "saves": int(float(row.get('Saves', 0))),
+                "yellow_cards": crd_y,
+                "red_cards": crd_r,
+                "saves": saves_val,
                 "clean_sheets": cs_val,
                 "goals_against": ga_val,
                 "rating": rating
@@ -200,20 +207,25 @@ def process_local_csv():
         for p in [x for x in selected_outfield if x['position'] == "MF"]: lineup.append({"position": "MF", "current_player": p['key']})
         for p in [x for x in selected_outfield if x['position'] == "FW"]: lineup.append({"position": "FW", "current_player": p['key']})
             
-        # Bind aggregated profile blocks cleanly alongside lineup arrays
-        stats_package = team_aggregates.get(club, {"goals":0,"xg":0.0,"assists":0,"xa":0.0,"shots":0,"clean_sheets":0,"goals_against":0})
+        stats_package = team_aggregates.get(club, {})
         
         final_clubs[club] = {
             "formation": f"{num_df}-{num_mf}-{num_fw}",
             "lineup": lineup,
             "team_stats": {
-                "goals": int(stats_package["goals"]),
-                "xg": round(float(stats_package["xg"]), 1),
-                "assists": int(stats_package["assists"]),
-                "xa": round(float(stats_package["xa"]), 1),
-                "shots": int(stats_package["shots"]),
-                "clean_sheets": int(stats_package["clean_sheets"]),
-                "goals_against": int(stats_package["goals_against"])
+                "goals": int(stats_package.get("goals", 0)),
+                "xg": round(float(stats_package.get("xg", 0.0)), 1),
+                "assists": int(stats_package.get("assists", 0)),
+                "xa": round(float(stats_package.get("xa", 0.0)), 1),
+                "shots": int(stats_package.get("shots", 0)),
+                "shots_on_target": int(stats_package.get("shots_on_target", 0)),
+                "clean_sheets": int(stats_package.get("clean_sheets", 0)),
+                "goals_against": int(stats_package.get("goals_against", 0)),
+                "tackles_won": int(stats_package.get("tackles_won", 0)),
+                "interceptions": int(stats_package.get("interceptions", 0)),
+                "saves": int(stats_package.get("saves", 0)),
+                "yellow_cards": int(stats_package.get("yellow_cards", 0)),
+                "red_cards": int(stats_package.get("red_cards", 0))
             }
         }
         
@@ -224,7 +236,7 @@ def process_local_csv():
         json.dump(output_package, f, indent=2, ensure_ascii=False)
         f.write(";")
         
-    print(f"✅ Success! Packed metrics maps natively to layout target: {output_path}")
+    print(f"✅ Success! Generated all extended team indexes to layout target: {output_path}")
     return True
 
 if __name__ == "__main__":
