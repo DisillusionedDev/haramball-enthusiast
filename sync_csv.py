@@ -2,20 +2,81 @@ import os
 import json
 import pandas as pd
 
+def determine_tactical_role(raw_pos, gls, ast, sh, tklw, intel, minutes):
+    """
+    Analyzes player performance stats per 90 minutes to categorize them 
+    into granular, highly accurate real-world tactical roles.
+    """
+    # Safe fallbacks if minutes are virtually non-existent
+    if 'GK' in raw_pos: 
+        return 'GK', 'Goalkeeper'
+        
+    # Calculate Per-90 baselines if player has substantial minutes
+    if minutes > 180:
+        gls_90 = (gls / minutes) * 90
+        ast_90 = (ast / minutes) * 90
+        sh_90 = (sh / minutes) * 90
+        def_90 = ((tklw + intel) / minutes) * 90
+    else:
+        # Fallback to absolute scale metrics for low minute outliers
+        gls_90 = gls
+        ast_90 = ast
+        sh_90 = sh
+        def_90 = tklw + intel
+
+    # 1. DEFENDER SEGREGATION
+    if 'DF' in raw_pos and 'MF' not in raw_pos:
+        # Fullbacks trigger significantly higher attacking involvement/assists
+        if ast_90 > 0.08 or sh_90 > 0.6:
+            return 'FB', 'Fullback'
+        return 'CB', 'Center Back'
+
+    # 2. HYBRID WINGERS / WIDE ATTACKERS
+    if 'MF' in raw_pos and 'FW' in raw_pos:
+        if gls_90 > 0.25 or sh_90 > 2.0:
+            return 'ST', 'Striker'
+        if ast_90 > 0.12 or sh_90 > 1.2:
+            return 'WGR', 'Winger'
+        return 'AM', 'Attacking Midfielder'
+
+    # 3. PURE FORWARDS
+    if 'FW' in raw_pos:
+        # Central Strikers vs Wide Wingers categorized by shots and goals ratios
+        if gls_90 > 0.30 or sh_90 > 2.2:
+            return 'ST', 'Striker'
+        if ast_90 > 0.10 or sh_90 > 1.4:
+            return 'WGR', 'Winger'
+        return 'ST', 'Striker'
+
+    # 4. MIDFIELD DEPLOYMENTS
+    if 'MF' in raw_pos:
+        # High attacking output -> Attacking Midfielder
+        if (gls_90 + ast_90) > 0.22 or sh_90 > 1.2:
+            return 'AM', 'Attacking Midfielder'
+        # Extreme defensive work rates -> Defensive Midfielder
+        elif def_90 > 3.2:
+            return 'DM', 'Defensive Midfielder'
+        # Well rounded box-to-box tracking capabilities
+        elif def_90 > 1.8 and (gls_90 + ast_90) > 0.04:
+            return 'B2B', 'Box-to-Box CM'
+        return 'CM', 'Central Midfielder'
+
+    return 'UTL', 'Utility Player'
+
 def process_local_csv():
-    # Force absolute paths based on where this script file lives
     script_dir = os.path.dirname(os.path.abspath(__file__))
     csv_filename = os.path.join(script_dir, "players_data-2025_2026.csv")
-    output_path = os.path.join(script_dir, "players_data.js")
+    
+    docs_dir = os.path.join(script_dir, "docs")
+    if os.path.exists(docs_dir):
+        output_path = os.path.join(docs_dir, "players_data.js")
+    else:
+        output_path = os.path.join(script_dir, "players_data.js")
     
     if not os.path.exists(csv_filename):
-        print(f"❌ CRITICAL ERROR: Could not find your CSV file.")
-        print(f"   Please make sure the file named verbatim 'players_data-2025_2026.csv'")
-        print(f"   is in this exact folder: {script_dir}")
+        print(f"❌ Could not locate CSV file at: {csv_filename}")
         return False
         
-    print(f"🚀 Ingesting data from: {csv_filename}...")
-    
     df = pd.read_csv(csv_filename)
     df.fillna(0, inplace=True)
     
@@ -31,19 +92,26 @@ def process_local_csv():
             continue
             
         raw_pos = str(row.get('Pos', '')).upper()
-        if 'GK' in raw_pos:
-            ui_pos = 'GK'
-        elif 'DF' in raw_pos:
-            ui_pos = 'DF'
-        elif 'FW' in raw_pos:
-            ui_pos = 'FW'
-        else:
-            ui_pos = 'MF'
+        
+        # Parse structural baseline positions for formation building
+        if 'GK' in raw_pos: ui_pos = 'GK'
+        elif 'DF' in raw_pos: ui_pos = 'DF'
+        elif 'FW' in raw_pos: ui_pos = 'FW'
+        else: ui_pos = 'MF'
             
         starts = int(float(row.get('Starts', 0)))
         minutes = int(float(row.get('Min', 0)))
         goals = int(float(row.get('Gls', 0)))
         assists = int(float(row.get('Ast', 0)))
+        shots = int(float(row.get('Sh', 0)))
+        sot = int(float(row.get('SoT', 0)))
+        interceptions = int(float(row.get('Int', 0)))
+        tackles_won = int(float(row.get('TklW', 0)))
+        
+        # Call profile engine to determine exact roles
+        role_code, role_name = determine_tactical_role(
+            raw_pos, goals, assists, shots, tackles_won, interceptions, minutes
+        )
         
         base_price = {"GK": 4.5, "DF": 5.0, "MF": 5.5, "FW": 6.5}
         calculated_price = base_price.get(ui_pos, 5.0) + (goals * 0.3) + (assists * 0.2)
@@ -63,16 +131,18 @@ def process_local_csv():
             "club": club_name,
             "league": league_comp,
             "position": ui_pos,
+            "role_code": role_code,
+            "role_name": role_name,
             "price": final_price,
             "stats": {
                 "appearances": games_played,
                 "minutes": minutes,
                 "goals": goals,
                 "assists": assists,
-                "shots": int(float(row.get('Sh', 0))),
-                "shots_on_target": int(float(row.get('SoT', 0))),
-                "interceptions": int(float(row.get('Int', 0))),
-                "tackles_won": int(float(row.get('TklW', 0))),
+                "shots": shots,
+                "shots_on_target": sot,
+                "interceptions": interceptions,
+                "tackles_won": tackles_won,
                 "yellow_cards": int(float(row.get('CrdY', 0))),
                 "red_cards": int(float(row.get('CrdR', 0))),
                 "saves": int(float(row.get('Saves', 0))),
@@ -93,7 +163,6 @@ def process_local_csv():
         })
         
     final_clubs = {}
-    
     for club, roster in clubs_raw_data.items():
         gks = [p for p in roster if p["position"] == "GK"]
         outfield = [p for p in roster if p["position"] != "GK"]
@@ -111,30 +180,24 @@ def process_local_csv():
         num_mf = sum(1 for p in selected_outfield if p['position'] == "MF")
         num_fw = sum(1 for p in selected_outfield if p['position'] == "FW")
         
-        derived_formation = f"{num_df}-{num_mf}-{num_fw}"
-        
         lineup = [{"position": "GK", "current_player": selected_gk['key']}]
-        for p in [x for x in selected_outfield if x['position'] == "DF"]:
-            lineup.append({"position": "DF", "current_player": p['key']})
-        for p in [x for x in selected_outfield if x['position'] == "MF"]:
-            lineup.append({"position": "MF", "current_player": p['key']})
-        for p in [x for x in selected_outfield if x['position'] == "FW"]:
-            lineup.append({"position": "FW", "current_player": p['key']})
+        for p in [x for x in selected_outfield if x['position'] == "DF"]: lineup.append({"position": "DF", "current_player": p['key']})
+        for p in [x for x in selected_outfield if x['position'] == "MF"]: lineup.append({"position": "MF", "current_player": p['key']})
+        for p in [x for x in selected_outfield if x['position'] == "FW"]: lineup.append({"position": "FW", "current_player": p['key']})
             
         final_clubs[club] = {
-            "formation": derived_formation,
+            "formation": f"{num_df}-{num_mf}-{num_fw}",
             "lineup": lineup
         }
         
     output_package = {"clubs": final_clubs, "player_pool": player_pool}
     
-    # Write directly as an injectable JavaScript script file
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("window.TACTICAL_DATA = ")
         json.dump(output_package, f, indent=2, ensure_ascii=False)
         f.write(";")
         
-    print(f"\n✅ SUCCESS! Generated script file natively at:\n📍 {output_path}")
+    print(f"✅ Success! Generated updated script file layout at: {output_path}")
     return True
 
 if __name__ == "__main__":
