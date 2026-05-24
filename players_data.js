@@ -50,18 +50,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 46,
-        "xg": 0.0,
+        "goals_90": 1.32,
         "assists": 24,
-        "xa": 0.0,
+        "assists_90": 0.69,
         "shots": 446,
+        "shots_90": 12.76,
         "shots_on_target": 143,
+        "sot_90": 4.09,
         "clean_sheets": 4,
         "goals_against": 29,
+        "ga_90": 0.83,
         "tackles_won": 361,
+        "tackles_90": 10.33,
         "interceptions": 318,
+        "interceptions_90": 9.1,
         "saves": 88,
+        "saves_90": 2.52,
         "yellow_cards": 59,
-        "red_cards": 1
+        "yc_90": 1.69,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Nottingham Forest": {
@@ -114,18 +122,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.23,
         "assists": 30,
-        "xa": 0.0,
+        "assists_90": 0.86,
         "shots": 433,
+        "shots_90": 12.39,
         "shots_on_target": 141,
+        "sot_90": 4.03,
         "clean_sheets": 7,
         "goals_against": 34,
+        "ga_90": 0.97,
         "tackles_won": 354,
+        "tackles_90": 10.13,
         "interceptions": 269,
+        "interceptions_90": 7.7,
         "saves": 94,
+        "saves_90": 2.69,
         "yellow_cards": 56,
-        "red_cards": 1
+        "yc_90": 1.6,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Celta Vigo": {
@@ -178,18 +194,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 47,
-        "xg": 0.0,
+        "goals_90": 1.38,
         "assists": 31,
-        "xa": 0.0,
+        "assists_90": 0.91,
         "shots": 353,
+        "shots_90": 10.4,
         "shots_on_target": 141,
+        "sot_90": 4.15,
         "clean_sheets": 8,
         "goals_against": 44,
+        "ga_90": 1.3,
         "tackles_won": 279,
+        "tackles_90": 8.22,
         "interceptions": 249,
+        "interceptions_90": 7.33,
         "saves": 94,
+        "saves_90": 2.77,
         "yellow_cards": 68,
-        "red_cards": 1
+        "yc_90": 2.0,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Marseille": {
@@ -242,18 +266,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 58,
-        "xg": 0.0,
+        "goals_90": 1.82,
         "assists": 45,
-        "xa": 0.0,
+        "assists_90": 1.41,
         "shots": 478,
+        "shots_90": 15.03,
         "shots_on_target": 181,
+        "sot_90": 5.69,
         "clean_sheets": 7,
         "goals_against": 33,
+        "ga_90": 1.04,
         "tackles_won": 276,
+        "tackles_90": 8.68,
         "interceptions": 254,
+        "interceptions_90": 7.98,
         "saves": 83,
+        "saves_90": 2.61,
         "yellow_cards": 75,
-        "red_cards": 4
+        "yc_90": 2.36,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Angers": {
@@ -306,18 +338,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 26,
-        "xg": 0.0,
+        "goals_90": 0.81,
         "assists": 15,
-        "xa": 0.0,
+        "assists_90": 0.47,
         "shots": 297,
+        "shots_90": 9.3,
         "shots_on_target": 105,
+        "sot_90": 3.29,
         "clean_sheets": 10,
         "goals_against": 35,
+        "ga_90": 1.1,
         "tackles_won": 369,
+        "tackles_90": 11.56,
         "interceptions": 289,
+        "interceptions_90": 9.05,
         "saves": 126,
+        "saves_90": 3.95,
         "yellow_cards": 48,
-        "red_cards": 2
+        "yc_90": 1.5,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Nice": {
@@ -370,18 +410,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 34,
-        "xg": 0.0,
+        "goals_90": 1.07,
         "assists": 25,
-        "xa": 0.0,
+        "assists_90": 0.78,
         "shots": 350,
+        "shots_90": 10.97,
         "shots_on_target": 124,
+        "sot_90": 3.89,
         "clean_sheets": 4,
         "goals_against": 43,
+        "ga_90": 1.35,
         "tackles_won": 295,
+        "tackles_90": 9.25,
         "interceptions": 323,
+        "interceptions_90": 10.13,
         "saves": 105,
+        "saves_90": 3.29,
         "yellow_cards": 67,
-        "red_cards": 3
+        "yc_90": 2.1,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Lens": {
@@ -434,18 +482,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 61,
-        "xg": 0.0,
+        "goals_90": 1.92,
         "assists": 47,
-        "xa": 0.0,
+        "assists_90": 1.48,
         "shots": 522,
+        "shots_90": 16.39,
         "shots_on_target": 175,
+        "sot_90": 5.5,
         "clean_sheets": 11,
         "goals_against": 33,
+        "ga_90": 1.04,
         "tackles_won": 365,
+        "tackles_90": 11.46,
         "interceptions": 342,
+        "interceptions_90": 10.74,
         "saves": 75,
+        "saves_90": 2.36,
         "yellow_cards": 62,
-        "red_cards": 5
+        "yc_90": 1.95,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Levante": {
@@ -498,18 +554,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 41,
-        "xg": 0.0,
+        "goals_90": 1.18,
         "assists": 26,
-        "xa": 0.0,
+        "assists_90": 0.75,
         "shots": 432,
+        "shots_90": 12.4,
         "shots_on_target": 131,
+        "sot_90": 3.76,
         "clean_sheets": 8,
         "goals_against": 52,
+        "ga_90": 1.49,
         "tackles_won": 332,
+        "tackles_90": 9.53,
         "interceptions": 301,
+        "interceptions_90": 8.64,
         "saves": 122,
+        "saves_90": 3.5,
         "yellow_cards": 79,
-        "red_cards": 4
+        "yc_90": 2.27,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Lorient": {
@@ -562,18 +626,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.35,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.88,
         "shots": 359,
+        "shots_90": 11.25,
         "shots_on_target": 125,
+        "sot_90": 3.92,
         "clean_sheets": 5,
         "goals_against": 41,
+        "ga_90": 1.28,
         "tackles_won": 299,
+        "tackles_90": 9.37,
         "interceptions": 288,
+        "interceptions_90": 9.02,
         "saves": 79,
+        "saves_90": 2.48,
         "yellow_cards": 51,
-        "red_cards": 1
+        "yc_90": 1.6,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Nantes": {
@@ -626,18 +698,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 28,
-        "xg": 0.0,
+        "goals_90": 0.85,
         "assists": 18,
-        "xa": 0.0,
+        "assists_90": 0.55,
         "shots": 374,
+        "shots_90": 11.37,
         "shots_on_target": 108,
+        "sot_90": 3.28,
         "clean_sheets": 6,
         "goals_against": 50,
+        "ga_90": 1.52,
         "tackles_won": 351,
+        "tackles_90": 10.67,
         "interceptions": 273,
+        "interceptions_90": 8.3,
         "saves": 108,
+        "saves_90": 3.28,
         "yellow_cards": 67,
-        "red_cards": 2
+        "yc_90": 2.04,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Lyon": {
@@ -690,18 +770,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 51,
-        "xg": 0.0,
+        "goals_90": 1.6,
         "assists": 40,
-        "xa": 0.0,
+        "assists_90": 1.26,
         "shots": 383,
+        "shots_90": 12.05,
         "shots_on_target": 152,
+        "sot_90": 4.78,
         "clean_sheets": 11,
         "goals_against": 31,
+        "ga_90": 0.98,
         "tackles_won": 289,
+        "tackles_90": 9.09,
         "interceptions": 228,
+        "interceptions_90": 7.17,
         "saves": 86,
+        "saves_90": 2.71,
         "yellow_cards": 58,
-        "red_cards": 7
+        "yc_90": 1.82,
+        "red_cards": 7,
+        "rc_90": 0.22
       }
     },
     "Torino": {
@@ -754,18 +842,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 39,
-        "xg": 0.0,
+        "goals_90": 1.08,
         "assists": 23,
-        "xa": 0.0,
+        "assists_90": 0.64,
         "shots": 427,
+        "shots_90": 11.88,
         "shots_on_target": 143,
+        "sot_90": 3.98,
         "clean_sheets": 9,
         "goals_against": 41,
+        "ga_90": 1.14,
         "tackles_won": 316,
+        "tackles_90": 8.79,
         "interceptions": 301,
+        "interceptions_90": 8.37,
         "saves": 103,
+        "saves_90": 2.86,
         "yellow_cards": 69,
-        "red_cards": 1
+        "yc_90": 1.92,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Getafe": {
@@ -818,18 +914,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 27,
-        "xg": 0.0,
+        "goals_90": 0.8,
         "assists": 23,
-        "xa": 0.0,
+        "assists_90": 0.68,
         "shots": 312,
+        "shots_90": 9.22,
         "shots_on_target": 94,
+        "sot_90": 2.78,
         "clean_sheets": 10,
         "goals_against": 36,
+        "ga_90": 1.06,
         "tackles_won": 386,
+        "tackles_90": 11.41,
         "interceptions": 317,
+        "interceptions_90": 9.37,
         "saves": 103,
+        "saves_90": 3.04,
         "yellow_cards": 101,
-        "red_cards": 7
+        "yc_90": 2.99,
+        "red_cards": 7,
+        "rc_90": 0.21
       }
     },
     "Aston Villa": {
@@ -882,18 +986,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 45,
-        "xg": 0.0,
+        "goals_90": 1.29,
         "assists": 34,
-        "xa": 0.0,
+        "assists_90": 0.97,
         "shots": 439,
+        "shots_90": 12.55,
         "shots_on_target": 149,
+        "sot_90": 4.26,
         "clean_sheets": 8,
         "goals_against": 35,
+        "ga_90": 1.0,
         "tackles_won": 312,
+        "tackles_90": 8.92,
         "interceptions": 203,
+        "interceptions_90": 5.8,
         "saves": 105,
+        "saves_90": 3.0,
         "yellow_cards": 54,
-        "red_cards": 1
+        "yc_90": 1.54,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Toulouse": {
@@ -946,18 +1058,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 44,
-        "xg": 0.0,
+        "goals_90": 1.38,
         "assists": 30,
-        "xa": 0.0,
+        "assists_90": 0.94,
         "shots": 411,
+        "shots_90": 12.92,
         "shots_on_target": 137,
+        "sot_90": 4.31,
         "clean_sheets": 9,
         "goals_against": 44,
+        "ga_90": 1.38,
         "tackles_won": 308,
+        "tackles_90": 9.68,
         "interceptions": 309,
+        "interceptions_90": 9.72,
         "saves": 83,
+        "saves_90": 2.61,
         "yellow_cards": 72,
-        "red_cards": 4
+        "yc_90": 2.26,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Metz": {
@@ -1010,18 +1130,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 31,
-        "xg": 0.0,
+        "goals_90": 0.97,
         "assists": 20,
-        "xa": 0.0,
+        "assists_90": 0.63,
         "shots": 318,
+        "shots_90": 9.98,
         "shots_on_target": 102,
+        "sot_90": 3.2,
         "clean_sheets": 4,
         "goals_against": 56,
+        "ga_90": 1.76,
         "tackles_won": 338,
+        "tackles_90": 10.61,
         "interceptions": 257,
+        "interceptions_90": 8.07,
         "saves": 114,
+        "saves_90": 3.58,
         "yellow_cards": 52,
-        "red_cards": 4
+        "yc_90": 1.63,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Inter": {
@@ -1074,18 +1202,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 79,
-        "xg": 0.0,
+        "goals_90": 2.26,
         "assists": 60,
-        "xa": 0.0,
+        "assists_90": 1.71,
         "shots": 608,
+        "shots_90": 17.37,
         "shots_on_target": 213,
+        "sot_90": 6.09,
         "clean_sheets": 15,
         "goals_against": 30,
+        "ga_90": 0.86,
         "tackles_won": 330,
+        "tackles_90": 9.43,
         "interceptions": 231,
+        "interceptions_90": 6.6,
         "saves": 66,
+        "saves_90": 1.89,
         "yellow_cards": 61,
-        "red_cards": 0
+        "yc_90": 1.74,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     },
     "Köln": {
@@ -1138,18 +1274,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 45,
-        "xg": 0.0,
+        "goals_90": 1.41,
         "assists": 32,
-        "xa": 0.0,
+        "assists_90": 1.0,
         "shots": 429,
+        "shots_90": 13.43,
         "shots_on_target": 149,
+        "sot_90": 4.67,
         "clean_sheets": 3,
         "goals_against": 55,
+        "ga_90": 1.72,
         "tackles_won": 298,
+        "tackles_90": 9.33,
         "interceptions": 260,
+        "interceptions_90": 8.14,
         "saves": 88,
+        "saves_90": 2.76,
         "yellow_cards": 60,
-        "red_cards": 3
+        "yc_90": 1.88,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Chelsea": {
@@ -1202,18 +1346,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 53,
-        "xg": 0.0,
+        "goals_90": 1.53,
         "assists": 36,
-        "xa": 0.0,
+        "assists_90": 1.04,
         "shots": 486,
+        "shots_90": 14.0,
         "shots_on_target": 156,
+        "sot_90": 4.49,
         "clean_sheets": 9,
         "goals_against": 46,
+        "ga_90": 1.33,
         "tackles_won": 314,
+        "tackles_90": 9.05,
         "interceptions": 327,
+        "interceptions_90": 9.42,
         "saves": 96,
+        "saves_90": 2.77,
         "yellow_cards": 85,
-        "red_cards": 7
+        "yc_90": 2.45,
+        "red_cards": 7,
+        "rc_90": 0.2
       }
     },
     "Sevilla": {
@@ -1266,18 +1418,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 39,
-        "xg": 0.0,
+        "goals_90": 1.15,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.83,
         "shots": 381,
+        "shots_90": 11.26,
         "shots_on_target": 118,
+        "sot_90": 3.49,
         "clean_sheets": 5,
         "goals_against": 48,
+        "ga_90": 1.42,
         "tackles_won": 385,
+        "tackles_90": 11.38,
         "interceptions": 295,
+        "interceptions_90": 8.72,
         "saves": 91,
+        "saves_90": 2.69,
         "yellow_cards": 97,
-        "red_cards": 5
+        "yc_90": 2.87,
+        "red_cards": 5,
+        "rc_90": 0.15
       }
     },
     "Bournemouth": {
@@ -1330,18 +1490,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 54,
-        "xg": 0.0,
+        "goals_90": 1.54,
         "assists": 32,
-        "xa": 0.0,
+        "assists_90": 0.91,
         "shots": 489,
+        "shots_90": 13.97,
         "shots_on_target": 167,
+        "sot_90": 4.77,
         "clean_sheets": 10,
         "goals_against": 52,
+        "ga_90": 1.49,
         "tackles_won": 355,
+        "tackles_90": 10.14,
         "interceptions": 317,
+        "interceptions_90": 9.06,
         "saves": 101,
+        "saves_90": 2.89,
         "yellow_cards": 81,
-        "red_cards": 1
+        "yc_90": 2.31,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Freiburg": {
@@ -1394,18 +1562,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.35,
         "assists": 24,
-        "xa": 0.0,
+        "assists_90": 0.75,
         "shots": 400,
+        "shots_90": 12.52,
         "shots_on_target": 135,
+        "sot_90": 4.23,
         "clean_sheets": 6,
         "goals_against": 53,
+        "ga_90": 1.66,
         "tackles_won": 252,
+        "tackles_90": 7.89,
         "interceptions": 267,
+        "interceptions_90": 8.36,
         "saves": 93,
+        "saves_90": 2.91,
         "yellow_cards": 49,
-        "red_cards": 3
+        "yc_90": 1.53,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Como": {
@@ -1458,18 +1634,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 58,
-        "xg": 0.0,
+        "goals_90": 1.66,
         "assists": 43,
-        "xa": 0.0,
+        "assists_90": 1.23,
         "shots": 501,
+        "shots_90": 14.32,
         "shots_on_target": 177,
+        "sot_90": 5.06,
         "clean_sheets": 17,
         "goals_against": 28,
+        "ga_90": 0.8,
         "tackles_won": 347,
+        "tackles_90": 9.92,
         "interceptions": 245,
+        "interceptions_90": 7.0,
         "saves": 81,
+        "saves_90": 2.32,
         "yellow_cards": 76,
-        "red_cards": 3
+        "yc_90": 2.17,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Dortmund": {
@@ -1522,18 +1706,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 67,
-        "xg": 0.0,
+        "goals_90": 2.03,
         "assists": 49,
-        "xa": 0.0,
+        "assists_90": 1.49,
         "shots": 428,
+        "shots_90": 12.99,
         "shots_on_target": 154,
+        "sot_90": 4.67,
         "clean_sheets": 14,
         "goals_against": 34,
+        "ga_90": 1.03,
         "tackles_won": 301,
+        "tackles_90": 9.13,
         "interceptions": 262,
+        "interceptions_90": 7.95,
         "saves": 85,
+        "saves_90": 2.58,
         "yellow_cards": 63,
-        "red_cards": 2
+        "yc_90": 1.91,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Sunderland": {
@@ -1586,18 +1778,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 34,
-        "xg": 0.0,
+        "goals_90": 0.97,
         "assists": 21,
-        "xa": 0.0,
+        "assists_90": 0.6,
         "shots": 353,
+        "shots_90": 10.12,
         "shots_on_target": 117,
+        "sot_90": 3.36,
         "clean_sheets": 9,
         "goals_against": 44,
+        "ga_90": 1.26,
         "tackles_won": 330,
+        "tackles_90": 9.46,
         "interceptions": 271,
+        "interceptions_90": 7.77,
         "saves": 112,
+        "saves_90": 3.21,
         "yellow_cards": 77,
-        "red_cards": 3
+        "yc_90": 2.21,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Monaco": {
@@ -1650,18 +1850,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 54,
-        "xg": 0.0,
+        "goals_90": 1.7,
         "assists": 40,
-        "xa": 0.0,
+        "assists_90": 1.26,
         "shots": 398,
+        "shots_90": 12.51,
         "shots_on_target": 140,
+        "sot_90": 4.4,
         "clean_sheets": 5,
         "goals_against": 27,
+        "ga_90": 0.85,
         "tackles_won": 356,
+        "tackles_90": 11.19,
         "interceptions": 334,
+        "interceptions_90": 10.5,
         "saves": 89,
+        "saves_90": 2.8,
         "yellow_cards": 72,
-        "red_cards": 6
+        "yc_90": 2.26,
+        "red_cards": 6,
+        "rc_90": 0.19
       }
     },
     "Wolfsburg": {
@@ -1714,18 +1922,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 42,
-        "xg": 0.0,
+        "goals_90": 1.31,
         "assists": 34,
-        "xa": 0.0,
+        "assists_90": 1.06,
         "shots": 369,
+        "shots_90": 11.53,
         "shots_on_target": 127,
+        "sot_90": 3.97,
         "clean_sheets": 2,
         "goals_against": 67,
+        "ga_90": 2.09,
         "tackles_won": 327,
+        "tackles_90": 10.22,
         "interceptions": 269,
+        "interceptions_90": 8.41,
         "saves": 111,
+        "saves_90": 3.47,
         "yellow_cards": 63,
-        "red_cards": 2
+        "yc_90": 1.97,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Juventus": {
@@ -1778,18 +1994,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 56,
-        "xg": 0.0,
+        "goals_90": 1.6,
         "assists": 38,
-        "xa": 0.0,
+        "assists_90": 1.09,
         "shots": 581,
+        "shots_90": 16.63,
         "shots_on_target": 208,
+        "sot_90": 5.95,
         "clean_sheets": 13,
         "goals_against": 23,
+        "ga_90": 0.66,
         "tackles_won": 328,
+        "tackles_90": 9.39,
         "interceptions": 234,
+        "interceptions_90": 6.7,
         "saves": 65,
+        "saves_90": 1.86,
         "yellow_cards": 48,
-        "red_cards": 2
+        "yc_90": 1.37,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Pisa": {
@@ -1842,18 +2066,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 24,
-        "xg": 0.0,
+        "goals_90": 0.69,
         "assists": 12,
-        "xa": 0.0,
+        "assists_90": 0.34,
         "shots": 352,
+        "shots_90": 10.09,
         "shots_on_target": 102,
+        "sot_90": 2.92,
         "clean_sheets": 4,
         "goals_against": 34,
+        "ga_90": 0.97,
         "tackles_won": 345,
+        "tackles_90": 9.89,
         "interceptions": 321,
+        "interceptions_90": 9.2,
         "saves": 97,
+        "saves_90": 2.78,
         "yellow_cards": 71,
-        "red_cards": 3
+        "yc_90": 2.04,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Elche": {
@@ -1906,18 +2138,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.27,
         "assists": 30,
-        "xa": 0.0,
+        "assists_90": 0.88,
         "shots": 373,
+        "shots_90": 10.99,
         "shots_on_target": 134,
+        "sot_90": 3.95,
         "clean_sheets": 4,
         "goals_against": 28,
+        "ga_90": 0.83,
         "tackles_won": 355,
+        "tackles_90": 10.46,
         "interceptions": 281,
+        "interceptions_90": 8.28,
         "saves": 107,
+        "saves_90": 3.15,
         "yellow_cards": 68,
-        "red_cards": 5
+        "yc_90": 2.0,
+        "red_cards": 5,
+        "rc_90": 0.15
       }
     },
     "St Pauli": {
@@ -1970,18 +2210,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 27,
-        "xg": 0.0,
+        "goals_90": 0.85,
         "assists": 19,
-        "xa": 0.0,
+        "assists_90": 0.59,
         "shots": 329,
+        "shots_90": 10.3,
         "shots_on_target": 109,
+        "sot_90": 3.41,
         "clean_sheets": 5,
         "goals_against": 55,
+        "ga_90": 1.72,
         "tackles_won": 336,
+        "tackles_90": 10.52,
         "interceptions": 294,
+        "interceptions_90": 9.2,
         "saves": 112,
+        "saves_90": 3.51,
         "yellow_cards": 52,
-        "red_cards": 2
+        "yc_90": 1.63,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Wolves": {
@@ -2034,18 +2282,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 24,
-        "xg": 0.0,
+        "goals_90": 0.69,
         "assists": 17,
-        "xa": 0.0,
+        "assists_90": 0.49,
         "shots": 337,
+        "shots_90": 9.66,
         "shots_on_target": 115,
+        "sot_90": 3.3,
         "clean_sheets": 4,
         "goals_against": 35,
+        "ga_90": 1.0,
         "tackles_won": 390,
+        "tackles_90": 11.18,
         "interceptions": 269,
+        "interceptions_90": 7.71,
         "saves": 97,
+        "saves_90": 2.78,
         "yellow_cards": 75,
-        "red_cards": 3
+        "yc_90": 2.15,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Valencia": {
@@ -2098,18 +2354,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 37,
-        "xg": 0.0,
+        "goals_90": 1.09,
         "assists": 26,
-        "xa": 0.0,
+        "assists_90": 0.77,
         "shots": 398,
+        "shots_90": 11.73,
         "shots_on_target": 105,
+        "sot_90": 3.09,
         "clean_sheets": 4,
         "goals_against": 30,
+        "ga_90": 0.88,
         "tackles_won": 320,
+        "tackles_90": 9.43,
         "interceptions": 259,
+        "interceptions_90": 7.63,
         "saves": 94,
+        "saves_90": 2.77,
         "yellow_cards": 64,
-        "red_cards": 1
+        "yc_90": 1.89,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Werder Bremen": {
@@ -2162,18 +2426,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 36,
-        "xg": 0.0,
+        "goals_90": 1.13,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.88,
         "shots": 423,
+        "shots_90": 13.27,
         "shots_on_target": 135,
+        "sot_90": 4.24,
         "clean_sheets": 5,
         "goals_against": 53,
+        "ga_90": 1.66,
         "tackles_won": 329,
+        "tackles_90": 10.32,
         "interceptions": 291,
+        "interceptions_90": 9.13,
         "saves": 101,
+        "saves_90": 3.17,
         "yellow_cards": 75,
-        "red_cards": 4
+        "yc_90": 2.35,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Real Madrid": {
@@ -2226,18 +2498,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 70,
-        "xg": 0.0,
+        "goals_90": 2.07,
         "assists": 50,
-        "xa": 0.0,
+        "assists_90": 1.48,
         "shots": 612,
+        "shots_90": 18.05,
         "shots_on_target": 236,
+        "sot_90": 6.96,
         "clean_sheets": 11,
         "goals_against": 24,
+        "ga_90": 0.71,
         "tackles_won": 337,
+        "tackles_90": 9.94,
         "interceptions": 224,
+        "interceptions_90": 6.61,
         "saves": 74,
+        "saves_90": 2.18,
         "yellow_cards": 64,
-        "red_cards": 7
+        "yc_90": 1.89,
+        "red_cards": 7,
+        "rc_90": 0.21
       }
     },
     "Oviedo": {
@@ -2290,18 +2570,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 26,
-        "xg": 0.0,
+        "goals_90": 0.77,
         "assists": 18,
-        "xa": 0.0,
+        "assists_90": 0.53,
         "shots": 345,
+        "shots_90": 10.19,
         "shots_on_target": 114,
+        "sot_90": 3.37,
         "clean_sheets": 9,
         "goals_against": 54,
+        "ga_90": 1.59,
         "tackles_won": 370,
+        "tackles_90": 10.93,
         "interceptions": 264,
+        "interceptions_90": 7.8,
         "saves": 136,
+        "saves_90": 4.02,
         "yellow_cards": 75,
-        "red_cards": 8
+        "yc_90": 2.22,
+        "red_cards": 8,
+        "rc_90": 0.24
       }
     },
     "West Ham United": {
@@ -2354,18 +2642,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 40,
-        "xg": 0.0,
+        "goals_90": 1.14,
         "assists": 27,
-        "xa": 0.0,
+        "assists_90": 0.77,
         "shots": 364,
+        "shots_90": 10.41,
         "shots_on_target": 122,
+        "sot_90": 3.49,
         "clean_sheets": 6,
         "goals_against": 37,
+        "ga_90": 1.06,
         "tackles_won": 375,
+        "tackles_90": 10.73,
         "interceptions": 321,
+        "interceptions_90": 9.18,
         "saves": 121,
+        "saves_90": 3.46,
         "yellow_cards": 63,
-        "red_cards": 3
+        "yc_90": 1.8,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Real Sociedad": {
@@ -2418,18 +2714,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 51,
-        "xg": 0.0,
+        "goals_90": 1.5,
         "assists": 33,
-        "xa": 0.0,
+        "assists_90": 0.97,
         "shots": 433,
+        "shots_90": 12.76,
         "shots_on_target": 160,
+        "sot_90": 4.71,
         "clean_sheets": 3,
         "goals_against": 53,
+        "ga_90": 1.56,
         "tackles_won": 366,
+        "tackles_90": 10.78,
         "interceptions": 273,
+        "interceptions_90": 8.04,
         "saves": 89,
+        "saves_90": 2.62,
         "yellow_cards": 72,
-        "red_cards": 4
+        "yc_90": 2.12,
+        "red_cards": 4,
+        "rc_90": 0.12
       }
     },
     "Auxerre": {
@@ -2482,18 +2786,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 26,
-        "xg": 0.0,
+        "goals_90": 0.82,
         "assists": 17,
-        "xa": 0.0,
+        "assists_90": 0.53,
         "shots": 345,
+        "shots_90": 10.86,
         "shots_on_target": 111,
+        "sot_90": 3.49,
         "clean_sheets": 8,
         "goals_against": 34,
+        "ga_90": 1.07,
         "tackles_won": 373,
+        "tackles_90": 11.74,
         "interceptions": 327,
+        "interceptions_90": 10.29,
         "saves": 105,
+        "saves_90": 3.3,
         "yellow_cards": 66,
-        "red_cards": 7
+        "yc_90": 2.08,
+        "red_cards": 7,
+        "rc_90": 0.22
       }
     },
     "Atalanta": {
@@ -2546,18 +2858,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 47,
-        "xg": 0.0,
+        "goals_90": 1.35,
         "assists": 31,
-        "xa": 0.0,
+        "assists_90": 0.89,
         "shots": 523,
+        "shots_90": 14.98,
         "shots_on_target": 163,
+        "sot_90": 4.67,
         "clean_sheets": 13,
         "goals_against": 32,
+        "ga_90": 0.92,
         "tackles_won": 333,
+        "tackles_90": 9.54,
         "interceptions": 273,
+        "interceptions_90": 7.82,
         "saves": 100,
+        "saves_90": 2.86,
         "yellow_cards": 54,
-        "red_cards": 2
+        "yc_90": 1.55,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Rennes": {
@@ -2610,18 +2930,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 54,
-        "xg": 0.0,
+        "goals_90": 1.7,
         "assists": 39,
-        "xa": 0.0,
+        "assists_90": 1.23,
         "shots": 441,
+        "shots_90": 13.89,
         "shots_on_target": 158,
+        "sot_90": 4.98,
         "clean_sheets": 10,
         "goals_against": 43,
+        "ga_90": 1.35,
         "tackles_won": 311,
+        "tackles_90": 9.79,
         "interceptions": 269,
+        "interceptions_90": 8.47,
         "saves": 84,
+        "saves_90": 2.65,
         "yellow_cards": 57,
-        "red_cards": 4
+        "yc_90": 1.79,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Manchester City": {
@@ -2674,18 +3002,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 66,
-        "xg": 0.0,
+        "goals_90": 1.94,
         "assists": 53,
-        "xa": 0.0,
+        "assists_90": 1.56,
         "shots": 525,
+        "shots_90": 15.44,
         "shots_on_target": 183,
+        "sot_90": 5.38,
         "clean_sheets": 13,
         "goals_against": 28,
+        "ga_90": 0.82,
         "tackles_won": 313,
+        "tackles_90": 9.21,
         "interceptions": 270,
+        "interceptions_90": 7.94,
         "saves": 80,
+        "saves_90": 2.35,
         "yellow_cards": 60,
-        "red_cards": 0
+        "yc_90": 1.76,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     },
     "Hellas Verona": {
@@ -2738,18 +3074,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 23,
-        "xg": 0.0,
+        "goals_90": 0.66,
         "assists": 15,
-        "xa": 0.0,
+        "assists_90": 0.43,
         "shots": 388,
+        "shots_90": 11.13,
         "shots_on_target": 130,
+        "sot_90": 3.73,
         "clean_sheets": 5,
         "goals_against": 50,
+        "ga_90": 1.43,
         "tackles_won": 397,
+        "tackles_90": 11.39,
         "interceptions": 365,
+        "interceptions_90": 10.47,
         "saves": 83,
+        "saves_90": 2.38,
         "yellow_cards": 83,
-        "red_cards": 4
+        "yc_90": 2.38,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Brentford": {
@@ -2802,18 +3146,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 50,
-        "xg": 0.0,
+        "goals_90": 1.43,
         "assists": 32,
-        "xa": 0.0,
+        "assists_90": 0.92,
         "shots": 376,
+        "shots_90": 10.76,
         "shots_on_target": 140,
+        "sot_90": 4.01,
         "clean_sheets": 10,
         "goals_against": 43,
+        "ga_90": 1.23,
         "tackles_won": 304,
+        "tackles_90": 8.7,
         "interceptions": 299,
+        "interceptions_90": 8.55,
         "saves": 89,
+        "saves_90": 2.55,
         "yellow_cards": 63,
-        "red_cards": 1
+        "yc_90": 1.8,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Brest": {
@@ -2866,18 +3218,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 40,
-        "xg": 0.0,
+        "goals_90": 1.3,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.91,
         "shots": 338,
+        "shots_90": 10.98,
         "shots_on_target": 107,
+        "sot_90": 3.48,
         "clean_sheets": 6,
         "goals_against": 36,
+        "ga_90": 1.17,
         "tackles_won": 354,
+        "tackles_90": 11.5,
         "interceptions": 311,
+        "interceptions_90": 10.1,
         "saves": 94,
+        "saves_90": 3.05,
         "yellow_cards": 57,
-        "red_cards": 5
+        "yc_90": 1.85,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Villarreal": {
@@ -2930,18 +3290,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 63,
-        "xg": 0.0,
+        "goals_90": 1.86,
         "assists": 42,
-        "xa": 0.0,
+        "assists_90": 1.24,
         "shots": 417,
+        "shots_90": 12.29,
         "shots_on_target": 156,
+        "sot_90": 4.6,
         "clean_sheets": 8,
         "goals_against": 30,
+        "ga_90": 0.88,
         "tackles_won": 366,
+        "tackles_90": 10.79,
         "interceptions": 321,
+        "interceptions_90": 9.46,
         "saves": 85,
+        "saves_90": 2.51,
         "yellow_cards": 75,
-        "red_cards": 3
+        "yc_90": 2.21,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Rayo Vallecano": {
@@ -2994,18 +3362,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 35,
-        "xg": 0.0,
+        "goals_90": 1.03,
         "assists": 23,
-        "xa": 0.0,
+        "assists_90": 0.68,
         "shots": 476,
+        "shots_90": 14.05,
         "shots_on_target": 161,
+        "sot_90": 4.75,
         "clean_sheets": 10,
         "goals_against": 35,
+        "ga_90": 1.03,
         "tackles_won": 350,
+        "tackles_90": 10.33,
         "interceptions": 285,
+        "interceptions_90": 8.41,
         "saves": 93,
+        "saves_90": 2.74,
         "yellow_cards": 96,
-        "red_cards": 9
+        "yc_90": 2.83,
+        "red_cards": 9,
+        "rc_90": 0.27
       }
     },
     "Hoffenheim": {
@@ -3058,18 +3434,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 60,
-        "xg": 0.0,
+        "goals_90": 1.88,
         "assists": 44,
-        "xa": 0.0,
+        "assists_90": 1.38,
         "shots": 453,
+        "shots_90": 14.21,
         "shots_on_target": 169,
+        "sot_90": 5.3,
         "clean_sheets": 6,
         "goals_against": 48,
+        "ga_90": 1.51,
         "tackles_won": 304,
+        "tackles_90": 9.53,
         "interceptions": 252,
+        "interceptions_90": 7.9,
         "saves": 94,
+        "saves_90": 2.95,
         "yellow_cards": 66,
-        "red_cards": 2
+        "yc_90": 2.07,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Cagliari": {
@@ -3122,18 +3506,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 36,
-        "xg": 0.0,
+        "goals_90": 1.03,
         "assists": 29,
-        "xa": 0.0,
+        "assists_90": 0.83,
         "shots": 355,
+        "shots_90": 10.15,
         "shots_on_target": 113,
+        "sot_90": 3.23,
         "clean_sheets": 8,
         "goals_against": 49,
+        "ga_90": 1.4,
         "tackles_won": 337,
+        "tackles_90": 9.63,
         "interceptions": 305,
+        "interceptions_90": 8.72,
         "saves": 113,
+        "saves_90": 3.23,
         "yellow_cards": 77,
-        "red_cards": 2
+        "yc_90": 2.2,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Everton": {
@@ -3186,18 +3578,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 42,
-        "xg": 0.0,
+        "goals_90": 1.2,
         "assists": 32,
-        "xa": 0.0,
+        "assists_90": 0.92,
         "shots": 389,
+        "shots_90": 11.15,
         "shots_on_target": 131,
+        "sot_90": 3.75,
         "clean_sheets": 11,
         "goals_against": 44,
+        "ga_90": 1.26,
         "tackles_won": 376,
+        "tackles_90": 10.78,
         "interceptions": 286,
+        "interceptions_90": 8.2,
         "saves": 92,
+        "saves_90": 2.64,
         "yellow_cards": 67,
-        "red_cards": 4
+        "yc_90": 1.92,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Alavés": {
@@ -3250,18 +3650,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 37,
-        "xg": 0.0,
+        "goals_90": 1.09,
         "assists": 24,
-        "xa": 0.0,
+        "assists_90": 0.71,
         "shots": 415,
+        "shots_90": 12.22,
         "shots_on_target": 135,
+        "sot_90": 3.97,
         "clean_sheets": 3,
         "goals_against": 53,
+        "ga_90": 1.56,
         "tackles_won": 361,
+        "tackles_90": 10.63,
         "interceptions": 273,
+        "interceptions_90": 8.04,
         "saves": 88,
+        "saves_90": 2.59,
         "yellow_cards": 84,
-        "red_cards": 5
+        "yc_90": 2.47,
+        "red_cards": 5,
+        "rc_90": 0.15
       }
     },
     "Liverpool": {
@@ -3314,18 +3722,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 57,
-        "xg": 0.0,
+        "goals_90": 1.63,
         "assists": 40,
-        "xa": 0.0,
+        "assists_90": 1.14,
         "shots": 540,
+        "shots_90": 15.43,
         "shots_on_target": 159,
+        "sot_90": 4.54,
         "clean_sheets": 8,
         "goals_against": 30,
+        "ga_90": 0.86,
         "tackles_won": 290,
+        "tackles_90": 8.29,
         "interceptions": 228,
+        "interceptions_90": 6.51,
         "saves": 91,
+        "saves_90": 2.6,
         "yellow_cards": 52,
-        "red_cards": 1
+        "yc_90": 1.49,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Atlético Madrid": {
@@ -3378,18 +3794,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 54,
-        "xg": 0.0,
+        "goals_90": 1.6,
         "assists": 38,
-        "xa": 0.0,
+        "assists_90": 1.12,
         "shots": 447,
+        "shots_90": 13.22,
         "shots_on_target": 178,
+        "sot_90": 5.26,
         "clean_sheets": 10,
         "goals_against": 30,
+        "ga_90": 0.89,
         "tackles_won": 347,
+        "tackles_90": 10.26,
         "interceptions": 273,
+        "interceptions_90": 8.07,
         "saves": 79,
+        "saves_90": 2.34,
         "yellow_cards": 70,
-        "red_cards": 4
+        "yc_90": 2.07,
+        "red_cards": 4,
+        "rc_90": 0.12
       }
     },
     "Parma": {
@@ -3442,18 +3866,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 23,
-        "xg": 0.0,
+        "goals_90": 0.66,
         "assists": 14,
-        "xa": 0.0,
+        "assists_90": 0.4,
         "shots": 378,
+        "shots_90": 10.85,
         "shots_on_target": 96,
+        "sot_90": 2.75,
         "clean_sheets": 6,
         "goals_against": 24,
+        "ga_90": 0.69,
         "tackles_won": 285,
+        "tackles_90": 8.18,
         "interceptions": 238,
+        "interceptions_90": 6.83,
         "saves": 102,
+        "saves_90": 2.93,
         "yellow_cards": 59,
-        "red_cards": 4
+        "yc_90": 1.69,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Real Betis": {
@@ -3506,18 +3938,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 51,
-        "xg": 0.0,
+        "goals_90": 1.5,
         "assists": 37,
-        "xa": 0.0,
+        "assists_90": 1.09,
         "shots": 485,
+        "shots_90": 14.27,
         "shots_on_target": 160,
+        "sot_90": 4.71,
         "clean_sheets": 8,
         "goals_against": 30,
+        "ga_90": 0.88,
         "tackles_won": 352,
+        "tackles_90": 10.35,
         "interceptions": 306,
+        "interceptions_90": 9.0,
         "saves": 105,
+        "saves_90": 3.09,
         "yellow_cards": 65,
-        "red_cards": 1
+        "yc_90": 1.91,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Athletic Club": {
@@ -3570,18 +4010,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 39,
-        "xg": 0.0,
+        "goals_90": 1.15,
         "assists": 27,
-        "xa": 0.0,
+        "assists_90": 0.8,
         "shots": 462,
+        "shots_90": 13.62,
         "shots_on_target": 153,
+        "sot_90": 4.51,
         "clean_sheets": 6,
         "goals_against": 50,
+        "ga_90": 1.47,
         "tackles_won": 313,
+        "tackles_90": 9.23,
         "interceptions": 314,
+        "interceptions_90": 9.26,
         "saves": 91,
+        "saves_90": 2.68,
         "yellow_cards": 75,
-        "red_cards": 6
+        "yc_90": 2.21,
+        "red_cards": 6,
+        "rc_90": 0.18
       }
     },
     "Eintracht Frankfurt": {
@@ -3634,18 +4082,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 59,
-        "xg": 0.0,
+        "goals_90": 1.79,
         "assists": 42,
-        "xa": 0.0,
+        "assists_90": 1.27,
         "shots": 392,
+        "shots_90": 11.9,
         "shots_on_target": 150,
+        "sot_90": 4.55,
         "clean_sheets": 6,
         "goals_against": 32,
+        "ga_90": 0.97,
         "tackles_won": 331,
+        "tackles_90": 10.04,
         "interceptions": 311,
+        "interceptions_90": 9.44,
         "saves": 94,
+        "saves_90": 2.85,
         "yellow_cards": 60,
-        "red_cards": 4
+        "yc_90": 1.82,
+        "red_cards": 4,
+        "rc_90": 0.12
       }
     },
     "Burnley": {
@@ -3698,18 +4154,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 32,
-        "xg": 0.0,
+        "goals_90": 0.92,
         "assists": 25,
-        "xa": 0.0,
+        "assists_90": 0.72,
         "shots": 319,
+        "shots_90": 9.13,
         "shots_on_target": 104,
+        "sot_90": 2.98,
         "clean_sheets": 4,
         "goals_against": 71,
+        "ga_90": 2.03,
         "tackles_won": 331,
+        "tackles_90": 9.47,
         "interceptions": 319,
+        "interceptions_90": 9.13,
         "saves": 127,
+        "saves_90": 3.63,
         "yellow_cards": 60,
-        "red_cards": 3
+        "yc_90": 1.72,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Napoli": {
@@ -3762,18 +4226,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 51,
-        "xg": 0.0,
+        "goals_90": 1.46,
         "assists": 34,
-        "xa": 0.0,
+        "assists_90": 0.97,
         "shots": 464,
+        "shots_90": 13.26,
         "shots_on_target": 163,
+        "sot_90": 4.66,
         "clean_sheets": 11,
         "goals_against": 21,
+        "ga_90": 0.6,
         "tackles_won": 256,
+        "tackles_90": 7.32,
         "interceptions": 218,
+        "interceptions_90": 6.23,
         "saves": 68,
+        "saves_90": 1.94,
         "yellow_cards": 46,
-        "red_cards": 2
+        "yc_90": 1.32,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Mainz 05": {
@@ -3826,18 +4298,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 41,
-        "xg": 0.0,
+        "goals_90": 1.29,
         "assists": 24,
-        "xa": 0.0,
+        "assists_90": 0.75,
         "shots": 381,
+        "shots_90": 11.97,
         "shots_on_target": 129,
+        "sot_90": 4.05,
         "clean_sheets": 3,
         "goals_against": 27,
+        "ga_90": 0.85,
         "tackles_won": 302,
+        "tackles_90": 9.49,
         "interceptions": 330,
+        "interceptions_90": 10.36,
         "saves": 105,
+        "saves_90": 3.3,
         "yellow_cards": 67,
-        "red_cards": 5
+        "yc_90": 2.1,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Strasbourg": {
@@ -3890,18 +4370,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 49,
-        "xg": 0.0,
+        "goals_90": 1.59,
         "assists": 35,
-        "xa": 0.0,
+        "assists_90": 1.13,
         "shots": 349,
+        "shots_90": 11.3,
         "shots_on_target": 140,
+        "sot_90": 4.53,
         "clean_sheets": 8,
         "goals_against": 41,
+        "ga_90": 1.33,
         "tackles_won": 295,
+        "tackles_90": 9.55,
         "interceptions": 231,
+        "interceptions_90": 7.48,
         "saves": 95,
+        "saves_90": 3.07,
         "yellow_cards": 56,
-        "red_cards": 5
+        "yc_90": 1.81,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Genoa": {
@@ -3954,18 +4442,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 40,
-        "xg": 0.0,
+        "goals_90": 1.15,
         "assists": 21,
-        "xa": 0.0,
+        "assists_90": 0.6,
         "shots": 406,
+        "shots_90": 11.65,
         "shots_on_target": 137,
+        "sot_90": 3.93,
         "clean_sheets": 4,
         "goals_against": 27,
+        "ga_90": 0.77,
         "tackles_won": 395,
+        "tackles_90": 11.33,
         "interceptions": 264,
+        "interceptions_90": 7.57,
         "saves": 104,
+        "saves_90": 2.98,
         "yellow_cards": 60,
-        "red_cards": 3
+        "yc_90": 1.72,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Fulham": {
@@ -4018,18 +4514,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 40,
-        "xg": 0.0,
+        "goals_90": 1.14,
         "assists": 25,
-        "xa": 0.0,
+        "assists_90": 0.71,
         "shots": 433,
+        "shots_90": 12.37,
         "shots_on_target": 125,
+        "sot_90": 3.57,
         "clean_sheets": 8,
         "goals_against": 49,
+        "ga_90": 1.4,
         "tackles_won": 347,
+        "tackles_90": 9.91,
         "interceptions": 290,
+        "interceptions_90": 8.29,
         "saves": 91,
+        "saves_90": 2.6,
         "yellow_cards": 69,
-        "red_cards": 0
+        "yc_90": 1.97,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     },
     "Lille": {
@@ -4082,18 +4586,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 51,
-        "xg": 0.0,
+        "goals_90": 1.6,
         "assists": 33,
-        "xa": 0.0,
+        "assists_90": 1.04,
         "shots": 445,
+        "shots_90": 13.98,
         "shots_on_target": 152,
+        "sot_90": 4.78,
         "clean_sheets": 12,
         "goals_against": 32,
+        "ga_90": 1.01,
         "tackles_won": 299,
+        "tackles_90": 9.4,
         "interceptions": 296,
+        "interceptions_90": 9.3,
         "saves": 69,
+        "saves_90": 2.17,
         "yellow_cards": 72,
-        "red_cards": 5
+        "yc_90": 2.26,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Leverkusen": {
@@ -4146,18 +4658,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 65,
-        "xg": 0.0,
+        "goals_90": 2.03,
         "assists": 47,
-        "xa": 0.0,
+        "assists_90": 1.47,
         "shots": 484,
+        "shots_90": 15.14,
         "shots_on_target": 162,
+        "sot_90": 5.07,
         "clean_sheets": 5,
         "goals_against": 34,
+        "ga_90": 1.06,
         "tackles_won": 273,
+        "tackles_90": 8.54,
         "interceptions": 241,
+        "interceptions_90": 7.54,
         "saves": 110,
+        "saves_90": 3.44,
         "yellow_cards": 68,
-        "red_cards": 2
+        "yc_90": 2.13,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Espanyol": {
@@ -4210,18 +4730,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 36,
-        "xg": 0.0,
+        "goals_90": 1.06,
         "assists": 24,
-        "xa": 0.0,
+        "assists_90": 0.71,
         "shots": 434,
+        "shots_90": 12.8,
         "shots_on_target": 137,
+        "sot_90": 4.04,
         "clean_sheets": 9,
         "goals_against": 51,
+        "ga_90": 1.5,
         "tackles_won": 336,
+        "tackles_90": 9.91,
         "interceptions": 274,
+        "interceptions_90": 8.08,
         "saves": 119,
+        "saves_90": 3.51,
         "yellow_cards": 83,
-        "red_cards": 5
+        "yc_90": 2.45,
+        "red_cards": 5,
+        "rc_90": 0.15
       }
     },
     "Roma": {
@@ -4274,18 +4802,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 52,
-        "xg": 0.0,
+        "goals_90": 1.49,
         "assists": 36,
-        "xa": 0.0,
+        "assists_90": 1.03,
         "shots": 453,
+        "shots_90": 12.97,
         "shots_on_target": 157,
+        "sot_90": 4.49,
         "clean_sheets": 16,
         "goals_against": 29,
+        "ga_90": 0.83,
         "tackles_won": 318,
+        "tackles_90": 9.1,
         "interceptions": 330,
+        "interceptions_90": 9.45,
         "saves": 101,
+        "saves_90": 2.89,
         "yellow_cards": 65,
-        "red_cards": 2
+        "yc_90": 1.86,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Union Berlin": {
@@ -4338,18 +4874,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 37,
-        "xg": 0.0,
+        "goals_90": 1.16,
         "assists": 23,
-        "xa": 0.0,
+        "assists_90": 0.72,
         "shots": 391,
+        "shots_90": 12.25,
         "shots_on_target": 115,
+        "sot_90": 3.6,
         "clean_sheets": 5,
         "goals_against": 54,
+        "ga_90": 1.69,
         "tackles_won": 280,
+        "tackles_90": 8.77,
         "interceptions": 276,
+        "interceptions_90": 8.65,
         "saves": 87,
+        "saves_90": 2.73,
         "yellow_cards": 67,
-        "red_cards": 3
+        "yc_90": 2.1,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Girona": {
@@ -4402,18 +4946,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 35,
-        "xg": 0.0,
+        "goals_90": 1.03,
         "assists": 25,
-        "xa": 0.0,
+        "assists_90": 0.74,
         "shots": 353,
+        "shots_90": 10.43,
         "shots_on_target": 130,
+        "sot_90": 3.84,
         "clean_sheets": 6,
         "goals_against": 43,
+        "ga_90": 1.27,
         "tackles_won": 325,
+        "tackles_90": 9.61,
         "interceptions": 261,
+        "interceptions_90": 7.71,
         "saves": 115,
+        "saves_90": 3.4,
         "yellow_cards": 73,
-        "red_cards": 7
+        "yc_90": 2.16,
+        "red_cards": 7,
+        "rc_90": 0.21
       }
     },
     "Barcelona": {
@@ -4466,18 +5018,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 88,
-        "xg": 0.0,
+        "goals_90": 2.59,
         "assists": 65,
-        "xa": 0.0,
+        "assists_90": 1.91,
         "shots": 648,
+        "shots_90": 19.06,
         "shots_on_target": 237,
+        "sot_90": 6.97,
         "clean_sheets": 14,
         "goals_against": 20,
+        "ga_90": 0.59,
         "tackles_won": 337,
+        "tackles_90": 9.91,
         "interceptions": 261,
+        "interceptions_90": 7.68,
         "saves": 88,
+        "saves_90": 2.59,
         "yellow_cards": 53,
-        "red_cards": 2
+        "yc_90": 1.56,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Stuttgart": {
@@ -4530,18 +5090,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 65,
-        "xg": 0.0,
+        "goals_90": 2.03,
         "assists": 52,
-        "xa": 0.0,
+        "assists_90": 1.63,
         "shots": 486,
+        "shots_90": 15.2,
         "shots_on_target": 191,
+        "sot_90": 5.97,
         "clean_sheets": 11,
         "goals_against": 46,
+        "ga_90": 1.44,
         "tackles_won": 275,
+        "tackles_90": 8.6,
         "interceptions": 266,
+        "interceptions_90": 8.32,
         "saves": 98,
+        "saves_90": 3.07,
         "yellow_cards": 58,
-        "red_cards": 2
+        "yc_90": 1.81,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Le Havre": {
@@ -4594,18 +5162,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 30,
-        "xg": 0.0,
+        "goals_90": 0.94,
         "assists": 21,
-        "xa": 0.0,
+        "assists_90": 0.66,
         "shots": 356,
+        "shots_90": 11.19,
         "shots_on_target": 118,
+        "sot_90": 3.71,
         "clean_sheets": 6,
         "goals_against": 40,
+        "ga_90": 1.26,
         "tackles_won": 320,
+        "tackles_90": 10.06,
         "interceptions": 303,
+        "interceptions_90": 9.53,
         "saves": 94,
+        "saves_90": 2.96,
         "yellow_cards": 60,
-        "red_cards": 4
+        "yc_90": 1.89,
+        "red_cards": 4,
+        "rc_90": 0.13
       }
     },
     "Osasuna": {
@@ -4658,18 +5234,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 40,
-        "xg": 0.0,
+        "goals_90": 1.15,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.8,
         "shots": 392,
+        "shots_90": 11.24,
         "shots_on_target": 133,
+        "sot_90": 3.81,
         "clean_sheets": 7,
         "goals_against": 44,
+        "ga_90": 1.26,
         "tackles_won": 296,
+        "tackles_90": 8.48,
         "interceptions": 283,
+        "interceptions_90": 8.11,
         "saves": 117,
+        "saves_90": 3.35,
         "yellow_cards": 82,
-        "red_cards": 7
+        "yc_90": 2.35,
+        "red_cards": 7,
+        "rc_90": 0.2
       }
     },
     "Udinese": {
@@ -4722,18 +5306,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 42,
-        "xg": 0.0,
+        "goals_90": 1.2,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.8,
         "shots": 410,
+        "shots_90": 11.74,
         "shots_on_target": 135,
+        "sot_90": 3.87,
         "clean_sheets": 9,
         "goals_against": 35,
+        "ga_90": 1.0,
         "tackles_won": 352,
+        "tackles_90": 10.08,
         "interceptions": 303,
+        "interceptions_90": 8.68,
         "saves": 86,
+        "saves_90": 2.46,
         "yellow_cards": 66,
-        "red_cards": 1
+        "yc_90": 1.89,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Mallorca": {
@@ -4786,18 +5378,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 42,
-        "xg": 0.0,
+        "goals_90": 1.24,
         "assists": 30,
-        "xa": 0.0,
+        "assists_90": 0.89,
         "shots": 354,
+        "shots_90": 10.45,
         "shots_on_target": 138,
+        "sot_90": 4.07,
         "clean_sheets": 3,
         "goals_against": 44,
+        "ga_90": 1.3,
         "tackles_won": 284,
+        "tackles_90": 8.39,
         "interceptions": 246,
+        "interceptions_90": 7.26,
         "saves": 111,
+        "saves_90": 3.28,
         "yellow_cards": 75,
-        "red_cards": 4
+        "yc_90": 2.21,
+        "red_cards": 4,
+        "rc_90": 0.12
       }
     },
     "Paris FC": {
@@ -4850,18 +5450,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.35,
         "assists": 26,
-        "xa": 0.0,
+        "assists_90": 0.81,
         "shots": 367,
+        "shots_90": 11.5,
         "shots_on_target": 125,
+        "sot_90": 3.92,
         "clean_sheets": 7,
         "goals_against": 26,
+        "ga_90": 0.81,
         "tackles_won": 305,
+        "tackles_90": 9.55,
         "interceptions": 248,
+        "interceptions_90": 7.77,
         "saves": 78,
+        "saves_90": 2.44,
         "yellow_cards": 68,
-        "red_cards": 5
+        "yc_90": 2.13,
+        "red_cards": 5,
+        "rc_90": 0.16
       }
     },
     "Milan": {
@@ -4914,18 +5522,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 48,
-        "xg": 0.0,
+        "goals_90": 1.38,
         "assists": 34,
-        "xa": 0.0,
+        "assists_90": 0.97,
         "shots": 459,
+        "shots_90": 13.15,
         "shots_on_target": 148,
+        "sot_90": 4.24,
         "clean_sheets": 14,
         "goals_against": 29,
+        "ga_90": 0.83,
         "tackles_won": 293,
+        "tackles_90": 8.4,
         "interceptions": 226,
+        "interceptions_90": 6.48,
         "saves": 98,
+        "saves_90": 2.81,
         "yellow_cards": 56,
-        "red_cards": 3
+        "yc_90": 1.6,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Cremonese": {
@@ -4978,18 +5594,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 27,
-        "xg": 0.0,
+        "goals_90": 0.77,
         "assists": 20,
-        "xa": 0.0,
+        "assists_90": 0.57,
         "shots": 323,
+        "shots_90": 9.23,
         "shots_on_target": 114,
+        "sot_90": 3.26,
         "clean_sheets": 9,
         "goals_against": 46,
+        "ga_90": 1.31,
         "tackles_won": 283,
+        "tackles_90": 8.09,
         "interceptions": 247,
+        "interceptions_90": 7.06,
         "saves": 134,
+        "saves_90": 3.83,
         "yellow_cards": 66,
-        "red_cards": 3
+        "yc_90": 1.89,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Brighton": {
@@ -5042,18 +5666,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 48,
-        "xg": 0.0,
+        "goals_90": 1.37,
         "assists": 31,
-        "xa": 0.0,
+        "assists_90": 0.89,
         "shots": 449,
+        "shots_90": 12.83,
         "shots_on_target": 160,
+        "sot_90": 4.57,
         "clean_sheets": 9,
         "goals_against": 42,
+        "ga_90": 1.2,
         "tackles_won": 386,
+        "tackles_90": 11.03,
         "interceptions": 288,
+        "interceptions_90": 8.23,
         "saves": 96,
+        "saves_90": 2.74,
         "yellow_cards": 85,
-        "red_cards": 0
+        "yc_90": 2.43,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     },
     "RB Leipzig": {
@@ -5106,18 +5738,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 61,
-        "xg": 0.0,
+        "goals_90": 1.91,
         "assists": 45,
-        "xa": 0.0,
+        "assists_90": 1.41,
         "shots": 511,
+        "shots_90": 15.97,
         "shots_on_target": 193,
+        "sot_90": 6.03,
         "clean_sheets": 9,
         "goals_against": 28,
+        "ga_90": 0.88,
         "tackles_won": 322,
+        "tackles_90": 10.06,
         "interceptions": 292,
+        "interceptions_90": 9.12,
         "saves": 79,
+        "saves_90": 2.47,
         "yellow_cards": 49,
-        "red_cards": 0
+        "yc_90": 1.53,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     },
     "Sassuolo": {
@@ -5170,18 +5810,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 43,
-        "xg": 0.0,
+        "goals_90": 1.2,
         "assists": 33,
-        "xa": 0.0,
+        "assists_90": 0.92,
         "shots": 385,
+        "shots_90": 10.75,
         "shots_on_target": 136,
+        "sot_90": 3.8,
         "clean_sheets": 6,
         "goals_against": 43,
+        "ga_90": 1.2,
         "tackles_won": 293,
+        "tackles_90": 8.18,
         "interceptions": 280,
+        "interceptions_90": 7.81,
         "saves": 128,
+        "saves_90": 3.57,
         "yellow_cards": 80,
-        "red_cards": 4
+        "yc_90": 2.23,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Fiorentina": {
@@ -5234,18 +5882,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 37,
-        "xg": 0.0,
+        "goals_90": 1.06,
         "assists": 21,
-        "xa": 0.0,
+        "assists_90": 0.6,
         "shots": 455,
+        "shots_90": 13.0,
         "shots_on_target": 122,
+        "sot_90": 3.49,
         "clean_sheets": 8,
         "goals_against": 49,
+        "ga_90": 1.4,
         "tackles_won": 248,
+        "tackles_90": 7.09,
         "interceptions": 247,
+        "interceptions_90": 7.06,
         "saves": 107,
+        "saves_90": 3.06,
         "yellow_cards": 79,
-        "red_cards": 2
+        "yc_90": 2.26,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Hamburger SV": {
@@ -5298,18 +5954,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 36,
-        "xg": 0.0,
+        "goals_90": 1.13,
         "assists": 27,
-        "xa": 0.0,
+        "assists_90": 0.85,
         "shots": 386,
+        "shots_90": 12.11,
         "shots_on_target": 144,
+        "sot_90": 4.52,
         "clean_sheets": 6,
         "goals_against": 51,
+        "ga_90": 1.6,
         "tackles_won": 283,
+        "tackles_90": 8.88,
         "interceptions": 276,
+        "interceptions_90": 8.66,
         "saves": 104,
+        "saves_90": 3.26,
         "yellow_cards": 74,
-        "red_cards": 8
+        "yc_90": 2.32,
+        "red_cards": 8,
+        "rc_90": 0.25
       }
     },
     "Lecce": {
@@ -5362,18 +6026,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 24,
-        "xg": 0.0,
+        "goals_90": 0.69,
         "assists": 17,
-        "xa": 0.0,
+        "assists_90": 0.49,
         "shots": 345,
+        "shots_90": 9.87,
         "shots_on_target": 84,
+        "sot_90": 2.4,
         "clean_sheets": 9,
         "goals_against": 47,
+        "ga_90": 1.34,
         "tackles_won": 371,
+        "tackles_90": 10.61,
         "interceptions": 243,
+        "interceptions_90": 6.95,
         "saves": 98,
+        "saves_90": 2.8,
         "yellow_cards": 62,
-        "red_cards": 2
+        "yc_90": 1.77,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Augsburg": {
@@ -5426,18 +6098,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 42,
-        "xg": 0.0,
+        "goals_90": 1.31,
         "assists": 26,
-        "xa": 0.0,
+        "assists_90": 0.81,
         "shots": 419,
+        "shots_90": 13.1,
         "shots_on_target": 146,
+        "sot_90": 4.56,
         "clean_sheets": 5,
         "goals_against": 56,
+        "ga_90": 1.75,
         "tackles_won": 315,
+        "tackles_90": 9.85,
         "interceptions": 273,
+        "interceptions_90": 8.53,
         "saves": 97,
+        "saves_90": 3.03,
         "yellow_cards": 79,
-        "red_cards": 1
+        "yc_90": 2.47,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Paris Saint-Germain": {
@@ -5490,18 +6170,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 69,
-        "xg": 0.0,
+        "goals_90": 2.23,
         "assists": 51,
-        "xa": 0.0,
+        "assists_90": 1.65,
         "shots": 559,
+        "shots_90": 18.05,
         "shots_on_target": 215,
+        "sot_90": 6.94,
         "clean_sheets": 9,
         "goals_against": 13,
+        "ga_90": 0.42,
         "tackles_won": 284,
+        "tackles_90": 9.17,
         "interceptions": 214,
+        "interceptions_90": 6.91,
         "saves": 58,
+        "saves_90": 1.87,
         "yellow_cards": 35,
-        "red_cards": 2
+        "yc_90": 1.13,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Newcastle United": {
@@ -5554,18 +6242,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 49,
-        "xg": 0.0,
+        "goals_90": 1.4,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.8,
         "shots": 454,
+        "shots_90": 13.01,
         "shots_on_target": 161,
+        "sot_90": 4.61,
         "clean_sheets": 7,
         "goals_against": 34,
+        "ga_90": 0.97,
         "tackles_won": 312,
+        "tackles_90": 8.94,
         "interceptions": 234,
+        "interceptions_90": 6.71,
         "saves": 97,
+        "saves_90": 2.78,
         "yellow_cards": 64,
-        "red_cards": 3
+        "yc_90": 1.83,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Lazio": {
@@ -5618,18 +6314,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 37,
-        "xg": 0.0,
+        "goals_90": 1.06,
         "assists": 26,
-        "xa": 0.0,
+        "assists_90": 0.74,
         "shots": 387,
+        "shots_90": 11.09,
         "shots_on_target": 140,
+        "sot_90": 4.01,
         "clean_sheets": 12,
         "goals_against": 27,
+        "ga_90": 0.77,
         "tackles_won": 284,
+        "tackles_90": 8.14,
         "interceptions": 273,
+        "interceptions_90": 7.82,
         "saves": 107,
+        "saves_90": 3.07,
         "yellow_cards": 71,
-        "red_cards": 7
+        "yc_90": 2.03,
+        "red_cards": 7,
+        "rc_90": 0.2
       }
     },
     "Manchester Utd": {
@@ -5682,18 +6386,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 60,
-        "xg": 0.0,
+        "goals_90": 1.72,
         "assists": 42,
-        "xa": 0.0,
+        "assists_90": 1.2,
         "shots": 544,
+        "shots_90": 15.59,
         "shots_on_target": 199,
+        "sot_90": 5.7,
         "clean_sheets": 6,
         "goals_against": 37,
+        "ga_90": 1.06,
         "tackles_won": 375,
+        "tackles_90": 10.74,
         "interceptions": 279,
+        "interceptions_90": 7.99,
         "saves": 83,
+        "saves_90": 2.38,
         "yellow_cards": 58,
-        "red_cards": 3
+        "yc_90": 1.66,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Heidenheim": {
@@ -5746,18 +6458,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 38,
-        "xg": 0.0,
+        "goals_90": 1.19,
         "assists": 27,
-        "xa": 0.0,
+        "assists_90": 0.85,
         "shots": 363,
+        "shots_90": 11.37,
         "shots_on_target": 113,
+        "sot_90": 3.54,
         "clean_sheets": 1,
         "goals_against": 67,
+        "ga_90": 2.1,
         "tackles_won": 297,
+        "tackles_90": 9.3,
         "interceptions": 301,
+        "interceptions_90": 9.43,
         "saves": 104,
+        "saves_90": 3.26,
         "yellow_cards": 45,
-        "red_cards": 1
+        "yc_90": 1.41,
+        "red_cards": 1,
+        "rc_90": 0.03
       }
     },
     "Crystal Palace": {
@@ -5810,18 +6530,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 35,
-        "xg": 0.0,
+        "goals_90": 1.03,
         "assists": 21,
-        "xa": 0.0,
+        "assists_90": 0.62,
         "shots": 391,
+        "shots_90": 11.52,
         "shots_on_target": 123,
+        "sot_90": 3.62,
         "clean_sheets": 11,
         "goals_against": 42,
+        "ga_90": 1.24,
         "tackles_won": 373,
+        "tackles_90": 10.99,
         "interceptions": 276,
+        "interceptions_90": 8.13,
         "saves": 95,
+        "saves_90": 2.8,
         "yellow_cards": 71,
-        "red_cards": 2
+        "yc_90": 2.09,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Tottenham Hotspur": {
@@ -5874,18 +6602,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 44,
-        "xg": 0.0,
+        "goals_90": 1.26,
         "assists": 35,
-        "xa": 0.0,
+        "assists_90": 1.01,
         "shots": 390,
+        "shots_90": 11.2,
         "shots_on_target": 138,
+        "sot_90": 3.96,
         "clean_sheets": 7,
         "goals_against": 50,
+        "ga_90": 1.44,
         "tackles_won": 410,
+        "tackles_90": 11.77,
         "interceptions": 280,
+        "interceptions_90": 8.04,
         "saves": 87,
+        "saves_90": 2.5,
         "yellow_cards": 92,
-        "red_cards": 4
+        "yc_90": 2.64,
+        "red_cards": 4,
+        "rc_90": 0.11
       }
     },
     "Bologna": {
@@ -5938,18 +6674,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 41,
-        "xg": 0.0,
+        "goals_90": 1.18,
         "assists": 28,
-        "xa": 0.0,
+        "assists_90": 0.8,
         "shots": 459,
+        "shots_90": 13.18,
         "shots_on_target": 132,
+        "sot_90": 3.79,
         "clean_sheets": 7,
         "goals_against": 29,
+        "ga_90": 0.83,
         "tackles_won": 292,
+        "tackles_90": 8.38,
         "interceptions": 250,
+        "interceptions_90": 7.18,
         "saves": 86,
+        "saves_90": 2.47,
         "yellow_cards": 62,
-        "red_cards": 6
+        "yc_90": 1.78,
+        "red_cards": 6,
+        "rc_90": 0.17
       }
     },
     "Bayern Munich": {
@@ -6002,18 +6746,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 113,
-        "xg": 0.0,
+        "goals_90": 3.54,
         "assists": 85,
-        "xa": 0.0,
+        "assists_90": 2.66,
         "shots": 618,
+        "shots_90": 19.35,
         "shots_on_target": 273,
+        "sot_90": 8.55,
         "clean_sheets": 7,
         "goals_against": 19,
+        "ga_90": 0.59,
         "tackles_won": 256,
+        "tackles_90": 8.01,
         "interceptions": 268,
+        "interceptions_90": 8.39,
         "saves": 63,
+        "saves_90": 1.97,
         "yellow_cards": 57,
-        "red_cards": 2
+        "yc_90": 1.78,
+        "red_cards": 2,
+        "rc_90": 0.06
       }
     },
     "Gladbach": {
@@ -6066,18 +6818,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 35,
-        "xg": 0.0,
+        "goals_90": 1.1,
         "assists": 25,
-        "xa": 0.0,
+        "assists_90": 0.78,
         "shots": 369,
+        "shots_90": 11.57,
         "shots_on_target": 131,
+        "sot_90": 4.11,
         "clean_sheets": 12,
         "goals_against": 50,
+        "ga_90": 1.57,
         "tackles_won": 315,
+        "tackles_90": 9.88,
         "interceptions": 304,
+        "interceptions_90": 9.53,
         "saves": 126,
+        "saves_90": 3.95,
         "yellow_cards": 54,
-        "red_cards": 3
+        "yc_90": 1.69,
+        "red_cards": 3,
+        "rc_90": 0.09
       }
     },
     "Arsenal": {
@@ -6130,18 +6890,26 @@ window.TACTICAL_DATA = {
       ],
       "team_stats": {
         "goals": 63,
-        "xg": 0.0,
+        "goals_90": 1.8,
         "assists": 47,
-        "xa": 0.0,
+        "assists_90": 1.34,
         "shots": 507,
+        "shots_90": 14.49,
         "shots_on_target": 172,
+        "sot_90": 4.91,
         "clean_sheets": 17,
         "goals_against": 26,
+        "ga_90": 0.74,
         "tackles_won": 316,
+        "tackles_90": 9.03,
         "interceptions": 248,
+        "interceptions_90": 7.09,
         "saves": 56,
+        "saves_90": 1.6,
         "yellow_cards": 45,
-        "red_cards": 0
+        "yc_90": 1.29,
+        "red_cards": 0,
+        "rc_90": 0.0
       }
     }
   },
