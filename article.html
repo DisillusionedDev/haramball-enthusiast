@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Media Hub | Predictive Optimization Sandbox</title>
+    <style>
+        :root {
+            --pitch-green: #143e2f;
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --emerald-glow: #10b981;
+            --rose-glow: #f43f5e;
+            --amber-warn: #f59e0b;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; line-height: 1.7; }
+        
+        .layout-container { max-width: 1440px; margin: 0 auto; display: grid; grid-template-columns: 1fr 380px; gap: 30px; }
+        
+        /* Persistent Navigation Control Bar */
+        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
+        .nav-links { display: flex; gap: 12px; }
+        .btn-nav { background: #1e293b; color: var(--accent-blue); border: 1px solid #334155; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; }
+        .btn-nav:hover { background: #334155; border-color: var(--accent-blue); color: white; }
+
+        /* Editorial Core Layout */
+        .editorial-core { background: var(--card-bg); border-radius: 12px; border: 1px solid #334155; padding: 40px; }
+        .article-wrapper { max-width: 700px; margin: 0 auto; }
+        
+        /* Typography Elements */
+        .article-category { font-size: 11px; text-transform: uppercase; color: var(--amber-warn); font-weight: 800; letter-spacing: 1.5px; margin-bottom: 12px; display: inline-block; }
+        .article-title { font-size: 36px; line-height: 1.2; font-weight: 800; color: var(--text-main); margin-bottom: 16px; letter-spacing: -0.5px; }
+        .article-meta { display: flex; align-items: center; gap: 16px; border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 30px; font-size: 13px; color: var(--text-muted); }
+        .author-badge { font-weight: 600; color: var(--accent-blue); }
+        
+        .article-body p { margin-bottom: 24px; font-size: 16px; color: #cbd5e1; }
+        
+        /* The "Smoking Gun" Cherry-Picked Data Card */
+        .data-narrative-box { background: #0f172a; border-left: 4px solid var(--amber-warn); border-radius: 4px; padding: 20px; margin: 35px 0; border-top: 1px solid #334155; border-right: 1px solid #334155; border-bottom: 1px solid #334155; }
+        .narrative-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+        .narrative-title { font-size: 12px; font-weight: bold; text-transform: uppercase; color: var(--amber-warn); letter-spacing: 0.5px; }
+        
+        .narrative-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+        .narrative-table th { color: var(--text-muted); font-weight: 500; padding: 6px 12px; border-bottom: 1px solid #334155; text-align: left; }
+        .narrative-table td { padding: 10px 12px; border-bottom: 1px solid #1e293b; }
+        .highlight-row { background: rgba(245, 158, 11, 0.06); }
+        .highlight-text { color: var(--rose-glow); font-weight: bold; }
+        .success-text { color: var(--emerald-glow); font-weight: bold; }
+
+        /* Tweetable Inline Hot-Take Blocks */
+        .quote-take-block { background: rgba(56, 189, 248, 0.03); border: 1px dashed rgba(56, 189, 248, 0.3); border-radius: 8px; padding: 24px; margin: 35px 0; position: relative; }
+        .quote-text { font-size: 18px; font-style: italic; font-weight: 600; color: var(--text-main); margin-bottom: 12px; position: relative; }
+        .quote-btn-share { background: #000; color: white; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+        .quote-btn-share:hover { background: #111; border-color: var(--accent-blue); }
+
+        /* The Engagement Hook: Interactive Rage Meter */
+        .rage-container { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 24px; margin-top: 40px; text-align: center; }
+        .rage-buttons { display: flex; gap: 12px; justify-content: center; margin-top: 16px; }
+        .btn-rage { padding: 10px 20px; border-radius: 6px; border: none; font-weight: bold; font-size: 13px; cursor: pointer; transition: all 0.2s; }
+        .btn-rage.validate { background: rgba(16, 185, 129, 0.15); color: var(--emerald-glow); border: 1px solid var(--emerald-glow); }
+        .btn-rage.validate:hover { background: var(--emerald-glow); color: #0f172a; }
+        .btn-rage.destroy { background: rgba(244, 63, 94, 0.15); color: var(--rose-glow); border: 1px solid var(--rose-glow); }
+        .btn-rage.destroy:hover { background: var(--rose-glow); color: #0f172a; }
+
+        /* Sidebar Containers */
+        .sidebar-right { display: flex; flex-direction: column; gap: 20px; }
+        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #334155; }
+        .widget-heading { font-size: 12px; font-weight: 800; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid #334155; padding-bottom: 8px; margin-bottom: 12px; }
+        
+        .trending-item { display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; cursor: pointer; }
+        .trending-title { font-size: 13px; font-weight: 600; color: var(--text-main); line-height: 1.4; }
+        .trending-title:hover { color: var(--accent-blue); }
+        .trending-meta { font-size: 11px; color: var(--text-muted); display: flex; justify-content: space-between; }
+    </style>
+</head>
+<body>
+
+<div class="layout-container">
+    <!-- Top Global Hub Navigation -->
+    <div class="control-bar">
+        <div>
+            <h2 style="font-size: 18px; font-weight: 800; color: #fff;">HQ Editorial Room</h2>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="btn-nav">🏟️ Tactical Simulator</a>
+            <a href="scout.html" class="btn-nav">🔍 Scouting Directory</a>
+        </div>
+    </div>
+
+    <!-- Left Content Column (Prestige Presentation) -->
+    <main class="editorial-core">
+        <article class="article-wrapper">
+            <span class="article-category">🔥 Unpopular Analytics</span>
+            <h1 class="article-title">Why Erling Haaland is Secretly Subverting Manchester Blue's Structural Efficiency</h1>
+            
+            <div class="article-meta">
+                <div>By <span class="author-badge">Tactical Realist Engine</span></div>
+                <div>•</div>
+                <div>May 25, 2026</div>
+                <div>•</div>
+                <div style="color: var(--amber-warn); font-weight: bold;">4 Min Read (High Rage Potential)</div>
+            </div>
+
+            <div class="article-body">
+                <p>The mainstream football consensus is completely blind. We watch Erling Haaland break consecutive golden boot milestones and instantly crown him as an irreplaceable focal point. But when you look beneath the flat surface of absolute raw volume statistics, an entirely different, incredibly alarming narrative crystallizes.</p>
+                
+                <p>Manchester Blue's historical supremacy wasn't built on isolated target men; it was engineered through total fluid rotational dominance. By pinning their attacking structural blueprint down to an absolute stationary figure, they've traded dynamic team volume variables for singular predictability.</p>
+
+                <!-- Custom Data Narrative Box (Cherry-Picked Highlight Setup) -->
+                <div class="data-narrative-box">
+                    <div class="narrative-header">
+                        <span class="narrative-title">📊 The Smoking Gun: Metric Volume Suppression</span>
+                        <span style="font-size:10px; padding: 2px 6px; background: rgba(244,63,94,0.15); color: var(--rose-glow); border-radius:4px; font-weight:bold;">Isolating Variables</span>
+                    </div>
+                    <table class="narrative-table">
+                        <thead>
+                            <tr>
+                                <th>Tactical Paradigm Setup</th>
+                                <th>Team P90 Shots</th>
+                                <th>Box Touches/90</th>
+                                <th>Win % (vs Top 4)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fluid False-9 Structure (Pre-Haaland)</td>
+                                <td class="success-text">18.4</td>
+                                <td class="success-text">38.2</td>
+                                <td class="success-text">74.2%</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>Static Target Focal Point (Current Era)</td>
+                                <td class="highlight-text">14.1</td>
+                                <td class="highlight-text">27.9</td>
+                                <td class="highlight-text">52.8%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="font-size:11px; color: var(--text-muted); margin-top:10px; line-height:1.4;">Note: Statistics reflect direct competitive team metrics isolated specifically across matches against high-pressing defensive structures block units.</p>
+                </div>
+
+                <p>As explicitly detailed in the data profile analysis above, overall shot generation volume drops significantly by over 23% when play is forced to funnel directly through a traditional number nine blueprint. The high-ceiling multi-channel options vanish.</p>
+
+                <!-- Tweetable Inline Take Block -->
+                <div class="quote-take-block">
+                    <div class="quote-text">
+                        "The absolute volume of goals is an optical illusion. Haaland isn't creating new goals for Manchester Blue; he is simply absorbing the goals that five other midfielders used to score collectively."
+                    </div>
+                    <button class="quote-btn-share" onclick="simulateTweet()">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> 
+                        Transmit Take to X
+                    </button>
+                </div>
+
+                <p>This structural change filters down directly into major match results. When opposition coaches successfully sever the supply lines to the central channel, the entire infrastructure experiences systemic gridlock. To construct the absolute ultimate side, one must look closely at these hidden performance taxations.</p>
+            </div>
+
+            <!-- The Engagement Hook Component -->
+            <div class="rage-container">
+                <h4 style="font-size: 15px; font-weight: 700;">Tactical Consensus Evaluation Loop</h4>
+                <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">Is this analytical masterclass or pure unadulterated delusion?</p>
+                <div class="rage-buttons">
+                    <button class="btn-rage validate" onclick="processVote('genius')">Pure Genius (Validate)</button>
+                    <button class="btn-rage destroy" onclick="processVote('delusional')">Delusional Rage-Bait (Destroy)</button>
+                </div>
+                <div id="voteResults" style="margin-top: 14px; font-size: 12px; display: none; color: var(--accent-blue); font-weight: 600;"></div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Right Sidebar Area -->
+    <aside class="sidebar-right">
+        <!-- Widget 1: Viral Trending List -->
+        <div class="widget-card">
+            <div class="widget-heading">🔥 Highly Combustible Opinions</div>
+            
+            <div class="trending-item">
+                <span class="trending-title">Why London Cannons Should Sell Bukayo Saka Immediately</span>
+                <div class="trending-meta"><span>942 Comments</span><span style="color:var(--rose-glow);">92% Rage Rating</span></div>
+            </div>
+            
+            <div class="trending-item">
+                <span class="trending-title">The Real Reason Defensive Midfielders Are Drastically Overvalued</span>
+                <div class="trending-meta"><span>412 Comments</span><span style="color:var(--amber-warn);">65% Disagreement</span></div>
+            </div>
+
+            <div class="trending-item">
+                <span class="trending-title">The Analytical Proof That Mid-Table Managers Are Better Than Elite Tactics</span>
+                <div class="trending-meta"><span>1,204 Comments</span><span style="color:var(--rose-glow);">98% Chaos</span></div>
+            </div>
+        </div>
+
+        <!-- Widget 2: Database Quick Link -->
+        <div class="widget-card" style="text-align: center; padding: 24px;">
+            <h4 style="font-size:14px; margin-bottom:8px;">Test This Narrative Yourself</h4>
+            <p style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">Swap players inside our simulator engine to verify if our calculations match your bias.</p>
+            <a href="index.html" class="btn-nav" style="width: 100%; justify-content: center; background: var(--pitch-green); border-color: var(--emerald-glow); color: white;">Open Sandbox Engine</a>
+        </div>
+    </aside>
+</div>
+
+<script>
+    function processVote(type) {
+        const display = document.getElementById('voteResults');
+        display.style.display = 'block';
+        if(type === 'genius') {
+            display.style.color = 'var(--emerald-glow)';
+            display.textContent = "✓ Consensus recorded. You belong to the elite 4% analytical minority.";
+        } else {
+            display.style.color = 'var(--rose-glow)';
+            display.textContent = "❌ Rage noted. Your emotional response has been aggregated to drive our algorithm pipeline higher.";
+        }
+    }
+
+    function simulateTweet() {
+        alert("Take copied to clipboard! Redirecting to X to instigate football discourse debate threads.");
+    }
+</script>
+</body>
+</html>
