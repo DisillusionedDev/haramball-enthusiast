@@ -28,6 +28,9 @@
         .btn-reset { background: #312e81; color: #c084fc; border: 1px solid #4338ca; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
         .btn-reset:hover { background: #3730a3; color: #d8b4fe; }
 
+        .btn-nav { background: #1e293b; color: var(--accent-blue); border: 1px solid #334155; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; }
+        .btn-nav:hover { background: #334155; border-color: var(--accent-blue); color: white; }
+
         .main-tactical-area { display: flex; flex-direction: column; gap: 15px; }
 
         /* Team Performance Bar */
@@ -131,9 +134,10 @@
         <div>
             <h2 style="font-size: 20px;">Predictive Optimization Sandbox</h2>
         </div>
-        <div style="display: flex; align-items: center; gap: 15px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
             <select id="clubSelector" onchange="loadClubSquad()"></select>
             <button class="btn-reset" onclick="resetActiveClub()">Reset To Base</button>
+            <a href="scout.html" class="btn-nav">🔍 Player Directory Hub</a>
         </div>
         <h3 id="formationDisplay" style="color: var(--accent-blue); font-weight: 700;">Formation: --</h3>
     </div>
@@ -393,7 +397,6 @@
         });
     }
 
-    // Toggle Deselection Interface Modification
     function selectPitchNode(index) {
         if (selectedNodeIndex === index) {
             selectedNodeIndex = null;
@@ -432,7 +435,6 @@
         renderIntelligentPredictiveSubs(activePlayer);
     }
 
-    // Predictive Candidate Engine Layer with Descending Sorting Metrics
     function renderIntelligentPredictiveSubs(originalPlayer) {
         const list = document.getElementById('swapList');
         list.innerHTML = '';
@@ -447,7 +449,6 @@
         const currAtt90 = ((originalPlayer.stats.goals + originalPlayer.stats.assists) / currMins) * 90;
         const currDef90 = ((originalPlayer.stats.tackles_won + originalPlayer.stats.interceptions) / currMins) * 90;
 
-        // Process composite lift score across team parameters
         let derivedCandidates = candidates.map(sub => {
             const subMins = sub.stats.minutes || 1;
             const subAtt90 = ((sub.stats.goals + sub.stats.assists) / subMins) * 90;
@@ -457,13 +458,11 @@
             const defDelta = subDef90 - currDef90;
             const lookupKey = `${sub.name} (${sub.club})`;
 
-            // Simulate the change to isolate absolute net structural impact
             let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
             simulatedLineup[selectedNodeIndex].current_player = lookupKey;
             simulatedLineup[selectedNodeIndex].position = sub.position;
             const simulatedStats = calculateTeamStats(simulatedLineup);
 
-            // Impact metric: Σ Δ team performance indicators per 90 mins
             const netTeamLift = (simulatedStats.gls90 + simulatedStats.ast90 + simulatedStats.sh90 + simulatedStats.tkl90 + simulatedStats.intel90 + simulatedStats.saves90) - 
                                 (currentTeamStats.gls90 + currentTeamStats.ast90 + currentTeamStats.sh90 + currentTeamStats.tkl90 + currentTeamStats.intel90 + currentTeamStats.saves90);
 
@@ -475,7 +474,6 @@
             return { sub, attDelta, defDelta, lookupKey, netTeamLift, formationNote };
         });
 
-        // Sort descending: highest positive lift sorted to index 0
         derivedCandidates.sort((a, b) => b.netTeamLift - a.netTeamLift);
 
         derivedCandidates.forEach(item => {
