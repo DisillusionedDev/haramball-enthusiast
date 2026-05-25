@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tactical Simulator | The Technical Area</title>
-    <script src="players_data.js"></script>
+    <title>Dynamic Predictive Squad Interface</title>
     <style>
         :root {
             --pitch-green: #143e2f;
+            --pitch-line: rgba(255, 255, 255, 0.35);
             --dark-bg: #0f172a;
             --card-bg: #1e293b;
             --accent-blue: #38bdf8;
@@ -15,105 +15,555 @@
             --text-muted: #94a3b8;
             --emerald-glow: #10b981;
             --rose-glow: #f43f5e;
+            --amber-warn: #f59e0b;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; }
         
-        .layout-container { max-width: 1440px; margin: 0 auto; }
+        .dashboard-container { display: grid; grid-template-columns: 1fr 420px; gap: 20px; max-width: 1440px; margin: 0 auto; }
+        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
+        select { background: #334155; color: white; border: 1px solid #475569; padding: 8px 16px; border-radius: 6px; font-size: 15px; width: 260px; outline: none; }
         
-        .global-header { background: var(--card-bg); padding: 20px 32px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; margin-bottom: 24px; }
-        .brand-logo { font-size: 20px; font-weight: 900; letter-spacing: 1px; color: #fff; text-decoration: none; }
-        .brand-logo span { color: var(--accent-blue); }
-        .nav-links { display: flex; gap: 16px; }
-        .nav-item { color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; }
-        .nav-item:hover { color: var(--accent-blue); }
-        .btn-launch { background: var(--pitch-green); color: #fff; border: 1px solid var(--emerald-glow); padding: 8px 18px; border-radius: 6px; font-size: 13px; font-weight: 700; text-decoration: none; }
+        .btn-reset { background: #312e81; color: #c084fc; border: 1px solid #4338ca; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
+        .btn-reset:hover { background: #3730a3; color: #d8b4fe; }
 
-        .app-grid { display: grid; grid-template-columns: 320px 1fr; gap: 24px; margin-top: 20px; }
-        .control-panel { background: var(--card-bg); border: 1px solid #334155; border-radius: 8px; padding: 20px; height: fit-content; }
-        .pitch-container { background: var(--pitch-green); border: 2px solid #2e7d32; border-radius: 8px; height: 600px; position: relative; box-shadow: inset 0 0 60px rgba(0,0,0,0.4); }
+        .btn-nav { background: #1e293b; color: var(--accent-blue); border: 1px solid #334155; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; }
+        .btn-nav:hover { background: #334155; border-color: var(--accent-blue); color: white; }
+
+        .main-tactical-area { display: flex; flex-direction: column; gap: 15px; }
+
+        /* Team Performance Bar */
+        .team-horizontal-bar {
+            background: var(--card-bg);
+            border: 1px solid #334155;
+            border-radius: 10px;
+            padding: 14px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 12px;
+        }
+        .h-stat-item {
+            background: #0f172a;
+            border: 1px solid #334155;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+        .h-stat-item.previewing {
+            border-color: var(--amber-warn);
+            box-shadow: 0 0 10px rgba(245, 158, 11, 0.25);
+            background: #1e293b;
+        }
+        .h-stat-item.persisted-change {
+            border-color: var(--accent-blue);
+            background: #1e2433;
+        }
+        .h-stat-lbl {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        .h-stat-val {
+            font-size: 11px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .preview-arrow { color: var(--text-muted); font-weight: bold; font-size: 12px; }
+        .previewing .preview-arrow { color: var(--amber-warn); }
+        .persisted-change .preview-arrow { color: var(--accent-blue); }
+
+        /* Pitch Canvas Arena */
+        .pitch-canvas { background: var(--pitch-green); border: 4px solid #ffffffd0; border-radius: 14px; height: 640px; position: relative; overflow: hidden; box-shadow: inset 0 0 100px rgba(0,0,0,0.6); }
+        .pitch-line-center { position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: var(--pitch-line); }
+        .pitch-center-circle { position: absolute; top: 50%; left: 50%; width: 130px; height: 130px; border: 2px solid var(--pitch-line); border-radius: 50%; transform: translate(-50%, -50%); }
+        .pitch-penalty-top { position: absolute; top: 0; left: 50%; width: 320px; height: 110px; border: 2px solid var(--pitch-line); transform: translateX(-50%); }
         
-        .selector-group { margin-bottom: 16px; }
-        .selector-group label { display: block; font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; font-weight: 700; }
-        select { width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 6px; }
+        .tactical-grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-around; padding: 10px 0; }
+        .formation-row { display: flex; justify-content: space-around; width: 100%; min-height: 80px; align-items: center; }
 
-        .pitch-zone { position: absolute; width: 120px; text-align: center; transform: translate(-50%, -50%); }
-        .fw-zone { top: 25%; left: 50%; }
-        .mf-zone { top: 50%; left: 50%; }
-        .df-zone { top: 75%; left: 50%; }
-        .gk-zone { top: 90%; left: 50%; }
+        .player-node { background: rgba(15, 23, 42, 0.92); border: 2px solid #475569; border-radius: 8px; padding: 10px; width: 120px; text-align: center; cursor: pointer; transition: all 0.2s ease; z-index: 10; }
+        .player-node:hover { border-color: var(--accent-blue); transform: translateY(-3px); }
+        .player-node.selected { border-color: var(--amber-warn); box-shadow: 0 0 12px rgba(245, 158, 11, 0.35); }
+        
+        .node-pos { font-size: 10px; font-weight: bold; color: var(--accent-blue); text-transform: uppercase; background: rgba(56, 189, 248, 0.12); display: inline-block; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; }
+        .node-name { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0; }
+        .node-val { font-size: 11px; color: var(--emerald-glow); }
 
-        .player-node { background: var(--card-bg); border: 2px solid var(--accent-blue); padding: 10px; border-radius: 6px; font-size: 12px; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-        .player-node span { display: block; font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+        /* Sidebar Panels */
+        .sidebar-panel { display: flex; flex-direction: column; gap: 15px; max-height: 760px; overflow-y: auto; }
+        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 16px; border: 1px solid #334155; }
+        .panel-heading { border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 12px; }
+        
+        .stat-matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+        .stat-item { background: #1e293b; border: 1px solid #334155; padding: 10px; border-radius: 8px; display: flex; flex-direction: column; }
+        .stat-lbl { font-size: 10px; color: var(--text-muted); text-transform: uppercase; }
+        .stat-val { font-size: 14px; font-weight: bold; margin-top: 2px; display: flex; align-items: center; justify-content: space-between; }
+        .sub-rate { font-size: 11px; color: var(--accent-blue); }
+        
+        .swap-list-container { margin-top: 12px; border-top: 1px solid #334155; padding-top: 12px; }
+        .swap-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 10px; background: #0f172a; margin-bottom: 6px; border-radius: 6px; font-size: 13px; cursor: pointer; border: 1px solid #1e293b; }
+        .swap-row:hover { background: #1e293b; border-color: var(--amber-warn); }
+
+        /* Transaction Log Layout */
+        .ledger-container { display: flex; flex-direction: column; gap: 6px; max-height: 160px; overflow-y: auto; padding-right: 4px; }
+        .ledger-row { background: #0f172a; border-left: 3px solid var(--accent-blue); padding: 8px; border-radius: 4px; font-size: 11px; display: flex; flex-direction: column; gap: 2px; }
+        .ledger-meta { display: flex; justify-content: space-between; color: var(--text-muted); font-size: 10px; }
+
+        .delta-tag { font-size: 10px; font-weight: bold; padding: 1px 4px; border-radius: 4px; }
+        .delta-pos { background: rgba(16, 185, 129, 0.15); color: var(--emerald-glow); }
+        .delta-neg { background: rgba(244, 63, 94, 0.15); color: var(--rose-glow); }
+
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
     </style>
+    <script src="players_data.js"></script>
 </head>
 <body>
 
-<div class="layout-container">
-    <header class="global-header">
-        <a href="index.html" class="brand-logo">THE <span>TECHNICAL AREA</span></a>
-        <nav class="nav-links">
-            <a href="index.html" class="nav-item">Home</a>
-            <a href="article.html" class="nav-item">Analysis</a>
-            <a href="scout.html" class="nav-item">Scouting Directory</a>
-        </nav>
-        <a href="simulator.html" class="btn-launch" style="box-shadow: 0 0 10px var(--emerald-glow);">🏟️ Launch Simulator</a>
-    </header>
+<div class="dashboard-container">
+    <div class="control-bar">
+        <div>
+            <h2 style="font-size: 20px;">Predictive Optimization Sandbox</h2>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <select id="clubSelector" onchange="loadClubSquad()"></select>
+            <button class="btn-reset" onclick="resetActiveClub()">Reset To Base</button>
+            <a href="scout.html" class="btn-nav">🔍 Player Directory Hub</a>
+        </div>
+        <h3 id="formationDisplay" style="color: var(--accent-blue); font-weight: 700;">Formation: --</h3>
+    </div>
 
-    <div class="app-grid">
-        <aside class="control-panel">
-            <h3 style="font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #334155; padding-bottom: 8px; margin-bottom: 16px;">Structural Settings</h3>
-            <div class="selector-group">
-                <label>Select Club Foundation</label>
-                <select id="clubSelect" onchange="loadClubLineup()">
-                    <option value="London Cannons">London Cannons</option>
-                    <option value="Manchester Blue">Manchester Blue</option>
-                    <option value="Merseyside Red">Merseyside Red</option>
-                </select>
+    <!-- Left Structural Performance Arena -->
+    <div class="main-tactical-area">
+        <div id="teamMetricsBar" class="team-horizontal-bar">
+            <div class="h-stat-item" id="card_gls"><span class="h-stat-lbl">Goals / P90</span><div id="teamGls" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_ast"><span class="h-stat-lbl">Assists / P90</span><div id="teamAst" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_sh"><span class="h-stat-lbl">Shots / P90</span><div id="teamShots" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_tkl"><span class="h-stat-lbl">Tackles / P90</span><div id="teamTkl" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_int"><span class="h-stat-lbl">Interceptions / P90</span><div id="teamInt" class="h-stat-val">-</div></div>
+            <div class="h-stat-item" id="card_saves"><span class="h-stat-lbl">Saves / P90</span><div id="teamSaves" class="h-stat-val">-</div></div>
+        </div>
+
+        <div class="pitch-canvas">
+            <div class="pitch-line-center"></div>
+            <div class="pitch-center-circle"></div>
+            <div class="pitch-penalty-top"></div>
+            <div id="tacticalGrid" class="tactical-grid"></div>
+        </div>
+    </div>
+
+    <!-- Right Sidebar Analysis Engine -->
+    <div class="sidebar-panel">
+        <div class="widget-card" style="display: flex; flex-direction: column; min-height: 380px;">
+            <div class="panel-heading">
+                <h3 id="panelPlayerName" style="font-size: 16px;">Select Pitch Node</h3>
+                <p id="panelPlayerMeta" style="color: var(--text-muted); font-size: 12px; margin-top: 2px;">Simulate cross-positional adjustments</p>
             </div>
-        </aside>
+            
+            <div id="statsMatrix" class="stat-matrix" style="display: none;">
+                <div class="stat-item"><span class="stat-lbl">Tactical Rating</span><span id="statRating" class="stat-val">-</span></div>
+                <div class="stat-item"><span class="stat-lbl">Valuation</span><span id="statPrice" class="stat-val">-</span></div>
+                <div class="stat-item" style="grid-column: span 2;"><span class="stat-lbl">Minutes Vol</span><span id="statApps" class="stat-val">-</span></div>
+                <div class="stat-item"><span class="stat-lbl">Goals</span><span class="stat-val"><span id="totGoals">0</span><span id="p90Goals" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Assists</span><span class="stat-val"><span id="totAssists">0</span><span id="p90Assists" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Tackles Won</span><span class="stat-val"><span id="totTackles">0</span><span id="p90Tackles" class="sub-rate">0.0</span></span></div>
+                <div class="stat-item"><span class="stat-lbl">Interceptions</span><span class="stat-val"><span id="totInterceptions">0</span><span id="p90Interceptions" class="sub-rate">0.0</span></span></div>
+            </div>
 
-        <main class="pitch-container" id="pitchCanvas">
-            <div class="pitch-zone fw-zone" id="fw_node"><div class="player-node">Forward Line<span>No Data</span></div></div>
-            <div class="pitch-zone mf-zone" id="mf_node"><div class="player-node">Midfield Line<span>No Data</span></div></div>
-            <div class="pitch-zone df-zone" id="df_node"><div class="player-node">Defensive Line<span>No Data</span></div></div>
-            <div class="pitch-zone gk-zone" id="gk_node"><div class="player-node">Goalkeeper<span>No Data</span></div></div>
-        </main>
+            <div id="swapInterface" class="swap-list-container" style="display: none; flex-grow:1; display:flex; flex-direction:column; overflow:hidden;">
+                <h4 style="margin-bottom: 8px; font-size: 11px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Optimized Strategic Replacements</h4>
+                <div id="swapList" style="overflow-y: auto; max-height: 220px; padding-right: 2px;"></div>
+            </div>
+        </div>
+
+        <!-- Ledger Card -->
+        <div class="widget-card" style="display: flex; flex-direction: column;">
+            <div class="panel-heading" style="border-bottom-color: #1e293b; padding-bottom: 6px; margin-bottom: 8px;">
+                <h4 style="font-size: 12px; text-transform: uppercase; color: var(--accent-blue); letter-spacing: 0.5px;">Tactical Transaction Ledger</h4>
+            </div>
+            <div id="ledgerContainer" class="ledger-container">
+                <div style="color: var(--text-muted); font-size:11px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>
+            </div>
+        </div>
     </div>
 </div>
 
 <script>
-    function loadClubLineup() {
-        const clubName = document.getElementById('clubSelect').value;
-        const data = window.TACTICAL_DATA.clubs[clubName];
-        if(!data) return;
+    let globalData = { clubs: {}, player_pool: {} };
+    let selectedNodeIndex = null;
+    
+    let activeClubLineup = [];
+    let originalClubLineup = []; 
+    let originalTeamStats = {};
+    let currentTeamStats = {};
+    let tacticalTransactionLog = [];
 
-        // Reset display nodes mapping positions
-        const positionMapping = { 'FW': 'fw_node', 'MF': 'mf_node', 'DF': 'df_node', 'GK': 'gk_node' };
+    function initializeSystem() {
+        if (window.TACTICAL_DATA && window.TACTICAL_DATA.clubs) {
+            globalData = window.TACTICAL_DATA;
+            populateClubSelector();
+        } else {
+            document.getElementById('panelPlayerName').textContent = "Pipeline Offline";
+        }
+    }
+
+    function populateClubSelector() {
+        const selector = document.getElementById('clubSelector');
+        selector.innerHTML = '';
+        Object.keys(globalData.clubs).sort().forEach(club => {
+            const opt = document.createElement('option');
+            opt.value = club; opt.textContent = club;
+            selector.appendChild(opt);
+        });
+        loadClubSquad();
+    }
+
+    function loadClubSquad() {
+        const club = document.getElementById('clubSelector').value;
+        if (!club) return;
         
-        // Group players simple display
-        const groups = { 'FW': [], 'MF': [], 'DF': [], 'GK': [] };
-        data.lineup.forEach(p => {
-            const profile = window.TACTICAL_DATA.player_pool[p.current_player];
-            if(profile) groups[p.position].push(profile);
+        originalClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
+        activeClubLineup = JSON.parse(JSON.stringify(globalData.clubs[club].lineup));
+        
+        originalTeamStats = calculateTeamStats(originalClubLineup);
+        currentTeamStats = JSON.parse(JSON.stringify(originalTeamStats));
+        
+        tacticalTransactionLog = [];
+        selectedNodeIndex = null;
+        
+        recalculateAndRenderTeamDashboard();
+        renderTransactionLogDOM();
+        resetSidebar();
+    }
+
+    function resetActiveClub() {
+        loadClubSquad();
+    }
+
+    function calculateTeamStats(lineup) {
+        let totalMins = 0, gls = 0, ast = 0, sh = 0, tkl = 0, intel = 0, saves = 0;
+        lineup.forEach(slot => {
+            const p = globalData.player_pool[slot.current_player];
+            if (!p) return;
+            totalMins += p.stats.minutes;
+            gls += p.stats.goals;
+            ast += p.stats.assists;
+            sh += p.stats.shots;
+            tkl += p.stats.tackles_won;
+            intel += p.stats.interceptions;
+            saves += p.stats.saves;
         });
 
-        Object.keys(groups).forEach(pos => {
-            const node = document.getElementById(positionMapping[pos]);
-            if(groups[pos].length > 0) {
-                const primary = groups[pos][0];
-                node.innerHTML = `
-                    <div class="player-node" style="border-color: var(--accent-blue);">
-                        ${primary.name}
-                        <span>${primary.role_code} | Rating: ${Number(primary.stats.rating).toFixed(2)}</span>
-                    </div>
+        const team90s = Math.max(1.0, totalMins / 990);
+        return {
+            gls, gls90: (gls / team90s),
+            ast, ast90: (ast / team90s),
+            sh, sh90: (sh / team90s),
+            tkl, tkl90: (tkl / team90s),
+            intel, intel90: (intel / team90s),
+            saves, saves90: (saves / team90s)
+        };
+    }
+
+    function recalculateAndRenderTeamDashboard() {
+        let dfCount = 0, mfCount = 0, fwCount = 0;
+        activeClubLineup.forEach(slot => {
+            const p = globalData.player_pool[slot.current_player];
+            if (!p) return;
+            if (p.position === 'DF') dfCount++;
+            else if (p.position === 'MF') mfCount++;
+            else if (p.position === 'FW') fwCount++;
+        });
+
+        document.getElementById('formationDisplay').textContent = `Formation: ${dfCount}-${mfCount}-${fwCount}`;
+        currentTeamStats = calculateTeamStats(activeClubLineup);
+        renderMetricsDisplay(currentTeamStats, false);
+        renderTacticalPitch();
+    }
+
+    function renderMetricsDisplay(targetStats, isPreviewMode = false) {
+        const metricsConfig = [
+            { elId: 'teamGls', cardId: 'card_gls', base90: originalTeamStats.gls90, baseVal: originalTeamStats.gls, tgt90: targetStats.gls90, tgtVal: targetStats.gls },
+            { elId: 'teamAst', cardId: 'card_ast', base90: originalTeamStats.ast90, baseVal: originalTeamStats.ast, tgt90: targetStats.ast90, tgtVal: targetStats.ast },
+            { elId: 'teamShots', cardId: 'card_sh', base90: originalTeamStats.sh90, baseVal: originalTeamStats.sh, tgt90: targetStats.sh90, tgtVal: targetStats.sh },
+            { elId: 'teamTkl', cardId: 'card_tkl', base90: originalTeamStats.tkl90, baseVal: originalTeamStats.tkl, tgt90: targetStats.tkl90, tgtVal: targetStats.tkl },
+            { elId: 'teamInt', cardId: 'card_int', base90: originalTeamStats.intel90, baseVal: originalTeamStats.intel, tgt90: targetStats.intel90, tgtVal: targetStats.intel },
+            { elId: 'teamSaves', cardId: 'card_saves', base90: originalTeamStats.saves90, baseVal: originalTeamStats.saves, tgt90: targetStats.saves90, tgtVal: targetStats.saves }
+        ];
+
+        metricsConfig.forEach(m => {
+            const domNode = document.getElementById(m.elId);
+            const containerCard = document.getElementById(m.cardId);
+            
+            const diff90 = m.tgt90 - m.base90;
+            const sign = diff90 >= 0 ? '+' : '';
+            const deltaClass = diff90 >= 0 ? 'delta-pos' : 'delta-neg';
+            
+            containerCard.classList.remove('previewing', 'persisted-change');
+            if (isPreviewMode) {
+                containerCard.classList.add('previewing');
+            } else if (Math.abs(diff90) > 0.001) {
+                containerCard.classList.add('persisted-change');
+            }
+
+            if (Math.abs(diff90) < 0.001) {
+                domNode.innerHTML = `${m.baseVal} <span class="sub-rate">(${m.base90.toFixed(2)}/90)</span>`;
+            } else {
+                domNode.innerHTML = `
+                    <span style="color: var(--text-muted); font-size:10px;">${m.baseVal}(${m.base90.toFixed(1)})</span>
+                    <span class="preview-arrow">➔</span>
+                    <span style="color: var(--text-main); font-weight:700;">${m.tgtVal}(${m.tgt90.toFixed(1)})</span>
+                    <span class="delta-tag ${deltaClass}" style="font-size:9px; padding:0px 2px;">${sign}${diff90.toFixed(2)}</span>
                 `;
             }
         });
     }
 
-    window.onload = () => { loadClubLineup(); };
+    function previewSwapImpact(subKey) {
+        if (selectedNodeIndex === null) return;
+        
+        let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
+        simulatedLineup[selectedNodeIndex].current_player = subKey;
+        simulatedLineup[selectedNodeIndex].position = globalData.player_pool[subKey].position;
+
+        const simulatedStats = calculateTeamStats(simulatedLineup);
+        renderMetricsDisplay(simulatedStats, true);
+    }
+
+    function clearSwapPreview() {
+        renderMetricsDisplay(currentTeamStats, false);
+    }
+
+    function executeIntelligentSwap(targetPlayerProfile) {
+        if (selectedNodeIndex === null) return;
+        
+        const slot = activeClubLineup[selectedNodeIndex];
+        const outgoingPlayerKey = slot.current_player;
+        const incomingPlayerKey = `${targetPlayerProfile.name} (${targetPlayerProfile.club})`;
+        
+        if (outgoingPlayerKey === incomingPlayerKey) return;
+
+        const pOut = globalData.player_pool[outgoingPlayerKey];
+        const oldRole = pOut ? pOut.role_code : slot.position;
+
+        slot.current_player = incomingPlayerKey;
+        slot.position = targetPlayerProfile.position;
+
+        tacticalTransactionLog.unshift({
+            outName: pOut ? pOut.name : "Vacant Node",
+            outRole: oldRole,
+            inName: targetPlayerProfile.name,
+            inRole: targetPlayerProfile.role_code,
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })
+        });
+
+        recalculateAndRenderTeamDashboard();
+        renderTransactionLogDOM();
+        selectPitchNode(selectedNodeIndex);
+    }
+
+    function renderTransactionLogDOM() {
+        const container = document.getElementById('ledgerContainer');
+        if (tacticalTransactionLog.length === 0) {
+            container.innerHTML = `<div style="color: var(--text-muted); font-size:11px; font-style:italic; text-align:center; padding:10px 0;">No alterations recorded in this window.</div>`;
+            return;
+        }
+
+        container.innerHTML = '';
+        tacticalTransactionLog.forEach(log => {
+            const row = document.createElement('div');
+            row.className = 'ledger-row';
+            row.innerHTML = `
+                <div class="ledger-meta">
+                    <span style="color: var(--accent-blue); font-weight:bold;">TACTICAL ADJUSTMENT</span>
+                    <span>${log.timestamp}</span>
+                </div>
+                <div style="margin-top:2px;">
+                    <span style="color: var(--rose-glow); font-weight:500;">🔻 ${log.outName}</span> <span style="color: var(--text-muted); font-size:10px;">[${log.outRole}]</span>
+                    <span style="color: var(--text-muted); margin: 0 4px;">➔</span>
+                    <span style="color: var(--emerald-glow); font-weight:500;">🔺 ${log.inName}</span> <span style="color: var(--text-muted); font-size:10px;">[${log.inRole}]</span>
+                </div>
+            `;
+            container.appendChild(row);
+        });
+    }
+
+    function selectPitchNode(index) {
+        if (selectedNodeIndex === index) {
+            selectedNodeIndex = null;
+            renderTacticalPitch();
+            resetSidebar();
+            return;
+        }
+        
+        selectedNodeIndex = index;
+        renderTacticalPitch();
+        
+        const slot = activeClubLineup[index];
+        const activePlayer = globalData.player_pool[slot.current_player];
+        if (!activePlayer) return;
+
+        document.getElementById('panelPlayerName').textContent = activePlayer.name;
+        document.getElementById('panelPlayerMeta').textContent = `${activePlayer.club} | Role: ${activePlayer.position}`;
+        
+        document.getElementById('statRating').textContent = activePlayer.stats.rating;
+        document.getElementById('statPrice').textContent = `£${activePlayer.price}M`;
+        document.getElementById('statApps').textContent = `${activePlayer.stats.minutes} mins played`;
+        
+        const normalizer = activePlayer.stats.minutes > 0 ? (90 / activePlayer.stats.minutes) : 0;
+        
+        document.getElementById('totGoals').textContent = activePlayer.stats.goals;
+        document.getElementById('p90Goals').textContent = `${(activePlayer.stats.goals * normalizer).toFixed(1)}/90`;
+        document.getElementById('totAssists').textContent = activePlayer.stats.assists;
+        document.getElementById('p90Assists').textContent = `${(activePlayer.stats.assists * normalizer).toFixed(1)}/90`;
+        document.getElementById('totTackles').textContent = activePlayer.stats.tackles_won;
+        document.getElementById('p90Tackles').textContent = `${(activePlayer.stats.tackles_won * normalizer).toFixed(1)}/90`;
+        document.getElementById('totInterceptions').textContent = activePlayer.stats.interceptions;
+        document.getElementById('p90Interceptions').textContent = `${(activePlayer.stats.interceptions * normalizer).toFixed(1)}/90`;
+        
+        document.getElementById('statsMatrix').style.display = 'grid';
+        document.getElementById('swapInterface').style.display = 'flex';
+        renderIntelligentPredictiveSubs(activePlayer);
+    }
+
+    function renderIntelligentPredictiveSubs(originalPlayer) {
+        const list = document.getElementById('swapList');
+        list.innerHTML = '';
+        
+        const isGKNode = originalPlayer.position === 'GK';
+        const candidates = Object.keys(globalData.player_pool)
+            .map(key => globalData.player_pool[key])
+            .filter(p => p.name !== originalPlayer.name && (isGKNode ? p.position === 'GK' : p.position !== 'GK'))
+            .filter(p => p.stats.minutes > 300);
+
+        const currMins = originalPlayer.stats.minutes || 1;
+        const currAtt90 = ((originalPlayer.stats.goals + originalPlayer.stats.assists) / currMins) * 90;
+        const currDef90 = ((originalPlayer.stats.tackles_won + originalPlayer.stats.interceptions) / currMins) * 90;
+
+        let derivedCandidates = candidates.map(sub => {
+            const subMins = sub.stats.minutes || 1;
+            const subAtt90 = ((sub.stats.goals + sub.stats.assists) / subMins) * 90;
+            const subDef90 = ((sub.stats.tackles_won + sub.stats.interceptions) / subMins) * 90;
+
+            const attDelta = subAtt90 - currAtt90;
+            const defDelta = subDef90 - currDef90;
+            const lookupKey = `${sub.name} (${sub.club})`;
+
+            let simulatedLineup = JSON.parse(JSON.stringify(activeClubLineup));
+            simulatedLineup[selectedNodeIndex].current_player = lookupKey;
+            simulatedLineup[selectedNodeIndex].position = sub.position;
+            const simulatedStats = calculateTeamStats(simulatedLineup);
+
+            const netTeamLift = (simulatedStats.gls90 + simulatedStats.ast90 + simulatedStats.sh90 + simulatedStats.tkl90 + simulatedStats.intel90 + simulatedStats.saves90) - 
+                                (currentTeamStats.gls90 + currentTeamStats.ast90 + currentTeamStats.sh90 + currentTeamStats.tkl90 + currentTeamStats.intel90 + currentTeamStats.saves90);
+
+            let formationNote = "Structural Match";
+            if (sub.position !== originalPlayer.position) {
+                formationNote = `Pos Shift: ${originalPlayer.position} ➔ ${sub.position}`;
+            }
+
+            return { sub, attDelta, defDelta, lookupKey, netTeamLift, formationNote };
+        });
+
+        derivedCandidates.sort((a, b) => b.netTeamLift - a.netTeamLift);
+
+        derivedCandidates.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'swap-row';
+            row.setAttribute('onmouseenter', `previewSwapImpact("${item.lookupKey}")`);
+            row.setAttribute('onmouseleave', 'clearSwapPreview()');
+            row.onclick = () => executeIntelligentSwap(item.sub);
+            
+            const attClass = item.attDelta >= 0 ? 'delta-pos' : 'delta-neg';
+            const defClass = item.defDelta >= 0 ? 'delta-pos' : 'delta-neg';
+            const netLiftClass = item.netTeamLift >= 0 ? 'delta-pos' : 'delta-neg';
+
+            row.innerHTML = `
+                <div style="max-width: 65%;">
+                    <strong>${item.sub.name}</strong> <span style="font-size:10px; color:var(--accent-blue);">[${item.sub.role_code}]</span><br>
+                    <span style="font-size:11px; color:var(--text-muted);">${item.sub.club}</span><br>
+                    <span style="font-size:10px; color:var(--amber-warn); font-style:italic;">${item.formationNote}</span>
+                </div>
+                <div style="text-align:right;">
+                    <span class="delta-tag ${netLiftClass}" style="font-size:9px; display:inline-block; margin-bottom:4px;">Net Lift: ${item.netTeamLift >= 0 ? '+' : ''}${item.netTeamLift.toFixed(2)}</span><br>
+                    <span style="font-weight:bold; font-size:11px; margin-right:4px;">£${item.sub.price}M</span><br>
+                    <div class="delta-tag ${attClass}" style="margin-bottom:2px; font-size:9px; display:inline-block;">⚔️ ${item.attDelta >= 0 ? '+' : ''}${item.attDelta.toFixed(1)}</div>
+                    <div class="delta-tag ${defClass}" style="font-size:9px; display:inline-block;">🛡️ ${item.defDelta >= 0 ? '+' : ''}${item.defDelta.toFixed(1)}</div>
+                </div>
+            `;
+            list.appendChild(row);
+        });
+    }
+
+    function renderTacticalPitch() {
+        const grid = document.getElementById('tacticalGrid');
+        grid.innerHTML = '';
+        
+        const pitchLines = { 'FW_LINE': [], 'AM_LINE': [], 'CM_LINE': [], 'DM_LINE': [], 'DF_LINE': [], 'GK_LINE': [] };
+        
+        activeClubLineup.forEach((slot, index) => {
+            const profile = globalData.player_pool[slot.current_player];
+            const currentEffectivePos = profile ? profile.position : slot.position;
+            const role = profile ? profile.role_code : currentEffectivePos;
+            
+            let destination = 'CM_LINE';
+            if (currentEffectivePos === 'GK') destination = 'GK_LINE';
+            else if (currentEffectivePos === 'DF') destination = 'DF_LINE';
+            else if (currentEffectivePos === 'FW') destination = 'FW_LINE';
+            else {
+                if (role === 'AM') destination = 'AM_LINE';
+                else if (role === 'DM') destination = 'DM_LINE';
+                else destination = 'CM_LINE';
+            }
+            
+            pitchLines[destination].push({ slot, index, profile, currentEffectivePos });
+        });
+
+        const renderingSequence = ['FW_LINE', 'AM_LINE', 'CM_LINE', 'DM_LINE', 'DF_LINE', 'GK_LINE'];
+        renderingSequence.forEach(lineKey => {
+            const items = pitchLines[lineKey];
+            if (items.length === 0) return;
+
+            const rowDiv = document.createElement('div');
+            rowDiv.className = 'formation-row';
+            
+            items.forEach(item => {
+                const node = document.createElement('div');
+                node.className = `player-node ${selectedNodeIndex === item.index ? 'selected' : ''}`;
+                node.onclick = () => selectPitchNode(item.index);
+                
+                const dispRole = item.profile ? (item.profile.role_code || item.currentEffectivePos) : item.slot.position;
+                const dispName = item.profile ? item.profile.name : "Vacant Slot";
+                const dispPrice = item.profile ? `£${item.profile.price}M` : "--";
+                
+                node.innerHTML = `
+                    <div class="node-pos">${dispRole}</div>
+                    <div class="node-name">${dispName}</div>
+                    <div class="node-val">${dispPrice}</div>
+                `;
+                rowDiv.appendChild(node);
+            });
+            grid.appendChild(rowDiv);
+        });
+    }
+
+    function resetSidebar() {
+        document.getElementById('panelPlayerName').textContent = "Select Pitch Node";
+        document.getElementById('panelPlayerMeta').textContent = "Simulate cross-positional adjustments";
+        document.getElementById('statsMatrix').style.display = 'none';
+        document.getElementById('swapInterface').style.display = 'none';
+    }
+
+    window.onload = initializeSystem;
 </script>
 </body>
 </html>
