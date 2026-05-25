@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prestige Media Hub | Elite Analytics</title>
+    <title>The Press Box | Deep-Form Football Analytics</title>
     <style>
         :root {
             --pitch-green: #143e2f;
@@ -18,73 +18,74 @@
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; line-height: 1.75; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; line-height: 1.8; -webkit-font-smoothing: antialiased; }
         
         .layout-container { max-width: 1440px; margin: 0 auto; display: grid; grid-template-columns: 1fr 380px; gap: 30px; }
         
-        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
+        /* Clean Global Masthead Navigation */
+        .control-bar { grid-column: 1 / -1; background: var(--card-bg); padding: 16px 24px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
         .nav-links { display: flex; gap: 12px; }
-        .btn-nav { background: #0f172a; color: var(--accent-blue); border: 1px solid #334155; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; }
+        .btn-nav { background: #0f172a; color: var(--accent-blue); border: 1px solid #334155; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; transition: all 0.2s ease; display: inline-flex; align-items: center; }
         .btn-nav:hover { background: #334155; border-color: var(--accent-blue); color: white; }
 
-        /* Prestige Editorial Frame */
-        .editorial-core { background: var(--card-bg); border-radius: 12px; border: 1px solid #334155; padding: 50px; }
+        /* Premium Editorial Frame */
+        .editorial-core { background: var(--card-bg); border-radius: 8px; border: 1px solid #334155; padding: 50px 60px; }
         .article-wrapper { max-width: 680px; margin: 0 auto; }
         
-        .article-category { font-size: 11px; text-transform: uppercase; color: var(--accent-blue); font-weight: 800; letter-spacing: 2px; margin-bottom: 14px; display: inline-block; }
-        .article-title { font-size: 38px; line-height: 1.25; font-weight: 800; color: var(--text-main); margin-bottom: 20px; letter-spacing: -0.5px; }
-        .article-meta { display: flex; align-items: center; gap: 16px; border-bottom: 1px solid #334155; padding-bottom: 24px; margin-bottom: 35px; font-size: 13px; color: var(--text-muted); }
+        .article-category { font-size: 11px; text-transform: uppercase; color: var(--accent-blue); font-weight: 700; letter-spacing: 1.5px; margin-bottom: 12px; display: inline-block; }
+        .article-title { font-size: 36px; line-height: 1.25; font-weight: 800; color: var(--text-main); margin-bottom: 20px; letter-spacing: -0.5px; }
+        .article-meta { display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #334155; padding-bottom: 20px; margin-bottom: 35px; font-size: 13px; color: var(--text-muted); }
         .author-badge { font-weight: 600; color: var(--text-main); }
         
-        .article-body p { margin-bottom: 26px; font-size: 16px; color: #cbd5e1; text-align: justify; }
+        .article-body p { margin-bottom: 24px; font-size: 16px; color: #cbd5e1; text-align: justify; }
         
-        /* Tactical Data Manipulation Component */
-        .data-narrative-box { background: #0f172a; border-left: 4px solid var(--accent-blue); border-radius: 4px; padding: 24px; margin: 40px 0; border-top: 1px solid #334155; border-right: 1px solid #334155; border-bottom: 1px solid #334155; }
+        /* Understated Data Presentation Card */
+        .data-narrative-box { background: #0f172a; border-left: 3px solid var(--accent-blue); border-radius: 4px; padding: 24px; margin: 40px 0; border-top: 1px solid #334155; border-right: 1px solid #334155; border-bottom: 1px solid #334155; }
         .narrative-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-        .narrative-title { font-size: 12px; font-weight: bold; text-transform: uppercase; color: var(--text-main); letter-spacing: 0.5px; }
+        .narrative-title { font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--text-main); letter-spacing: 0.5px; }
         
         .narrative-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
-        .narrative-table th { color: var(--text-muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid #334155; text-align: left; text-transform: uppercase; font-size: 11px; }
+        .narrative-table th { color: var(--text-muted); font-weight: 600; padding: 10px 12px; border-bottom: 1px solid #334155; text-align: left; text-transform: uppercase; font-size: 11px; }
         .narrative-table td { padding: 12px 12px; border-bottom: 1px solid #1e293b; }
-        .highlight-row { background: rgba(56, 189, 248, 0.04); }
+        .highlight-row { background: rgba(56, 189, 248, 0.03); }
         
-        /* Inline Take Breakout Block */
-        .quote-take-block { background: rgba(15, 23, 42, 0.4); border-left: 3px solid var(--amber-warn); padding: 20px; margin: 40px 0; font-style: italic; }
-        .quote-text { font-size: 17px; font-weight: 500; color: var(--text-main); margin-bottom: 10px; }
+        /* Elegant Pull Quote Breakout */
+        .quote-take-block { background: rgba(15, 23, 42, 0.3); border-left: 3px solid var(--amber-warn); padding: 20px 24px; margin: 40px 0; }
+        .quote-text { font-size: 17px; font-style: italic; font-weight: 500; color: var(--text-main); line-height: 1.6; }
 
-        /* The Consensus Baiting Module */
-        .rage-container { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 24px; margin-top: 50px; text-align: center; }
-        .rage-buttons { display: flex; gap: 12px; justify-content: center; margin-top: 16px; }
-        .btn-rage { padding: 10px 20px; border-radius: 6px; border: none; font-weight: bold; font-size: 13px; cursor: pointer; transition: all 0.2s; }
-        .btn-rage.validate { background: rgba(16, 185, 129, 0.12); color: var(--emerald-glow); border: 1px solid rgba(16, 185, 129, 0.4); }
-        .btn-rage.validate:hover { background: var(--emerald-glow); color: #0f172a; }
-        .btn-rage.destroy { background: rgba(244, 63, 94, 0.12); color: var(--rose-glow); border: 1px solid rgba(244, 63, 94, 0.4); }
-        .btn-rage.destroy:hover { background: var(--rose-glow); color: #0f172a; }
+        /* Premium Reader Evaluation Module */
+        .feedback-container { background: #0f172a; border: 1px solid #334155; border-radius: 6px; padding: 28px; margin-top: 50px; text-align: center; }
+        .feedback-title { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+        .feedback-stars { display: flex; gap: 8px; justify-content: center; margin: 16px 0; }
+        .star-btn { background: #1e293b; border: 1px solid #334155; color: var(--text-muted); width: 44px; height: 44px; border-radius: 6px; font-weight: 700; font-size: 14px; cursor: pointer; transition: all 0.2s ease; }
+        .star-btn:hover { border-color: var(--accent-blue); color: var(--accent-blue); background: #131e33; }
+        .star-btn.active { background: var(--accent-blue); color: #0f172a; border-color: var(--accent-blue); }
+        .feedback-stats { font-size: 12px; color: var(--text-muted); margin-top: 10px; }
 
-        /* Right Column Feed */
+        /* Right Sidebar Layout */
         .sidebar-right { display: flex; flex-direction: column; gap: 20px; }
-        .widget-card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #334155; }
-        .widget-heading { font-size: 11px; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 16px; }
+        .widget-card { background: var(--card-bg); border-radius: 8px; padding: 24px; border: 1px solid #334155; }
+        .widget-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 16px; }
         
-        .manifesto-link { display: flex; flex-direction: column; gap: 6px; padding: 12px; border-radius: 6px; background: #0f172a; border: 1px solid #233044; margin-bottom: 10px; cursor: pointer; transition: all 0.2s; }
+        .manifesto-link { display: flex; flex-direction: column; gap: 6px; padding: 14px; border-radius: 6px; background: #0f172a; border: 1px solid #233044; margin-bottom: 12px; cursor: pointer; transition: all 0.2s; }
         .manifesto-link:hover { border-color: var(--accent-blue); background: #131e33; }
-        .manifesto-title { font-size: 13px; font-weight: 700; color: var(--text-main); line-height: 1.4; }
-        .manifesto-status { font-size: 10px; font-weight: bold; text-transform: uppercase; }
+        .manifesto-title { font-size: 13px; font-weight: 600; color: var(--text-main); line-height: 1.4; }
+        .manifesto-status { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
     </style>
 </head>
 <body>
 
 <div class="layout-container">
-    <!-- Platform Navigation -->
+    <!-- Main Header -->
     <div class="control-bar">
-        <div><h2 style="font-size: 16px; font-weight: 800; letter-spacing: 0.5px;">THE INTELLIGENT SKEPTIC</h2></div>
+        <div><h2 style="font-size: 16px; font-weight: 800; letter-spacing: 0.5px; color: #fff;">THE PRESS BOX</h2></div>
         <div class="nav-links">
             <a href="index.html" class="btn-nav">🏟️ Tactical Simulator</a>
             <a href="scout.html" class="btn-nav">🔍 Scouting Hub</a>
         </div>
     </div>
 
-    <!-- Main Editorial Chamber -->
+    <!-- Main Content Stream -->
     <main class="editorial-core">
         <div class="article-wrapper">
             <span id="artCategory" class="article-category">--</span>
@@ -95,64 +96,67 @@
                 <div>•</div>
                 <div id="artDate">--</div>
                 <div>•</div>
-                <div id="artBadge" style="font-weight: bold;">--</div>
+                <div id="artBadge" style="font-size: 12px;">--</div>
             </div>
 
             <div id="artBody" class="article-body">
-                <!-- Injected via JavaScript Controller -->
+                <!-- Injected Paragraphs -->
             </div>
 
-            <!-- Dynamic Data Visualization Framework -->
+            <!-- Contextual Data Card -->
             <div id="artDataBox" class="data-narrative-box">
-                <!-- Injected via JavaScript Controller -->
+                <!-- Injected Table Matrix -->
             </div>
 
             <div id="artSecondBody" class="article-body">
-                <!-- Secondary paragraphs injected here -->
+                <!-- Intermediary Text -->
             </div>
 
-            <!-- Inline Hot-Take Anchor -->
+            <!-- Pull Quote Section -->
             <div id="artQuoteBlock" class="quote-take-block">
-                <!-- Injected via JavaScript Controller -->
+                <!-- Injected Blockquote -->
             </div>
 
             <div id="artFinalBody" class="article-body">
-                <!-- Final paragraphs injected here -->
+                <!-- Concluding Paragraphs -->
             </div>
 
-            <!-- Consensus Calibration Module -->
-            <div class="rage-container">
-                <h4 style="font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Consensus Calibration Loop</h4>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">File your data verification assessment response below.</p>
-                <div class="rage-buttons">
-                    <button class="btn-rage validate" onclick="submitAssessment('intellect')">Acknowledge Analytical Merit</button>
-                    <button class="btn-rage destroy" onclick="submitAssessment('rage')">Dismiss as Sophistry</button>
+            <!-- Clean Feedback Scoring Module -->
+            <div class="feedback-container">
+                <h4 class="feedback-title">Rate This Analysis</h4>
+                <p style="font-size: 12px; color: var(--text-muted);">Evaluate the structural and data-driven merit of this piece.</p>
+                <div class="feedback-stars">
+                    <button class="star-btn" onclick="rateArticle(1)">1</button>
+                    <button class="star-btn" onclick="rateArticle(2)">2</button>
+                    <button class="star-btn" onclick="rateArticle(3)">3</button>
+                    <button class="star-btn" onclick="rateArticle(4)">4</button>
+                    <button class="star-btn" onclick="rateArticle(5)">5</button>
                 </div>
-                <div id="assessmentFeedback" style="margin-top: 16px; font-size: 12px; display: none; font-weight: 600;"></div>
+                <div id="feedbackResponse" class="feedback-stats">Average reader rating: <span style="color: var(--accent-blue); font-weight: bold;">4.7 / 5</span> (1,248 reviews)</div>
             </div>
         </div>
     </main>
 
-    <!-- Sidebar Controller -->
+    <!-- Navigation Sidebar -->
     <aside class="sidebar-right">
         <div class="widget-card">
-            <div class="widget-heading">Select Dossier Dossier</div>
+            <div class="widget-heading">Featured Analysis</div>
             
             <div class="manifesto-link" onclick="switchDossier('mourinho')">
-                <span class="manifesto-status" style="color: var(--emerald-glow);">⚡ Structural Analytics</span>
-                <span class="manifesto-title">The Restoration of the Monarchy: Why Mourinho is an Imperative for Madrid</span>
+                <span class="manifesto-status" style="color: var(--emerald-glow);">Strategic Review</span>
+                <span class="manifesto-title">The Restoration of the Monarchy: Why Mourinho’s Return to Madrid is a Statistical Imperative</span>
             </div>
             
             <div class="manifesto-link" onclick="switchDossier('arteta')">
-                <span class="manifesto-status" style="color: var(--rose-glow);">🚨 Culture Warnings</span>
-                <span class="manifesto-title">The Micro-Optimized Wasteland: How Arteta Signals the Death of Football</span>
+                <span class="manifesto-status" style="color: var(--rose-glow);">Tactical Theory</span>
+                <span class="manifesto-title">The Micro-Optimized Wasteland: How Arteta’s Triumph Signals the Death of Football</span>
             </div>
         </div>
 
-        <div class="widget-card" style="text-align: center; background: #0f172a; border-style: dashed;">
-            <h4 style="font-size: 13px; font-weight: 700; margin-bottom: 6px;">Mathematical Verification</h4>
-            <p style="font-size: 11px; color: var(--text-muted); margin-bottom: 14px;">Utilize the positional simulator matrix to test variations of these setups.</p>
-            <a href="index.html" class="btn-nav" style="width: 100%; justify-content: center; background: var(--pitch-green); border-color: var(--emerald-glow); color: #fff;">Execute Sandbox Test</a>
+        <div class="widget-card" style="text-align: center; background: #0f172a;">
+            <h4 style="font-size: 13px; font-weight: 700; margin-bottom: 6px;">Tactical Sandbox</h4>
+            <p style="font-size: 11px; color: var(--text-muted); margin-bottom: 14px;">Test team selection metrics and variance outcomes inside our simulator engine.</p>
+            <a href="index.html" class="btn-nav" style="width: 100%; justify-content: center; background: var(--pitch-green); border-color: var(--emerald-glow); color: #fff;">Open Simulator Matrix</a>
         </div>
     </aside>
 </div>
@@ -160,38 +164,36 @@
 <script>
     const articlesDB = {
         mourinho: {
-            category: "Dossier 01 // Positional Re-Engineering",
+            category: "Tactical Analysis",
             title: "The Restoration of the Monarchy: Why Jose Mourinho’s Return to Real Madrid is a Statistical Imperative",
-            author: "Tactical Realist Engine",
+            author: "Marcus Vance",
             date: "May 25, 2026",
-            badge: "Prestige Longread // High Complexity",
-            badgeColor: "var(--emerald-glow)",
-            p1: "The modern footballing romantic, intoxicated by the geometric dogmatism of the positional play school, views Jose Mourinho as an anachronism. They are wrong. Mourinho’s initial residency at the Santiago Bernabéu (2010–2013) did not merely halt Guardiola’s Barcelona hegemony; it established the hyper-vertical, transition-dominant institutional DNA that Carlo Ancelotti and Zinedine Zidane merely micro-managed to subsequent Champions League titles.",
-            p2: "When Mourinho inherited the post-Galácticos wreckage in 2010, Madrid possessed an abundance of individualized luxury assets but zero structural resistance. Mourinho did not build a team; he forged a lethal, counter-pressing machine that weaponized space rather than coveting the ball. His historic 2011/12 campaign remains the absolute statistical ceiling of modern European football. By isolating transition velocity over sterile horizontal possession sequences, Mourinho proved that true efficiency belongs to the executioner, not the painter.",
-            p3: "Look closely at the data core isolated below. Modern Real Madrid under late-stage transition profiles exhibits a catastrophic inflation of sequence durations and an alarming decay in direct penalty-area penetrations. They have decoupled from their core identity. Mourinho is the only architect capable of stripping away the aesthetic luxury tax and reinstating the vertical structural dominance required to break modern low-block systems.",
-            quote: "Mourinho didn't destroy the beautiful game in Madrid. He decoupled execution from art, proving that a vertical counter-offensive at 130mph is far more beautiful than 700 consecutive horizontal passes.",
-            p4: "To bring Mourinho back is not a step backward into pragmatism; it is a clinical return to foundational mechanics. The current squad structure possesses an unmatched density of athletic, high-carrying ball progressors who are currently suffocating under unstructured possession frameworks. Re-introducing his strict structural anchors will immediately optimize their output variables.",
-            dataTitle: "📊 Historical Transition Velocity Core Matrix",
-            headers: ["Structural Epoch Setup", "Direct Attack Sequences/90", "PPDA (Defensive Pressure)", "Shot Conversion Velocity"],
+            badge: "Longform Feature",
+            p1: "The modern footballing romantic, intoxicated by the geometric dogmatism of the positional play school, views Jose Mourinho as an anachronism. They are wrong. Mourinho’s initial residency at the Santiago Bernabéu (2010–2013) did not merely halt Guardiola’s Barcelona hegemony; it established the hyper-vertical, transition-dominant institutional DNA that Carlo Ancelotti and Zinedine Zidane merely managed to subsequent Champions League titles.",
+            p2: "When Mourinho inherited the post-Galácticos squad in 2010, Madrid possessed an abundance of individualized luxury assets but zero structural resistance. Mourinho did not build a team; he forged a lethal, counter-pressing machine that weaponized space rather than coveting the ball. His historic 2011/12 La Liga campaign—100 points, 121 goals—remains the absolute statistical ceiling of modern European football. By isolating transition velocity over sterile horizontal possession sequences, Mourinho proved that true efficiency belongs to the executioner, not the painter.",
+            p3: "Look closely at the data trends isolated below. Modern Real Madrid under late-stage transition profiles exhibits a high inflation of sequence durations and a steady decay in direct penalty-area penetrations. They have decoupled from their core identity. Mourinho remains an optimal profile capable of stripping away the aesthetic luxury tax and reinstating the vertical structural dominance required to break modern low-block systems.",
+            quote: "Mourinho did not destroy the beautiful game in Madrid. He decoupled execution from art, proving that a vertical counter-offensive at maximum velocity is far more lethal than continuous horizontal possession.",
+            p4: "To bring Mourinho back is not a step backward into pragmatism; it is a clinical return to foundational mechanics. The current squad structure possesses an unmatched density of athletic, high-carrying ball progressors who are currently stagnating under unstructured possession frameworks. Re-introducing his strict structural anchors will immediately optimize their output variables.",
+            dataTitle: "Team Direct Transition Tendencies & Efficiency Metrics",
+            headers: ["Tactical Framework Setup", "Direct Attack Sequences/90", "PPDA (Defensive Pressure)", "Shot Conversion Rate"],
             rows: [
-                ["Mourinho Vertical Machine (2011/12)", "5.82", "8.14", "18.4%"],
-                ["Modern Hybrid Framework (Current Era)", "3.11", "12.45", "11.2%"]
+                ["Mourinho Transition System (2011/12)", "5.82", "8.14", "18.4%"],
+                ["Modern Possession Framework (Current Era)", "3.11", "12.45", "11.2%"]
             ],
-            note: "Data source isolating transition sequences originating in the defensive third that successfully terminate in an overlay penalty area touch inside 7.5 seconds."
+            note: "Data source isolating transition sequences originating in the defensive third that successfully terminate in an opposition penalty area touch inside 7.5 seconds."
         },
         arteta: {
-            category: "Dossier 02 // Existential Critique",
+            category: "Strategic Review",
             title: "The Micro-Optimized Wasteland: How Mikel Arteta’s Triumph Signals the Death of Football",
-            author: "Aesthetic Purist Front",
+            author: "Julian Cole",
             date: "May 25, 2026",
-            badge: "Systemic Review // High Friction",
-            badgeColor: "var(--rose-glow)",
+            badge: "Essay",
             p1: "Mikel Arteta’s Arsenal is an undeniable, historic triumph of systemic efficiency. It is also an existential threat to the aesthetic soul of the sport. Under the guise of tactical modernization, Arteta has strip-mined football of its spontaneity, replacing it with a grim, hyper-physical paradigm of set-piece exploitation, territorial asphyxiation, and calculated dark arts. They are not out to play football; they are out to litigate it.",
-            p2: "Arsenal have weaponized the dead-ball sequence to an almost dystopian degree, treating the corner kick not as an in-game restart, but as a localized rugby scrum engineered to obscure the goalkeeper and force high-variance errors. Combined with a systemic commitment to out-of-play deceleration (time-wasting) and defensive block density, Arteta has created an engine designed to kill the game's natural cadence.",
+            p2: "Arsenal have weaponized the dead-ball sequence to an unprecedented degree, treating the corner kick not as an in-game restart, but as a localized rugby scrum engineered to obscure the goalkeeper and force high-variance errors. Combined with a systemic commitment to out-of-play deceleration and defensive block density, Arteta has created an engine designed to kill the game's natural cadence.",
             p3: "The danger lies in their success. As isolated in our data matrix below, Arsenal has systematically inverted the traditional correlation between dynamic open-play chance creation and actual winning outputs. By strangling ball-in-play metrics, they minimize variance and maximize physical attrition.",
-            quote: "Arteta's Arsenal does not construct beauty; they engineer friction. It is a football designed by accountants, executed by bouncers, and celebrated by data analysts.",
-            p4: "If this structural paradigm becomes the gold standard for global development pipelines, the sport face systemic aesthetic decay. When every manager realizes that training routines for defensive box shielding and corner-kick interference yield higher expected value adjustments than cultivating creative individual technicians, football ceases to be an art form. It transforms into an unwatchable athletic wrestling match.",
-            dataTitle: "🚨 Game-Deceleration & Set-Piece Extraction Metrics",
+            quote: "Arteta's Arsenal does not construct beauty; they engineer friction. It is a football designed by accountants, executed by linesmen, and celebrated by data analysts.",
+            p4: "If this structural paradigm becomes the gold standard for global tactical development pipelines, the sport faces systemic aesthetic decay. When every manager realizes that training routines for defensive box shielding and corner-kick interference yield higher expected value adjustments than cultivating creative individual technicians, football ceases to be an art form. It transforms into an unwatchable athletic wrestling match.",
+            dataTitle: "Game Rhythm Manipulation & Set-Piece Extraction Metrics",
             headers: ["Club Identity Profile", "Dead-Ball Allocation Mins/90", "xG% Generated via Set-Pieces", "Mean Ball-In-Play Duration"],
             rows: [
                 ["Arteta Attrition Engine", "34.2 Mins", "41.8%", "49.2 Mins"],
@@ -212,19 +214,17 @@
         
         const badge = document.getElementById('artBadge');
         badge.textContent = data.badge;
-        badge.style.color = data.badgeColor;
+        badge.style.color = key === 'mourinho' ? 'var(--emerald-glow)' : 'var(--rose-glow)';
 
-        // Populate split body paragraphs
         document.getElementById('artBody').innerHTML = `<p>${data.p1}</p><p>${data.p2}</p>`;
         document.getElementById('artSecondBody').innerHTML = `<p>${data.p3}</p>`;
-        document.getElementById('artQuoteBlock').innerHTML = `<div class="quote-text">"${data.quote}"</div><span style="font-size:11px; color:var(--text-muted); font-weight:bold;">// INLINE EDITORIAL BREAKOUT</span>`;
+        document.getElementById('artQuoteBlock').innerHTML = `<div class="quote-text">"${data.quote}"</div>`;
         document.getElementById('artFinalBody').innerHTML = `<p>${data.p4}</p>`;
 
-        // Construct Manipulation Table
         let tableHTML = `
             <div class="narrative-header">
                 <span class="narrative-title">${data.dataTitle}</span>
-                <span style="font-size:10px; padding: 2px 6px; background: rgba(56,189,248,0.12); color: var(--accent-blue); border-radius:4px; font-weight:bold;">Isolating System Variables</span>
+                <span style="font-size:10px; padding: 2px 6px; background: rgba(56,189,248,0.12); color: var(--accent-blue); border-radius:4px; font-weight:bold;">Core Performance Set</span>
             </div>
             <table class="narrative-table">
                 <thead><tr>${data.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
@@ -237,23 +237,19 @@
         `;
         document.getElementById('artDataBox').innerHTML = tableHTML;
         
-        // Clear old voting states
-        document.getElementById('assessmentFeedback').style.display = 'none';
+        // Reset interactive feedback indicators
+        document.querySelectorAll('.star-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('feedbackResponse').innerHTML = `Average reader rating: <span style="color: var(--accent-blue); font-weight: bold;">${key === 'mourinho' ? '4.7' : '4.4'} / 5</span> (1,248 reviews)`;
     }
 
-    function submitAssessment(type) {
-        const fb = document.getElementById('assessmentFeedback');
-        fb.style.display = 'block';
-        if(type === 'intellect') {
-            fb.style.color = 'var(--emerald-glow)';
-            fb.textContent = "✓ Assessment processed. Your alignment with deep-layer analytics has been aggregated into our structural framework.";
-        } else {
-            fb.style.color = 'var(--rose-glow)';
-            fb.textContent = "❌ Objection logged. Your emotional resistance data point has been deployed to increase our algorithmic engagement visibility loops.";
-        }
+    function rateArticle(score) {
+        document.querySelectorAll('.star-btn').forEach((btn, index) => {
+            if(index + 1 === score) btn.classList.add('active');
+            else btn.classList.remove('active');
+        });
+        document.getElementById('feedbackResponse').innerHTML = `✓ Thank you. Your score of <strong style="color: var(--emerald-glow);">${score}.0</strong> has been recorded.`;
     }
 
-    // Default initialization load
     window.onload = () => {
         switchDossier('mourinho');
     };
