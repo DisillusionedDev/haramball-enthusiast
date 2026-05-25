@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Scouting Hub & Directory</title>
+    <style>
+        :root {
+            --pitch-green: #143e2f;
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --emerald-glow: #10b981;
+            --rose-glow: #f43f5e;
+            --amber-warn: #f59e0b;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--dark-bg); color: var(--text-main); padding: 20px; }
+        
+        .scout-container { max-width: 1440px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+        
+        .control-bar { background: var(--card-bg); padding: 16px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #334155; }
+        
+        .btn-back { background: var(--pitch-green); color: #fff; border: 1px solid #10b981; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; transition: all 0.2s; }
+        .btn-back:hover { background: #16523e; box-shadow: 0 0 10px rgba(16,185,129,0.2); }
+
+        .filter-panel { background: var(--card-bg); border: 1px solid #334155; border-radius: 10px; padding: 16px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 15px; align-items: center; }
+        
+        .filter-group { display: flex; flex-direction: column; gap: 6px; }
+        .filter-group label { font-size: 11px; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.5px; font-weight: bold; }
+        
+        input[type="text"], select { background: #0f172a; color: white; border: 1px solid #334155; padding: 10px; border-radius: 6px; font-size: 14px; outline: none; width: 100%; transition: border 0.2s; }
+        input[type="text"]:focus, select:focus { border-color: var(--accent-blue); }
+
+        .table-card { background: var(--card-bg); border-radius: 10px; border: 1px solid #334155; overflow: hidden; }
+        .table-wrapper { max-height: 680px; overflow-y: auto; }
+        
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; }
+        th { background: #0f172a; position: sticky; top: 0; padding: 12px 16px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; border-bottom: 2px solid #334155; z-index: 5; }
+        td { padding: 12px 16px; border-bottom: 1px solid #334155; vertical-align: middle; }
+        tr:hover td { background: rgba(56, 189, 248, 0.04); }
+
+        .badge-pos { font-size: 10px; font-weight: bold; color: var(--accent-blue); background: rgba(56, 189, 248, 0.12); padding: 2px 6px; border-radius: 4px; display: inline-block; }
+        .rating-glow { font-weight: bold; color: var(--emerald-glow); }
+        .stat-sub { font-size: 11px; color: var(--text-muted); margin-left: 4px; }
+        
+        .counter-badge { background: #334155; padding: 2px 8px; border-radius: 12px; font-size: 12px; color: var(--text-main); font-weight: normal; }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+    </style>
+    <script src="players_data.js"></script>
+</head>
+<body>
+
+<div class="scout-container">
+    <!-- Header Controls -->
+    <div class="control-bar">
+        <div>
+            <h2 style="font-size: 20px; display: flex; align-items: center; gap: 10px;">
+                Global Scouting Hub & Player Pool
+                <span id="playerCounter" class="counter-badge">0 Loaded</span>
+            </h2>
+        </div>
+        <a href="index.html" class="btn-back">← Back to Tactical Canvas</a>
+    </div>
+
+    <!-- Live Filters Panel -->
+    <div class="filter-panel">
+        <div class="filter-group">
+            <label for="searchBar">Search Player Name</label>
+            <input type="text" id="searchBar" placeholder="Type a name to filter pool..." oninput="processFilters()">
+        </div>
+        <div class="filter-group">
+            <label for="clubFilter">Club Origin</label>
+            <select id="clubFilter" onchange="processFilters()"><option value="ALL">All Available Clubs</option></select>
+        </div>
+        <div class="filter-group">
+            <label for="posFilter">Core Position</label>
+            <select id="posFilter" onchange="processFilters()">
+                <option value="ALL">All Positions</option>
+                <option value="GK">Goalkeepers (GK)</option>
+                <option value="DF">Defenders (DF)</option>
+                <option value="MF">Midfielders (MF)</option>
+                <option value="FW">Forwards (FW)</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="sortSelector">Sorting Paradigm</label>
+            <select id="sortSelector" onchange="processFilters()">
+                <option value="rating">Tactical Rating (Desc)</option>
+                <option value="price_desc">Valuation: High to Low</option>
+                <option value="price_asc">Valuation: Low to High</option>
+                <option value="goals">Absolute Goals</option>
+                <option value="assists">Absolute Assists</option>
+                <option value="minutes">Volume (Minutes)</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Data Presentation Layout -->
+    <div class="table-card">
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player Blueprint</th>
+                        <th>Club</th>
+                        <th>Position</th>
+                        <th>Role</th>
+                        <th>Rating</th>
+                        <th>Value</th>
+                        <th>Minutes</th>
+                        <th>Goals (P90)</th>
+                        <th>Assists (P90)</th>
+                        <th>Defensive Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="directoryTableBody">
+                    <!-- Dynamic rendering rows populate here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    let dataset = [];
+
+    function initializeScoutHub() {
+        if (window.TACTICAL_DATA && window.TACTICAL_DATA.player_pool) {
+            // Unpack key-value object map into structural items array
+            dataset = Object.keys(window.TACTICAL_DATA.player_pool).map(key => window.TACTICAL_DATA.player_pool[key]);
+            populateDynamicClubDropdown(window.TACTICAL_DATA.clubs);
+            processFilters();
+        } else {
+            document.getElementById('directoryTableBody').innerHTML = `<tr><td colspan="10" style="text-align:center; padding:40px; color:var(--rose-glow);">Data core offline. Verify players_data.js file integrity.</td></tr>`;
+        }
+    }
+
+    function populateDynamicClubDropdown(clubsObj) {
+        const select = document.getElementById('clubFilter');
+        if (!clubsObj) return;
+        Object.keys(clubsObj).sort().forEach(clubName => {
+            const opt = document.createElement('option');
+            opt.value = clubName;
+            opt.textContent = clubName;
+            select.appendChild(opt);
+        });
+    }
+
+    function processFilters() {
+        const query = document.getElementById('searchBar').value.toLowerCase().trim();
+        const selectedClub = document.getElementById('clubFilter').value;
+        const selectedPos = document.getElementById('posFilter').value;
+        const sortingParam = document.getElementById('sortSelector').value;
+
+        // Apply subset filters
+        let filtered = dataset.filter(p => {
+            const matchesSearch = p.name.toLowerCase().includes(query);
+            const matchesClub = (selectedClub === 'ALL' || p.club === selectedClub);
+            const matchesPos = (selectedPos === 'ALL' || p.position === selectedPos);
+            return matchesSearch && matchesClub && matchesPos;
+        });
+
+        // Apply selected metrics sorting order
+        filtered.sort((a, b) => {
+            if (sortingParam === 'rating') return b.stats.rating - a.stats.rating;
+            if (sortingParam === 'price_desc') return b.price - a.price;
+            if (sortingParam === 'price_asc') return a.price - b.price;
+            if (sortingParam === 'goals') return b.stats.goals - a.stats.goals;
+            if (sortingParam === 'assists') return b.stats.assists - a.stats.assists;
+            if (sortingParam === 'minutes') return b.stats.minutes - a.stats.minutes;
+            return 0;
+        });
+
+        document.getElementById('playerCounter').textContent = `${filtered.length} Match${filtered.length === 1 ? '' : 'es'}`;
+        renderTableDOM(filtered);
+    }
+
+    function renderTableDOM(playersList) {
+        const tbody = document.getElementById('directoryTableBody');
+        tbody.innerHTML = '';
+
+        if (playersList.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; padding:30px; color:var(--text-muted); font-style:italic;">No structural database records match the selected filter query.</td></tr>`;
+            return;
+        }
+
+        playersList.forEach(p => {
+            const tr = document.createElement('tr');
+            const norm90 = p.stats.minutes > 0 ? (90 / p.stats.minutes) : 0;
+            
+            const glsP90 = (p.stats.goals * norm90).toFixed(2);
+            const astP90 = (p.stats.assists * norm90).toFixed(2);
+            const totalDef = p.stats.tackles_won + p.stats.interceptions;
+
+            tr.innerHTML = `
+                <td><strong style="color:var(--text-main); font-size:14px;">${p.name}</strong></td>
+                <td style="color:var(--text-muted);">${p.club}</td>
+                <td><span class="badge-pos">${p.position}</span></td>
+                <td style="font-weight:500; color:var(--accent-blue);">${p.role_code || '--'}</td>
+                <td><span class="rating-glow">${p.stats.rating.toFixed(2)}</span></td>
+                <td style="font-weight:600; color:var(--text-main);">£${p.price}M</td>
+                <td style="color:var(--text-muted);">${p.stats.minutes.toLocaleString()}</td>
+                <td>${p.stats.goals}<span class="stat-sub">(${glsP90}/90)</span></td>
+                <td>${p.stats.assists}<span class="stat-sub">(${astP90}/90)</span></td>
+                <td>
+                    <span style="color:var(--text-main); font-weight:500;">${totalDef}</span>
+                    <span class="stat-sub" style="font-size:10px;">(Tkl: ${p.stats.tackles_won} | Int: ${p.stats.interceptions})</span>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    window.onload = initializeScoutHub;
+</script>
+</body>
+</html>
