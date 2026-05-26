@@ -16,72 +16,51 @@
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-dark); color: var(--text-main); padding: 24px; line-height: 1.5; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-dark); color: var(--text-main); padding: 32px; line-height: 1.6; }
         
-        .hub-container { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px; }
+        .hub-container { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px; }
 
-        /* Global Structural Nav */
-        .platform-nav { background: var(--bg-card); border: 1px solid var(--border-slate); padding: 16px 24px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; }
-        .platform-brand { font-size: 18px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; }
+        /* Clean Minimal Navigation */
+        .platform-nav { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-slate); padding-bottom: 20px; }
+        .platform-brand { font-size: 20px; font-weight: 800; letter-spacing: 0.5px; }
         .platform-brand span { color: var(--accent-blue); }
-        .nav-links { display: flex; gap: 20px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .nav-links { display: flex; gap: 24px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
         .nav-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
-        .nav-links a:hover { color: var(--accent-blue); }
+        .nav-links a:hover { color: var(--text-main); }
 
-        /* The Athletic Style Asymmetric Editorial Grid */
-        .editorial-lead-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 24px; }
+        /* The Press Box Featured Section */
+        .section-label { font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--text-muted); letter-spacing: 1.5px; border-bottom: 1px solid var(--border-slate); padding-bottom: 8px; margin-bottom: 20px; }
         
-        .main-story-card { background: linear-gradient(180deg, rgba(30,41,59,0.2) 0%, #1e293b 100%); border: 1px solid var(--border-slate); border-radius: 16px; padding: 40px; display: flex; flex-direction: column; justify-content: flex-end; min-height: 420px; position: relative; text-decoration: none; color: inherit; }
-        .main-story-card:hover { border-color: var(--accent-blue); }
-        .story-tag { color: var(--accent-blue); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; display: block; }
-        .story-title { font-size: 32px; font-weight: 800; line-height: 1.2; margin-bottom: 12px; letter-spacing: -0.5px; color: #fff; }
-        .story-excerpt { color: var(--text-muted); font-size: 15px; margin-bottom: 20px; max-width: 90%; }
-        .story-author { font-size: 12px; font-weight: 600; }
-
-        .secondary-story-sidebar { background: var(--bg-card); border: 1px solid var(--border-slate); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; }
-        .sidebar-header { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--text-muted); letter-spacing: 1px; border-bottom: 1px solid var(--border-slate); padding-bottom: 12px; margin-bottom: 16px; }
-        .side-story-link { text-decoration: none; color: inherit; display: block; }
-        .side-story-link:hover .side-title { color: var(--accent-blue); }
-        .side-title { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 8px; line-height: 1.4; transition: color 0.2s; }
-
-        /* Opta-Style Live Workspace Embed Grid */
-        .workspace-preview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 24px; }
-        .app-preview-card { background: var(--bg-card); border: 1px solid var(--border-slate); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; }
-        .card-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-        .card-meta h3 { font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+        .editorial-split { display: grid; grid-template-columns: 1.5fr 1fr; gap: 32px; margin-bottom: 16px; }
         
-        /* Functional Pitch Preview Embed Component */
-        .pitch-preview-embed { background: #111c30; border: 1px solid rgba(56, 189, 248, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 20px; position: relative; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between; }
-        .pitch-layout-line { position: absolute; top: 50%; left: 0; width: 100%; height: 1px; background: rgba(255,255,255,0.03); }
-        .pitch-layout-circle { position: absolute; top: 50%; left: 50%; width: 50px; height: 50px; border: 1px solid rgba(255,255,255,0.03); border-radius: 50%; transform: translate(-50%, -50%); }
-        .pitch-interactive-row { display: flex; justify-content: space-around; z-index: 2; margin: auto 0; }
-        .pitch-player-dot { width: 12px; height: 12px; background: var(--accent-blue); border-radius: 50%; box-shadow: 0 0 8px var(--accent-blue); transition: transform 0.3s ease; }
+        .featured-story { background: var(--bg-card); border: 1px solid var(--border-slate); border-radius: 12px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; color: inherit; transition: border-color 0.2s; }
+        .featured-story:hover { border-color: var(--accent-blue); }
+        .story-title { font-size: 28px; font-weight: 800; line-height: 1.3; color: #fff; margin-bottom: 12px; }
+        .story-excerpt { color: var(--text-muted); font-size: 15px; margin-bottom: 24px; }
+        .story-meta { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+
+        .secondary-story { background: var(--bg-card); border: 1px solid var(--border-slate); border-radius: 12px; padding: 24px; text-decoration: none; color: inherit; display: flex; flex-direction: column; justify-content: space-between; transition: border-color 0.2s; }
+        .secondary-story:hover { border-color: var(--accent-blue); }
+        .side-title { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 8px; line-height: 1.4; }
+
+        /* Functional Core Module Routing Links */
+        .application-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+        .module-card { background: var(--bg-card); border: 1px solid var(--border-slate); border-radius: 12px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; gap: 16px; }
+        .module-title { font-size: 18px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; }
+        .module-desc { color: var(--text-muted); font-size: 14px; }
         
-        .embed-tabs { display: flex; gap: 8px; z-index: 2; }
-        .embed-tab-btn { background: var(--bg-dark); border: 1px solid var(--border-slate); color: var(--text-muted); padding: 4px 10px; border-radius: 6px; font-size: 10px; font-weight: 700; cursor: pointer; text-transform: uppercase; }
-        .embed-tab-btn.active { border-color: var(--accent-blue); color: var(--accent-blue); }
-
-        .embed-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; font-size: 11px; z-index: 2; background: rgba(15, 23, 42, 0.6); padding: 8px; border-radius: 6px; border: 1px solid var(--border-slate); }
-        .embed-metrics span { color: var(--text-muted); display: block; font-size: 9px; text-transform: uppercase; }
-        .embed-metrics strong { color: var(--accent-emerald); font-family: monospace; }
-
-        /* Directory Embed Utilities */
-        .directory-filter-row { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--border-slate); padding-bottom: 12px; }
-        .dir-filter-pill { background: none; border: none; color: var(--text-muted); font-size: 11px; font-weight: 700; text-transform: uppercase; cursor: pointer; padding: 4px 0; border-bottom: 2px solid transparent; }
-        .dir-filter-pill.active { color: var(--accent-emerald); border-bottom-color: var(--accent-emerald); }
-        .directory-table-preview { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 20px; }
-        .directory-table-preview th { text-align: left; color: var(--text-muted); font-weight: 600; padding-bottom: 8px; text-transform: uppercase; font-size: 10px; }
-        .directory-table-preview td { padding: 10px 0; border-bottom: 1px solid #273549; }
-
-        .btn-core-action { background: var(--bg-dark); color: #fff; border: 1px solid var(--border-slate); padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-align: center; display: block; transition: all 0.2s; }
-        .btn-core-action:hover { border-color: var(--accent-blue); color: var(--accent-blue); background: #223147; }
+        .btn-navigation { display: block; width: 100%; text-align: center; background: var(--bg-dark); color: #fff; border: 1px solid var(--border-slate); padding: 12px; border-radius: 6px; font-size: 13px; font-weight: 700; text-decoration: none; transition: all 0.2s; }
+        .btn-navigation:hover { border-color: var(--accent-blue); color: var(--accent-blue); background: #1e293b; }
+        .btn-navigation.scout-btn:hover { border-color: var(--accent-emerald); color: var(--accent-emerald); }
     </style>
 </head>
 <body>
 
 <div class="hub-container">
+    
+    <!-- Header -->
     <nav class="platform-nav">
-        <div class="platform-brand">🏟️ Intelligence<span>Core</span></div>
+        <div class="platform-brand">🏟️ Football<span>Intelligence</span></div>
         <div class="nav-links">
             <a href="index.html">Tactical Sandbox</a>
             <a href="scout.html">Scouting Directory</a>
@@ -89,118 +68,59 @@
         </div>
     </nav>
 
-    <!-- Main Editorial Lead Frame[cite: 3] -->
-    <section class="editorial-lead-grid">
-        <a href="article.html" class="main-story-card">
-            <span class="story-tag">Longform Analysis</span>
-            <h1 class="story-title">The Restoration of the Monarchy: José Mourinho’s Statistical Imperative</h1>
-            <p class="story-excerpt">An intense deep dive into the computational mechanics of low-block transitions, counter-pressing traps, and pragmatic game state domination[cite: 3].</p>
-            <div class="story-author">By Marcus Vance • 14 Min Read[cite: 3]</div>
-        </a>
+    <!-- Editorial Pipeline Section (The Press Box Content) -->
+    <section>
+        <div class="section-label">The Press Box // Longform Analysis</div>
+        <div class="editorial-split">
+            
+            <!-- Real Article 1 -->
+            <a href="article.html" class="featured-story">
+                <div>
+                    <h2 class="story-title">The Restoration of the Monarchy: José Mourinho’s Statistical Imperative</h2>
+                    <p class="story-excerpt">An intense deep dive into the computational mechanics of low-block transitions, counter-pressing traps, and pragmatic game state domination[cite: 3].</p>
+                </div>
+                <div class="story-meta">By <strong>Marcus Vance</strong> • 14 Min Read[cite: 3]</div>
+            </a>
 
-        <div class="secondary-story-sidebar">
-            <div>
-                <div class="sidebar-header">Latest Entry</div>
-                <a href="article2.html" class="side-story-link">
-                    <h2 class="side-title">The Micro-Optimized Wasteland: How Mikel Arteta Signals Systemic Decay</h2>
-                    <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Scrutinizing tactical framework anomalies, dead-ball execution metrics, and structural variance[cite: 3].</p>
-                    <div style="font-size: 11px; color: var(--text-muted);">By <strong>Julian Cole</strong> • Strategic Review[cite: 3]</div>
-                </a>
-            </div>
-            <a href="press_box.html" class="btn-core-action" style="margin-top: 20px;">Open Press Box Wire →</a>
+            <!-- Real Article 2[cite: 3] -->
+            <a href="article2.html" class="secondary-story">
+                <div>
+                    <h3 class="side-title">The Micro-Optimized Wasteland: How Mikel Arteta Signals Systemic Decay</h3>
+                    <p style="font-size: 13px; color: var(--text-muted);">Scrutinizing tactical framework anomalies, dead-ball execution metrics, and structural variance within possession setups[cite: 3].</p>
+                </div>
+                <div class="story-meta" style="margin-top: 16px;">By <strong>Julian Cole</strong> • Strategic Review[cite: 3]</div>
+            </a>
+
         </div>
     </section>
 
-    <!-- Interactive Active Tools Embed Frame[cite: 1, 2] -->
-    <section class="workspace-preview-grid">
-        
-        <!-- Live Sandbox Module Interaction[cite: 1] -->
-        <div class="app-preview-card">
-            <div>
-                <div class="card-meta">
-                    <h3>Tactical Optimization Canvas</h3>
-                    <span style="font-size:11px; color:var(--accent-blue); font-family:monospace;">Sandbox Tool v1</span>
+    <!-- Application Tools Section (Direct Links into Core Scripts) -->
+    <section>
+        <div class="section-label">Platform Core Modules</div>
+        <div class="application-grid">
+            
+            <!-- Link to index.html Canvas Sandbox -->
+            <div class="module-card">
+                <div>
+                    <div class="module-title">📋 Tactical Optimization Sandbox</div>
+                    <p class="module-desc">Launch the interactive pitch workspace to configure team line-ups, calculate custom player coordinates, and evaluate real-time transaction ledgers[cite: 1].</p>
                 </div>
-                <div class="pitch-preview-embed">
-                    <div class="embed-tabs">
-                        <button class="embed-tab-btn active" onclick="adjustPitchView('wide', this)">Wide Attack</button>
-                        <button class="embed-tab-btn" onclick="adjustPitchView('narrow', this)">Compact Block</button>
-                    </div>
-                    <div class="pitch-layout-line"></div>
-                    <div class="pitch-layout-circle"></div>
-                    <div class="pitch-interactive-row">
-                        <div class="pitch-player-dot" id="dot-a" style="transform: translateX(-5px);"></div>
-                        <div class="pitch-player-dot" id="dot-b" style="transform: translateY(-15px);"></div>
-                        <div class="pitch-player-dot" id="dot-c" style="transform: translateY(15px);"></div>
-                        <div class="pitch-player-dot" id="dot-d" style="transform: translateX(5px);"></div>
-                    </div>
-                    <div class="embed-metrics">
-                        <div><span>Goals/P90</span><strong id="m-g">Calculated</strong></div>
-                        <div><span>Assists/P90</span><strong id="m-a">Monitored</strong></div>
-                        <div><span>Saves/P90</span><strong id="m-s">Tracked</strong></div>
-                    </div>
-                </div>
+                <a href="index.html" class="btn-navigation">Open Tactical Canvas →</a>
             </div>
-            <a href="index.html" class="btn-core-action">Launch Interactive Sandbox Blueprint →</a>
-        </div>
 
-        <!-- Live Scouting Matrix Interaction[cite: 2] -->
-        <div class="app-preview-card">
-            <div>
-                <div class="card-meta">
-                    <h3>Global Scouting Index</h3>
-                    <span style="font-size:11px; color:var(--accent-emerald); font-family:monospace;">Dataset Pool</span>
+            <!-- Link to scout.html Directory -->
+            <div class="module-card">
+                <div>
+                    <div class="module-title">🔍 Global Scouting Directory</div>
+                    <p class="module-desc">Access the indexed player database to screen talent pools, evaluate baseline performance values, and view full positional attributes[cite: 2].</p>
                 </div>
-                <div class="directory-filter-row">
-                    <button class="dir-filter-pill active">All Available Positions</button>
-                </div>
-                <table class="directory-table-preview">
-                    <thead>
-                        <tr>
-                            <th>Position Class</th>
-                            <th>Metrics Evaluated</th>
-                            <th>Data Arrays</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Goalkeepers</strong></td><td>Clean Sheets, Saves/P90</td><td>Indexed Pool[cite: 2]</td></tr>
-                        <tr><td><strong>Defenders</strong></td><td>Tackles, Interceptions</td><td>Indexed Pool[cite: 2]</td></tr>
-                        <tr><td><strong>Midfielders</strong></td><td>Key Passes, Pass Accuracy</td><td>Indexed Pool[cite: 2]</td></tr>
-                        <tr><td><strong>Forwards</strong></td><td>Goals, Conversion Rate</td><td>Indexed Pool[cite: 2]</td></tr>
-                    </tbody>
-                </table>
+                <a href="scout.html" class="btn-navigation scout-btn">Open Player Directory →</a>
             </div>
-            <a href="scout.html" class="btn-core-action">Initialize Scouting Directory Database →</a>
-        </div>
 
+        </div>
     </section>
+
 </div>
 
-<script>
-    function adjustPitchView(mode, btn) {
-        document.querySelectorAll('.embed-tab-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const a = document.getElementById('dot-a');
-        const b = document.getElementById('dot-b');
-        const c = document.getElementById('dot-c');
-        const d = document.getElementById('dot-d');
-        
-        if (mode === 'wide') {
-            a.style.transform = 'translateX(-15px)';
-            b.style.transform = 'translateY(-25px)';
-            c.style.transform = 'translateY(25px)';
-            d.style.transform = 'translateX(15px)';
-            document.getElementById('m-g').innerText = "Active";
-            document.getElementById('m-a').innerText = "Active";
-        } else {
-            a.style.transform = 'translateY(20px)';
-            b.style.transform = 'translateY(15px)';
-            c.style.transform = 'translateY(22px)';
-            d.style.transform = 'translateY(18px)';
-            document.getElementById('m-g').innerText = "Suppressed";
-            document.getElementById('m-a').innerText = "Suppressed";
-        }
-    }
-</script>
 </body>
 </html>
